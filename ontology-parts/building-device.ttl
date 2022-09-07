@@ -1,0 +1,415 @@
+ @prefix bigg: <http://bigg-project.eu/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bigg: a owl:Ontology ;
+    dc:contributor "Eloi Gabaldon",
+        "Guillaume Picinbono",
+        "Nicolas Bus",
+        "Stoyan Danov",
+        "Timson Yeung" ;
+    dc:creator "Edgar Martinez" ;
+    dc:description "Ontology code created by Chowlk",
+        "The BiGG Ontology is an ontology dedicadted to Building Digital Twin and focused on energy consumption, optimization and retrofit" ;
+    dc:title "BIGG Ontology" ;
+    owl:versionInfo "0.0.1" .
+
+bigg:Element a owl:Class ;
+    rdfs:label "Element" ;
+    rdfs:subClassOf bigg:ObservableItem .
+
+bigg:aggregatesSpace a owl:ObjectProperty ;
+    rdfs:label "aggregates space" ;
+    rdfs:domain bigg:DeviceAggregator ;
+    rdfs:range bigg:BuildingSpace .
+
+bigg:buildingSpaceIDFromOrganization a owl:DatatypeProperty ;
+    rdfs:label "building space i d from organization" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range xsd:string .
+
+bigg:buildingSpaceName a owl:DatatypeProperty ;
+    rdfs:label "building space name" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range xsd:string .
+
+bigg:considerEstimatedValues a owl:DatatypeProperty ;
+    rdfs:label "consider estimated values" ;
+    rdfs:domain bigg:EstimationMethod ;
+    rdfs:range xsd:boolean .
+
+bigg:containsHistoryDevices a owl:ObjectProperty ;
+    rdfs:label "contains history devices" ;
+    rdfs:domain bigg:DeviceHistory ;
+    rdfs:range bigg:DataProvider .
+
+bigg:deviceAggregatorFormula a owl:DatatypeProperty ;
+    rdfs:label "device aggregator formula" ;
+    rdfs:domain bigg:DeviceAggregator ;
+    rdfs:range xsd:string .
+
+bigg:deviceAggregatorFrequency a owl:DatatypeProperty ;
+    rdfs:label "device aggregator frequency" ;
+    rdfs:domain bigg:DeviceAggregator ;
+    rdfs:range xsd:duration .
+
+bigg:deviceAggregatorName a owl:DatatypeProperty ;
+    rdfs:label "device aggregator name" ;
+    rdfs:domain bigg:DeviceAggregator ;
+    rdfs:range xsd:string .
+
+bigg:deviceAggregatorTimeAggregationFunction a owl:DatatypeProperty ;
+    rdfs:label "device aggregator time aggregation function" ;
+    rdfs:domain bigg:DeviceAggregator ;
+    rdfs:range xsd:string .
+
+bigg:deviceIDFromOrganization a owl:DatatypeProperty ;
+    rdfs:label "device i d from organization" ;
+    rdfs:domain bigg:Device ;
+    rdfs:range xsd:string .
+
+bigg:deviceInstallationDate a owl:DatatypeProperty ;
+    rdfs:label "device installation date" ;
+    rdfs:domain bigg:Device ;
+    rdfs:range xsd:date .
+
+bigg:deviceLicenceVersionNumber a owl:DatatypeProperty ;
+    rdfs:label "device licence version number" ;
+    rdfs:domain bigg:Device ;
+    rdfs:range xsd:string .
+
+bigg:deviceManufacturer a owl:DatatypeProperty ;
+    rdfs:label "device manufacturer" ;
+    rdfs:domain bigg:Device ;
+    rdfs:range xsd:string .
+
+bigg:deviceModel a owl:DatatypeProperty ;
+    rdfs:label "device model" ;
+    rdfs:domain bigg:Device ;
+    rdfs:range xsd:string .
+
+bigg:deviceName a owl:DatatypeProperty ;
+    rdfs:label "device name" ;
+    rdfs:domain bigg:Device ;
+    rdfs:range xsd:string .
+
+bigg:deviceNumberOfOutputs a owl:DatatypeProperty ;
+    rdfs:label "device number of outputs" ;
+    rdfs:domain bigg:Device ;
+    rdfs:range xsd:integer .
+
+bigg:deviceOperatingSystem a owl:DatatypeProperty ;
+    rdfs:label "device operating system" ;
+    rdfs:domain bigg:Device ;
+    rdfs:range xsd:string .
+
+bigg:deviceRemovalDate a owl:DatatypeProperty ;
+    rdfs:label "device removal date" ;
+    rdfs:domain bigg:Device ;
+    rdfs:range xsd:date .
+
+bigg:deviceSerialNumber a owl:DatatypeProperty ;
+    rdfs:label "device serial number" ;
+    rdfs:domain bigg:Device ;
+    rdfs:range xsd:integer .
+
+bigg:deviceThresholdValue a owl:DatatypeProperty ;
+    rdfs:label "device threshold value" ;
+    rdfs:domain bigg:Device ;
+    rdfs:range xsd:float .
+
+bigg:end a owl:DatatypeProperty ;
+    rdfs:label "end" ;
+    rdfs:domain bigg:TimeSeriesPoint ;
+    rdfs:range xsd:dateTime .
+
+bigg:hasDevice a owl:ObjectProperty ;
+    rdfs:label "has device" ;
+    rdfs:domain bigg:UtilityPointOfDelivery ;
+    rdfs:range bigg:DataProvider .
+
+bigg:hasDeviceAggregator a owl:ObjectProperty ;
+    rdfs:label "has device aggregator" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range bigg:DeviceAggregator .
+
+bigg:hasDeviceAggregatorProperty a owl:ObjectProperty ;
+    rdfs:label "has device aggregator property" ;
+    rdfs:domain bigg:DeviceAggregator ;
+    rdfs:range bigg:MeasuredProperty .
+
+bigg:hasDeviceInputProtocol a owl:ObjectProperty ;
+    rdfs:label "has device input protocol" ;
+    rdfs:domain bigg:DataProvider ;
+    rdfs:range bigg:DeviceInputProtocol .
+
+bigg:hasDeviceInputSignalType a owl:ObjectProperty ;
+    rdfs:label "has device input signal type" ;
+    rdfs:domain bigg:DataProvider ;
+    rdfs:range bigg:DeviceInputSignalType .
+
+bigg:hasDeviceType a owl:ObjectProperty ;
+    rdfs:label "has device type" ;
+    rdfs:domain bigg:DataProvider ;
+    rdfs:range bigg:DeviceType .
+
+bigg:hasEstimationMethod a owl:ObjectProperty ;
+    rdfs:label "has estimation method" ;
+    rdfs:domain bigg:TimeseriesList ;
+    rdfs:range bigg:EstimationMethod .
+
+bigg:hasHistory a owl:ObjectProperty ;
+    rdfs:label "has history" ;
+    rdfs:domain bigg:DataProvider ;
+    rdfs:range bigg:DeviceHistory .
+
+bigg:hasMeasuredProperty a owl:ObjectProperty ;
+    rdfs:label "has measured property" ;
+    rdfs:domain bigg:TimeseriesList ;
+    rdfs:range bigg:MeasuredProperty .
+
+bigg:hasMeasurement a owl:ObjectProperty ;
+    rdfs:label "has measurement" ;
+    rdfs:domain bigg:Sensor ;
+    rdfs:range bigg:Measurement .
+
+bigg:hasMeasurementUnit a owl:ObjectProperty ;
+    rdfs:label "has measurement unit" ;
+    rdfs:domain bigg:Sensor ;
+    rdfs:range bigg:MeasurementUnit .
+
+bigg:hasOutputProtocol a owl:ObjectProperty ;
+    rdfs:label "has output protocol" ;
+    rdfs:domain bigg:Sensor ;
+    rdfs:range bigg:OutputProtocol .
+
+bigg:hasOutputSignalType a owl:ObjectProperty ;
+    rdfs:label "has output signal type" ;
+    rdfs:domain bigg:Sensor ;
+    rdfs:range bigg:OutputSignalType .
+
+bigg:hasSensor a owl:ObjectProperty ;
+    rdfs:label "has sensor" ;
+    rdfs:domain bigg:DataProvider ;
+    rdfs:range bigg:Sensor .
+
+bigg:hasSensorReadingType a owl:ObjectProperty ;
+    rdfs:label "has sensor reading type" ;
+    rdfs:domain bigg:Sensor ;
+    rdfs:range bigg:SensorReadingType .
+
+bigg:hasSpace a owl:ObjectProperty ;
+    rdfs:label "has space" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range bigg:BuildingSpace .
+
+bigg:hasState a owl:ObjectProperty ;
+    rdfs:label "has state" ;
+    rdfs:domain bigg:DataProvider ;
+    rdfs:range bigg:State .
+
+bigg:hasStatePoint a owl:ObjectProperty ;
+    rdfs:label "has state point" ;
+    rdfs:domain bigg:State ;
+    rdfs:range bigg:StatePoint .
+
+bigg:hasStateType a owl:ObjectProperty ;
+    rdfs:label "has state type" ;
+    rdfs:domain bigg:State ;
+    rdfs:range bigg:StateType .
+
+bigg:hasStateUnit a owl:ObjectProperty ;
+    rdfs:label "has state unit" ;
+    rdfs:domain bigg:State ;
+    rdfs:range bigg:MeasurementUnit .
+
+bigg:hasSubSpace a owl:ObjectProperty ;
+    rdfs:label "has sub space" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range bigg:BuildingSpace .
+
+bigg:hasUtilityPointOfDelivery a owl:ObjectProperty ;
+    rdfs:label "has utility point of delivery" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range bigg:UtilityPointOfDelivery .
+
+bigg:hasUtilityType a owl:ObjectProperty ;
+    rdfs:label "has utility type" ;
+    rdfs:domain bigg:UtilityPointOfDelivery ;
+    rdfs:range bigg:UtilityType .
+
+bigg:includesDevice a owl:ObjectProperty ;
+    rdfs:label "includes device" ;
+    rdfs:domain bigg:DeviceAggregator ;
+    rdfs:range bigg:DataProvider .
+
+bigg:isObservedByDevice a owl:ObjectProperty ;
+    rdfs:label "is observed by device" ;
+    rdfs:domain bigg:ObservableItem ;
+    rdfs:range bigg:DataProvider .
+
+bigg:isPartOfDeviceAggregator a owl:ObjectProperty ;
+    rdfs:label "is part of device aggregator" ;
+    rdfs:domain bigg:DataProvider ;
+    rdfs:range bigg:DeviceAggregator .
+
+bigg:isReal a owl:DatatypeProperty ;
+    rdfs:label "is real" ;
+    rdfs:domain bigg:TimeSeriesPoint ;
+    rdfs:range xsd:boolean .
+
+bigg:observes a owl:ObjectProperty ;
+    rdfs:label "observes" ;
+    rdfs:domain bigg:DataProvider ;
+    rdfs:range bigg:ObservableItem .
+
+bigg:pointOfDeliveryIDFromOrganization a owl:DatatypeProperty ;
+    rdfs:label "point of delivery i d from organization" ;
+    rdfs:domain bigg:UtilityPointOfDelivery ;
+    rdfs:range xsd:string .
+
+bigg:start a owl:DatatypeProperty ;
+    rdfs:label "start" ;
+    rdfs:domain bigg:TimeSeriesPoint ;
+    rdfs:range xsd:dateTime .
+
+bigg:timeSeriesEnd a owl:DatatypeProperty ;
+    rdfs:label "time series end" ;
+    rdfs:domain bigg:TimeSeriesList ;
+    rdfs:range xsd:date .
+
+bigg:timeSeriesFrequency a owl:DatatypeProperty ;
+    rdfs:label "time series frequency" ;
+    rdfs:domain bigg:TimeSeriesList ;
+    rdfs:range xsd:duration .
+
+bigg:timeSeriesIsCumulative a owl:DatatypeProperty ;
+    rdfs:label "time series is cumulative" ;
+    rdfs:domain bigg:TimeSeriesList ;
+    rdfs:range xsd:boolean .
+
+bigg:timeSeriesIsOnChange a owl:DatatypeProperty ;
+    rdfs:label "time series is on change" ;
+    rdfs:domain bigg:TimeSeriesList ;
+    rdfs:range xsd:boolean .
+
+bigg:timeSeriesIsRegular a owl:DatatypeProperty ;
+    rdfs:label "time series is regular" ;
+    rdfs:domain bigg:TimeSeriesList ;
+    rdfs:range xsd:boolean .
+
+bigg:timeSeriesStart a owl:DatatypeProperty ;
+    rdfs:label "time series start" ;
+    rdfs:domain bigg:TimeSeriesList ;
+    rdfs:range xsd:date .
+
+bigg:timeSeriesTimeAggregationFunction a owl:DatatypeProperty ;
+    rdfs:label "time series time aggregation function" ;
+    rdfs:domain bigg:TimeSeriesList ;
+    rdfs:range xsd:string .
+
+bigg:value a owl:DatatypeProperty ;
+    rdfs:label "value" ;
+    rdfs:domain bigg:TimeSeriesPoint .
+
+wgs:latitude a owl:DatatypeProperty ;
+    rdfs:label "latitude" ;
+    rdfs:domain bigg:WeatherStation ;
+    rdfs:range xsd:float .
+
+wgs:longitude a owl:DatatypeProperty ;
+    rdfs:label "longitude" ;
+    rdfs:domain bigg:WeatherStation ;
+    rdfs:range xsd:float .
+
+bigg:Building a owl:Class ;
+    rdfs:label "Building" .
+
+bigg:DeviceInputProtocol a owl:Class ;
+    rdfs:label "Device Input Protocol" .
+
+bigg:DeviceInputSignalType a owl:Class ;
+    rdfs:label "Device Input Signal Type" .
+
+bigg:DeviceType a owl:Class ;
+    rdfs:label "Device Type" .
+
+bigg:Measurement a owl:Class ;
+    rdfs:label "Measurement" ;
+    rdfs:subClassOf bigg:TimeSeriesPoint .
+
+bigg:OutputProtocol a owl:Class ;
+    rdfs:label "Output Protocol" .
+
+bigg:OutputSignalType a owl:Class ;
+    rdfs:label "Output Signal Type" .
+
+bigg:SensorReadingType a owl:Class ;
+    rdfs:label "Sensor Reading Type" .
+
+bigg:StatePoint a owl:Class ;
+    rdfs:label "State Point" ;
+    rdfs:subClassOf bigg:TimeSeriesPoint .
+
+bigg:StateType a owl:Class ;
+    rdfs:label "State Type" .
+
+bigg:UtilityType a owl:Class ;
+    rdfs:label "Utility Type" .
+
+bigg:DeviceHistory a owl:Class ;
+    rdfs:label "Device History" .
+
+bigg:EstimationMethod a owl:Class ;
+    rdfs:label "Estimation Method" .
+
+bigg:MeasuredProperty a owl:Class ;
+    rdfs:label "Measured Property" .
+
+bigg:MeasurementUnit a owl:Class ;
+    rdfs:label "Measurement Unit" .
+
+bigg:TimeseriesList a owl:Class ;
+    rdfs:label "Timeseries List" .
+
+bigg:WeatherStation a owl:Class ;
+    rdfs:label "Weather Station" ;
+    rdfs:subClassOf bigg:DataProvider .
+
+bigg:ObservableItem a owl:Class ;
+    rdfs:label "Observable Item" .
+
+bigg:State a owl:Class ;
+    rdfs:label "State" ;
+    rdfs:subClassOf bigg:TimeSeriesList .
+
+bigg:UtilityPointOfDelivery a owl:Class ;
+    rdfs:label "Utility Point Of Delivery" .
+
+bigg:Sensor a owl:Class ;
+    rdfs:label "Sensor" ;
+    rdfs:subClassOf bigg:TimeSeriesList .
+
+bigg:TimeSeriesPoint a owl:Class ;
+    rdfs:label "Time Series Point" .
+
+bigg:BuildingSpace a owl:Class ;
+    rdfs:label "Building Space" ;
+    rdfs:subClassOf bigg:ObservableItem .
+
+bigg:DeviceAggregator a owl:Class ;
+    rdfs:label "Device Aggregator" .
+
+bigg:TimeSeriesList a owl:Class ;
+    rdfs:label "Time Series List" .
+
+bigg:Device a owl:Class ;
+    rdfs:label "Device" ;
+    rdfs:subClassOf bigg:DataProvider .
+
+bigg:DataProvider a owl:Class ;
+    rdfs:label "Data Provider" .
+

@@ -1,0 +1,372 @@
+ @prefix bigg: <http://bigg-project.eu/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.geonames.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bigg: a owl:Ontology ;
+    dc:contributor "Eloi Gabaldon",
+        "Guillaume Picinbono",
+        "Nicolas Bus",
+        "Stoyan Danov",
+        "Timson Yeung" ;
+    dc:creator "Edgar Martinez" ;
+    dc:description "Ontology code created by Chowlk",
+        "The BiGG Ontology is an ontology dedicadted to Building Digital Twin and focused on energy consumption, optimization and retrofit" ;
+    dc:title "BIGG Ontology" ;
+    owl:versionInfo "0.0.1" .
+
+bigg:addressAltitude a owl:DatatypeProperty ;
+    rdfs:label "address altitude" ;
+    rdfs:domain bigg:LocationInfo ;
+    rdfs:range xsd:float .
+
+bigg:addressLatitude a owl:DatatypeProperty ;
+    rdfs:label "address latitude" ;
+    rdfs:domain bigg:LocationInfo ;
+    rdfs:range xsd:float .
+
+bigg:addressLongitude a owl:DatatypeProperty ;
+    rdfs:label "address longitude" ;
+    rdfs:domain bigg:LocationInfo ;
+    rdfs:range xsd:float .
+
+bigg:addressPostalCode a owl:DatatypeProperty ;
+    rdfs:label "address postal code" ;
+    rdfs:domain bigg:LocationInfo ;
+    rdfs:range xsd:string .
+
+bigg:addressStreetName a owl:DatatypeProperty ;
+    rdfs:label "address street name" ;
+    rdfs:domain bigg:LocationInfo ;
+    rdfs:range xsd:string .
+
+bigg:addressStreetNumber a owl:DatatypeProperty ;
+    rdfs:label "address street number" ;
+    rdfs:domain bigg:LocationInfo ;
+    rdfs:range xsd:string .
+
+bigg:addressTimeZone a owl:DatatypeProperty ;
+    rdfs:label "address time zone" ;
+    rdfs:domain bigg:LocationInfo ;
+    rdfs:range xsd:string .
+
+bigg:buildingClosingHour a owl:DatatypeProperty ;
+    rdfs:label "building closing hour" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range xsd:time .
+
+bigg:buildingConstructionYear a owl:DatatypeProperty ;
+    rdfs:label "building construction year" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range xsd:string .
+
+bigg:buildingIDFromOrganization a owl:DatatypeProperty ;
+    rdfs:label "building i d from organization" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range xsd:string .
+
+bigg:buildingName a owl:DatatypeProperty ;
+    rdfs:label "building name" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range xsd:string .
+
+bigg:buildingOpeningHour a owl:DatatypeProperty ;
+    rdfs:label "building opening hour" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range xsd:time .
+
+bigg:buysContract a owl:ObjectProperty ;
+    rdfs:label "buys contract" ;
+    rdfs:domain bigg:Organization ;
+    rdfs:range bigg:EnergyPerformanceContract .
+
+bigg:contractEndDate a owl:DatatypeProperty ;
+    rdfs:label "contract end date" ;
+    rdfs:domain bigg:Contract ;
+    rdfs:range xsd:date .
+
+bigg:contractName a owl:DatatypeProperty ;
+    rdfs:label "contract name" ;
+    rdfs:domain bigg:Contract ;
+    rdfs:range xsd:string .
+
+bigg:contractPerimeter a owl:DatatypeProperty ;
+    rdfs:label "contract perimeter" ;
+    rdfs:domain bigg:EnergyPerformanceContract ;
+    rdfs:range xsd:string .
+
+bigg:contractStartDate a owl:DatatypeProperty ;
+    rdfs:label "contract start date" ;
+    rdfs:domain bigg:Contract ;
+    rdfs:range xsd:date .
+
+bigg:email a owl:DatatypeProperty ;
+    rdfs:label "email" ;
+    rdfs:domain bigg:Person ;
+    rdfs:range xsd:string .
+
+bigg:hasAddressCity a owl:ObjectProperty ;
+    rdfs:label "has address city" ;
+    rdfs:domain bigg:LocationInfo ;
+    rdfs:range bigg:AddressCity .
+
+bigg:hasAddressClimateZone a owl:ObjectProperty ;
+    rdfs:label "has address climate zone" ;
+    rdfs:domain bigg:LocationInfo ;
+    rdfs:range bigg:AddressClimateZone .
+
+bigg:hasAddressCountry a owl:ObjectProperty ;
+    rdfs:label "has address country" ;
+    rdfs:domain bigg:LocationInfo ;
+    rdfs:range bigg:AddressCountry .
+
+bigg:hasAddressProvince a owl:ObjectProperty ;
+    rdfs:label "has address province" ;
+    rdfs:domain bigg:LocationInfo ;
+    rdfs:range bigg:AddressProvince .
+
+bigg:hasBuildingConstructionType a owl:ObjectProperty ;
+    rdfs:label "has building construction type" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range bigg:BuildingConstructionType .
+
+bigg:hasBuildingOwnership a owl:ObjectProperty ;
+    rdfs:label "has building ownership" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range bigg:BuildingOwnership .
+
+bigg:hasCadastralInfo a owl:ObjectProperty ;
+    rdfs:label "has cadastral info" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range bigg:CadastralInfo .
+
+bigg:hasLandType a owl:ObjectProperty ;
+    rdfs:label "has land type" ;
+    rdfs:domain bigg:CadastralInfo ;
+    rdfs:range bigg:LandType .
+
+bigg:hasLocationInfo a owl:ObjectProperty ;
+    rdfs:label "has location info" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range bigg:LocationInfo .
+
+bigg:hasObjective a owl:ObjectProperty ;
+    rdfs:label "has objective" ;
+    rdfs:domain bigg:EnergyPerformanceContract ;
+    rdfs:range bigg:EnergyPerformanceContractObjective .
+
+bigg:hasObjectiveTargetType a owl:ObjectProperty ;
+    rdfs:label "has objective target type" ;
+    rdfs:domain bigg:EnergyPerformanceContractObjective ;
+    rdfs:range bigg:ObjectiveTargetType .
+
+bigg:hasObjectiveTargetUnit a owl:ObjectProperty ;
+    rdfs:label "has objective target unit" ;
+    rdfs:domain bigg:EnergyPerformanceContractObjective ;
+    rdfs:range bigg:ObjectiveTargetUnit .
+
+bigg:hasOrganizationType a owl:ObjectProperty ;
+    rdfs:label "has organization type" ;
+    rdfs:domain bigg:Organization ;
+    rdfs:range bigg:OrganiationType .
+
+bigg:hasSubOrganization a owl:ObjectProperty ;
+    rdfs:label "has sub organization" ;
+    rdfs:domain bigg:Organization ;
+    rdfs:range bigg:Organization .
+
+bigg:isManagedByPerson a owl:ObjectProperty ;
+    rdfs:label "is managed by person" ;
+    rdfs:domain bigg:Organization ;
+    rdfs:range bigg:Person .
+
+bigg:landArea a owl:DatatypeProperty ;
+    rdfs:label "land area" ;
+    rdfs:domain bigg:CadastralInfo ;
+    rdfs:range xsd:float .
+
+bigg:landCadastralReference a owl:DatatypeProperty ;
+    rdfs:label "land cadastral reference" ;
+    rdfs:domain bigg:CadastralInfo ;
+    rdfs:range xsd:string .
+
+bigg:landGeometry a owl:DatatypeProperty ;
+    rdfs:label "land geometry" ;
+    rdfs:domain bigg:CadastralInfo .
+
+bigg:landGraphicalArea a owl:DatatypeProperty ;
+    rdfs:label "land graphical area" ;
+    rdfs:domain bigg:CadastralInfo ;
+    rdfs:range xsd:integer .
+
+bigg:lastName a owl:DatatypeProperty ;
+    rdfs:label "last name" ;
+    rdfs:domain bigg:Person ;
+    rdfs:range xsd:string .
+
+bigg:managesBuilding a owl:ObjectProperty ;
+    rdfs:label "manages building" ;
+    rdfs:domain bigg:Organization ;
+    rdfs:range bigg:Building .
+
+bigg:managesOrganization a owl:ObjectProperty ;
+    rdfs:label "manages organization" ;
+    rdfs:domain bigg:Person ;
+    rdfs:range bigg:Organization .
+
+bigg:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:domain bigg:Person ;
+    rdfs:range xsd:string .
+
+bigg:objectiveDeadline a owl:DatatypeProperty ;
+    rdfs:label "objective deadline" ;
+    rdfs:domain bigg:EnergyPerformanceContractObjective ;
+    rdfs:range xsd:date .
+
+bigg:objectiveDescription a owl:DatatypeProperty ;
+    rdfs:label "objective description" ;
+    rdfs:domain bigg:EnergyPerformanceContractObjective ;
+    rdfs:range xsd:string .
+
+bigg:objectiveName a owl:DatatypeProperty ;
+    rdfs:label "objective name" ;
+    rdfs:domain bigg:EnergyPerformanceContractObjective ;
+    rdfs:range xsd:string .
+
+bigg:objectiveTargetValue a owl:DatatypeProperty ;
+    rdfs:label "objective target value" ;
+    rdfs:domain bigg:EnergyPerformanceContractObjective ;
+    rdfs:range xsd:float .
+
+bigg:organizationContactPerson a owl:ObjectProperty ;
+    rdfs:label "organization contact person" ;
+    rdfs:domain bigg:Organization ;
+    rdfs:range bigg:Person .
+
+bigg:organizationDivisionType a owl:DatatypeProperty ;
+    rdfs:label "organization division type" ;
+    rdfs:domain bigg:Organization ;
+    rdfs:range xsd:string .
+
+bigg:organizationEmail a owl:DatatypeProperty ;
+    rdfs:label "organization email" ;
+    rdfs:domain bigg:Organization ;
+    rdfs:range xsd:string .
+
+bigg:organizationLocalVAT a owl:DatatypeProperty ;
+    rdfs:label "organization local v a t" ;
+    rdfs:domain bigg:Organization ;
+    rdfs:range xsd:string .
+
+bigg:organizationName a owl:DatatypeProperty ;
+    rdfs:label "organization name" ;
+    rdfs:domain bigg:Organization ;
+    rdfs:range xsd:string .
+
+bigg:organizationTelephoneNumber a owl:DatatypeProperty ;
+    rdfs:label "organization telephone number" ;
+    rdfs:domain bigg:Organization ;
+    rdfs:range xsd:string .
+
+bigg:pertainsToOrganization a owl:ObjectProperty ;
+    rdfs:label "pertains to organization" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range bigg:Organization .
+
+bigg:propertyClass a owl:DatatypeProperty ;
+    rdfs:label "property class" ;
+    rdfs:domain bigg:CadastralInfo ;
+    rdfs:range xsd:string .
+
+bigg:providesContract a owl:ObjectProperty ;
+    rdfs:label "provides contract" ;
+    rdfs:domain bigg:EnergyPerformanceContract ;
+    rdfs:range bigg:Organization .
+
+bigg:userName a owl:DatatypeProperty ;
+    rdfs:label "user name" ;
+    rdfs:domain bigg:Person ;
+    rdfs:range xsd:string .
+
+geo:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:domain geo:Feature ;
+    rdfs:range xsd:string .
+
+rdfs:comment a owl:DatatypeProperty ;
+    rdfs:label "comment" ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+rdfs:label a owl:DatatypeProperty ;
+    rdfs:label "label" ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+bigg:AddressCity a owl:Class ;
+    rdfs:label "Address City" ;
+    rdfs:subClassOf geo:Feature .
+
+bigg:AddressClimateZone a owl:Class ;
+    rdfs:label "Address Climate Zone" .
+
+bigg:AddressCountry a owl:Class ;
+    rdfs:label "Address Country" ;
+    rdfs:subClassOf geo:Feature .
+
+bigg:AddressProvince a owl:Class ;
+    rdfs:label "Address Province" ;
+    rdfs:subClassOf geo:Feature .
+
+bigg:BuildingConstructionType a owl:Class ;
+    rdfs:label "Building Construction Type" .
+
+bigg:BuildingOwnership a owl:Class ;
+    rdfs:label "Building Ownership" .
+
+bigg:LandType a owl:Class ;
+    rdfs:label "Land Type" .
+
+bigg:ObjectiveTargetType a owl:Class ;
+    rdfs:label "Objective Target Type" .
+
+bigg:ObjectiveTargetUnit a owl:Class ;
+    rdfs:label "Objective Target Unit" .
+
+bigg:OrganiationType a owl:Class ;
+    rdfs:label "Organiation Type" .
+
+owl:Thing a owl:Class ;
+    rdfs:label "Thing" .
+
+bigg:Contract a owl:Class ;
+    rdfs:label "Contract" .
+
+bigg:EnergyPerformanceContract a owl:Class ;
+    rdfs:label "Energy Performance Contract" ;
+    rdfs:subClassOf bigg:Contract .
+
+geo:Feature a owl:Class ;
+    rdfs:label "Feature" .
+
+bigg:CadastralInfo a owl:Class ;
+    rdfs:label "Cadastral Info" .
+
+bigg:EnergyPerformanceContractObjective a owl:Class ;
+    rdfs:label "Energy Performance Contract Objective" .
+
+bigg:Person a owl:Class ;
+    rdfs:label "Person" .
+
+bigg:Building a owl:Class ;
+    rdfs:label "Building" .
+
+bigg:LocationInfo a owl:Class ;
+    rdfs:label "Location Info" .
+
+bigg:Organization a owl:Class ;
+    rdfs:label "Organization" .
+

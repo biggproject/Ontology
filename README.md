@@ -6,7 +6,9 @@ In this documentation it is described the workflow to participate in the develop
 
 This repository is structured as follows 
 ```
-.
+BIGG
+├── dictionaries                    # The folder containing the bigg ontology individuals
+│   └── ...
 ├── Bigg.ttl                        # The main ontology File
 ├── tools                           # The folder containing the tools to work with the ontology
 │   └── chowlk-library-complete.xml # The xml of the chowlk palete                

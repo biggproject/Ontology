@@ -94,34 +94,47 @@ bigg:containsElement a owl:ObjectProperty ;
 
 bigg:energyEfficiencyMeasureCO2Reduction a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure c o2 reduction" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:float .
 
 bigg:energyEfficiencyMeasureCurrencyExchangeRate a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure currency exchange rate" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:string .
 
 bigg:energyEfficiencyMeasureDescription a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure description" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:string .
 
 bigg:energyEfficiencyMeasureFinancialSavings a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure financial savings" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:string .
 
 bigg:energyEfficiencyMeasureInvestment a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure investment" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:float .
+
+bigg:energyEfficiencyMeasureLifetime a owl:DatatypeProperty ;
+    rdfs:label "energy efficiency measure lifetime" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:float .
 
 bigg:energyEfficiencyMeasureOperationalDate a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure operational date" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:date .
 
 bigg:energyEfficiencyMeasureSavingsToInvestmentRatio a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure savings to investment ratio" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:string .
 
 bigg:energySourcePriceEscalationRate a owl:DatatypeProperty ;
     rdfs:label "energy source price escalation rate" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:string .
 
 bigg:hasArea a owl:ObjectProperty ;
@@ -281,6 +294,7 @@ bigg:occupancyVacationDates a owl:DatatypeProperty ;
 
 bigg:shareOfAffectedElement a owl:DatatypeProperty ;
     rdfs:label "share of affected element" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:float .
 
 bigg:AreaType a owl:Class ;
@@ -324,9 +338,6 @@ bigg:BuildingSystemElement a owl:Class ;
     rdfs:label "Building System Element" ;
     rdfs:subClassOf bigg:BuildingElement .
 
-bigg:EnergyEfficiencyMeasure a owl:Class ;
-    rdfs:label "Energy Efficiency Measure" .
-
 bigg:IndoorQualityPerception a owl:Class ;
     rdfs:label "Indoor Quality Perception" .
 
@@ -345,4 +356,7 @@ bigg:BuildingElement a owl:Class ;
 
 bigg:Element a owl:Class ;
     rdfs:label "Element" .
+
+bigg:EnergyEfficiencyMeasure a owl:Class ;
+    rdfs:label "Energy Efficiency Measure" .
 

@@ -4,6 +4,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
 bigg: a owl:Ontology ;
     dc:contributor "Eloi Gabaldon",
@@ -852,34 +853,47 @@ bigg:containsElement a owl:ObjectProperty ;
 
 bigg:energyEfficiencyMeasureCO2Reduction a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure c o2 reduction" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:float .
 
 bigg:energyEfficiencyMeasureCurrencyExchangeRate a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure currency exchange rate" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:string .
 
 bigg:energyEfficiencyMeasureDescription a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure description" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:string .
 
 bigg:energyEfficiencyMeasureFinancialSavings a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure financial savings" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:string .
 
 bigg:energyEfficiencyMeasureInvestment a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure investment" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:float .
+
+bigg:energyEfficiencyMeasureLifetime a owl:DatatypeProperty ;
+    rdfs:label "energy efficiency measure lifetime" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:float .
 
 bigg:energyEfficiencyMeasureOperationalDate a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure operational date" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:date .
 
 bigg:energyEfficiencyMeasureSavingsToInvestmentRatio a owl:DatatypeProperty ;
     rdfs:label "energy efficiency measure savings to investment ratio" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:string .
 
 bigg:energySourcePriceEscalationRate a owl:DatatypeProperty ;
     rdfs:label "energy source price escalation rate" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:string .
 
 bigg:hasArea a owl:ObjectProperty ;
@@ -1039,6 +1053,7 @@ bigg:occupancyVacationDates a owl:DatatypeProperty ;
 
 bigg:shareOfAffectedElement a owl:DatatypeProperty ;
     rdfs:label "share of affected element" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
     rdfs:range xsd:float .
 
 bigg:AreaType a owl:Class ;
@@ -1082,9 +1097,6 @@ bigg:BuildingSystemElement a owl:Class ;
     rdfs:label "Building System Element" ;
     rdfs:subClassOf bigg:BuildingElement .
 
-bigg:EnergyEfficiencyMeasure a owl:Class ;
-    rdfs:label "Energy Efficiency Measure" .
-
 bigg:IndoorQualityPerception a owl:Class ;
     rdfs:label "Indoor Quality Perception" .
 
@@ -1104,7 +1116,25 @@ bigg:BuildingElement a owl:Class ;
 bigg:Element a owl:Class ;
     rdfs:label "Element" .
 
+bigg:EnergyEfficiencyMeasure a owl:Class ;
+    rdfs:label "Energy Efficiency Measure" .
+
 # extensions-tariff
+
+bigg:hasC02MeasuredUnit a owl:ObjectProperty ;
+    rdfs:label "has c02 measured unit" ;
+    rdfs:domain bigg:CO2EmissionsFactorList ;
+    rdfs:range bigg:MeasurementUnit .
+
+bigg:hasC02RelatedMeasuredProperty a owl:ObjectProperty ;
+    rdfs:label "has c02 related measured property" ;
+    rdfs:domain bigg:CO2EmissionsFactorList ;
+    rdfs:range bigg:MeasuredProperty .
+
+bigg:hasC02RelatedMeasuredUnit a owl:ObjectProperty ;
+    rdfs:label "has c02 related measured unit" ;
+    rdfs:domain bigg:CO2EmissionsFactorList ;
+    rdfs:range bigg:MeasurementUnit .
 
 bigg:hasCO2EmissionsFactor a owl:ObjectProperty ;
     rdfs:label "has c o2 emissions factor" ;
@@ -1173,12 +1203,6 @@ bigg:CO2EmissionsPoint a owl:Class ;
 bigg:Contract a owl:Class ;
     rdfs:label "Contract" .
 
-bigg:MeasuredProperty a owl:Class ;
-    rdfs:label "Measured Property" .
-
-bigg:MeasurementUnit a owl:Class ;
-    rdfs:label "Measurement Unit" .
-
 bigg:TariffComponentPoint a owl:Class ;
     rdfs:label "Tariff Component Point" ;
     rdfs:subClassOf bigg:TimeSeriesPoint .
@@ -1189,13 +1213,12 @@ bigg:TariffCurrency a owl:Class ;
 bigg:CO2EmissionsFactor a owl:Class ;
     rdfs:label "C O2 Emissions Factor" .
 
-bigg:CO2EmissionsFactorList a owl:Class ;
-    rdfs:label "C O2 Emissions Factor List" ;
-    rdfs:subClassOf bigg:TimeSeriesList .
-
 bigg:ContractedTariff a owl:Class ;
     rdfs:label "Contracted Tariff" ;
     rdfs:subClassOf bigg:Contract .
+
+bigg:MeasuredProperty a owl:Class ;
+    rdfs:label "Measured Property" .
 
 bigg:TimeSeriesList a owl:Class ;
     rdfs:label "Time Series List" .
@@ -1206,8 +1229,15 @@ bigg:TimeSeriesPoint a owl:Class ;
 bigg:UtilityPointOfDelivery a owl:Class ;
     rdfs:label "Utility Point Of Delivery" .
 
+bigg:MeasurementUnit a owl:Class ;
+    rdfs:label "Measurement Unit" .
+
 bigg:Tariff a owl:Class ;
     rdfs:label "Tariff" .
+
+bigg:CO2EmissionsFactorList a owl:Class ;
+    rdfs:label "C O2 Emissions Factor List" ;
+    rdfs:subClassOf bigg:TimeSeriesList .
 
 bigg:TariffComponentList a owl:Class ;
     rdfs:label "Tariff Component List" ;

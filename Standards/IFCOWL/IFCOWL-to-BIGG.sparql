@@ -1,0 +1,34 @@
+PREFIX :  <http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_TC1#>
+PREFIX express: <https://w3id.org/express#>
+PREFIX bigg: <http://bigg-project.eu/ontology#>
+
+PREFIX i: <http://linkedbuildingdata.net/ifc/51e2ba1cd0a4d1bfe56da82dfb2617b8/>
+
+
+construct {
+    ?building a bigg:Building ; bigg:hasSpace ?space .
+    ?space a bigg:BuildingSpace ; bigg:isContainedInZone ?storey .
+    ?storey a bigg:Zone .
+    ?element a bigg:Element ; bigg:isContainedInSpace ?space .
+} where {  
+    ?building a :IfcBuilding . 
+    ?storey a :IfcBuildingStorey .
+    ?space a :IfcSpace .
+
+    ?building ^:relatingObject_IfcRelDecomposes/:relatedObjects_IfcRelDecomposes ?storey .
+    ?storey ^:relatingObject_IfcRelDecomposes/:relatedObjects_IfcRelDecomposes ?space .
+    
+    ?element a :IfcEnergyConversionDevice .
+    OPTIONAL {?space ^:relatingStructure_IfcRelContainedInSpatialStructure/:relatedElements_IfcRelContainedInSpatialStructure ?element .} 
+
+    # bigg:containsElement 
+    # bigg:isContainedInSpace
+    # bigg:containsBuildingSpace
+    # bigg:isContainedInZone
+
+    # ifcowl:IfcFlowController --> bigg:Device
+    # ifcowl:IfcSpace --> bigg:BuildingSpace
+    # ifcowl:IfcBuilding --> bigg:IfcBuilding
+    # ifcowl:IfcEnergyConversionDevice --> bigg:Element
+
+} 

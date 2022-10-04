@@ -1,0 +1,1416 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://www.geonames.org/ontology#> .
+@prefix ns2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://sws.geonames.org/2463676/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Corfu",
+        "Korfu",
+        "Kérkira",
+        "Nomós Kerkíras",
+        "Νομός Κερκύρας"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/2463676/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2463676/nomos-kerkyras.html> ;
+    ns1:name "Nomós Kerkýras" ;
+    ns1:officialName "Κέρκυρα"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697805/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697805/> ;
+    ns1:population "113658" ;
+    ns1:shortName "Kérkyra" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Kerkyra> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2463676/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Kerkyra> ;
+    ns2:lat "39.66667" ;
+    ns2:long "19.75" .
+
+<https://sws.geonames.org/251276/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Nomós Zakínthou",
+        "Zante",
+        "Zákinthos",
+        "Νομός Ζακύνθου"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/251276/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/251276/nomos-zakynthou.html> ;
+    ns1:name "Nomós Zakýnthou" ;
+    ns1:officialName "Ζάκυνθος"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697805/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697805/> ;
+    ns1:population "41472" ;
+    ns1:shortName "Zákynthos" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Zakynthos> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/251276/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Zakynthos> ;
+    ns2:lat "37.75" ;
+    ns2:long "20.75" .
+
+<https://sws.geonames.org/251851/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Viotía" ;
+    ns1:childrenFeatures <https://sws.geonames.org/251851/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/251851/nomos-voiotias.html> ;
+    ns1:name "Nomós Voiotías" ;
+    ns1:officialName "Βοιωτία"@el,
+        "Νομός Βοιωτίας"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697800/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697800/> ;
+    ns1:shortName "Voiotía" ;
+    ns1:wikipediaArticle <https://el.wikipedia.org/wiki/%CE%9D%CE%BF%CE%BC%CF%8C%CF%82_%CE%92%CE%BF%CE%B9%CF%89%CF%84%CE%AF%CE%B1%CF%82>,
+        <https://en.wikipedia.org/wiki/Voiotia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/251851/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Voiotia> ;
+    ns2:lat "38.33333" ;
+    ns2:long "23" .
+
+<https://sws.geonames.org/252661/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Tríkkala",
+        "تريكالا"@ar,
+        "Трикала"@bg,
+        "Νομός Τρικάλων"@el,
+        "Trikalo"@eo,
+        "تریکالا"@fa,
+        "טריקלה"@he,
+        "トリカラ"@ja,
+        "트리칼라"@ko,
+        "Трикала"@ru,
+        "Tërhalla"@sq,
+        "Трикала"@sr,
+        "Трикала"@uk,
+        "特里卡拉"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/252661/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/252661/trikala.html> ;
+    ns1:name "Trikala" ;
+    ns1:officialName "Τρίκαλα"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697809/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697809/> ;
+    ns1:shortName "Tríkala",
+        "Trikala"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Trikala_(regional_unit)> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/252661/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Trikala_%28regional_unit%29> ;
+    ns2:lat "39.66667" ;
+    ns2:long "21.5" .
+
+<https://sws.geonames.org/252941/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Nomó Thesprotías",
+        "Thespratia",
+        "Thesprosia",
+        "Thespròtia"@ca,
+        "Thesprotia"@de,
+        "Thesprotia"@en,
+        "Tesprótida"@es,
+        "Thesprotía"@nl,
+        "Thesprotia"@ro,
+        "Thesprotia"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/252941/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/252941/nomos-thesprotias.html> ;
+    ns1:name "Thesprotia" ;
+    ns1:officialName "Θεσπρωτία"@el,
+        "Νομός Θεσπρωτίας"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697804/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697804/> ;
+    ns1:shortName "Thesprotía" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Thesprotia_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/252941/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Thesprotia_Prefecture> ;
+    ns2:lat "39.5" ;
+    ns2:long "20.33333" .
+
+<https://sws.geonames.org/254112/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Σάμου"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/254112/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/254112/nomos-samou.html> ;
+    ns1:name "Samos" ;
+    ns1:officialName "Σάμος"@el,
+        "Samos Prefecture"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697806/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697806/> ;
+    ns1:shortName "Sámos",
+        "Samos"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Samos_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/254112/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Samos_Prefecture> ;
+    ns2:lat "37.75" ;
+    ns2:long "26.75" .
+
+<https://sws.geonames.org/254353/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Nomós Rethímnis",
+        "Nomós Rethímnou",
+        "Nomós Rethýmnou",
+        "Rethymni",
+        "Νομός Ρεθύμνης"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/254353/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/254353/nomos-rethymnis.html> ;
+    ns1:name "Rethymno" ;
+    ns1:officialName "Rethymno"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697802/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697802/> ;
+    ns1:population "86532" ;
+    ns1:shortName "Rethímni",
+        "Rethýmnis",
+        "Ρέθυμνο"@el ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Rethymno_%28regional_unit%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/254353/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Rethymno_%28regional_unit%29> ;
+    ns2:lat "35.25" ;
+    ns2:long "24.58333" .
+
+<https://sws.geonames.org/254695/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Nomós Prévezas",
+        "Prenza" ;
+    ns1:childrenFeatures <https://sws.geonames.org/254695/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/254695/nomos-prevezis.html> ;
+    ns1:name "Nomós Prevézis" ;
+    ns1:officialName "Νομός Πρέβεζας"@el,
+        "Πρέβεζα"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697804/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697804/> ;
+    ns1:shortName "Préveza" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Preveza_%28peripheral_unit%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/254695/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Preveza_%28peripheral_unit%29> ;
+    ns2:lat "39.16667" ;
+    ns2:long "20.66667" .
+
+<https://sws.geonames.org/257149/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Messenia",
+        "Messènia"@ca,
+        "Messenien"@de,
+        "Νομός Μεσσηνίας"@el,
+        "Messenia"@en,
+        "Mesenia"@es,
+        "Messeenia"@et,
+        "Messenia"@fi,
+        "מסניה"@he,
+        "Messenia"@it,
+        "Messenië"@nl,
+        "Messenia"@no,
+        "Mesenia"@pl,
+        "Messinia"@ro,
+        "Мессения"@ru,
+        "Messenien"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/257149/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/257149/nomos-messinias.html> ;
+    ns1:name "Messenia" ;
+    ns1:officialName "Μεσσηνία"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697807/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/255620/> ;
+    ns1:shortName "Messinía" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Messenia>,
+        <https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B8%D1%8F> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/257149/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Messenia> ;
+    ns2:lat "37.25" ;
+    ns2:long "21.83333" ;
+    foaf:page <http://pleiades.stoa.org/places/570480> .
+
+<https://sws.geonames.org/258013/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Μαγνησίας"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/258013/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/258013/nomos-magnisias.html> ;
+    ns1:name "Magnesia" ;
+    ns1:officialName "Μαγνησία"@el,
+        "Magnesia"@es ;
+    ns1:parentADM1 <https://sws.geonames.org/6697809/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697809/> ;
+    ns1:shortName "Magnisía",
+        "Magnesia"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Magnesia_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/258013/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Magnesia_Prefecture> ;
+    ns2:lat "39.25" ;
+    ns2:long "22.75" .
+
+<https://sws.geonames.org/258445/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Levkás",
+        "Nomós Levkádhas",
+        "Nomós Levkádhos",
+        "Lefkáda"@el,
+        "Levkádha"@el,
+        "Nomós Lefkádos"@el,
+        "Λευκάς"@el,
+        "Νομός Λεθκάδος"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/258445/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/258445/lefkada.html> ;
+    ns1:name "Lefkada" ;
+    ns1:officialName "Λευκάδα"@el,
+        "Νομός Λευκάδας"@el,
+        "Lefkada"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697805/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697805/> ;
+    ns1:population "22879" ;
+    ns1:shortName "Lefkás" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Lefkada_%28regional_unit%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/258445/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Lefkada_%28regional_unit%29> ;
+    ns2:lat "38.75" ;
+    ns2:long "20.66667" .
+
+<https://sws.geonames.org/258465/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Mitilíni",
+        "Νομός Λέσβου"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/258465/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/258465/lesbos.html> ;
+    ns1:name "Lesbos" ;
+    ns1:officialName "Lesbos",
+        "Λέσβος"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697806/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697806/> ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Lesbos> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/258465/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Lesbos> ;
+    ns2:lat "39.16667" ;
+    ns2:long "26.33333" .
+
+<https://sws.geonames.org/258569/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Lassithion",
+        "Νομός Λασιθίου"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/258569/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/258569/nomos-lasithiou.html> ;
+    ns1:name "Lasithi" ;
+    ns1:officialName "Lasithi"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697802/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697802/> ;
+    ns1:shortName "Lasíthi",
+        "Λασίθι"@el ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Lasithi> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/258569/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Lasithi> ;
+    ns2:lat "35.08333" ;
+    ns2:long "25.83333" .
+
+<https://sws.geonames.org/258575/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Larissa",
+        "Nomós Lárisas",
+        "Νομός Λάρισας"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/258575/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/258575/nomos-larisis.html> ;
+    ns1:name "Nomós Larísis" ;
+    ns1:officialName "Λάρισα"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697809/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697809/> ;
+    ns1:shortName "Lárisa" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Larissa_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/258575/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Larissa_Prefecture> ;
+    ns2:lat "39.5" ;
+    ns2:long "22.5" .
+
+<https://sws.geonames.org/258657/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "La Conia",
+        "Laconia",
+        "Tsakonia",
+        "Zsakonia",
+        "Lacònia"@ca,
+        "Lakonien"@de,
+        "Νομός Λακωνίας"@el,
+        "Laconia"@en,
+        "Laconia"@es,
+        "Lakonia"@fi,
+        "Laconie"@fr,
+        "לאקוניה"@he,
+        "Laconia"@it,
+        "Laconia"@la,
+        "Laconië"@nl,
+        "Lakedaimonerne"@no,
+        "Lakonia"@no,
+        "Lakonia"@pl,
+        "Lacônia"@pt,
+        "Laconia"@ro,
+        "Лакония"@ru,
+        "Lakonien"@sv,
+        "拉科尼亚"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/258657/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/258657/nomos-lakonias.html> ;
+    ns1:name "Laconia" ;
+    ns1:officialName "Λακωνία"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697807/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/255620/> ;
+    ns1:shortName "Lakonía" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Laconia>,
+        <https://en.wikipedia.org/wiki/Tsakonia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/258657/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Laconia>,
+        <https://dbpedia.org/resource/Tsakonia> ;
+    ns2:lat "37" ;
+    ns2:long "22.58333" .
+
+<https://sws.geonames.org/259290/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Κορινθίας"@el,
+        "Corinthia"@es ;
+    ns1:childrenFeatures <https://sws.geonames.org/259290/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/259290/nomos-korinthias.html> ;
+    ns1:name "Corinthia" ;
+    ns1:officialName "Κορινθία"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697807/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697807/> ;
+    ns1:shortName "Korinthía",
+        "Corinthia"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Corinthia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/259290/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Corinthia> ;
+    ns2:lat "37.91667" ;
+    ns2:long "22.66667" ;
+    foaf:page <http://pleiades.stoa.org/places/570180> .
+
+<https://sws.geonames.org/259819/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Cyclades",
+        "Kikládhes",
+        "Nomós Kikládhon",
+        "Νομός Κυκλάδων"@el,
+        "Kikladi"@hbs,
+        "Kykladane"@nn,
+        "Kykladene"@no,
+        "Cyklady"@pl,
+        "Cíclades"@pt,
+        "Cicladele"@ro,
+        "Киклады"@ru,
+        "Kyklady"@sk,
+        "Киклади"@sr,
+        "Kykladerna"@sv,
+        "ซิคละดีส"@th,
+        "Cyclades"@tl,
+        "Kiklad Adaları"@tr,
+        "Кіклади"@uk,
+        "Cyclades"@vi,
+        "基克拉泽斯"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/259819/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/259819/nomos-kykladon.html> ;
+    ns1:name "Nomós Kykládon" ;
+    ns1:parentADM1 <https://sws.geonames.org/6697808/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697808/> ;
+    ns1:population "119549" ;
+    ns1:shortName "Kykládes",
+        "Κυκλάδες"@el ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Cyclades> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/259819/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Cyclades> ;
+    ns2:lat "37.41667" ;
+    ns2:long "24.91667" .
+
+<https://sws.geonames.org/259970/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Khíos",
+        "Nomós Khíou",
+        "Νομός Χίου"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/259970/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/259970/chios.html> ;
+    ns1:name "Chios" ;
+    ns1:officialName "Chios Prefecture"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697806/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697806/> ;
+    ns1:shortName "Chíos",
+        "Χίος"@el,
+        "Chios"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Chios%2C_North_Aegean> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/259970/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Chios%2C_North_Aegean> ;
+    ns2:lat "38.41667" ;
+    ns2:long "26" .
+
+<https://sws.geonames.org/260096/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Khaniá",
+        "Nomós Khaníon",
+        "Chaniá"@el,
+        "Nomós Chaníon"@el,
+        "Νομός Χανίων"@el,
+        "Νομός Χανιάς"@el,
+        "La Canea"@es ;
+    ns1:childrenFeatures <https://sws.geonames.org/260096/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/260096/nomos-chanias.html> ;
+    ns1:name "Chania" ;
+    ns1:officialName "Chania"@de,
+        "Χανιά"@el,
+        "Chania"@en,
+        "Chania"@no ;
+    ns1:parentADM1 <https://sws.geonames.org/6697802/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697802/> ;
+    ns1:shortName "Chaníon" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Chania_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/260096/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Chania_Prefecture> ;
+    ns2:lat "35.33333" ;
+    ns2:long "24" .
+
+<https://sws.geonames.org/260310/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Cephalonia",
+        "Νομός Κεφαλληνίας"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/260310/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/260310/nomos-kefallinias.html> ;
+    ns1:name "Nomós Kefallinías" ;
+    ns1:officialName "Κεφαλονιά"@el,
+        "Kefalonia"@es ;
+    ns1:parentADM1 <https://sws.geonames.org/6697805/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697805/> ;
+    ns1:shortName "Kefallinía",
+        "Κεφαλληνία"@el ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Cephalonia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/260310/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Cephalonia> ;
+    ns2:lat "38.25" ;
+    ns2:long "20.5" .
+
+<https://sws.geonames.org/260988/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Kardhítsa",
+        "Nomós Kardhítsis",
+        "Nomós Kardítsas",
+        "Nomós Kardítsis"@el,
+        "Νομός Καρδίτσας"@el,
+        "Νομός Καρδίτσης"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/260988/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/260988/nomos-kardhitsas.html> ;
+    ns1:name "Nomós Kardhítsas" ;
+    ns1:officialName "Καρδίτσα"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697809/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697809/> ;
+    ns1:shortName "Kardítsa" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Karditsa_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/260988/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Karditsa_Prefecture> ;
+    ns2:lat "39.33333" ;
+    ns2:long "21.75" .
+
+<https://sws.geonames.org/261741/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Heraclion",
+        "Heraklion",
+        "Iráklion",
+        "Nomós Iraklíou",
+        "Νομός Ηρακλείου"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/261741/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/261741/nomos-irakleiou.html> ;
+    ns1:name "Nomós Irakleíou" ;
+    ns1:parentADM1 <https://sws.geonames.org/6697802/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697802/> ;
+    ns1:population "302846" ;
+    ns1:shortName "Irákleion",
+        "Ηράκλειο"@el ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Heraklion> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/261741/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Heraklion> ;
+    ns2:lat "35.32969" ;
+    ns2:long "25.12985" .
+
+<https://sws.geonames.org/261777/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Janina",
+        "Janinë",
+        "Jannina",
+        "Janyina",
+        "Joannina",
+        "Yanina",
+        "Yannina",
+        "Yanya" ;
+    ns1:childrenFeatures <https://sws.geonames.org/261777/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/261777/nomos-ioanninon.html> ;
+    ns1:name "Ioannina" ;
+    ns1:officialName "Ιωάννινα"@el,
+        "Νομός Ιωαννίνων"@el,
+        "Ioannina"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697804/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697804/> ;
+    ns1:shortName "Ioánnina" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Ioannina_%28regional_unit%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/261777/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Ioannina_%28regional_unit%29> ;
+    ns2:lat "39.75" ;
+    ns2:long "20.66667" .
+
+<https://sws.geonames.org/261797/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Ilía",
+        "Nomós Ilías",
+        "Ileia"@cs,
+        "Präfektur Elis"@de,
+        "Elis Prefecture"@en,
+        "Ilia"@en,
+        "Elide"@es,
+        "Ilia"@fr,
+        "Ἠλεῖα"@grc,
+        "イリア"@ja,
+        "Elea"@la,
+        "Ileia"@nl,
+        "Ileia"@sk ;
+    ns1:childrenFeatures <https://sws.geonames.org/261797/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/261797/nomos-ileias.html> ;
+    ns1:name "Ilia Prefecture" ;
+    ns1:officialName "Elis"@de,
+        "Ηλεία"@el,
+        "Νομός Ηλείας"@el,
+        "Ilia Prefecture"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697810/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/255620/> ;
+    ns1:population "198763" ;
+    ns1:shortName "Ileía" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Elis_(regional_unit)> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/261797/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Elis_%28regional_unit%29> ;
+    ns2:lat "37.75" ;
+    ns2:long "21.58333" .
+
+<https://sws.geonames.org/262187/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Nomós Fthiótidhas",
+        "Nomós Fthiótidhos",
+        "Phthiotis",
+        "Phthia"@de,
+        "Phthiotis"@de,
+        "Νομός Φθιώτιδας"@el,
+        "Φθία"@el,
+        "Φθιώτις"@el,
+        "Phthiotis"@en,
+        "Ftiótide"@es,
+        "Phthie"@fr,
+        "Fthiotis"@nl,
+        "Fthiotyda"@pl,
+        "Ftiótida"@pt,
+        "Ftiotida"@ro,
+        "Fthiotis"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/262187/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/262187/nomos-fthiotidos.html> ;
+    ns1:name "Phthiotis" ;
+    ns1:officialName "Φθιώτιδα"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697800/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697800/> ;
+    ns1:shortName "Fthiótis" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Phthiotis>,
+        <https://ru.wikipedia.org/wiki/%D0%A4%D1%82%D0%B8%D0%BE%D1%82%D0%B8%D0%B4%D0%B0> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/262187/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Phthiotis> ;
+    ns2:lat "38.83333" ;
+    ns2:long "22.41667" .
+
+<https://sws.geonames.org/262322/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Fokís",
+        "Nomós Fokídas",
+        "Nomós Fokídhas",
+        "Nomós Fokídhos",
+        "Phocis",
+        "Phokis"@de,
+        "Νομός Φωκίδας"@el,
+        "Fócida"@es,
+        "Fokis"@fi,
+        "פוקיס"@he,
+        "Phocis"@la,
+        "Fokida"@nl,
+        "Fokida"@pl,
+        "Fócida"@pt,
+        "Fokis"@sk,
+        "Fokis"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/262322/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/262322/nomos-fokidos.html> ;
+    ns1:name "Phocis" ;
+    ns1:officialName "Φωκίδα"@el,
+        "Phocis"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697800/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697800/> ;
+    ns1:population "49576" ;
+    ns1:shortName "Fokídos" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Phocis>,
+        <https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D0%BA%D0%B8%D0%B4%D0%B0> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/262322/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Phocis> ;
+    ns2:lat "38.5" ;
+    ns2:long "22.25" .
+
+<https://sws.geonames.org/262564/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Évvia" ;
+    ns1:childrenFeatures <https://sws.geonames.org/262564/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/262564/nomos-evvoias.html> ;
+    ns1:name "Euboea" ;
+    ns1:officialName "Εύβοια"@el,
+        "Νομός Εύβοιας"@el,
+        "Euboea"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697800/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697800/> ;
+    ns1:shortName "Évvoia" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Euboea_(regional_unit)> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/262564/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Euboea_%28regional_unit%29> ;
+    ns2:lat "38.5" ;
+    ns2:long "24" .
+
+<https://sws.geonames.org/262572/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Eurytania",
+        "Evritanía",
+        "Nomós Evritanías",
+        "Νομός Ευρυτανίας"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/262572/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/262572/nomos-evrytanias.html> ;
+    ns1:name "Nomós Evrytanías" ;
+    ns1:officialName "Ευρυτανία"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697800/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697800/> ;
+    ns1:population "34855" ;
+    ns1:shortName "Evrytanía" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Evrytania> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/262572/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Evrytania> ;
+    ns2:lat "39" ;
+    ns2:long "21.66667" .
+
+<https://sws.geonames.org/263021/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Dhodhekánisos",
+        "Dodekánisa",
+        "Nomos Dodecanese",
+        "Nomós Dhodhekanísou",
+        "Nomós Dodekanísou",
+        "Dímos Ko"@el,
+        "Δήμος Κω"@el,
+        "Κως"@el,
+        "Dodekanesane"@nn,
+        "Dodekanesene"@no ;
+    ns1:childrenFeatures <https://sws.geonames.org/263021/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/263021/dodecanese.html> ;
+    ns1:name "Dodecanese" ;
+    ns1:officialName "Δωδεκάνησα"@el,
+        "Νομός Δωδεκανήσου"@el,
+        "Dodecanese"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697808/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697808/> ;
+    ns1:shortName "Dodekánisos" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Dodecanese>,
+        <https://en.wikipedia.org/wiki/Kos> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/263021/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Dodecanese>,
+        <https://dbpedia.org/resource/Kos> ;
+    ns2:lat "36.84331" ;
+    ns2:long "27.14809" .
+
+<https://sws.geonames.org/264353/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Αττικής"@el,
+        "Attica"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/264353/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/264353/nomos-attikis.html> ;
+    ns1:name "Attica" ;
+    ns1:officialName "Αττική"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6692632/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6692632/> ;
+    ns1:shortName "Attikí" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Attica_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/264353/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Attica_Prefecture> ;
+    ns2:lat "38.08333" ;
+    ns2:long "23.5" .
+
+<https://sws.geonames.org/264545/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Nomós Ártas" ;
+    ns1:childrenFeatures <https://sws.geonames.org/264545/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/264545/nomos-artas.html> ;
+    ns1:name "Nomós Ártas" ;
+    ns1:officialName "Άρτα"@el,
+        "Νομός Άρτας"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697804/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697804/> ;
+    ns1:shortName "Árta" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Arta_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/264545/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Arta_Prefecture> ;
+    ns2:lat "39.16667" ;
+    ns2:long "21" .
+
+<https://sws.geonames.org/264644/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Arcadia",
+        "Arkadhía",
+        "Nomós Arkadhías",
+        "Arkadien"@da,
+        "Arkadien"@de,
+        "Νομός Αρκαδίας"@el,
+        "Arcadia"@en,
+        "Arcadia"@es,
+        "Arkaadia"@et,
+        "Arkadia"@fi,
+        "Arcadie"@fr,
+        "ארקאדיה"@he,
+        "Arcadia"@ia,
+        "Arcadia"@it,
+        "Arcadia"@la,
+        "Arkadien"@lb,
+        "Arkadijos nomas"@lt,
+        "Arcadië"@nl,
+        "Arkadia"@pl,
+        "Arcádia"@pt,
+        "Аркадия"@ru,
+        "Arkadien"@sv,
+        "Arkadya"@tr,
+        "阿卡迪亞州"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/264644/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/264644/nomos-arkadias.html> ;
+    ns1:name "Arcadia" ;
+    ns1:officialName "Αρκαδία"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697807/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/255620/> ;
+    ns1:shortName "Arkadía" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Arcadia>,
+        <https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B8%D1%8F> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/264644/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Arcadia> ;
+    ns2:lat "37.58333" ;
+    ns2:long "22.25" .
+
+<https://sws.geonames.org/264673/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Nomós Argolídas",
+        "Nomós Argolídhas",
+        "Nomós Argolídhos",
+        "Νομός Αργολίδας"@el,
+        "Argolida"@es ;
+    ns1:childrenFeatures <https://sws.geonames.org/264673/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/264673/nomos-argolidos.html> ;
+    ns1:name "Nomós Argolídos" ;
+    ns1:officialName "Αργολίδα"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697807/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697807/> ;
+    ns1:shortName "Argolís" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Argolis>,
+        <https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B3%D0%BE%D0%BB%D0%B8%D0%B4%D0%B0> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/264673/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Argolis> ;
+    ns2:lat "37.66667" ;
+    ns2:long "22.83333" ;
+    foaf:page <http://pleiades.stoa.org/places/570104> .
+
+<https://sws.geonames.org/265491/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Akhaḯa",
+        "Nomós Akhaḯas",
+        "Νομός Αχαΐας"@el,
+        "Acaya"@es ;
+    ns1:childrenFeatures <https://sws.geonames.org/265491/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/265491/nomos-achaias.html> ;
+    ns1:name "Achaea" ;
+    ns1:officialName "Αχαΐα"@el,
+        "Achaea"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697810/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/255620/> ;
+    ns1:population "331316" ;
+    ns1:shortName "Achaḯa",
+        "Αχαία"@el,
+        "Achaia"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Achaia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/265491/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Achaia> ;
+    ns2:lat "38" ;
+    ns2:long "22" .
+
+<https://sws.geonames.org/265508/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Aetolia and Acarnania",
+        "Aitoloakarnanía",
+        "Akarnanía and Aitolía",
+        "Nomós Aitoloakarnanias",
+        "Etolia"@es ;
+    ns1:childrenFeatures <https://sws.geonames.org/265508/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/265508/nomos-aitolias-kai-akarnanias.html> ;
+    ns1:name "Aitoloakarnania" ;
+    ns1:officialName "Αιτωλοακαρνανία"@el,
+        "Νομός Αιτωλοακαρνανίας"@el,
+        "Aitoloakarnania"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697810/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697810/> ;
+    ns1:population "210802" ;
+    ns1:shortName "Aitolía kai Akarnanía",
+        "Aetolia-Acarnania"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Aitolia_kai_Akarnania> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/265508/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Aitolia_kai_Akarnania> ;
+    ns2:lat "38.5" ;
+    ns2:long "21.5" .
+
+<https://sws.geonames.org/406101/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Piraiévs" ;
+    ns1:childrenFeatures <https://sws.geonames.org/406101/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/406101/nomos-piraios.html> ;
+    ns1:name "Nomós Piraiós" ;
+    ns1:parentADM1 <https://sws.geonames.org/6692632/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6692632/> ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Piraeus_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/406101/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Piraeus_Prefecture> ;
+    ns2:lat "37.5" ;
+    ns2:long "23.41667" .
+
+<https://sws.geonames.org/445406/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:childrenFeatures <https://sws.geonames.org/445406/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/445406/nomarchia-anatolikis-attikis.html> ;
+    ns1:name "Nomarchía Anatolikís Attikís" ;
+    ns1:parentADM1 <https://sws.geonames.org/6692632/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6692632/> ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/East_Attica> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/445406/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/East_Attica> ;
+    ns2:lat "38.03352" ;
+    ns2:long "23.88856" .
+
+<https://sws.geonames.org/445408/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Athína"@el,
+        "Nomarchía Athinón"@el,
+        "Αθήνα"@el,
+        "Νομαρχία Αθήνας"@el,
+        "Νομαρχία Αθηνών"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/445408/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/445408/nomarchia-athinas.html> ;
+    ns1:name "Nomarchía Athínas" ;
+    ns1:parentADM1 <https://sws.geonames.org/6692632/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6692632/> ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Athens_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/445408/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Athens_Prefecture> ;
+    ns2:lat "37.96667" ;
+    ns2:long "23.75" .
+
+<https://sws.geonames.org/733839/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Ξάνθης"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/733839/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/733839/nomos-xanthis.html> ;
+    ns1:name "Xanthi" ;
+    ns1:officialName "Ξάνθη"@el,
+        "Xanti"@es ;
+    ns1:parentADM1 <https://sws.geonames.org/6697803/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697803/> ;
+    ns1:shortName "Xánthi",
+        "Xanthi"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Xanthi> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/733839/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Xanthi> ;
+    ns2:lat "41.16667" ;
+    ns2:long "24.83333" .
+
+<https://sws.geonames.org/734075/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Salonica",
+        "Salonika",
+        "Saloniki" ;
+    ns1:childrenFeatures <https://sws.geonames.org/734075/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/734075/nomos-thessalonikis.html> ;
+    ns1:name "Thessaloniki" ;
+    ns1:officialName "Νομός Θεσσαλονίκης"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697801/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697801/> ;
+    ns1:shortName "Thessaloníki",
+        "Θεσσαλονίκη"@el,
+        "Thessaloniki"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Thessaloniki_%28regional_unit%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/734075/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Thessaloniki_%28regional_unit%29> ;
+    ns2:lat "40.66667" ;
+    ns2:long "23" .
+
+<https://sws.geonames.org/734329/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Σερρών"@el,
+        "Серски округ"@mk ;
+    ns1:childrenFeatures <https://sws.geonames.org/734329/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/734329/nomos-serron.html> ;
+    ns1:name "Sérres" ;
+    ns1:officialName "Σέρρες"@el,
+        "Sérres"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697801/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697801/> ;
+    ns1:shortName "Sérrai" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Serres_%28regional_unit%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/734329/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Serres_%28regional_unit%29> ;
+    ns2:lat "41.16667" ;
+    ns2:long "23.5" .
+
+<https://sws.geonames.org/734375/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Nomós Rodhópis",
+        "Rhodope",
+        "Rodhópi",
+        "Νομός Ροδόπης"@el,
+        "Rodope"@es ;
+    ns1:childrenFeatures <https://sws.geonames.org/734375/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/734375/nomos-rodopis.html> ;
+    ns1:name "Nomós Rodópis" ;
+    ns1:officialName "Ροδόπη"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697803/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697803/> ;
+    ns1:shortName "Rodópi" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Rhodope_%28regional_unit%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/734375/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Rhodope_%28regional_unit%29> ;
+    ns2:lat "41.08333" ;
+    ns2:long "25.5" .
+
+<https://sws.geonames.org/734649/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Πιερίας"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/734649/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/734649/nomos-pierias.html> ;
+    ns1:name "Pieria" ;
+    ns1:officialName "Πιερία"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697801/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697801/> ;
+    ns1:shortName "Piería",
+        "Pieria"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Pieria_%28regional_unit%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/734649/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Pieria_%28regional_unit%29> ;
+    ns2:lat "40.25" ;
+    ns2:long "22.41667" .
+
+<https://sws.geonames.org/734725/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Nomós Péllas",
+        "Νομός Πέλλας"@el,
+        "Постолски округ"@mk ;
+    ns1:childrenFeatures <https://sws.geonames.org/734725/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/734725/nomos-pellis.html> ;
+    ns1:name "Pella" ;
+    ns1:officialName "Πέλλα"@el,
+        "Pela"@es ;
+    ns1:parentADM1 <https://sws.geonames.org/6697801/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697801/> ;
+    ns1:shortName "Pélla",
+        "Pella"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Pella_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/734725/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Pella_Prefecture> ;
+    ns2:lat "40.83333" ;
+    ns2:long "22.25" .
+
+<https://sws.geonames.org/735562/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Κοζάνης"@el,
+        "Кожански округ"@mk ;
+    ns1:childrenFeatures <https://sws.geonames.org/735562/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/735562/nomos-kozanis.html> ;
+    ns1:name "Kozani" ;
+    ns1:officialName "Κοζάνη"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697811/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697811/> ;
+    ns1:shortName "Kozáni",
+        "Kozani"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Kozani_%28regional_unit%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/735562/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Kozani_%28regional_unit%29> ;
+    ns2:lat "40.33333" ;
+    ns2:long "21.71667" .
+
+<https://sws.geonames.org/735735/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Κιλκίς"@el,
+        "Кукушки округ"@mk ;
+    ns1:childrenFeatures <https://sws.geonames.org/735735/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/735735/nomos-kilkis.html> ;
+    ns1:name "Nomós Kilkís" ;
+    ns1:officialName "Κιλκίς"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697801/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697801/> ;
+    ns1:shortName "Kilkís" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Kilkis_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/735735/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Kilkis_Prefecture> ;
+    ns2:lat "41" ;
+    ns2:long "22.66667" .
+
+<https://sws.geonames.org/735804/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Халкидики"@bg,
+        "Calcídica"@ca,
+        "Chalkidiki"@de,
+        "Khalkidhikí"@el,
+        "Nomós Khalkidhikís"@el,
+        "Chalcidice"@en,
+        "Halkidikí"@en,
+        "Calcídica"@es,
+        "Chalkidike"@et,
+        "Khalkidike"@fi,
+        "Chalcidique"@fr,
+        "Calcidica"@it,
+        "Chalcidice"@la,
+        "Халкидички округ"@mk,
+        "Chalcidice"@nl,
+        "Półwysep Chalcydycki"@pl,
+        "Calcídica"@pt,
+        "Префектура Халкидик"@sr,
+        "Chalkidike"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/735804/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/735804/nomos-chalkidikis.html> ;
+    ns1:name "Chalkidikí" ;
+    ns1:officialName "Chalkidiki",
+        "Νομός Χαλκιδικής"@el,
+        "Chalkidikí"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697801/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697801/> ;
+    ns1:population "109587" ;
+    ns1:shortName "Χαλκιδική"@el ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Chalkidiki> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/735804/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Chalkidiki> ;
+    ns2:lat "40.41667" ;
+    ns2:long "23.5" .
+
+<https://sws.geonames.org/735857/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Cavalla",
+        "Kaválla",
+        "Καβάλα"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/735857/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/735857/nomos-kavalas.html> ;
+    ns1:name "Kavala" ;
+    ns1:officialName "Kavala"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697803/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697803/> ;
+    ns1:shortName "Kavála" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Kavala> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/735857/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Kavala> ;
+    ns2:lat "40.95207" ;
+    ns2:long "24.40956" .
+
+<https://sws.geonames.org/735925/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Καστοριάς"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/735925/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/735925/nomos-kastorias.html> ;
+    ns1:name "Kastoria" ;
+    ns1:officialName "Καστοριά"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697811/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697811/> ;
+    ns1:shortName "Kastoriá",
+        "Kastoria"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Kastoria_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/735925/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Kastoria_Prefecture> ;
+    ns2:lat "40.5" ;
+    ns2:long "21.16667" .
+
+<https://sws.geonames.org/736120/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Ημαθίας"@el,
+        "Emacia"@es ;
+    ns1:childrenFeatures <https://sws.geonames.org/736120/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/736120/nomos-imathias.html> ;
+    ns1:name "Imathia" ;
+    ns1:officialName "Ημαθία"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697801/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697801/> ;
+    ns1:shortName "Imathía",
+        "Imathia"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Imathia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/736120/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Imathia> ;
+    ns2:lat "40.5" ;
+    ns2:long "22.25" .
+
+<https://sws.geonames.org/736149/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Νομός Γρεβενών"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/736149/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/736149/nomos-grevenon.html> ;
+    ns1:name "Grevena" ;
+    ns1:officialName "Γρεβενά"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697811/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697811/> ;
+    ns1:shortName "Grevená",
+        "Grevena"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Grevena>,
+        <https://en.wikipedia.org/wiki/Grevena_(regional_unit)> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/736149/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Grevena>,
+        <https://dbpedia.org/resource/Grevena_%28regional_unit%29> ;
+    ns2:lat "40.08333" ;
+    ns2:long "21.41667" .
+
+<https://sws.geonames.org/736228/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Nomós Flórinas",
+        "Νομός Φλώρινας"@el,
+        "Лерински округ"@mk ;
+    ns1:childrenFeatures <https://sws.geonames.org/736228/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/736228/nomos-florinis.html> ;
+    ns1:name "Florina" ;
+    ns1:officialName "Φλώρινα"@el,
+        "Florina"@en ;
+    ns1:parentADM1 <https://sws.geonames.org/6697811/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697811/> ;
+    ns1:shortName "Flórina" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Florina_%28regional_unit%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/736228/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Florina_%28regional_unit%29> ;
+    ns2:lat "40.75" ;
+    ns2:long "21.41667" .
+
+<https://sws.geonames.org/736287/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Hevros",
+        "Νομός Έβρου"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/736287/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/736287/nomos-evrou.html> ;
+    ns1:name "Evros" ;
+    ns1:officialName "Έβρος"@el,
+        "Hebros"@es ;
+    ns1:parentADM1 <https://sws.geonames.org/6697803/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697803/> ;
+    ns1:shortName "Évros",
+        "Evros"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Evros_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/736287/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Evros_Prefecture> ;
+    ns2:lat "41" ;
+    ns2:long "26" .
+
+<https://sws.geonames.org/736363/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Nomós Dhrámas",
+        "Νομός Δράμας"@el ;
+    ns1:childrenFeatures <https://sws.geonames.org/736363/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/736363/nomos-dramas.html> ;
+    ns1:name "Nomós Drámas" ;
+    ns1:officialName "Δράμα"@el ;
+    ns1:parentADM1 <https://sws.geonames.org/6697803/> ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/6697803/> ;
+    ns1:shortName "Dráma" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Drama_Prefecture> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/736363/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Drama_Prefecture> ;
+    ns2:lat "41.25" ;
+    ns2:long "24.25" .
+

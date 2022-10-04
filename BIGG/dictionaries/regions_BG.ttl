@@ -1,0 +1,738 @@
+@prefix ns1: <http://www.geonames.org/ontology#> .
+@prefix ns2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://sws.geonames.org/453751/> a ns1:Feature ;
+    ns1:alternateName "Oblast Razgrad",
+        "Razgradska Oblast",
+        "Razgradski Okrŭg",
+        "Ruse",
+        "Rusenska",
+        "Rusenska Oblast",
+        "Разград"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/453751/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/453751/oblast-razgrad.html> ;
+    ns1:name "Razgrad" ;
+    ns1:officialName "Razgrad",
+        "Област Разград"@bg ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "112229" ;
+    ns1:shortName "Razgrad"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Razgrad_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/453751/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Razgrad_Province> ;
+    ns2:lat "43.65" ;
+    ns2:long "26.6" .
+
+<https://sws.geonames.org/453753/> a ns1:Feature ;
+    ns1:alternateName "Mikhaylovgradska Oblast",
+        "Mikhaylovgradski Okrŭg",
+        "Oblast Montana",
+        "Монтана"@bg,
+        "Област Монтана"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/453753/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/453753/oblast-montana.html> ;
+    ns1:name "Montana" ;
+    ns1:officialName "Montana" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "129637" ;
+    ns1:shortName "Montana"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Montana_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/453753/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Montana_Province> ;
+    ns2:lat "43.5" ;
+    ns2:long "23.18333" .
+
+<https://sws.geonames.org/725713/> a ns1:Feature ;
+    ns1:alternateName "Oblast Vratsa",
+        "Vrachanski Okrŭg",
+        "Враца"@bg,
+        "Област Враца"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/725713/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/725713/oblast-vratsa.html> ;
+    ns1:name "Vratsa" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "162549" ;
+    ns1:shortName "Vratsa",
+        "Vratsa"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Vratsa_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/725713/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Vratsa_Province> ;
+    ns2:lat "43.4" ;
+    ns2:long "23.76667" .
+
+<https://sws.geonames.org/726051/> a ns1:Feature ;
+    ns1:alternateName "Oblast Varna",
+        "Okrŭg Stalin",
+        "Stalinski Okrŭg",
+        "Varnenska Oblast",
+        "Varnenski Okrŭg",
+        "Варна"@bg,
+        "Област Варна"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/726051/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/726051/varna.html> ;
+    ns1:name "Varna" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "471252" ;
+    ns1:shortName "Varna",
+        "Varna"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Varna_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/726051/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Varna_Province> ;
+    ns2:lat "43.21667" ;
+    ns2:long "27.6" .
+
+<https://sws.geonames.org/726419/> a ns1:Feature ;
+    ns1:alternateName "Oblast Dobrich",
+        "Tolbukhin",
+        "Tolbukhinski Okrŭg",
+        "Добрич"@bg,
+        "Област Добрич"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/726419/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/726419/oblast-dobrich.html> ;
+    ns1:name "Dobrich" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "173831" ;
+    ns1:shortName "Dobrich",
+        "Dobrich"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Dobrich_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/726419/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Dobrich_Province> ;
+    ns2:lat "43.68333" ;
+    ns2:long "27.9" .
+
+<https://sws.geonames.org/727012/> a ns1:Feature ;
+    ns1:alternateName "Oblast Sofiya",
+        "Sofia",
+        "Sofiyska Oblast",
+        "Sofiyski Okrŭg",
+        "مقاطعة صوفيا"@ar,
+        "Oblast Sofia"@bg,
+        "Област София"@bg,
+        "София"@bg,
+        "Província de Sofia"@ca,
+        "Sofijská oblast"@cs,
+        "Oblast Sofia"@de,
+        "Sofia Province"@en,
+        "Provinco Sofio"@eo,
+        "Provincia de Sofía"@es,
+        "Sofia piirkond"@et,
+        "استان صوفیه"@fa,
+        "Sofian alue"@fi,
+        "Sofia"@fr,
+        "סופיה"@he,
+        "Sofijska oblast"@hr,
+        "Սոֆիայի մարզ"@hy,
+        "Oblast Sofia"@id,
+        "Distretto di Sofia"@it,
+        "ソフィア州"@ja,
+        "სოფიის ოლქი"@ka,
+        "소피아 주"@ko,
+        "Sofijos sritis"@lt,
+        "Софиска област"@mk,
+        "Софи аймаг"@mn,
+        "Sofia Chiu"@nan,
+        "Sòfia"@oc,
+        "Софияйы облæст"@os,
+        "Obwód sofijski"@pl,
+        "صوبہ صوفیہ"@pnb,
+        "Sófia"@pt,
+        "Regiunea Sofia"@ro,
+        "Софийская область"@ru,
+        "Sofia Province"@sco,
+        "Софијска област"@sr,
+        "Sofijska oblast"@sv,
+        "Вилояти София"@tg,
+        "Sofya"@tr,
+        "Софійська область"@uk,
+        "صوفیہ صوبہ"@ur,
+        "索菲亞州"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/727012/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/727012/sofia.html> ;
+    ns1:name "Sofia" ;
+    ns1:officialName "Софийска област"@bg ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "229041" ;
+    ns1:shortName "Sofiya",
+        "Sofia"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Sofia_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/727012/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Sofia_Province> ;
+    ns2:lat "42.66667" ;
+    ns2:long "23.8" .
+
+<https://sws.geonames.org/727524/> a ns1:Feature ;
+    ns1:alternateName "Oblast Ruse",
+        "Rusenski Okrŭg",
+        "Област Русе"@bg,
+        "Русе"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/727524/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/727524/oblast-ruse.html> ;
+    ns1:name "Ruse" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "218556" ;
+    ns1:shortName "Ruse",
+        "Ruse"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Ruse_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/727524/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Ruse_Province> ;
+    ns2:lat "43.7" ;
+    ns2:long "26" .
+
+<https://sws.geonames.org/728194/> a ns1:Feature ;
+    ns1:alternateName "Oblast Plovdiv",
+        "Plovdivska Oblast",
+        "Plovdivski Okrŭg",
+        "Област Пловдив"@bg,
+        "Пловдив"@bg,
+        "Пловдивска област"@bg,
+        "Пловдивски окръг"@bg,
+        "Пловдивски окръг"@hbs ;
+    ns1:childrenFeatures <https://sws.geonames.org/728194/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/728194/plovdiv.html> ;
+    ns1:name "Plovdiv" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "668334" ;
+    ns1:shortName "Plovdiv",
+        "Plovdiv"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Plovdiv_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/728194/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Plovdiv_Province> ;
+    ns2:lat "42.26667" ;
+    ns2:long "24.83333" .
+
+<https://sws.geonames.org/728204/> a ns1:Feature ;
+    ns1:alternateName "Oblast Pleven",
+        "Plevenski Okrŭg",
+        "Област Плевен"@bg,
+        "Плевен"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/728204/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/728204/oblast-pleven.html> ;
+    ns1:name "Pleven" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "240380" ;
+    ns1:shortName "Pleven",
+        "Pleven"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Pleven_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/728204/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Pleven_Province> ;
+    ns2:lat "43.5" ;
+    ns2:long "24.63333" .
+
+<https://sws.geonames.org/728331/> a ns1:Feature ;
+    ns1:alternateName "Dimitrovo",
+        "Dimitrovski Okrŭg",
+        "Oblast Pernik",
+        "Pernishki Okrŭg",
+        "Област Перник"@bg,
+        "Перник"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/728331/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/728331/pernik.html> ;
+    ns1:name "Pernik" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "120880" ;
+    ns1:shortName "Pernik",
+        "Pernik"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Pernik_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/728331/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Pernik_Province> ;
+    ns2:lat "42.63333" ;
+    ns2:long "22.88333" .
+
+<https://sws.geonames.org/728379/> a ns1:Feature ;
+    ns1:alternateName "Oblast Pazardzhik",
+        "Pazardzhishki Okrŭg",
+        "Област Пазарджик"@bg,
+        "Пазарджик"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/728379/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/728379/pazardzhik.html> ;
+    ns1:name "Pazardzhik" ;
+    ns1:officialName "Pazardzhik" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "255479" ;
+    ns1:shortName "Pazardzhik"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Pazardzhik_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/728379/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Pazardzhik_Province> ;
+    ns2:lat "42.08333" ;
+    ns2:long "24.16667" .
+
+<https://sws.geonames.org/729560/> a ns1:Feature ;
+    ns1:alternateName "Loveshka Oblast",
+        "Loveshki Okrŭg",
+        "Oblast Lovech",
+        "Ловеч"@bg,
+        "Област Ловеч"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/729560/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/729560/lovech.html> ;
+    ns1:name "Lovech" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "124873" ;
+    ns1:shortName "Lovech",
+        "Lovech"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Lovech_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/729560/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Lovech_Province> ;
+    ns2:lat "43.03333" ;
+    ns2:long "24.56667" .
+
+<https://sws.geonames.org/730436/> a ns1:Feature ;
+    ns1:alternateName "Khaskovska Oblast",
+        "Khaskovski Okrŭg",
+        "Oblast Khaskovo",
+        "Haskovo"@bg,
+        "Oblast Haskovo"@bg,
+        "Област Хасково"@bg,
+        "Хасково"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/730436/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/730436/haskovo.html> ;
+    ns1:name "Haskovo" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "228141" ;
+    ns1:shortName "Khaskovo",
+        "Haskovo"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Haskovo_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/730436/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Haskovo_Province> ;
+    ns2:lat "41.83333" ;
+    ns2:long "25.91667" .
+
+<https://sws.geonames.org/731061/> a ns1:Feature ;
+    ns1:alternateName "Oblast Grad Sofiya",
+        "Oblast Sofiya-Grad",
+        "Sofia City",
+        "Sofiyska Gradska Obshtina",
+        "Oblast Sofia-Grad"@bg,
+        "Okrŭg Grad Sofiya"@bg,
+        "Sofia-Grad"@bg,
+        "Област София-Град"@bg,
+        "София-Град"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/731061/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/731061/sofia-grad.html> ;
+    ns1:name "Sofia-Capital" ;
+    ns1:officialName "Област София град"@bg ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "1328120" ;
+    ns1:shortName "Sofiya-Grad",
+        "София (столица)"@bg,
+        "София-град"@bg,
+        "Sofia-Capital"@en,
+        "Sofia-grad"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Sofiya-Grad> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/731061/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Sofiya-Grad> ;
+    ns2:lat "42.66667" ;
+    ns2:long "23.38333" .
+
+<https://sws.geonames.org/732771/> a ns1:Feature ;
+    ns1:alternateName "Burgaska Oblast",
+        "Burgaski Okrŭg",
+        "Oblast Burgas",
+        "Бургас"@bg,
+        "Област Бугас"@bg,
+        "Област Бургас"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/732771/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/732771/burgas.html> ;
+    ns1:name "Burgas" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "410331" ;
+    ns1:shortName "Burgas",
+        "Burgas"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Burgas_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/732771/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Burgas_Province> ;
+    ns2:lat "42.53333" ;
+    ns2:long "27.23333" .
+
+<https://sws.geonames.org/733192/> a ns1:Feature ;
+    ns1:alternateName "Blagoevgradski Okrŭg",
+        "Oblast Blagoevgrad",
+        "Okrŭg Gorna Dzhumaya",
+        "Благоевград"@bg,
+        "Област Благоевград"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/733192/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/733192/blagoevgrad.html> ;
+    ns1:name "Blagoevgrad" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "305123" ;
+    ns1:shortName "Blagoevgrad",
+        "Blagoevgrad"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Blagoevgrad_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/733192/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Blagoevgrad_Province> ;
+    ns2:lat "41.73333" ;
+    ns2:long "23.45" .
+
+<https://sws.geonames.org/864552/> a ns1:Feature ;
+    ns1:alternateName "Gabrovo",
+        "Gabrovski Okrŭg",
+        "Oblast Gabrovo",
+        "مقاطعة غابرووو"@ar,
+        "Габроўская вобласць"@be,
+        "Габрово"@bg,
+        "Област Габрово"@bg,
+        "Província de Gàbrovo"@ca,
+        "Gabrovská oblast"@cs,
+        "Oblast Gabrowo"@de,
+        "Provinco Gabrovo"@eo,
+        "Provincia de Gabrovo"@es,
+        "Gabrovo piirkond"@et,
+        "استان گابرووو"@fa,
+        "Gabrovon alue"@fi,
+        "גברובו"@he,
+        "Gabrovo megye"@hu,
+        "Գաբրովոյի մարզ"@hy,
+        "Provinsi Gabrovo"@id,
+        "Distretto di Gabrovo"@it,
+        "ガブロヴォ州"@ja,
+        "გაბროვოს ოლქი"@ka,
+        "가브로보 주"@ko,
+        "Gabrovo sritis"@lt,
+        "Габровска област"@mk,
+        "Габрово аймаг"@mn,
+        "Gabrovo Chiu"@nan,
+        "Gabrovo oblast"@no,
+        "Габровойы облæст"@os,
+        "Obwód Gabrowo"@pl,
+        "صوبہ گبرووا"@pnb,
+        "Regiunea Gabrovo"@ro,
+        "Габровская область"@ru,
+        "Gabrovo Province"@sco,
+        "Provinca Gabrovo"@sq,
+        "Габровска област"@sr,
+        "Вилояти Габрово"@tg,
+        "Gabrova"@tr,
+        "Габровська область"@uk,
+        "گابروو صوبہ"@ur,
+        "加布羅沃州"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/864552/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864552/gabrovo.html> ;
+    ns1:name "Gabrovo" ;
+    ns1:officialName "Gabrovo"@en ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "108404" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Gabrovo_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864552/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Gabrovo_Province> ;
+    ns2:lat "42.95" ;
+    ns2:long "25.25" .
+
+<https://sws.geonames.org/864553/> a ns1:Feature ;
+    ns1:alternateName "Kŭrdzhaliyski Okrŭg",
+        "Oblast Kŭrdzhali",
+        "Kardzhali"@bg,
+        "Oblast Kardzhali"@bg,
+        "Кърджали"@bg,
+        "Област Кърджали"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/864553/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864553/oblast-kardzhali.html> ;
+    ns1:name "Kardzhali" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "152873" ;
+    ns1:shortName "Kŭrdzhali",
+        "Kardzhali"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Kardzhali_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864553/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Kardzhali_Province> ;
+    ns2:lat "41.53333" ;
+    ns2:long "25.43333" .
+
+<https://sws.geonames.org/864554/> a ns1:Feature ;
+    ns1:alternateName "Kyustendilski Okrŭg",
+        "Oblast Kyustendil",
+        "Кюстендил"@bg,
+        "Област Кюстендил"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/864554/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864554/oblast-kyustendil.html> ;
+    ns1:name "Kyustendil" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "119041" ;
+    ns1:shortName "Kyustendil",
+        "Kyustendil"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Kyustendil_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864554/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Kyustendil_Province> ;
+    ns2:lat "42.25" ;
+    ns2:long "22.9" .
+
+<https://sws.geonames.org/864555/> a ns1:Feature ;
+    ns1:alternateName "Oblast Shumen",
+        "Shumenski Okrŭg",
+        "Област Шумен"@bg,
+        "Шумен"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/864555/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864555/oblast-shumen.html> ;
+    ns1:name "Shumen" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "172355" ;
+    ns1:shortName "Shumen",
+        "Shumen"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Shumen_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864555/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Shumen_Province> ;
+    ns2:lat "43.33333" ;
+    ns2:long "27" .
+
+<https://sws.geonames.org/864556/> a ns1:Feature ;
+    ns1:alternateName "Oblast Silistra",
+        "Silistrenski Okrŭg",
+        "Област Силистра"@bg,
+        "Силистра"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/864556/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864556/oblast-silistra.html> ;
+    ns1:name "Silistra" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "109271" ;
+    ns1:shortName "Silistra",
+        "Silistra"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Silistra_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864556/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Silistra_Province> ;
+    ns2:lat "43.93333" ;
+    ns2:long "27.05" .
+
+<https://sws.geonames.org/864557/> a ns1:Feature ;
+    ns1:alternateName "Oblast Sliven",
+        "Slivenski Okrŭg",
+        "Област Сливен"@bg,
+        "Сливен"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/864557/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864557/oblast-sliven.html> ;
+    ns1:name "Sliven" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "186495" ;
+    ns1:shortName "Sliven",
+        "Sliven"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Sliven_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864557/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Sliven_Province> ;
+    ns2:lat "42.66667" ;
+    ns2:long "26.28333" .
+
+<https://sws.geonames.org/864558/> a ns1:Feature ;
+    ns1:alternateName "Oblast Smolyan",
+        "Smolyanski Okrŭg",
+        "Област Смолян"@bg,
+        "Смолян"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/864558/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864558/oblast-smolyan.html> ;
+    ns1:name "Smolyan" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "105421" ;
+    ns1:shortName "Smolyan",
+        "Smolyan"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Smolyan_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864558/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Smolyan_Province> ;
+    ns2:lat "41.61667" ;
+    ns2:long "24.65" .
+
+<https://sws.geonames.org/864559/> a ns1:Feature ;
+    ns1:alternateName "Oblast Stara Zagora",
+        "Starozagorski Okrŭg",
+        "Област Стара Загора"@bg,
+        "Стара Загора"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/864559/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864559/oblast-stara-zagora.html> ;
+    ns1:name "Stara Zagora" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "316356" ;
+    ns1:shortName "Stara Zagora",
+        "Stara Zagora"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Stara_Zagora_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864559/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Stara_Zagora_Province> ;
+    ns2:lat "42.45" ;
+    ns2:long "25.56667" .
+
+<https://sws.geonames.org/864560/> a ns1:Feature ;
+    ns1:alternateName "Oblast Tŭrgovishte",
+        "Tŭrgovishtki",
+        "Tŭrgovishtki Okrŭg",
+        "Oblast Targovishte"@bg,
+        "Targovishte"@bg,
+        "Област Търговище"@bg,
+        "Търговище"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/864560/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864560/oblast-targovishte.html> ;
+    ns1:name "Targovishte" ;
+    ns1:officialName "Tŭrgovishte" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "111597" ;
+    ns1:shortName "Targovishte"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Targovishte_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864560/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Targovishte_Province> ;
+    ns2:lat "43.26667" ;
+    ns2:long "26.38333" .
+
+<https://sws.geonames.org/864561/> a ns1:Feature ;
+    ns1:alternateName "Oblast Veliko Tŭrnovo",
+        "Velikotŭrnovski Okrŭg",
+        "Oblast Veliko Tarnovo"@bg,
+        "Veliko Tarnovo"@bg,
+        "Велико Тарново"@bg,
+        "Област Велико Тарново"@bg,
+        "Област Велико Търново"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/864561/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864561/oblast-veliko-tarnovo.html> ;
+    ns1:name "Veliko Tarnovo" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "235708" ;
+    ns1:shortName "Veliko Tŭrnovo",
+        "Велико Търново"@bg,
+        "Veliko Tarnovo"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Veliko_Tarnovo_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864561/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Veliko_Tarnovo_Province> ;
+    ns2:lat "43.23333" ;
+    ns2:long "25.65" .
+
+<https://sws.geonames.org/864562/> a ns1:Feature ;
+    ns1:alternateName "Oblast Vidin",
+        "Vidinski Okrŭg",
+        "Видин"@bg,
+        "Област Видин"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/864562/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864562/oblast-vidin.html> ;
+    ns1:name "Vidin" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "84865" ;
+    ns1:shortName "Vidin",
+        "Vidin"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Vidin_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864562/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Vidin_Province> ;
+    ns2:lat "43.81667" ;
+    ns2:long "22.71667" .
+
+<https://sws.geonames.org/864563/> a ns1:Feature ;
+    ns1:alternateName "Oblast Yambol",
+        "Yambolski Ukrŭg",
+        "Област Ямбол"@bg,
+        "Ямбол"@bg ;
+    ns1:childrenFeatures <https://sws.geonames.org/864563/contains.rdf> ;
+    ns1:countryCode "BG" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/864563/oblast-yambol.html> ;
+    ns1:name "Yambol" ;
+    ns1:parentCountry <https://sws.geonames.org/732800/> ;
+    ns1:parentFeature <https://sws.geonames.org/732800/> ;
+    ns1:population "118897" ;
+    ns1:shortName "Yambol",
+        "Yambol"@en ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Yambol_Province> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/864563/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Yambol_Province> ;
+    ns2:lat "42.33333" ;
+    ns2:long "26.63333" .
+

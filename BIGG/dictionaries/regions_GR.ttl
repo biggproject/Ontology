@@ -1,0 +1,333 @@
+@prefix ns1: <http://www.geonames.org/ontology#> .
+@prefix ns2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://sws.geonames.org/6692632/> a ns1:Feature ;
+    ns1:alternateName "Attika"@de ;
+    ns1:childrenFeatures <https://sws.geonames.org/6692632/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6692632/attica.html> ;
+    ns1:name "Attica" ;
+    ns1:officialName "Αττική"@el,
+        "Attica"@en,
+        "Attique"@fr,
+        "아티키 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "3761810" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Attica_%28region%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6692632/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Attica_%28region%29> ;
+    ns2:lat "37.92037" ;
+    ns2:long "23.9035" .
+
+<https://sws.geonames.org/6697800/> a ns1:Feature ;
+    ns1:alternateName "Mittelgriechenland"@de,
+        "Κεντρική Ελλάδα"@el,
+        "Στερεά Ελλάδα"@el,
+        "Central Greece"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697800/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697800/central-greece.html> ;
+    ns1:name "Central Greece" ;
+    ns1:officialName "Grèce-Centrale"@fr,
+        "Grecia Centrale"@it,
+        "중부 그리스 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "605329" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Central_Greece_%28region%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697800/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Central_Greece_%28region%29> ;
+    ns2:lat "38.35243" ;
+    ns2:long "23.13995" .
+
+<https://sws.geonames.org/6697801/> a ns1:Feature ;
+    ns1:alternateName "Zentralmakedonien"@de ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697801/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697801/central-macedonia.html> ;
+    ns1:name "Central Macedonia" ;
+    ns1:officialName "Κεντρική Μακεδονία"@el,
+        "Central Macedonia"@en,
+        "Macédoine-Centrale"@fr,
+        "Macedonia Centrale"@it,
+        "중부 마케도니아 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "1871952" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Central_Macedonia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697801/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Central_Macedonia> ;
+    ns2:lat "40.91351" ;
+    ns2:long "22.84058" .
+
+<https://sws.geonames.org/6697802/> a ns1:Feature ;
+    ns1:alternateName "Crete"@en,
+        "an Chréit"@ga ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697802/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697802/crete.html> ;
+    ns1:name "Crete" ;
+    ns1:officialName "إقريطش"@ar,
+        "Kreta"@de,
+        "Κρήτη"@el,
+        "Creta"@es,
+        "Kreeta"@fi,
+        "Crète"@fr,
+        "Creta"@it,
+        "크리티 주"@ko,
+        "Kreta"@nb,
+        "Kreta"@nl,
+        "Kreta"@nn,
+        "Creta"@ro,
+        "Kreta"@sv ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "601131" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Crete> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697802/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Crete> ;
+    ns2:lat "35.15585" ;
+    ns2:long "24.89502" .
+
+<https://sws.geonames.org/6697803/> a ns1:Feature ;
+    ns1:alternateName "Ostmakedonien und Thrakien"@de ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697803/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697803/eastern-macedonia-and-thrace.html> ;
+    ns1:name "East Macedonia and Thrace" ;
+    ns1:officialName "Ανατολική Μακεδονία και Θράκη"@el,
+        "East Macedonia and Thrace"@en,
+        "Macédoine-Orientale-et-Thrace"@fr,
+        "Macedonia Orientale e Tracia"@it,
+        "동부 마케도니아와 트라키 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "611067" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/East_Macedonia_and_Thrace> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697803/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/East_Macedonia_and_Thrace> ;
+    ns2:lat "40.94671" ;
+    ns2:long "25.33447" .
+
+<https://sws.geonames.org/6697804/> a ns1:Feature ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697804/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697804/epirus.html> ;
+    ns1:name "Epirus" ;
+    ns1:officialName "Ήπειρος"@el,
+        "Epirus"@en,
+        "Épire"@fr,
+        "Epiro"@it,
+        "이피로스 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "353820" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Epirus_%28region%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697804/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Epirus_%28region%29> ;
+    ns2:lat "39.23651" ;
+    ns2:long "20.71472" .
+
+<https://sws.geonames.org/6697805/> a ns1:Feature ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697805/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697805/ionian-islands.html> ;
+    ns1:name "Ionian Islands" ;
+    ns1:officialName "Ionische Inseln"@de,
+        "Ιόνια Νησιά"@el,
+        "Ionian Islands"@en,
+        "Îles Ioniennes"@fr,
+        "Isole Ionie"@it,
+        "이오니아 제도 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "212984" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Ionian_Islands_%28region%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697805/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Ionian_Islands_%28region%29> ;
+    ns2:lat "37.79299" ;
+    ns2:long "20.78305" .
+
+<https://sws.geonames.org/6697806/> a ns1:Feature ;
+    ns1:alternateName "Nördliche Ägäis"@de ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697806/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697806/north-aegean.html> ;
+    ns1:name "North Aegean" ;
+    ns1:officialName "Βόρειο Αιγαίο"@el,
+        "North Aegean"@en,
+        "Égée-Septentrionale"@fr,
+        "Egeo Settentrionale"@it,
+        "북부 에게 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "206121" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/North_Aegean> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697806/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/North_Aegean> ;
+    ns2:lat "37.71942" ;
+    ns2:long "26.81956" .
+
+<https://sws.geonames.org/6697807/> a ns1:Feature ;
+    ns1:alternateName "Peloponnes"@de ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697807/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697807/peloponnese.html> ;
+    ns1:name "Peloponnese" ;
+    ns1:officialName "Πελοπόννησος"@el,
+        "Peloponnese"@en,
+        "Péloponnèse"@fr,
+        "Peloponneso"@it,
+        "펠로폰니소스 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "638942" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Peloponnese_%28region%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697807/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Peloponnese_%28region%29> ;
+    ns2:lat "37.62728" ;
+    ns2:long "22.43958" .
+
+<https://sws.geonames.org/6697808/> a ns1:Feature ;
+    ns1:alternateName "Südliche Ägäis"@de ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697808/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697808/south-aegean.html> ;
+    ns1:name "South Aegean" ;
+    ns1:officialName "Νότιο Αιγαίο"@el,
+        "South Aegean"@en,
+        "Égée-Méridionale"@fr,
+        "Egeo Meridionale"@it,
+        "남부 에게 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "302686" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/South_Aegean> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697808/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/South_Aegean> ;
+    ns2:lat "36.16726" ;
+    ns2:long "27.90603" .
+
+<https://sws.geonames.org/6697809/> a ns1:Feature ;
+    ns1:alternateName "Thessalien"@de ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697809/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697809/thessaly.html> ;
+    ns1:name "Thessaly" ;
+    ns1:officialName "Θεσσαλία"@el,
+        "Thessaly"@en,
+        "Thessalie"@fr,
+        "Tessaglia"@it,
+        "테살리아 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "753888" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Thessaly> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697809/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Thessaly> ;
+    ns2:lat "39.40224" ;
+    ns2:long "21.98364" .
+
+<https://sws.geonames.org/6697810/> a ns1:Feature ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697810/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697810/western-greece.html> ;
+    ns1:name "West Greece" ;
+    ns1:officialName "Westgriechenland"@de,
+        "Δυτική Ελλάδα"@el,
+        "West Greece"@en,
+        "Grèce-Occidentale"@fr,
+        "Grecia Occidentale"@it,
+        "서부 그리스 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "740506" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/West_Greece> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697810/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/West_Greece> ;
+    ns2:lat "38.48799" ;
+    ns2:long "21.2915" .
+
+<https://sws.geonames.org/6697811/> a ns1:Feature ;
+    ns1:alternateName "Westmakedonien"@de ;
+    ns1:childrenFeatures <https://sws.geonames.org/6697811/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6697811/western-macedonia.html> ;
+    ns1:name "West Macedonia" ;
+    ns1:officialName "Δυτική Μακεδονία"@el,
+        "West Macedonia"@en,
+        "Macédoine-Occidentale"@fr,
+        "Macedonia Occidentale"@it,
+        "서부 마케도니아 주"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "301522" ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/West_Macedonia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6697811/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/West_Macedonia> ;
+    ns2:lat "40.26695" ;
+    ns2:long "21.32446" .
+
+<https://sws.geonames.org/736572/> a ns1:Feature ;
+    ns1:alternateName "Aftónomos Periochí Agíou Órous",
+        "Athos",
+        "Avtonómos Periokhí Ayíou Órous",
+        "Dhioíkisis Ayíou Órous",
+        "Hagion Oros",
+        "Holy Athonite Republic",
+        "Ágio Óros",
+        "Ágion Óros",
+        "Áyion Óros",
+        "Mont Athos"@ca,
+        "Athos"@de,
+        "République monastique du Mont Athos"@fr ;
+    ns1:childrenFeatures <https://sws.geonames.org/736572/contains.rdf> ;
+    ns1:countryCode "GR" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/736572/mount-athos.html> ;
+    ns1:name "Mount Athos" ;
+    ns1:officialName "Αυτόνομη Μοναστική Πολιτεία Αγίου Όρους"@el,
+        "Autonomous Monastic State of the Holy Mountain"@en,
+        "Monte Athos"@it,
+        "아토스 산"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/390903/> ;
+    ns1:parentFeature <https://sws.geonames.org/390903/> ;
+    ns1:population "2262" ;
+    ns1:shortName "Mount Athos"@en,
+        "Mont Athos"@fr,
+        "Áthos"@no ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Mount_Athos> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/736572/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Mount_Athos> ;
+    ns2:lat "40.15798" ;
+    ns2:long "24.33021" .
+

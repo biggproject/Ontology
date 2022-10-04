@@ -1,0 +1,1724 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://www.geonames.org/ontology#> .
+@prefix ns2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://sws.geonames.org/2509951/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:childrenFeatures <https://sws.geonames.org/2509951/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2509951/provincia-de-valencia.html> ;
+    ns1:name "Valencia" ;
+    ns1:officialName "València",
+        "Balenzia"@an,
+        "Valencia"@ast,
+        "Província de València"@ca,
+        "Valencia"@de,
+        "Valencia"@en,
+        "Provincia de Valencia"@es,
+        "Valentzia"@eu,
+        "Province de Valence"@fr,
+        "バレンシア"@ja,
+        "ヴァレンシア"@ja,
+        "Valência"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/2593113/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593113/> ;
+    ns1:population "2575362" ;
+    ns1:shortName "Valencia"@es,
+        "Valence"@fr ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Valencia>,
+        <https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%81%D0%B8%D1%8F_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2509951/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Valencia> ;
+    ns2:lat "39.33333" ;
+    ns2:long "-0.83333" .
+
+<https://sws.geonames.org/2510407/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Province of Toledo"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/2510407/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2510407/province-of-toledo.html> ;
+    ns1:name "Toledo" ;
+    ns1:officialName "Toledo",
+        "Provinz Toledo"@de,
+        "Toledo"@en,
+        "Provincia de Toledo"@es,
+        "Province de Tolède"@fr,
+        "トレド"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593111/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593111/> ;
+    ns1:population "689635" ;
+    ns1:shortName "Toledo"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Toledo>,
+        <https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BB%D0%B5%D0%B4%D0%BE_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2510407/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Toledo> ;
+    ns2:lat "39.83333" ;
+    ns2:long "-4" .
+
+<https://sws.geonames.org/2510910/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Sevilla",
+        "Seville",
+        "Siviglia",
+        "Province of Seville"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/2510910/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2510910/provincia-de-sevilla.html> ;
+    ns1:name "Seville" ;
+    ns1:officialName "Sevilla",
+        "Sebilla"@an,
+        "Província de Sevilla"@ca,
+        "Sevilla"@de,
+        "Seville"@en,
+        "Provincia de Sevilla"@es,
+        "Séville"@fr,
+        "Siviglia"@it,
+        "セビリアセビリヤセヴィーリャセヴィリア"@ja,
+        "セビーリャ（セビージャ）"@ja,
+        "Sevilha"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/2593109/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593109/> ;
+    ns1:population "1900224" ;
+    ns1:shortName "Sevilla"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Seville>,
+        <https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B2%D0%B8%D0%BB%D1%8C%D1%8F_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2510910/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Seville> ;
+    ns2:lat "37.44701" ;
+    ns2:long "-5.69608" .
+
+<https://sws.geonames.org/2511173/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Santa Cruz de Tenerife",
+        "Provincia de Tenerife",
+        "Province of Santa Cruz de Tenerife"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/2511173/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2511173/provincia-de-santa-cruz-de-tenerife.html> ;
+    ns1:name "Santa Cruz de Tenerife" ;
+    ns1:officialName "Santa Cruz de Tenerife",
+        "Tenerife"@an,
+        "Santa Cruz de Tenerife"@ast,
+        "Província de Santa Cruz de Tenerife"@ca,
+        "Provinz Santa Cruz de Tenerife"@de,
+        "Santa Cruz de Tenerife"@en,
+        "Provincia de Santa Cruz de Tenerife"@es,
+        "Tenerifeko Santa Cruz"@eu,
+        "Province de Santa Cruz de Ténérife"@fr,
+        "Santa Cruz de Tenerife"@gl,
+        "サンタ・クルス・デ・テネリフェ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593110/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593110/> ;
+    ns1:population "1020490" ;
+    ns1:shortName "Santa Cruz de Tenerife"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Tenerife> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2511173/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Tenerife> ;
+    ns2:lat "28.16667" ;
+    ns2:long "-17.33333" .
+
+<https://sws.geonames.org/2514254/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Málaga" ;
+    ns1:childrenFeatures <https://sws.geonames.org/2514254/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2514254/provincia-de-malaga.html> ;
+    ns1:name "Malaga" ;
+    ns1:officialName "Málaga",
+        "Malaga"@an,
+        "Província de Màlaga"@ca,
+        "Málaga"@de,
+        "Malaga"@en,
+        "Provincia de Málaga"@es,
+        "Malaga"@eu,
+        "Malaga"@fr,
+        "Málaga"@gl,
+        "Málaga"@it,
+        "マラガ"@ja,
+        "Málaga"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/2593109/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593109/> ;
+    ns1:population "1593068" ;
+    ns1:shortName "Málaga"@ast,
+        "Málaga"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_M%C3%A1laga> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2514254/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_M%C3%A1laga> ;
+    ns2:lat "36.8" ;
+    ns2:long "-4.75" .
+
+<https://sws.geonames.org/2515271/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Las Palmas",
+        "Province of Las Palmas"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/2515271/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2515271/provincia-de-las-palmas.html> ;
+    ns1:name "Las Palmas" ;
+    ns1:officialName "Las Palmas",
+        "Las Palmas"@an,
+        "Les Palmes"@ast,
+        "Província de Las Palmas"@ca,
+        "Provinz Las Palmas"@de,
+        "Las Palmas"@en,
+        "Provincia de Las Palmas"@es,
+        "Las Palmas"@eu,
+        "Province de Las Palmas"@fr,
+        "As Palmas"@gl,
+        "ラスパルマス"@ja,
+        "ラス・パルマス"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593110/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593110/> ;
+    ns1:population "1083502" ;
+    ns1:shortName "Las Palmas"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Las_Palmas>,
+        <https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D1%81-%D0%9F%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D1%81_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2515271/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Las_Palmas> ;
+    ns2:lat "28.42039" ;
+    ns2:long "-14.01306" .
+
+<https://sws.geonames.org/2516394/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Jaén" ;
+    ns1:childrenFeatures <https://sws.geonames.org/2516394/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2516394/provincia-de-jaen.html> ;
+    ns1:name "Jaen" ;
+    ns1:officialName "Jaén",
+        "Chaén"@an,
+        "Xaén"@ast,
+        "Província de Jaén"@ca,
+        "Jaén"@de,
+        "Jaen"@en,
+        "Provincia de Jaén"@es,
+        "Jaen"@eu,
+        "Jaen"@fr,
+        "Jaén"@gl,
+        "ハエン"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593109/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593109/> ;
+    ns1:population "669782" ;
+    ns1:shortName "Jaén"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Ja%C3%A9n_%28Spain%29>,
+        <https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%8D%D0%BD_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2516394/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Ja%C3%A9n_%28Spain%29> ;
+    ns2:lat "38" ;
+    ns2:long "-3.5" .
+
+<https://sws.geonames.org/2516547/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:childrenFeatures <https://sws.geonames.org/2516547/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2516547/provincia-de-huelva.html> ;
+    ns1:name "Huelva" ;
+    ns1:officialName "Province of Huelva"@en,
+        "Provincia de Huelva"@es,
+        "Province d'Huelva"@fr ;
+    ns1:parentADM1 <https://sws.geonames.org/2593109/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593109/> ;
+    ns1:population "513403" ;
+    ns1:shortName "Huelva",
+        "Uelba"@an,
+        "Huelva"@de,
+        "Huelva"@en,
+        "Huelva"@es,
+        "Huelva"@fr,
+        "ウエルバ"@ja ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Huelva> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2516547/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Huelva> ;
+    ns2:lat "37.66667" ;
+    ns2:long "-7" .
+
+<https://sws.geonames.org/2517115/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Granata",
+        "Grenade",
+        "Provincia de Granada",
+        "Province of Granada"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/2517115/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2517115/provincia-de-granada.html> ;
+    ns1:name "Granada" ;
+    ns1:officialName "Granada",
+        "Granada"@de,
+        "Granada"@en,
+        "Provincia de Granada"@es,
+        "Grenade"@fr,
+        "グラナダ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593109/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593109/> ;
+    ns1:population "907428" ;
+    ns1:shortName "Granada"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Granada>,
+        <https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%BD%D0%B0%D0%B4%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2517115/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Granada> ;
+    ns2:lat "37.25" ;
+    ns2:long "-3.25" .
+
+<https://sws.geonames.org/2519034/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Cuenca",
+        "Conca"@ca ;
+    ns1:childrenFeatures <https://sws.geonames.org/2519034/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2519034/provincia-de-cuenca.html> ;
+    ns1:name "Cuenca" ;
+    ns1:officialName "Cuenca",
+        "Província de Conca"@ca,
+        "Cuenca"@de,
+        "Cuenca"@en,
+        "Provincia de Cuenca"@es,
+        "Cuenca"@fr,
+        "クエンカ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593111/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593111/> ;
+    ns1:population "217363" ;
+    ns1:shortName "Cuenca"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Cuenca>,
+        <https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D1%8D%D0%BD%D0%BA%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2519034/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Cuenca> ;
+    ns2:lat "40" ;
+    ns2:long "-2" .
+
+<https://sws.geonames.org/2519239/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Province of Córdoba"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/2519239/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2519239/province-of-cordoba.html> ;
+    ns1:name "Cordoba" ;
+    ns1:officialName "Córdoba",
+        "Cordoba"@an,
+        "Província de Còrdova"@ca,
+        "Córdoba"@de,
+        "Cordoba"@en,
+        "Provincia de Córdoba"@es,
+        "Kordoba"@eu,
+        "Cordoue"@fr,
+        "Cordova"@it,
+        "コルドバ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593109/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593109/> ;
+    ns1:population "803998" ;
+    ns1:shortName "Córdoba"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_C%C3%B3rdoba_%28Spain%29>,
+        <https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B4%D0%BE%D0%B2%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2519239/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_C%C3%B3rdoba_%28Spain%29> ;
+    ns2:lat "38" ;
+    ns2:long "-4.83333" .
+
+<https://sws.geonames.org/2519401/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Ciudad Real" ;
+    ns1:childrenFeatures <https://sws.geonames.org/2519401/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2519401/provincia-de-ciudad-real.html> ;
+    ns1:name "Ciudad Real" ;
+    ns1:officialName "Ciudad Real",
+        "Ziudat Reyal"@an,
+        "Ciudá Real"@ast,
+        "Ciudad Real"@de,
+        "Ciudad Real"@en,
+        "Provincia de Ciudad Real"@es,
+        "Ciudad Real"@fr,
+        "Cidade Real"@gl,
+        "シウダッド・レアル"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593111/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593111/> ;
+    ns1:population "527273" ;
+    ns1:shortName "Ciudad Real"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Ciudad_Real>,
+        <https://ru.wikipedia.org/wiki/%D0%A1%D1%8C%D1%8E%D0%B4%D0%B0%D0%B4-%D0%A0%D0%B5%D0%B0%D0%BB%D1%8C_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2519401/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Ciudad_Real> ;
+    ns2:lat "39" ;
+    ns2:long "-4" .
+
+<https://sws.geonames.org/2520597/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Cádiz" ;
+    ns1:childrenFeatures <https://sws.geonames.org/2520597/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2520597/provincia-de-cadiz.html> ;
+    ns1:name "Cadiz" ;
+    ns1:officialName "Cádiz",
+        "Província de Cadis"@ca,
+        "Cádiz"@de,
+        "Cadiz"@en,
+        "Provincia de Cádiz"@es,
+        "Cadiz"@eu,
+        "Cadix"@fr,
+        "Cadice"@it,
+        "カディス"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593109/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593109/> ;
+    ns1:population "1230594" ;
+    ns1:shortName "Cádiz"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_C%C3%A1diz>,
+        <https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B4%D0%B8%D1%81_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2520597/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_C%C3%A1diz> ;
+    ns2:lat "36.5" ;
+    ns2:long "-5.75" .
+
+<https://sws.geonames.org/2520610/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Cáceres",
+        "Càceres"@ca ;
+    ns1:childrenFeatures <https://sws.geonames.org/2520610/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2520610/provincia-de-caceres.html> ;
+    ns1:name "Caceres" ;
+    ns1:officialName "Cáceres",
+        "Cazeres"@an,
+        "قصرش"@ar,
+        "مقاطعة قصرش"@ar,
+        "Província de Càceres"@ca,
+        "Cáceres"@de,
+        "Caceres"@en,
+        "Provincia de Cáceres"@es,
+        "Caceres"@fr,
+        "カセレス"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593112/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593112/> ;
+    ns1:population "413633" ;
+    ns1:shortName "قشرش"@ar,
+        "كاثيرس"@ar,
+        "كاثيريس"@ar,
+        "Cáceres"@es,
+        "کاسرس"@fa,
+        "کاکیریس"@ur ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_C%C3%A1ceres>,
+        <https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%81%D0%B5%D1%80%D0%B5%D1%81_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2520610/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_C%C3%A1ceres> ;
+    ns2:lat "39.52205" ;
+    ns2:long "-6.37482" .
+
+<https://sws.geonames.org/2521419/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Badajoz" ;
+    ns1:childrenFeatures <https://sws.geonames.org/2521419/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2521419/provincia-de-badajoz.html> ;
+    ns1:name "Badajoz" ;
+    ns1:officialName "Badajoz",
+        "بطليوس"@ar,
+        "مقاطعة بطليوس"@ar,
+        "Badajoz"@de,
+        "Badajoz"@en,
+        "Provincia de Badajoz"@es,
+        "Badajoz"@fr,
+        "バダホス"@ja,
+        "بطليوس"@ur ;
+    ns1:parentADM1 <https://sws.geonames.org/2593112/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593112/> ;
+    ns1:population "688777" ;
+    ns1:shortName "باداخوز"@ar,
+        "Badajoz"@es,
+        "باداخوس"@fa ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Badajoz>,
+        <https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B4%D0%B0%D1%85%D0%BE%D1%81_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2521419/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Badajoz> ;
+    ns2:lat "38.66667" ;
+    ns2:long "-6.16667" .
+
+<https://sws.geonames.org/2521883/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Almería",
+        "Provincia dAlmería"@an,
+        "المرية"@ar,
+        "Provincia dAlmería"@ast,
+        "Правінцыя Альмерыя"@be,
+        "Алмерия"@bg,
+        "Proviñs Almería"@br,
+        "Província dAlmeria"@ca,
+        "Provincie Almería"@cs,
+        "Provinz Almería"@de,
+        "Αλμερία"@el,
+        "Province of Almería"@en,
+        "Provinco Almerio"@eo,
+        "Almería provints"@et,
+        "Almeríako probintzia"@eu,
+        "استان آلمریا"@fa,
+        "Province dAlmería"@fr,
+        "Â-ngì-mòi-lî-â-sén"@hak,
+        "आल्मेरिया प्रान्त"@hi,
+        "Ալմերիա"@hy,
+        "Provincia Almeria"@ia,
+        "Provinsi Almería"@id,
+        "Provinco di Almería"@io,
+        "Provincia di Almería"@it,
+        "アルメリア県"@ja,
+        "ალმერიის პროვინცია"@ka,
+        "Альмерия"@kk,
+        "알메리아 주"@ko,
+        "Provinsia de Almeria"@lad,
+        "Provënz Almería"@lb,
+        "Almerijos provincija"@lt,
+        "Almerijas province"@lv,
+        "Wilayah Almería"@ms,
+        "Almería Séng"@nan,
+        "Provinsen Almería"@nn,
+        "Almeria"@oc,
+        "Almeria"@pt,
+        "Provincia Almería"@ro,
+        "Альмерия"@ru,
+        "Province o Almería"@sco,
+        "Almería eanangoddi"@se,
+        "Almeria"@sl,
+        "Провинција Алмерија"@sr,
+        "Mkoa wa Almería"@sw,
+        "Almería ili"@tr,
+        "Альмерія"@uk,
+        "صوبہ المریہ"@ur,
+        "ალმერიაშ პროვინცია"@xmf,
+        "阿爾梅里亞省"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/2521883/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2521883/almeria.html> ;
+    ns1:name "Almeria" ;
+    ns1:officialName "Almería",
+        "Almería"@de,
+        "Almeria"@en,
+        "Provincia de Almería"@es,
+        "Alméria"@fr,
+        "Almeria"@it,
+        "アルメリア"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593109/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593109/> ;
+    ns1:population "684426" ;
+    ns1:shortName "Almería"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Almer%C3%ADa>,
+        <https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D0%BC%D0%B5%D1%80%D0%B8%D1%8F_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2521883/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Almer%C3%ADa> ;
+    ns2:lat "37.16667" ;
+    ns2:long "-2.33333" .
+
+<https://sws.geonames.org/2521976/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Alicante",
+        "Provincia de Alicante",
+        "Província d’Alacant"@ca,
+        "Province of Alicante"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/2521976/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2521976/provincia-de-alicante.html> ;
+    ns1:name "Alicante" ;
+    ns1:officialName "Alacant",
+        "Alicant"@an,
+        "Alicante"@ast,
+        "Província d'Alacant"@ca,
+        "Alicante"@de,
+        "Alicante"@en,
+        "Provincia de Alicante"@es,
+        "Alacant"@eu,
+        "Alicant"@fr,
+        "Alacante"@gl,
+        "アリカンテ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593113/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593113/> ;
+    ns1:population "1917012" ;
+    ns1:shortName "Alacant"@ca,
+        "Alicante"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Alicante>,
+        <https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%D0%B5_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2521976/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Alicante> ;
+    ns2:lat "38.5" ;
+    ns2:long "-0.5" .
+
+<https://sws.geonames.org/2522257/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Albacete",
+        "Province d'Albacete"@fr ;
+    ns1:childrenFeatures <https://sws.geonames.org/2522257/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/2522257/provincia-de-albacete.html> ;
+    ns1:name "Albacete" ;
+    ns1:officialName "Albacete",
+        "Albazet"@an,
+        "Albacete"@de,
+        "Albacete"@en,
+        "Provincia de Albacete"@es,
+        "Albacete"@fr,
+        "アルバセテ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593111/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593111/> ;
+    ns1:population "400891" ;
+    ns1:shortName "Albacete"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Albacete>,
+        <https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D0%B1%D0%B0%D1%81%D0%B5%D1%82%D0%B5_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2522257/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Albacete> ;
+    ns2:lat "38.83333" ;
+    ns2:long "-2" .
+
+<https://sws.geonames.org/3104323/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Zaragoza",
+        "Saragossa",
+        "Saragosse",
+        "Saragossa"@ca,
+        "Province of Saragossa"@en,
+        "Saragosse"@fr ;
+    ns1:childrenFeatures <https://sws.geonames.org/3104323/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3104323/provincia-de-zaragoza.html> ;
+    ns1:name "Saragossa" ;
+    ns1:officialName "Zaragoza",
+        "Zaragoza"@an,
+        "Zaragoza"@ast,
+        "Província de Saragossa"@ca,
+        "Saragossa"@de,
+        "Σαραγόσα"@el,
+        "Saragossa"@en,
+        "Provincia de Zaragoza"@es,
+        "Zaragoza"@eu,
+        "Zaragoza"@gl,
+        "Saragozza"@it,
+        "サラゴサ"@ja,
+        "Saragoça"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/3336899/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336899/> ;
+    ns1:population "970313" ;
+    ns1:shortName "Zaragoza"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Zaragoza>,
+        <https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D1%80%D0%B0%D0%B3%D0%BE%D1%81%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3104323/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Zaragoza> ;
+    ns2:lat "41.58333" ;
+    ns2:long "-1" .
+
+<https://sws.geonames.org/3104341/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Zamora" ;
+    ns1:childrenFeatures <https://sws.geonames.org/3104341/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3104341/provincia-de-zamora.html> ;
+    ns1:name "Zamora" ;
+    ns1:officialName "Zamora",
+        "Zamora"@de,
+        "Zamora"@en,
+        "Provincia de Zamora"@es,
+        "Zamora"@fr,
+        "サモーラ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336900/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336900/> ;
+    ns1:population "195665" ;
+    ns1:shortName "Zamora"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Zamora>,
+        <https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BC%D0%BE%D1%80%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3104341/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Zamora> ;
+    ns2:lat "41.75" ;
+    ns2:long "-6" .
+
+<https://sws.geonames.org/3104469/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Bizkaia",
+        "Provincia de Vizcaya",
+        "Vizcaya",
+        "Biskaje"@af,
+        "بيسكاي"@ar,
+        "Biscaia"@ca,
+        "Biskaia"@cy,
+        "Μπισκάγια"@el,
+        "Provinco Biskajo"@eo,
+        "Señorío de Vizcaya"@es,
+        "Biskaia"@et,
+        "Bizkaia"@eu,
+        "Viscaya"@ext,
+        "استان بیسکای"@fa,
+        "Biskaja"@fi,
+        "Biskaja"@hbs,
+        "Biskaja"@hr,
+        "Biscaglia"@it,
+        "ビスカヤ県"@ja,
+        "ბისკაია"@ka,
+        "Бискайя"@kk,
+        "비스카야 주"@ko,
+        "Бискай"@ky,
+        "Biscaia"@la,
+        "Provinsia de Vizkaya"@lad,
+        "Biskajos provincija"@lt,
+        "Biskajas province"@lv,
+        "Biscay"@ms,
+        "Biskaje"@nl,
+        "Bizkaia"@no,
+        "Biscaia"@oc,
+        "Biscay"@pam,
+        "Provincia Vizcaya"@ro,
+        "Бискайя"@ru,
+        "Biscagghia"@scn,
+        "Biscay"@sco,
+        "Vizcaya eanangoddi"@se,
+        "Biscaya"@sv,
+        "Mkoa wa Vizcaya"@sw,
+        "จังหวัดบิซกายา"@th,
+        "Biskay"@tr,
+        "Біскайя"@uk,
+        "بیسکای"@ur,
+        "ბისკაიაშ პროვინცია"@xmf,
+        "比斯開省"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/3104469/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3104469/bizkaia.html> ;
+    ns1:name "Biscay" ;
+    ns1:officialName "Bizcaya"@an,
+        "Província de Biscaia"@ca,
+        "Biscaya"@de,
+        "Biscay"@en,
+        "Bizkaia"@es,
+        "Biscaye"@fr,
+        "Biscaia"@gl,
+        "ビスカヤ"@ja,
+        "Biscaia"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/3336903/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336903/> ;
+    ns1:population "1152658" ;
+    ns1:shortName "Vizcaya"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Biscay> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3104469/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Biscay> ;
+    ns2:lat "43.25" ;
+    ns2:long "-2.91667" .
+
+<https://sws.geonames.org/3106671/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Valladolid" ;
+    ns1:childrenFeatures <https://sws.geonames.org/3106671/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3106671/provincia-de-valladolid.html> ;
+    ns1:name "Valladolid" ;
+    ns1:officialName "Valladolid",
+        "Balladolit"@an,
+        "Valladolid"@ast,
+        "Província de Valladolid"@ca,
+        "Valladolid"@de,
+        "Valladolid"@en,
+        "Provincia de Valladolid"@es,
+        "Valladolid"@fr,
+        "バリァドリッド（バジャドリッド）"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336900/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336900/> ;
+    ns1:population "532575" ;
+    ns1:shortName "Valladolid"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Valladolid>,
+        <https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D1%8C%D1%8F%D0%B4%D0%BE%D0%BB%D0%B8%D0%B4_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3106671/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Valladolid> ;
+    ns2:lat "41.58333" ;
+    ns2:long "-4.66667" .
+
+<https://sws.geonames.org/3108125/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Teruel",
+        "Province of Teruel"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/3108125/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3108125/provincia-de-teruel.html> ;
+    ns1:name "Teruel" ;
+    ns1:officialName "Teruel",
+        "Tergüel"@an,
+        "Província de Terol"@ca,
+        "Provinz Teruel"@de,
+        "Teruel"@en,
+        "Provincia de Teruel"@es,
+        "Province de Teruel"@fr,
+        "テルエル"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336899/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336899/> ;
+    ns1:population "146751" ;
+    ns1:shortName "Teruel"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Teruel>,
+        <https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D1%83%D1%8D%D0%BB%D1%8C_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3108125/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Teruel> ;
+    ns2:lat "40.66667" ;
+    ns2:long "-0.66667" .
+
+<https://sws.geonames.org/3108287/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Tarragona"@ca,
+        "Province of Tarragona"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/3108287/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3108287/provincia-de-tarragona.html> ;
+    ns1:name "Tarragona" ;
+    ns1:officialName "Tarragona",
+        "Província de Tarragona"@ca,
+        "Provinz Tarragona"@de,
+        "Tarragona"@en,
+        "Provincia de Tarragona"@es,
+        "Province de Tarragone"@fr,
+        "タラゴナ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336901/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336901/> ;
+    ns1:population "803301" ;
+    ns1:shortName "Tarragona"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Tarragona>,
+        <https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D1%80%D1%80%D0%B0%D0%B3%D0%BE%D0%BD%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3108287/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Tarragona> ;
+    ns2:lat "41.12902" ;
+    ns2:long "1.24901" .
+
+<https://sws.geonames.org/3108680/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Soria" ;
+    ns1:childrenFeatures <https://sws.geonames.org/3108680/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3108680/provincia-de-soria.html> ;
+    ns1:name "Soria" ;
+    ns1:officialName "Soria",
+        "Soria"@ast,
+        "Província de Sòria"@ca,
+        "Soria"@de,
+        "Soria"@en,
+        "Provincia de Soria"@es,
+        "Soria"@fr,
+        "ソリア"@ja,
+        "Sória"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/3336900/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336900/> ;
+    ns1:population "95101" ;
+    ns1:shortName "Soria"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Soria>,
+        <https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%80%D0%B8%D1%8F_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3108680/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Soria> ;
+    ns2:lat "41.66667" ;
+    ns2:long "-2.66667" .
+
+<https://sws.geonames.org/3109254/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Segovia" ;
+    ns1:childrenFeatures <https://sws.geonames.org/3109254/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3109254/provincia-de-segovia.html> ;
+    ns1:name "Segovia" ;
+    ns1:officialName "Segovia",
+        "Segobia"@an,
+        "Segovia"@ast,
+        "Província de Segòvia"@ca,
+        "Segovia"@de,
+        "Segovia"@en,
+        "Provincia de Segovia"@es,
+        "Segovia"@eu,
+        "Ségovie"@fr,
+        "セゴビア"@ja,
+        "Segóvia"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/3336900/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336900/> ;
+    ns1:population "164854" ;
+    ns1:shortName "Segovia"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Segovia>,
+        <https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%B3%D0%BE%D0%B2%D0%B8%D1%8F_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3109254/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Segovia> ;
+    ns2:lat "41.16667" ;
+    ns2:long "-4" .
+
+<https://sws.geonames.org/3109716/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Province of Cantabria"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/3109716/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3109716/provincia-de-cantabria.html> ;
+    ns1:name "Cantabria" ;
+    ns1:officialName "Cantabria",
+        "Província de Cantabria"@ca,
+        "Provinz Cantabria"@de,
+        "Cantabria"@en,
+        "Provincia de Cantabria"@es,
+        "Province de Cantabrie"@fr,
+        "カンタブリア"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336898/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336898/> ;
+    ns1:population "589235" ;
+    ns1:shortName "Cantabria"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Cantabria> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3109716/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Cantabria> ;
+    ns2:lat "43.16667" ;
+    ns2:long "-4" .
+
+<https://sws.geonames.org/3111107/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Salamanca" ;
+    ns1:childrenFeatures <https://sws.geonames.org/3111107/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3111107/provincia-de-salamanca.html> ;
+    ns1:name "Salamanca" ;
+    ns1:officialName "Salamanca",
+        "Salamanca"@de,
+        "Salamanca"@en,
+        "Provincia de Salamanca"@es,
+        "Salamanque"@fr,
+        "サラマンカ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336900/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336900/> ;
+    ns1:population "354608" ;
+    ns1:shortName "Salamanca"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Salamanca>,
+        <https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B0%D0%BC%D0%B0%D0%BD%D0%BA%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3111107/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Salamanca> ;
+    ns2:lat "40.83333" ;
+    ns2:long "-6" .
+
+<https://sws.geonames.org/3113208/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Pontevedra",
+        "Puntevedra" ;
+    ns1:childrenFeatures <https://sws.geonames.org/3113208/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3113208/provincia-de-pontevedra.html> ;
+    ns1:name "Pontevedra" ;
+    ns1:officialName "Pontevedra",
+        "Pontebedra"@an,
+        "Província de Pontevedra"@ca,
+        "Pontevedra"@de,
+        "Pontevedra"@en,
+        "Provincia de Pontevedra"@es,
+        "Pontevedra"@fr,
+        "ポンテベドラ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336902/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336902/> ;
+    ns1:population "959764" ;
+    ns1:shortName "Pontevedra"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Pontevedra>,
+        <https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BD%D1%82%D0%B5%D0%B2%D0%B5%D0%B4%D1%80%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3113208/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Pontevedra> ;
+    ns2:lat "42.5" ;
+    ns2:long "-8.5" .
+
+<https://sws.geonames.org/3114530/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Palencia" ;
+    ns1:childrenFeatures <https://sws.geonames.org/3114530/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3114530/provincia-de-palencia.html> ;
+    ns1:name "Palencia" ;
+    ns1:officialName "Palencia",
+        "Palenzia"@an,
+        "Palencia"@ast,
+        "Província de Palència"@ca,
+        "Palencia"@en,
+        "Provincia de Palencia"@es,
+        "Palentzia"@eu,
+        "Palence"@fr,
+        "Palencia"@gl,
+        "パレンシア"@ja,
+        "Palência"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/3336900/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336900/> ;
+    ns1:population "173306" ;
+    ns1:shortName "Palencia"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Palencia>,
+        <https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BB%D0%B5%D0%BD%D1%81%D0%B8%D1%8F_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3114530/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Palencia> ;
+    ns2:lat "42.41667" ;
+    ns2:long "-4.5" .
+
+<https://sws.geonames.org/3114964/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Orense",
+        "Provincia de Orense",
+        "Provincia de Ourense"@es,
+        "Provincia de Ourense"@gl ;
+    ns1:childrenFeatures <https://sws.geonames.org/3114964/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3114964/provincia-de-ourense.html> ;
+    ns1:name "Ourense" ;
+    ns1:officialName "Ourense",
+        "Orense"@an,
+        "Orense"@ast,
+        "Província d'Ourense"@ca,
+        "Ourense"@de,
+        "Ourense"@en,
+        "Provincia de Orense"@es,
+        "Ourense"@eu,
+        "Ourense"@fr,
+        "オレンセ（オウレンセ）"@ja,
+        "Ourense"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/3336902/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336902/> ;
+    ns1:population "335642" ;
+    ns1:shortName "Orense"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Ourense>,
+        <https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%B5%D0%BD%D1%81%D0%B5_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3114964/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Ourense> ;
+    ns2:lat "42.16667" ;
+    ns2:long "-7.5" .
+
+<https://sws.geonames.org/3117813/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Lugo",
+        "Province de Lugo"@fr ;
+    ns1:childrenFeatures <https://sws.geonames.org/3117813/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3117813/provincia-de-lugo.html> ;
+    ns1:name "Lugo" ;
+    ns1:officialName "Lugo",
+        "Província de Lugo"@ca,
+        "Lugo"@de,
+        "Lugo"@en,
+        "Provincia de Lugo"@es ;
+    ns1:parentADM1 <https://sws.geonames.org/3336902/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336902/> ;
+    ns1:population "355195" ;
+    ns1:shortName "Lugo"@es,
+        "Lugo"@fr ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Lugo>,
+        <https://ru.wikipedia.org/wiki/%D0%9B%D1%83%D0%B3%D0%BE_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3117813/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Lugo> ;
+    ns2:lat "43" ;
+    ns2:long "-7.5" .
+
+<https://sws.geonames.org/3118528/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de León" ;
+    ns1:childrenFeatures <https://sws.geonames.org/3118528/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3118528/provincia-de-leon.html> ;
+    ns1:name "Leon" ;
+    ns1:officialName "León",
+        "Lión"@an,
+        "Llión"@ast,
+        "Província de Lleó"@ca,
+        "León"@de,
+        "Leon"@en,
+        "Provincia de León"@es,
+        "Leon"@eu,
+        "Léon"@fr,
+        "León"@gl,
+        "レオン"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336900/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336900/> ;
+    ns1:population "500169" ;
+    ns1:shortName "León"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Le%C3%B3n>,
+        <https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BE%D0%BD_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3118528/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Le%C3%B3n> ;
+    ns2:lat "42.66667" ;
+    ns2:long "-6" .
+
+<https://sws.geonames.org/3119840/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:childrenFeatures <https://sws.geonames.org/3119840/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3119840/provincia-da-coruna.html> ;
+    ns1:name "A Coruña" ;
+    ns1:officialName "A Coruña",
+        "Província d'A Coruña"@ca,
+        "A Coruña"@en,
+        "Provincia de La Coruña"@es ;
+    ns1:parentADM1 <https://sws.geonames.org/3336902/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336902/> ;
+    ns1:population "1145488" ;
+    ns1:shortName "La Coruña"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/A_Coru%C3%B1a_(province)> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3119840/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/A_Coru%C3%B1a_%28province%29> ;
+    ns2:lat "43.16667" ;
+    ns2:long "-8.41667" .
+
+<https://sws.geonames.org/3120513/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Huesca",
+        "Osca"@ca,
+        "Province of Huesca"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/3120513/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3120513/provincia-de-huesca.html> ;
+    ns1:name "Huesca" ;
+    ns1:officialName "Huesca",
+        "Uesca"@an,
+        "Huesca"@ast,
+        "Província d'Osca"@ca,
+        "Provinz Huesca"@de,
+        "Επαρχία της Ουέσκας"@el,
+        "Huesca"@en,
+        "Provincia de Huesca"@es,
+        "Province de Huesca"@fr,
+        "ウエスカ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336899/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336899/> ;
+    ns1:population "228409" ;
+    ns1:shortName "Huesca"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Huesca>,
+        <https://ru.wikipedia.org/wiki/%D0%A3%D1%8D%D1%81%D0%BA%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3120513/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Huesca> ;
+    ns2:lat "42.16667" ;
+    ns2:long "-0.16667" .
+
+<https://sws.geonames.org/3120935/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "غيبوثكوا"@ar,
+        "Guipúscoa"@ca,
+        "Guipúzcoa"@da,
+        "Γκιπούθκοα"@el,
+        "Provinco Gipusko"@eo,
+        "استان گیپوسکوا"@fa,
+        "Guipuscoa"@fr,
+        "Guipuscoa"@hbs,
+        "Gipuskoa"@hr,
+        "Գիպուսկոա"@hy,
+        "Guipúzcoa"@it,
+        "ギプスコア県"@ja,
+        "გიპუსკოა"@ka,
+        "Гипускоа"@kk,
+        "기푸스코아 주"@ko,
+        "Ipuscoa"@la,
+        "Provinsia de Gipuzkoa"@lad,
+        "Guipúzcoa"@lb,
+        "Gipuskoa provincija"@lt,
+        "Gipuskoja"@lv,
+        "Guipúzcoa"@nan,
+        "Guipuscoa"@oc,
+        "Guipúzcoa"@pam,
+        "Prowincja Guipúzcoa"@pl,
+        "Provincia Guipúzcoa"@ro,
+        "Гипускоа"@ru,
+        "Guipúzcoa"@scn,
+        "Guipúzcoa eanangoddi"@se,
+        "จังหวัดกีปุซโกอา"@th,
+        "Guipúzcoa ili"@tr,
+        "Гіпускоа"@uk,
+        "گیپوسکوا"@ur,
+        "Guipúzcoa"@war,
+        "გიპუსკოაშ პროვინცია"@xmf,
+        "吉普斯夸省"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/3120935/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3120935/gipuzkoa.html> ;
+    ns1:name "Gipuzkoa" ;
+    ns1:officialName "Gipuzkoa",
+        "Guipuzcua"@an,
+        "Guipúzcoa"@ast,
+        "Província de Guipúscoa"@ca,
+        "Guipuzcoa"@de,
+        "Gipuzkoa"@en,
+        "Provincia de Guipúzcoa"@es,
+        "Gipuzkoa"@eu,
+        "Guipúzcoa"@fr,
+        "Guipúscoa"@gl,
+        "ギプスコア"@ja,
+        "Gipuzkoa"@no,
+        "Guipúscoa"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/3336903/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336903/> ;
+    ns1:population "705698" ;
+    ns1:shortName "Guipúzcoa"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Gipuzkoa>,
+        <https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D1%83%D1%81%D0%BA%D0%BE%D0%B0> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3120935/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Gipuzkoa> ;
+    ns2:lat "43.16667" ;
+    ns2:long "-2.16667" .
+
+<https://sws.geonames.org/3121069/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Guadalajara" ;
+    ns1:childrenFeatures <https://sws.geonames.org/3121069/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3121069/provincia-de-guadalajara.html> ;
+    ns1:name "Guadalajara" ;
+    ns1:officialName "Guadalajara",
+        "Guadalachara"@an,
+        "Guadalaxara"@ast,
+        "Guadalajara"@de,
+        "Guadalajara"@en,
+        "Provincia de Guadalajara"@es,
+        "Guadalajara"@fr,
+        "Guadalaxara"@gl,
+        "グアダラハラ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593111/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593111/> ;
+    ns1:population "246151" ;
+    ns1:shortName "Guadalajara"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Guadalajara>,
+        <https://ru.wikipedia.org/wiki/%D0%93%D0%B2%D0%B0%D0%B4%D0%B0%D0%BB%D0%B0%D1%85%D0%B0%D1%80%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3121069/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Guadalajara> ;
+    ns2:lat "40.83333" ;
+    ns2:long "-2.5" .
+
+<https://sws.geonames.org/3125881/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Castelló"@ca,
+        "Provincia de Castellón de la Plana"@es ;
+    ns1:childrenFeatures <https://sws.geonames.org/3125881/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3125881/provincia-de-castello.html> ;
+    ns1:name "Castellon" ;
+    ns1:officialName "Castelló",
+        "Província de Castelló"@ca,
+        "Castellón"@de,
+        "Castellon"@en,
+        "Provincia de Castellón"@es,
+        "Castello"@eu,
+        "Castellon"@fr,
+        "Castelló"@gl,
+        "カステジョン"@ja,
+        "カステヨン"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/2593113/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2593113/> ;
+    ns1:population "602301" ;
+    ns1:shortName "Castellón"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Castell%C3%B3n>,
+        <https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%81%D1%82%D0%B5%D0%BB%D1%8C%D0%BE%D0%BD_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3125881/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Castell%C3%B3n> ;
+    ns2:lat "40.16667" ;
+    ns2:long "-0.16667" .
+
+<https://sws.geonames.org/3127460/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:childrenFeatures <https://sws.geonames.org/3127460/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3127460/provincia-de-burgos.html> ;
+    ns1:name "Burgos" ;
+    ns1:officialName "Burgos",
+        "Burgos"@de,
+        "Burgos"@en,
+        "Provincia de Burgos"@es,
+        "Burgos"@fr,
+        "ブルゴス"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336900/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336900/> ;
+    ns1:population "375563" ;
+    ns1:shortName "Burgos"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Burgos>,
+        <https://ru.wikipedia.org/wiki/%D0%91%D1%83%D1%80%D0%B3%D0%BE%D1%81_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3127460/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Burgos> ;
+    ns2:lat "42.33939" ;
+    ns2:long "-3.70789" .
+
+<https://sws.geonames.org/3128759/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Περιφέρια της Βαρκελώνης"@el,
+        "Province of Barcelona"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/3128759/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3128759/provincia-de-barcelona.html> ;
+    ns1:name "Barcelona" ;
+    ns1:officialName "Barcelona",
+        "Barzelona"@an,
+        "Província de Barcelona"@ca,
+        "Provinz Barcelona"@de,
+        "Barcelona"@en,
+        "Provincia de Barcelona"@es,
+        "Bartzelona"@eu,
+        "Province de Barcelone"@fr,
+        "ばるせろな"@ja,
+        "バルセロナ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336901/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336901/> ;
+    ns1:population "5487935" ;
+    ns1:shortName "Barcelona"@ca,
+        "Barcelona"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Barcelona>,
+        <https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D0%BE%D0%BD%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3128759/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Barcelona> ;
+    ns2:lat "41.66667" ;
+    ns2:long "2" .
+
+<https://sws.geonames.org/3129138/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Provincia de Ávila" ;
+    ns1:childrenFeatures <https://sws.geonames.org/3129138/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3129138/provincia-de-avila.html> ;
+    ns1:name "Avila" ;
+    ns1:officialName "Ávila",
+        "Abila"@an,
+        "Província d'Àvila"@ca,
+        "Avila"@en,
+        "Provincia de Ávila"@es,
+        "Avila"@fr,
+        "アビラ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336900/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336900/> ;
+    ns1:population "171680" ;
+    ns1:shortName "Ávila"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_%C3%81vila>,
+        <https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D0%B8%D0%BB%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3129138/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_%C3%81vila> ;
+    ns2:lat "40.58333" ;
+    ns2:long "-5" .
+
+<https://sws.geonames.org/3130717/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:childrenFeatures <https://sws.geonames.org/3130717/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/3130717/araba-alava.html> ;
+    ns1:name "Araba / Álava" ;
+    ns1:officialName "Araba / Álava",
+        "Álava",
+        "Alaba"@an,
+        "Álava"@ast,
+        "Província d'Àlaba"@ca,
+        "Álava"@de,
+        "Araba / Álava"@en,
+        "Provincia de Álava"@es,
+        "Araba"@eu,
+        "Alava"@fr,
+        "Álava"@gl,
+        "アラバ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336903/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336903/> ;
+    ns1:population "313819" ;
+    ns1:shortName "Álava"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/%C3%81lava>,
+        <https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B0%D0%B2%D0%B0> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3130717/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/%C3%81lava> ;
+    ns2:lat "42.83333" ;
+    ns2:long "-2.75" .
+
+<https://sws.geonames.org/6355230/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Province of Girona"@en,
+        "ジローナ（ヘローナ）"@ja ;
+    ns1:childrenFeatures <https://sws.geonames.org/6355230/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/6355230/provincia-de-girona.html> ;
+    ns1:name "Girona" ;
+    ns1:officialName "Girona",
+        "Chirona"@an,
+        "Xerona"@ast,
+        "Província de Girona"@ca,
+        "Provinz Girona"@de,
+        "Girona"@en,
+        "Provincia de Gerona"@es,
+        "Girona"@eu,
+        "Province de Gérone"@fr,
+        "Xirona"@gl,
+        "Girona"@it,
+        "Gerunda"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/3336901/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336901/> ;
+    ns1:population "747782" ;
+    ns1:shortName "Girona"@ca,
+        "Gerona"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Girona>,
+        <https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D0%BE%D0%BD%D0%B0_%28%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D1%8F%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6355230/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Girona> ;
+    ns2:lat "41.98916" ;
+    ns2:long "2.81113" ;
+    foaf:page <http://pleiades.stoa.org/places/246406> .
+
+<https://sws.geonames.org/6355231/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Lerida"@an,
+        "Provinz Lleida"@de,
+        "Province of Lleida"@en,
+        "Province de Lleida"@fr ;
+    ns1:childrenFeatures <https://sws.geonames.org/6355231/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/6355231/provincia-de-lleida.html> ;
+    ns1:name "Lleida" ;
+    ns1:officialName "Lleida",
+        "Província de Lleida"@ca,
+        "Lleida"@en,
+        "Província de Lérida"@es ;
+    ns1:parentADM1 <https://sws.geonames.org/3336901/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336901/> ;
+    ns1:population "436402" ;
+    ns1:shortName "Lérida"@ast,
+        "Lleida"@ca,
+        "Lérida"@es,
+        "Lleida"@eu,
+        "Lleida"@gl,
+        "ジェイダ（レリダ）"@ja ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Lleida_%28province%29> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6355231/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Lleida_%28province%29> ;
+    ns2:lat "41.61878" ;
+    ns2:long "0.57472" .
+
+<https://sws.geonames.org/6355232/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Province of La Rioja"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/6355232/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/6355232/provincia-de-la-rioja.html> ;
+    ns1:name "La Rioja" ;
+    ns1:officialName "La Rioja",
+        "A Rioxa"@an,
+        "La Rioxa"@ast,
+        "Província de La Rioja"@ca,
+        "Provinz La Rioja"@de,
+        "La Rioja"@en,
+        "Provincia de La Rioja"@es,
+        "Errioxa"@eu,
+        "Province de La Rioja"@fr,
+        "A Rioxa"@gl,
+        "ラ・リオハ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3336897/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3336897/> ;
+    ns1:population "321702" ;
+    ns1:shortName "La Rioja"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/La_Rioja_(Spain)> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6355232/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/La_Rioja_%28Spain%29> ;
+    ns2:lat "42.46311" ;
+    ns2:long "-2.42455" .
+
+<https://sws.geonames.org/6355233/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Community of Madrid",
+        "Madrid"@ca,
+        "Province of Madrid"@en,
+        "Comunidad de Madrid"@es ;
+    ns1:childrenFeatures <https://sws.geonames.org/6355233/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/6355233/provincia-de-madrid.html> ;
+    ns1:name "Madrid" ;
+    ns1:officialName "Madrid",
+        "Madrid"@an,
+        "Madrid"@ast,
+        "Província de Madrid"@ca,
+        "Provinz Madrid"@de,
+        "Madrid"@en,
+        "Provincia de Madrid"@es,
+        "Madril"@eu,
+        "Province de Madrid"@fr,
+        "Madrid"@gl,
+        "マドリード/マドリ−ド/マドリ－ド"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3117732/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3117732/> ;
+    ns1:population "6386932" ;
+    ns1:shortName "Madrid"@es,
+        "マドリッド"@ja ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Madrid> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6355233/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Madrid> ;
+    ns2:lat "40.40225" ;
+    ns2:long "-3.71029" .
+
+<https://sws.geonames.org/6355234/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Province of Murcia"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/6355234/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/6355234/murcia.html> ;
+    ns1:name "Murcia" ;
+    ns1:officialName "Murcia",
+        "Murzia"@an,
+        "Murcia"@ast,
+        "Província de Múrcia"@ca,
+        "Provinz Murcia"@de,
+        "Murcia"@en,
+        "Provincia de Murcia"@es,
+        "Murtzia"@eu,
+        "Province de Murcie"@fr,
+        "Murcia"@gl,
+        "ムルシア"@ja,
+        "Múrcia"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/2513413/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2513413/> ;
+    ns1:population "1446520" ;
+    ns1:shortName "Murcia"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Murcia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6355234/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Murcia> ;
+    ns2:lat "37.98662" ;
+    ns2:long "-1.14146" .
+
+<https://sws.geonames.org/6355235/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Chartered Community of Navarre",
+        "Province of Navarre"@en ;
+    ns1:childrenFeatures <https://sws.geonames.org/6355235/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/6355235/provincia-de-navarra.html> ;
+    ns1:name "Navarre" ;
+    ns1:officialName "Navarra",
+        "Nabarra"@an,
+        "Navarra"@ast,
+        "Província de Navarra"@ca,
+        "Provinz Navarra"@de,
+        "Navarre"@en,
+        "Provincia de Navarra"@es,
+        "Nafarroa"@eu,
+        "Province de Navarre"@fr,
+        "Navarra"@gl,
+        "ナバーラ"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3115609/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3115609/> ;
+    ns1:population "644566" ;
+    ns1:shortName "Navarra"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Navarre> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6355235/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Navarre> ;
+    ns2:lat "42.8233" ;
+    ns2:long "-1.65138" .
+
+<https://sws.geonames.org/6355236/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Province of Asturias"@en,
+        "Principado de Asturias"@es ;
+    ns1:childrenFeatures <https://sws.geonames.org/6355236/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/6355236/province-of-asturias.html> ;
+    ns1:name "Asturias" ;
+    ns1:officialName "Asturias",
+        "Asturies"@ast,
+        "Província d'Astúries"@ca,
+        "Provinz Asturien"@de,
+        "Asturias"@en,
+        "Provincia de Asturias"@es,
+        "Province d'Asturies"@fr,
+        "Asturie"@it,
+        "アストゥリアス"@ja ;
+    ns1:parentADM1 <https://sws.geonames.org/3114710/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/3114710/> ;
+    ns1:population "1085289" ;
+    ns1:shortName "Asturias"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Province_of_Asturias> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6355236/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Province_of_Asturias> ;
+    ns2:lat "43.36662" ;
+    ns2:long "-5.86112" .
+
+<https://sws.geonames.org/6424360/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:alternateName "Illes Balears"@ca,
+        "ses Illes"@ca,
+        "Balearen Inseln"@de,
+        "Province of Balearic Islands"@en,
+        "Islas Baleares"@es,
+        "Las Baleares"@es,
+        "バレアレス"@ja,
+        "Balearane"@nn,
+        "Balearene"@no ;
+    ns1:childrenFeatures <https://sws.geonames.org/6424360/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/6424360/illes-balears.html> ;
+    ns1:name "Balearic Islands" ;
+    ns1:officialName "Baleares",
+        "Província de les Illes Balears"@ca,
+        "Balearic Islands"@en,
+        "Provincia de las Islas Baleares"@es,
+        "Province des Îles Baléares"@fr,
+        "Isole Baleari"@it,
+        "Ilhas Baleares"@pt ;
+    ns1:parentADM1 <https://sws.geonames.org/2521383/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2521383/> ;
+    ns1:population "1095426" ;
+    ns1:shortName "Baleares"@es,
+        "Baleari"@it ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Balearic_Islands> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6424360/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Balearic_Islands> ;
+    ns2:lat "39.60992" ;
+    ns2:long "3.02948" .
+
+<https://sws.geonames.org/8335119/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:childrenFeatures <https://sws.geonames.org/8335119/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/8335119/ceuta.html> ;
+    ns1:name "Ceuta" ;
+    ns1:officialName "Ciudad Autónoma de Ceuta"@es ;
+    ns1:parentADM1 <https://sws.geonames.org/2519582/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2519582/> ;
+    ns1:shortName "Ceuta"@es ;
+    rdfs:isDefinedBy <https://sws.geonames.org/8335119/about.rdf> ;
+    ns2:lat "35.88794" ;
+    ns2:long "-5.30786" .
+
+<https://sws.geonames.org/8335120/> a <http://bigg-project.eu/ontology#AddressProvince>,
+        ns1:Feature ;
+    ns1:childrenFeatures <https://sws.geonames.org/8335120/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM2> ;
+    ns1:locationMap <https://www.geonames.org/8335120/melilla.html> ;
+    ns1:name "Melilla" ;
+    ns1:officialName "Ciudad Autónoma de Melilla"@es ;
+    ns1:parentADM1 <https://sws.geonames.org/6362988/> ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/6362988/> ;
+    ns1:shortName "Melilla"@es ;
+    rdfs:isDefinedBy <https://sws.geonames.org/8335120/about.rdf> ;
+    ns2:lat "35.29551" ;
+    ns2:long "-2.94219" .
+

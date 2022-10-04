@@ -1,0 +1,1202 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://www.geonames.org/ontology#> .
+@prefix ns2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://sws.geonames.org/2513413/> a ns1:Feature ;
+    ns1:alternateName "Múrcia"@ca,
+        "Region of Murcia"@en,
+        "Comunidad Autónoma de la Región de Murcia"@es,
+        "Murcia"@no,
+        "Автономная область региона Мурсия"@ru,
+        "Murcia"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/2513413/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/2513413/region-de-murcia.html> ;
+    ns1:name "Murcia" ;
+    ns1:officialName "Murcia",
+        "Region Murcia"@de,
+        "Murcia"@en,
+        "Región de Murcia"@es,
+        "Murcia"@fi,
+        "Région de Murcie"@fr,
+        "Murcia"@it,
+        "ムルシア"@ja,
+        "무르시아 지방"@ko,
+        "Мурсия"@ru ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "1446520" ;
+    ns1:shortName "Murcia"@es,
+        "Murcie"@fr ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Region_of_Murcia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2513413/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Region_of_Murcia> ;
+    ns2:lat "38" ;
+    ns2:long "-1.5" .
+
+<https://sws.geonames.org/2519582/> a ns1:Feature ;
+    ns1:alternateName "Cueta",
+        "Sebta",
+        "Septa",
+        "Septem Fratres",
+        "Zeuta"@an,
+        "سبتة"@ar,
+        "Ceuta"@ast,
+        "Сеута"@bg,
+        "Ceuta"@bs,
+        "Ceuta"@ca,
+        "Ceuta"@cs,
+        "Ceuta"@cy,
+        "Ceuta"@da,
+        "Ceuta"@de,
+        "Ceŭto"@eo,
+        "Ciudad de Ceuta"@es,
+        "Ceuta"@et,
+        "Zeuta"@eu,
+        "Ceuta"@fi,
+        "Ceuta"@fr,
+        "Ceuta"@frp,
+        "Ceuta"@gd,
+        "Ceuta"@gl,
+        "Eptadelfos"@grc,
+        "סאוטה"@he,
+        "Ceuta"@hr,
+        "Ceuta"@hu,
+        "Ceuta"@id,
+        "Ceuta"@io,
+        "Ceuta"@is,
+        "Ceuta"@it,
+        "セウタ"@ja,
+        "სეუტა"@ka,
+        "세우타"@ko,
+        "Ceuta"@kw,
+        "Ceuta"@la,
+        "Seuta"@lad,
+        "Ceuta"@lb,
+        "Ceuta"@lij,
+        "Ceuta"@nl,
+        "Ceuta"@nn,
+        "Ceuta"@no,
+        "Ceuta"@oc,
+        "Ceuta"@pl,
+        "Ceuta"@pt,
+        "Ceuta"@ro,
+        "Сеута"@ru,
+        "Ceuta"@scn,
+        "Ceuta"@se,
+        "Ceuta"@sk,
+        "Ceuta"@sv,
+        "Ceuta"@sw,
+        "เซวตา"@th,
+        "Ceuta"@tl,
+        "Lungsod ng Ceuta"@tl,
+        "Ceuta"@tt,
+        "休达"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/2519582/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/2519582/ceuta.html> ;
+    ns1:name "Ceuta" ;
+    ns1:officialName "Ceuta",
+        "Ceuta"@en,
+        "Ciudad Autónoma de Ceuta"@es ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "78674" ;
+    ns1:shortName "Ceuta"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Ceuta>,
+        <https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%83%D1%82%D0%B0> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2519582/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Ceuta> ;
+    ns2:lat "35.89028" ;
+    ns2:long "-5.3075" ;
+    foaf:page <http://pleiades.stoa.org/places/275704> .
+
+<https://sws.geonames.org/2521383/> a ns1:Feature ;
+    ns1:alternateName "Comunitat Autònoma de les Illes Balears"@ca,
+        "ses Illes"@ca,
+        "Balearen"@de,
+        "Balearinsuloj"@eo,
+        "Balearoj"@eo,
+        "バレアレス"@ja,
+        "Balearane"@nn,
+        "Balearene"@no,
+        "Автономная область Балеарских Островов"@ru,
+        "Balearerna"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/2521383/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/2521383/comunitat-autonoma-de-les-illes-balears.html> ;
+    ns1:name "Balearic Islands" ;
+    ns1:officialName "Islas Baleares",
+        "Balears"@an,
+        "Islles Baleares"@ast,
+        "Illes Balears"@ca,
+        "Balearische Inseln"@de,
+        "Balearic Islands"@en,
+        "Comunidad Autónoma de las Islas Baleares"@es,
+        "Balear Uharteak"@eu,
+        "Îles Baléares"@fr,
+        "Illas Baleares"@gl,
+        "Isole Baleari"@it,
+        "발레아레스 제도"@ko,
+        "Ilhas Baleares"@pt,
+        "Балеарские Острова"@ru ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "1095426" ;
+    ns1:shortName "Baleares"@es,
+        "Islas Baleares"@es,
+        "Baléares"@fr ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Balearic_Islands> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2521383/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Balearic_Islands> ;
+    ns2:lat "39.58876" ;
+    ns2:long "2.90314" .
+
+<https://sws.geonames.org/2593109/> a ns1:Feature ;
+    ns1:alternateName "Andalusië"@af,
+        "Andalusien"@als,
+        "أندلوسيا"@ar,
+        "اندلوسيا"@arz,
+        "Əndəlus"@az,
+        "Андалусія"@be,
+        "Андалусия"@bg,
+        "আন্দালুসিয়া"@bn,
+        "Andalouzia"@br,
+        "Andaluzija"@bs,
+        "Andalusie"@cs,
+        "Andalusien"@da,
+        "Ανδαλουσία"@el,
+        "Andalusia"@en,
+        "Andaluzio"@eo,
+        "Comunidad Autónoma de Andalucía"@es,
+        "Andaluusia"@et,
+        "Andaluzia"@eu,
+        "Andaluzia"@ext,
+        "اندلس"@fa,
+        "Andalosie"@frp,
+        "Andalûsje"@fy,
+        "An Andalúis"@ga,
+        "آندالوسیا"@glk,
+        "𐍅𐌰𐌽𐌳𐌰𐌻𐌹𐍄𐌾𐌰/Wandalitja"@got,
+        "Andalusie"@hbs,
+        "Andaluzija"@hbs,
+        "אנדלוסיה"@he,
+        "Andaluzija"@hr,
+        "Andalúzia"@hu,
+        "Անդալուսիա"@hy,
+        "Andaluzia"@io,
+        "Andalúsía"@is,
+        "Andalusia"@it,
+        "アンダルシア"@ja,
+        "アンダルシア州"@ja,
+        "ანდალუსია"@ka,
+        "안달루시아 지방"@ko,
+        "Андалусия"@krc,
+        "Endulus"@ku,
+        "Andalousi"@kw,
+        "Baetica"@la,
+        "Vandalitia"@la,
+        "Andaluziya"@lad,
+        "Andalusien"@lb,
+        "Andalūzija"@lt,
+        "Andalūzija"@lv,
+        "आंदालुसिया"@mr,
+        "Andalucia"@nah,
+        "Andalusië"@nl,
+        "Andalucía"@no,
+        "Andalosia"@oc,
+        "Андалуси"@os,
+        "Andaluzja"@pl,
+        "Andalusìa"@pms,
+        "Andaluzia"@pt,
+        "Andalusiya"@qu,
+        "Andalusiya"@rmy,
+        "Andaluzia"@ro,
+        "Андалусия"@ru,
+        "Andalúzia"@sk,
+        "Андалузија"@sr,
+        "Andalusien"@stq,
+        "Andalusien"@sv,
+        "Andaluzia"@tet,
+        "แคว้นอันดาลูซีอา"@th,
+        "Endülüs"@tr,
+        "Andalusiye"@ug,
+        "Андалусія"@uk,
+        "Andalusìa"@vec,
+        "安達魯西亞"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/2593109/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/2593109/andalusia.html> ;
+    ns1:name "Andalusia" ;
+    ns1:officialName "Andalusia"@ca,
+        "Andalusien"@de,
+        "Andalousie"@fr ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "8302923" ;
+    ns1:shortName "Andalucía"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Andalusia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2593109/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Andalusia> ;
+    ns2:lat "37.5" ;
+    ns2:long "-4.58333" ;
+    foaf:page <http://pleiades.stoa.org/places/862> .
+
+<https://sws.geonames.org/2593110/> a ns1:Feature ;
+    ns1:alternateName "Canary Islands",
+        "Comunidad Autónoma de Canarias",
+        "Kanariese Eilande"@af,
+        "Kanarische Inseln"@als,
+        "Fortunatus iegland"@ang,
+        "جزر الكناري"@ar,
+        "جزر الكنارى"@arz,
+        "Canaries"@ast,
+        "Kanar adaları"@az,
+        "Канарскія астравы"@be,
+        "Канарски острови"@bg,
+        "কানারি দ্বীপপুঞ্জ"@bn,
+        "Kanariez"@br,
+        "Kanarska ostrva"@bs,
+        "Illes Canàries"@ca,
+        "Канаран гӀайреш"@ce,
+        "Kanárské ostrovy"@cs,
+        "Yr Ynysoedd Dedwydd"@cy,
+        "Kanariske Øer"@da,
+        "Κανάριες Νήσοι"@el,
+        "Kanariaj Insuloj"@eo,
+        "Kanarioj"@eo,
+        "Comunidad Canaria"@es,
+        "Islas Afortunadas"@es,
+        "Islas Canarias"@es,
+        "Kanaari saared"@et,
+        "Kanariak"@eu,
+        "Canárias"@ext,
+        "جزایر قناری"@fa,
+        "Kanariansaaret"@fi,
+        "Kanarisku oyggjarnar"@fo,
+        "Îles Canaries"@fr,
+        "Canaries"@frp,
+        "Kanaaren"@frr,
+        "Kanaryske Eilannen"@fy,
+        "Na hOileáin Chanáracha"@ga,
+        "Kanariya adaları"@gag,
+        "Na h-Eileanan Canàrach"@gd,
+        "Illas Canarias"@gl,
+        "Canary Islands"@ha,
+        "Kanari"@hbs,
+        "האיים הקנריים"@he,
+        "कैनरी द्वीपसमूह"@hi,
+        "Canary Islands"@hif,
+        "Kanari"@hr,
+        "Kanariske kupy"@hsb,
+        "Canaries"@ht,
+        "Kanári-szigetek"@hu,
+        "Կանարյան կղզիներ"@hy,
+        "Kepulauan Canaria"@id,
+        "Kanarii"@io,
+        "Kanaríeyjar"@is,
+        "Isole Canarie"@it,
+        "Kapuloan Canary"@jv,
+        "კანარის კუნძულები"@ka,
+        "Канар хы тӀыгухэр"@kbd,
+        "Канар аралдары"@kk,
+        "카나리아 제도"@ko,
+        "Giravên Qenariyê"@ku,
+        "Canariae Insulae"@la,
+        "Kanarias"@lad,
+        "Kanaresch Inselen"@lb,
+        "Isoe Canaïe"@lij,
+        "Kanarų salos"@lt,
+        "Kanāriju Salas"@lv,
+        "Islas Canarias"@mi,
+        "Канарски Острови"@mk,
+        "कॅनरी द्वीपसमूह"@mr,
+        "Kepulauan Canary"@ms,
+        "ကနေရီကျွန်းစု"@my,
+        "Canaria Kûn-tó"@nan,
+        "Kanariøyane"@nn,
+        "Kanariøyene"@no,
+        "Isles Kanarias"@nov,
+        "Canary Islands"@nso,
+        "Illas Canàrias"@oc,
+        "Канары сакъадæхтæ"@os,
+        "Wyspy Kanaryjskie"@pl,
+        "Ìsole Canarie"@pms,
+        "کناری جزیرے"@pnb,
+        "Canárias"@pt,
+        "Kanarya watakuna"@qu,
+        "Insulele Canare"@ro,
+        "Автономная область Канарских Островов"@ru,
+        "Канарские острова"@ru,
+        "Канар арыылара"@sah,
+        "Isulas Canarias"@sc,
+        "Isuli Canarii"@scn,
+        "Canary Islands"@sco,
+        "Kanáriasullot"@se,
+        "Kanárske ostrovy"@sk,
+        "Kanarski otoki"@sl,
+        "Ishujt Kanare"@sq,
+        "Канарска острва"@sr,
+        "Kanariske Ailounde"@stq,
+        "Kapuloan Kanaria"@su,
+        "Kanarieöarna"@sv,
+        "Visiwa vya Kanari"@sw,
+        "கேனரி தீவுகள்"@ta,
+        "కానరీ ద్వీపములు"@te,
+        "หมู่เกาะคะเนรี"@th,
+        "Kanarya Adaları"@tr,
+        "Канарські острови"@uk,
+        "جزائر کناری"@ur,
+        "Kanar orollari"@uz,
+        "Ìxołe Canarie"@vec,
+        "Quần đảo Canaria"@vi,
+        "Islas Canarias"@war,
+        "Duni Kanaari"@wo,
+        "კანარიშ კოკეფი"@xmf,
+        "קאנארישע אינזלען"@yi,
+        "Àwọn Erékùṣù Kánárì"@yo,
+        "加那利群岛"@zh,
+        "Iziqhingi iKhaneli"@zu ;
+    ns1:childrenFeatures <https://sws.geonames.org/2593110/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/2593110/canary-islands.html> ;
+    ns1:name "Canary Islands" ;
+    ns1:officialName "Kanarische Inseln"@de,
+        "Canary Islands"@en,
+        "Comunidad Autónoma de Canarias"@es,
+        "Canaries"@fr,
+        "カナリアス"@ja,
+        "Canarische Eilanden"@nl,
+        "Канарские Острова"@ru ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "2103992" ;
+    ns1:shortName "Canarias"@es,
+        "Kanaria"@fi,
+        "カナリア諸島"@ja ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Canary_Islands> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2593110/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Canary_Islands> ;
+    ns2:lat "28" ;
+    ns2:long "-15.5" .
+
+<https://sws.geonames.org/2593111/> a ns1:Feature ;
+    ns1:alternateName "Castilla-La Mancha",
+        "Comunidad Autónoma de Castilla-La Mancha",
+        "Castiella-La Mancha"@an,
+        "كاستيا-لا مانتشا"@ar,
+        "كاستيا لا مانتشا"@arz,
+        "Castiella-La Mancha"@ast,
+        "Kastiliya-La Mança"@az,
+        "Кастылія — Ла-Манча"@be,
+        "Кастилия - Ла Манча"@bg,
+        "Kastilha-La Mancha"@br,
+        "Castella - la Manxa"@ca,
+        "Kastilie-La Mancha"@cs,
+        "Kastilien-La Mancha"@de,
+        "Südkastilien"@de,
+        "Καστίλλη-Λα Μάντσα"@el,
+        "Castile-La Mancha"@en,
+        "Kastilio-Manĉo"@eo,
+        "Castilla–La Mancha"@et,
+        "Gaztela-Mantxa"@eu,
+        "کاستیا-لامانچا"@fa,
+        "Kastilia- La Mancha"@fi,
+        "Castille-La Manche"@fr,
+        "Castille-La-Manche"@fr,
+        "Castilye-La Mange"@frp,
+        "Kastylje-La Mancha"@fy,
+        "Castela-A Mancha"@gl,
+        "קסטיליה-לה מנצה"@he,
+        "कास्तिया-ला मांचा"@hi,
+        "Kastilja-La Mancha"@hr,
+        "Castille-La Manche"@ht,
+        "Kasztília-La Mancha"@hu,
+        "Կաստիլիա-Լա Մանչա"@hy,
+        "Castilia-La Mancha"@ia,
+        "Kastilia-La Mancha"@io,
+        "Kastilía-La Mancha"@is,
+        "カスティージャラマンチャ"@ja,
+        "カスティージャ・ラ・マンチャ"@ja,
+        "カスティーリャ・ラ・マンチャ州"@ja,
+        "Castile-La Mancha"@jv,
+        "კასტილია-ლა მანჩა"@ka,
+        "Кастилия — Ла-Манча"@kk,
+        "카스티야라만차 지방"@ko,
+        "Kastil-La Mancha"@kw,
+        "Castella-Manica"@la,
+        "Kastilien-La Mancha"@lb,
+        "Kastilija ir La Manča"@lt,
+        "Kastīlija-Lamanča"@lv,
+        "Castile-La Mancha"@mi,
+        "Кастилја-Ла Манча"@mk,
+        "कास्तिया-ला मांचा"@mr,
+        "Castile-La Mancha"@ms,
+        "Castillān-La Mancha"@nah,
+        "Castilië-La Mancha"@nl,
+        "Castilla La Mancha"@no,
+        "Castelha-La Mancha"@oc,
+        "Кастили — Ла-Манчæ"@os,
+        "Kastylia-La Mancha"@pl,
+        "Castija-La Mancha"@pms,
+        "کیستلا لامانچا"@pnb,
+        "Castela-Mancha"@pt,
+        "Kastilla Manchapas"@qu,
+        "Castilia-La Mancha"@ro,
+        "Кастилия — Ла-Манча"@ru,
+        "Castigghia-La Mancia"@scn,
+        "Castile-La Mancha"@sco,
+        "Кастиља-Ла Манча"@sr,
+        "Kastilien-La Mancha"@sv,
+        "แคว้นคาสตีล-ลามันชา"@th,
+        "Kastilya-La Mancha"@tr,
+        "Кастілія-Ла-Манча"@uk,
+        "Castile-La Mancha"@vi,
+        "卡斯蒂利亚-拉曼恰"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/2593111/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/2593111/castilla-la-mancha.html> ;
+    ns1:name "Castille-La Mancha" ;
+    ns1:officialName "Castella i la Manxa"@ca,
+        "Castille-La Mancha"@en,
+        "Comunidad Autónoma de Castilla-La Mancha"@es,
+        "Castiglia-La Mancia"@it ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "2081313" ;
+    ns1:shortName "Castilla-La Mancha"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Castile-La_Mancha> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2593111/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Castile-La_Mancha> ;
+    ns2:lat "39.5" ;
+    ns2:long "-3" .
+
+<https://sws.geonames.org/2593112/> a ns1:Feature ;
+    ns1:alternateName "Comunidad Autónoma de Extremadura",
+        "Estremadura"@an,
+        "منطقة إكستريمادورا"@ar,
+        "اكستريمادورا"@arz,
+        "Estremadura"@ast,
+        "Estremadura"@az,
+        "Эстрэмадура"@be,
+        "Естремадура"@bg,
+        "Estremadura"@br,
+        "Extremadura"@ca,
+        "Estremadura"@de,
+        "Εξτρεμαδούρα"@el,
+        "Ekstremaduro"@eo,
+        "Estremaúra"@ext,
+        "اکسترمادورا"@fa,
+        "Estrémadure"@fr,
+        "Èstrèmadura"@frp,
+        "Ekstremadûra"@fy,
+        "Estremadura"@gl,
+        "Ekstremadura"@hbs,
+        "אקסטרמדורה"@he,
+        "Ekstremadura"@hr,
+        "Estremadure"@ht,
+        "Էստրեմադուրա"@hy,
+        "Extremadúra"@is,
+        "エストゥレマドゥーラ"@ja,
+        "エストレマドゥーラ州"@ja,
+        "ესტრემადურა"@ka,
+        "Эстремадура"@kk,
+        "에스트레마두라 지방"@ko,
+        "Estremadura"@lad,
+        "Estremadūra"@lt,
+        "Estremadura"@lv,
+        "埃斯特雷馬杜拉"@lzh,
+        "Екстремадура"@mk,
+        "एस्त्रेमादुरा"@mr,
+        "Extremadura"@no,
+        "Эстремадурæ"@os,
+        "Estremadura"@pl,
+        "Estremadura"@pms,
+        "ایکسٹریماڈورا"@pnb,
+        "Estremadura"@pt,
+        "Ikstrimadura"@qu,
+        "Эстремадура"@ru,
+        "Estremadura"@scn,
+        "Екстремадура"@sr,
+        "Extremadura"@sv,
+        "แคว้นเอกซ์เตรมาดูรา"@th,
+        "Ekstremadura"@tr,
+        "Естремадура"@uk,
+        "埃斯特雷马杜拉"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/2593112/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/2593112/extremadura.html> ;
+    ns1:name "Extremadura" ;
+    ns1:officialName "Extremadura",
+        "Extremadura"@en,
+        "Comunidad Autónoma de Extremadura"@es,
+        "Estremadura"@it ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "1102410" ;
+    ns1:shortName "Extremadura"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Extremadura>,
+        <https://ru.wikipedia.org/wiki/%D0%AD%D1%81%D1%82%D1%80%D0%B5%D0%BC%D0%B0%D0%B4%D1%83%D1%80%D0%B0> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2593112/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Extremadura> ;
+    ns2:lat "39.16667" ;
+    ns2:long "-6.16667" .
+
+<https://sws.geonames.org/2593113/> a ns1:Feature ;
+    ns1:alternateName "Valencianische Gemeinschaft"@de,
+        "Region of Valencia"@en,
+        "Valencian Community"@en,
+        "Reino de Valencia"@es,
+        "Communauté de Valence"@fr,
+        "Comunità Valenzana"@it,
+        "コムニダ・バレンシアーナ"@ja,
+        "Valencia"@nn,
+        "Valencia"@no,
+        "Валенсия"@ru,
+        "Valencia"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/2593113/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/2593113/comunitat-valenciana.html> ;
+    ns1:name "Valencia" ;
+    ns1:officialName "Valencia",
+        "Comunitat Valenciana"@ca,
+        "Landes Valencia"@de,
+        "Valencia"@en,
+        "Comunidad Valenciana"@es,
+        "Communauté Valencienne"@fr,
+        "Valenza"@it,
+        "ヴァレンシア"@ja,
+        "발렌시아 지방"@ko,
+        "Область Валенсия"@ru ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "5094675" ;
+    ns1:shortName "Valencia"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Valencian_Community> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/2593113/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Valencian_Community> ;
+    ns2:lat "39.5" ;
+    ns2:long "-0.75" .
+
+<https://sws.geonames.org/3114710/> a ns1:Feature ;
+    ns1:alternateName "Asturies"@ast,
+        "Astúries"@ca,
+        "Asturien"@de,
+        "Asturio"@eo,
+        "Comunidad Autónoma del Principado de Asturias"@es,
+        "アストゥリアス"@ja,
+        "Asturias"@no,
+        "Астурия"@ru,
+        "Asturien"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/3114710/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/3114710/principality-of-asturias.html> ;
+    ns1:name "Asturias" ;
+    ns1:officialName "Asturias",
+        "Principality of Asturias"@en,
+        "Principado de Asturias"@es,
+        "Asturiasko Printzerria"@eu,
+        "Principauté des Asturies"@fr,
+        "Asturie"@it,
+        "아스투리아스 지방"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "1085289" ;
+    ns1:shortName "Asturias"@en,
+        "Asturias"@es,
+        "Asturies"@fr ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Asturias>,
+        <https://ru.wikipedia.org/wiki/%D0%90%D1%81%D1%82%D1%83%D1%80%D0%B8%D1%8F> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3114710/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Asturias> ;
+    ns2:lat "43.33333" ;
+    ns2:long "-6" .
+
+<https://sws.geonames.org/3115609/> a ns1:Feature ;
+    ns1:alternateName "Comunidad Foral de Navarra",
+        "Provincia de Navarra",
+        "Navarra"@ca,
+        "Autonome Region Navarra"@de,
+        "Autonomous Region of Navarre"@en,
+        "Navaro"@eo,
+        "Alta Navarra"@es,
+        "Reino de Navarra"@es,
+        "el Viejo Reino"@es,
+        "Nabarra"@eu,
+        "Nafarroa"@eu,
+        "Nafarroako Foru Komunitatea"@eu,
+        "Naparroa"@eu,
+        "Communauté Forale de Navarre"@fr,
+        "ナバーラ"@ja,
+        "Navarra"@no,
+        "Наварра"@ru,
+        "Navarra"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/3115609/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/3115609/navarra.html> ;
+    ns1:name "Navarre" ;
+    ns1:officialName "Navarra",
+        "Navarre"@en,
+        "Comunidad Foral de Navarra"@es,
+        "나바라 지방"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "630578" ;
+    ns1:shortName "Navarra"@es,
+        "Navarre"@fr ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Navarre> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3115609/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Navarre> ;
+    ns2:lat "42.75" ;
+    ns2:long "-1.66667" .
+
+<https://sws.geonames.org/3117732/> a ns1:Feature ;
+    ns1:alternateName "Autonome Gemeinschaft Madrid"@de,
+        "Autonome Region Madrid"@de,
+        "Autonomous Region of Madrid"@en,
+        "Community of Madrid"@en,
+        "Comunidad de Madrid"@es,
+        "Región de Madrid"@es ;
+    ns1:childrenFeatures <https://sws.geonames.org/3117732/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/3117732/comunidad-de-madrid.html> ;
+    ns1:name "Madrid" ;
+    ns1:officialName "Madrid",
+        "Comunitat de Madrid"@ca,
+        "Madrid"@de,
+        "Madrid"@en,
+        "Comunidad Autónoma de Madrid"@es,
+        "Madrilgo Erkidegoa"@eu,
+        "Communauté de Madrid"@fr,
+        "Madrid"@it,
+        "コムニダ・デ・マドリッド"@ja,
+        "마드리드 지방"@ko,
+        "Область Мадрид"@ru ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "6386932" ;
+    ns1:shortName "Madrid"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Community_of_Madrid> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3117732/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Community_of_Madrid> ;
+    ns2:lat "40.42526" ;
+    ns2:long "-3.69063" .
+
+<https://sws.geonames.org/3336897/> a ns1:Feature ;
+    ns1:alternateName "Comunidad Autónoma de La Rioja",
+        "A Riocha"@an,
+        "منطقة لا ريوخا"@ar,
+        "لا ريوخا"@arz,
+        "La Rioxa"@ast,
+        "Rioxa"@az,
+        "Рыёха"@be,
+        "Ла Риоха"@bg,
+        "Λα Ριόχα"@el,
+        "Provinco Rioĥo"@eo,
+        "Logroño"@es,
+        "Provincia de La Rioja"@es,
+        "Rioja"@es,
+        "Errioxa"@eu,
+        "Errioxako Autonomia Erkidegoa"@eu,
+        "لاریوخا"@fa,
+        "La Rioja"@fr,
+        "La Riocha"@fy,
+        "A Rioxa"@gl,
+        "לה ריוחה"@he,
+        "Ռիոխա"@hy,
+        "ラ・リオハ"@ja,
+        "ラ・リオハ州"@ja,
+        "ლა-რიოხა"@ka,
+        "Риоха"@kk,
+        "라리오하 지방"@ko,
+        "Rioiia"@la,
+        "La Riocha"@lt,
+        "Larjoha"@lv,
+        "Риоха"@mk,
+        "ला रियोहा"@mr,
+        "Риохæ"@os,
+        "لا ریوخا"@pnb,
+        "Риоха"@ru,
+        "La Rioja eanangoddi"@se,
+        "Риоха"@sr,
+        "La Rioja"@sv,
+        "Rioja"@tet,
+        "แคว้นลารีโอคา"@th,
+        "Ла-Ріоха"@uk,
+        "لا ریوخا"@ur,
+        "拉里奥哈"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/3336897/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/3336897/la-rioja.html> ;
+    ns1:name "La Rioja" ;
+    ns1:officialName "La Rioja",
+        "La Rioja"@en,
+        "Comunidad Autónoma de La Rioja"@es,
+        "La Rioja"@it,
+        "La Rioja"@no ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "321702" ;
+    ns1:shortName "La Rioja"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/La_Rioja_%28Spain%29>,
+        <https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%BE%D1%85%D0%B0> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3336897/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/La_Rioja_%28Spain%29> ;
+    ns2:lat "42.3" ;
+    ns2:long "-2.5" .
+
+<https://sws.geonames.org/3336898/> a ns1:Feature ;
+    ns1:alternateName "Comunidad Autónoma de Cantabria",
+        "منطقة كانتابريا"@ar,
+        "كانتابريا"@arz,
+        "Kantabriya"@az,
+        "Кантабрыя"@be,
+        "Кантабрия"@bg,
+        "কান্তাব্রিয়া"@bn,
+        "Kantabria"@br,
+        "Kantabrija"@bs,
+        "Kantábrie"@cs,
+        "Kantabrien"@da,
+        "Κανταβρία"@el,
+        "Kantabrio"@eo,
+        "La Montaña"@es,
+        "La Montaña de Castilla"@es,
+        "Provincia de Santander"@es,
+        "Santander"@es,
+        "Kantaabria"@et,
+        "Cantábria"@ext,
+        "استان کانتابریا"@fa,
+        "Kantabria"@fi,
+        "Cantabrie"@frp,
+        "Kantaabrje"@fy,
+        "Cantàbria"@gd,
+        "Kantabrija"@hbs,
+        "קנטבריה"@he,
+        "Kantabrija"@hr,
+        "Kantábria"@hu,
+        "Kantabría"@is,
+        "カンタブリア州"@ja,
+        "კანტაბრია"@ka,
+        "Кантабрия"@kk,
+        "칸타브리아 지방"@ko,
+        "Kantabri"@kw,
+        "Kantabria"@lad,
+        "Kantabrien"@lb,
+        "Kantabrija"@lt,
+        "Kantabrija"@lv,
+        "Кантабрија"@mk,
+        "कांताब्रिया"@mr,
+        "Cantabrië"@nl,
+        "Cantabria"@no,
+        "Cantàbria"@oc,
+        "Кантабри"@os,
+        "Kantabria"@pl,
+        "کینٹیبریا"@pnb,
+        "Cantábria"@pt,
+        "Kantawriya"@qu,
+        "Kantabriya"@rmy,
+        "Автономная область Кантабрия"@ru,
+        "Cantabrie"@sco,
+        "Kantábria"@sk,
+        "Кантабрија"@sr,
+        "Kantabrien"@sv,
+        "காந்தாபிரியா"@ta,
+        "แคว้นกันตาเบรีย"@th,
+        "Kantabria"@tr,
+        "Кантабрія"@uk,
+        "კანტაბრია"@xmf,
+        "坎塔布里亚"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/3336898/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/3336898/cantabria.html> ;
+    ns1:name "Cantabria" ;
+    ns1:officialName "Cantabria",
+        "Cantabria"@an,
+        "Cantàbria"@ca,
+        "Kantabrien"@de,
+        "Cantabria"@en,
+        "Comunidad Autónoma de Cantabria"@es,
+        "Kantabria"@eu,
+        "Cantabrie"@fr,
+        "Cantabria"@it,
+        "カンタブリア"@ja,
+        "Кантабрия"@ru ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "589235" ;
+    ns1:shortName "Cantabria"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Cantabria> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3336898/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Cantabria> ;
+    ns2:lat "43.2" ;
+    ns2:long "-4.03333" .
+
+<https://sws.geonames.org/3336899/> a ns1:Feature ;
+    ns1:alternateName "Comunidad Autónoma de Aragón",
+        "Aragón"@an,
+        "Aragó"@ca,
+        "Reino de Aragón"@es,
+        "Aragón"@no,
+        "Автономная область Арагон"@ru,
+        "Aragonien"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/3336899/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/3336899/aragon.html> ;
+    ns1:name "Aragon" ;
+    ns1:officialName "Aragón",
+        "Aragonien"@de,
+        "Αραγωνία"@el,
+        "Aragon"@en,
+        "Comunidad Autónoma de Aragón"@es,
+        "Aragon"@fr,
+        "Aragona"@it,
+        "アラゴン"@ja,
+        "아라곤 지방"@ko,
+        "Арагон"@ru ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "1345473" ;
+    ns1:shortName "Aragón"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Aragon> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3336899/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Aragon> ;
+    ns2:lat "41.5" ;
+    ns2:long "-0.66667" .
+
+<https://sws.geonames.org/3336900/> a ns1:Feature ;
+    ns1:alternateName "Comunidad Autónoma de Castilla y León",
+        "Castiella y Leyón"@an,
+        "منطقة قشتالة وليون"@ar,
+        "كاستييا و ليون"@arz,
+        "Castiella y Lleón"@ast,
+        "Castiella y Llión"@ast,
+        "Kastiliya və Leon"@az,
+        "Кастылія і Леон"@be,
+        "Кастилия и Леон"@bg,
+        "Kastilha ha León"@br,
+        "Kastilja i Leon"@bs,
+        "Castella i Lleó"@ca,
+        "Kastilie a León"@cs,
+        "Kastilien und León"@de,
+        "Nordkastilien"@de,
+        "Καστίλλη και Λεόν"@el,
+        "Castile and León"@en,
+        "Kastilio kaj Leono"@eo,
+        "Castilla-León"@et,
+        "Gaztela eta Leon"@eu,
+        "Castilla i Lión"@ext,
+        "کاستیا و لئون"@fa,
+        "Kastilia ja León"@fi,
+        "Castille-et-León"@fr,
+        "Castilye-et-Lion"@frp,
+        "Kastylje en Leon"@fy,
+        "Castela e León"@gl,
+        "Castilla lâu León"@hak,
+        "Castille a Leon"@haw,
+        "Kastilja i Leon"@hbs,
+        "קסטיליה ולאון"@he,
+        "Kastilja i León"@hr,
+        "Kastil ak Leon"@ht,
+        "Kasztília és León"@hu,
+        "Castilia e Leon"@ia,
+        "Kastilia e Leon"@io,
+        "Kastilía-León"@is,
+        "Castiglia e León"@it,
+        "カスティージャ・イ・レオン"@ja,
+        "カスティーリャ・レオン州"@ja,
+        "Castile-Leon"@jv,
+        "კასტილია და ლეონი"@ka,
+        "Кастилия және Леон"@kk,
+        "카스티야이레온 지방"@ko,
+        "Kastil ha Leon"@kw,
+        "Castella et Legio"@la,
+        "Komunidad Otonoma de Kastiya i Leon"@lad,
+        "Kastilien-León"@lb,
+        "Kastilija ir Leonas"@lt,
+        "Kastīlija un Leona"@lv,
+        "Castile me León"@mi,
+        "Кастилја и Леон"@mk,
+        "कास्तिया इ लेओन"@mr,
+        "Castile-León"@ms,
+        "Castillān īhuān León"@nah,
+        "Castilië en León"@nl,
+        "Castilla y León"@no,
+        "Castilye et Léon"@nrm,
+        "Castelha e Leon"@oc,
+        "Кастили æмæ Леон"@os,
+        "Castiil a Liion"@pih,
+        "Kastylia i León"@pl,
+        "Castija e León"@pms,
+        "کیستلا تے لیون"@pnb,
+        "Castela e Leão"@pt,
+        "Kastilla Liyunpas"@qu,
+        "Castilia și León"@ro,
+        "Кастилия и Леон"@ru,
+        "Castigghia e León"@scn,
+        "Castile an León"@sco,
+        "Кастиља и Леон"@sr,
+        "Kastilien-León"@stq,
+        "Kastilien och León"@sv,
+        "Kastilien-Leon"@sv,
+        "แคว้นคาสตีลและเลออน"@th,
+        "Kastilya ve Leon"@tr,
+        "Кастилія-і-Леон"@uk,
+        "Castilia e León"@vec,
+        "Castile và León"@vi,
+        "Castilië en León"@vls,
+        "კასტილია და ლეონი"@xmf,
+        "Kastilië en León"@zea,
+        "卡斯蒂利亚-莱昂"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/3336900/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/3336900/castilla-y-leon.html> ;
+    ns1:name "Castille and León" ;
+    ns1:officialName "Castilla y León",
+        "Castille and León"@en,
+        "Comunidad Autónoma de Castilla y León"@es ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "2563521" ;
+    ns1:shortName "Castilla y León"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Castile_and_Le%C3%B3n> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3336900/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Castile_and_Le%C3%B3n> ;
+    ns2:lat "41.66667" ;
+    ns2:long "-4.25" .
+
+<https://sws.geonames.org/3336901/> a ns1:Feature ;
+    ns1:alternateName "كاتالونيا"@ar,
+        "Katalonia"@br,
+        "Principat de Catalunya"@ca,
+        "el Principat"@ca,
+        "加泰罗尼亚"@ch,
+        "Katalonien"@de,
+        "Καταλονία"@el,
+        "Katalunio"@eo,
+        "Catalogne"@fr,
+        "Catalogna"@it,
+        "La Catalogna"@it,
+        "カタルーニャ"@ja,
+        "カタロニア"@ja,
+        "Catalonia"@no,
+        "Catalonha"@oc,
+        "Katalunii"@olo,
+        "Catalunha"@pt,
+        "Каталония"@ru,
+        "Katalonien"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/3336901/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/3336901/catalunya.html> ;
+    ns1:name "Catalonia" ;
+    ns1:officialName "Catalunya",
+        "Catalunya"@ca,
+        "Καταλωνία"@el,
+        "Catalonia"@en,
+        "Comunidad Autónoma de Cataluña"@es,
+        "카탈루냐 지방"@ko,
+        "Catalonië"@nl ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "7475420" ;
+    ns1:shortName "Cataluña"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Catalonia> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3336901/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Catalonia> ;
+    ns2:lat "41.82046" ;
+    ns2:long "1.86768" .
+
+<https://sws.geonames.org/3336902/> a ns1:Feature ;
+    ns1:alternateName "منطقة غاليسيا"@ar,
+        "جاليسيا"@arz,
+        "Qalisiya"@az,
+        "Галісія"@be,
+        "Галисия"@bg,
+        "গালিথিয়া"@bn,
+        "Galiza"@br,
+        "Galicija"@bs,
+        "Galícia"@ca,
+        "Galizia"@co,
+        "Galicie"@cs,
+        "Galisia"@cy,
+        "Galicien"@da,
+        "Galicien"@de,
+        "Γαλικία"@el,
+        "Galegio"@eo,
+        "Galizia"@eu,
+        "گالیسیا"@fa,
+        "Galice"@fr,
+        "Galice"@frp,
+        "Galysje"@fy,
+        "An Ghailís"@ga,
+        "Comunidade Autónoma de Galicia"@ga,
+        "Galicia"@ga,
+        "Galiza"@gl,
+        "Yn Ghaleesh"@gv,
+        "Galicija"@hbs,
+        "גליסיה"@he,
+        "गलिशिया"@hi,
+        "Galicija"@hr,
+        "Galicija"@hsb,
+        "Galisiya"@ht,
+        "Գալիսիա"@hy,
+        "Gallecia"@ia,
+        "Galisia"@id,
+        "Galisia"@io,
+        "Galisía"@is,
+        "ガリシア"@ja,
+        "ガリシア州"@ja,
+        "გალისია"@ka,
+        "Галисиэ"@kbd,
+        "Галисия"@kk,
+        "갈리시아 지방"@ko,
+        "Галисия"@krc,
+        "Galîsya"@ku,
+        "Galisi"@kw,
+        "Gallaecia"@la,
+        "Galizia"@lad,
+        "Galicien"@lb,
+        "Galissia"@lij,
+        "Galissia"@lmo,
+        "Galisija"@lt,
+        "Galisija"@lv,
+        "Галиција"@mk,
+        "गालिसिया"@mr,
+        "Galicië"@nl,
+        "Galicia i Spania"@nn,
+        "Galicia"@no,
+        "Galícia"@oc,
+        "Галиси"@os,
+        "Galicja"@pl,
+        "Galissia"@pms,
+        "گالیکیا"@pnb,
+        "A Galiza"@pt,
+        "Galiza"@pt,
+        "Galisya"@qu,
+        "Галисия"@ru,
+        "Galizzia"@scn,
+        "Galicie"@sco,
+        "Galícia"@sk,
+        "Galicija"@sl,
+        "Галиција"@sr,
+        "Galicien"@sv,
+        "கலீசியா"@ta,
+        "แคว้นกาลิเซีย"@th,
+        "Galiçya"@tr,
+        "Галісія"@uk,
+        "加利西亚"@zh ;
+    ns1:childrenFeatures <https://sws.geonames.org/3336902/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/3336902/galicia.html> ;
+    ns1:name "Galicia" ;
+    ns1:officialName "Galicia",
+        "Galicia"@en,
+        "Comunidad Autónoma de Galicia"@es,
+        "Galicia"@gl,
+        "Galizia"@it ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "2796089" ;
+    ns1:shortName "Galicia"@es,
+        "Галиция"@ru ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Galicia_%28Spain%29>,
+        <https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%BB%D0%B8%D1%81%D0%B8%D1%8F> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3336902/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Galicia_%28Spain%29> ;
+    ns2:lat "42.75508" ;
+    ns2:long "-7.86621" .
+
+<https://sws.geonames.org/3336903/> a ns1:Feature ;
+    ns1:alternateName "Pais Vasco",
+        "País Basc"@ca,
+        "Comunidad Autónoma Vasca"@es,
+        "Provincias Vascongadas"@es,
+        "Vascongadas"@es,
+        "Euskal Herria"@eu,
+        "Euzkadi"@eu,
+        "Paesi Baschi"@it,
+        "Baskarland"@nn,
+        "Baskerland"@no,
+        "Страна Басков"@ru,
+        "Baskien"@sv ;
+    ns1:childrenFeatures <https://sws.geonames.org/3336903/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/3336903/euskal-autonomia-erkidegoa.html> ;
+    ns1:name "Basque Country" ;
+    ns1:officialName "Euskadi",
+        "Baskenland"@de,
+        "Basque Country"@en,
+        "Comunidad Autónoma del País Vasco"@es,
+        "Euskal Autonomia Erkidegoa"@eu,
+        "Pays Basque"@fr,
+        "パイス・バスコ"@ja,
+        "바스크 지방"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "2172175" ;
+    ns1:shortName "País Vasco"@es,
+        "Euskadi"@eu ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Basque_Country_(autonomous_community)> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/3336903/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Basque_Country_%28autonomous_community%29> ;
+    ns2:lat "43" ;
+    ns2:long "-2.75" .
+
+<https://sws.geonames.org/6362988/> a ns1:Feature ;
+    ns1:alternateName "Мелилья"@ru ;
+    ns1:childrenFeatures <https://sws.geonames.org/6362988/contains.rdf> ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass <https://www.geonames.org/ontology#A> ;
+    ns1:featureCode <https://www.geonames.org/ontology#A.ADM1> ;
+    ns1:locationMap <https://www.geonames.org/6362988/melilla.html> ;
+    ns1:name "Melilla" ;
+    ns1:officialName "Melilla",
+        "Melilla"@en,
+        "Ciudad Autónoma de Melilla"@es,
+        "멜리야"@ko ;
+    ns1:parentCountry <https://sws.geonames.org/2510769/> ;
+    ns1:parentFeature <https://sws.geonames.org/2510769/> ;
+    ns1:population "73460" ;
+    ns1:shortName "Melilla"@es ;
+    ns1:wikipediaArticle <https://en.wikipedia.org/wiki/Melilla> ;
+    rdfs:isDefinedBy <https://sws.geonames.org/6362988/about.rdf> ;
+    rdfs:seeAlso <https://dbpedia.org/resource/Melilla> ;
+    ns2:lat "35.29215" ;
+    ns2:long "-2.94434" .
+

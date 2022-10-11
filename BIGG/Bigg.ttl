@@ -1121,127 +1121,165 @@ bigg:EnergyEfficiencyMeasure a owl:Class ;
 
 # extensions-tariff
 
-bigg:hasC02MeasuredUnit a owl:ObjectProperty ;
-    rdfs:label "has c02 measured unit" ;
-    rdfs:domain bigg:CO2EmissionsFactorList ;
+bigg:Building a owl:Class ;
+    rdfs:label "Building" ;
+    rdfs:subClassOf bigg:KPICalculationItem .
+
+bigg:BuildingKeyPerformanceIndicator a owl:Class ;
+    rdfs:label "Building Key Performance Indicator" ;
+    rdfs:subClassOf bigg:KeyPerformanceIndicator .
+
+bigg:EEMKeyPerformanceIndicator a owl:Class ;
+    rdfs:label "E E M Key Performance Indicator" ;
+    rdfs:subClassOf bigg:KeyPerformanceIndicator .
+
+bigg:EnergyEfficiencyMeasure a owl:Class ;
+    rdfs:label "Energy Efficiency Measure" ;
+    rdfs:subClassOf bigg:KPICalculationItem .
+
+bigg:assessesAggregatedKPI a owl:ObjectProperty ;
+    rdfs:label "assesses aggregated k p i" ;
+    rdfs:domain bigg:AnalyticalGroup ;
+    rdfs:range bigg:AggregatedKPIAssessment .
+
+bigg:assessesSingleKPI a owl:ObjectProperty ;
+    rdfs:label "assesses single k p i" ;
+    rdfs:domain bigg:KPICalculationItem ;
+    rdfs:range bigg:SingleKPIAssessment .
+
+bigg:groupsForAnalytics a owl:ObjectProperty ;
+    rdfs:label "groups for analytics" ;
+    rdfs:domain bigg:KPICalculationItem ;
+    rdfs:range bigg:AnalyticalGroup .
+
+bigg:hasAggregatedKPIPoint a owl:ObjectProperty ;
+    rdfs:label "has aggregated k p i point" ;
+    rdfs:domain bigg:AggregatedKPIAssessment ;
+    rdfs:range bigg:AggregatedKPIAssessmentPoint .
+
+bigg:hasAggregationFunction a owl:ObjectProperty ;
+    rdfs:label "has aggregation function" ;
+    rdfs:domain bigg:AggregatedKPIAssessmentPoint ;
+    rdfs:range bigg:AggregationFunction .
+
+bigg:hasAnalyticalModel a owl:ObjectProperty ;
+    rdfs:label "has analytical model" ;
+    rdfs:domain bigg:KPICalculationItem ;
+    rdfs:range bigg:AnalyticalModel .
+
+bigg:hasKPI a owl:ObjectProperty ;
+    rdfs:label "has k p i" ;
+    rdfs:domain bigg:KPICalculationItem ;
+    rdfs:range bigg:KeyPerformanceIndicator .
+
+bigg:hasKPIType a owl:ObjectProperty ;
+    rdfs:label "has k p i type" ;
+    rdfs:domain bigg:KeyPerformanceIndicator ;
+    rdfs:range bigg:KPIType .
+
+bigg:hasKPIUnit a owl:ObjectProperty ;
+    rdfs:label "has k p i unit" ;
+    rdfs:domain bigg:KPIAssessment ;
     rdfs:range bigg:MeasurementUnit .
 
-bigg:hasC02RelatedMeasuredProperty a owl:ObjectProperty ;
-    rdfs:label "has c02 related measured property" ;
-    rdfs:domain bigg:CO2EmissionsFactorList ;
-    rdfs:range bigg:MeasuredProperty .
+bigg:hasModelStorageInfrastructure a owl:ObjectProperty ;
+    rdfs:label "has model storage infrastructure" ;
+    rdfs:domain bigg:AnalyticalModel ;
+    rdfs:range bigg:ModelStorageInfrastructure .
 
-bigg:hasC02RelatedMeasuredUnit a owl:ObjectProperty ;
-    rdfs:label "has c02 related measured unit" ;
-    rdfs:domain bigg:CO2EmissionsFactorList ;
-    rdfs:range bigg:MeasurementUnit .
+bigg:hasModelType a owl:ObjectProperty ;
+    rdfs:label "has model type" ;
+    rdfs:domain bigg:AnalyticalModel ;
+    rdfs:range bigg:ModelType .
 
-bigg:hasCO2EmissionsFactor a owl:ObjectProperty ;
-    rdfs:label "has c o2 emissions factor" ;
-    rdfs:domain bigg:UtilityPointOfDelivery ;
-    rdfs:range bigg:CO2EmissionsFactor .
+bigg:hasSingleKPIPoint a owl:ObjectProperty ;
+    rdfs:label "has single k p i point" ;
+    rdfs:domain bigg:SingleKPIAssessment ;
+    rdfs:range bigg:SingleKPIAssessmentPoint .
 
-bigg:hasCO2EmissionsFactorList a owl:ObjectProperty ;
-    rdfs:label "has c o2 emissions factor list" ;
-    rdfs:domain bigg:CO2EmissionsFactor ;
-    rdfs:range bigg:CO2EmissionsFactorList .
+bigg:isEstimatedByModel a owl:ObjectProperty ;
+    rdfs:label "is estimated by model" ;
+    rdfs:domain bigg:KPIAssessment ;
+    rdfs:range bigg:AnalyticalModel .
 
-bigg:hasCO2EmissionsFactorValue a owl:ObjectProperty ;
-    rdfs:label "has c o2 emissions factor value" ;
-    rdfs:domain bigg:CO2EmissionsFactorList ;
-    rdfs:range bigg:CO2EmissionsPoint .
-
-bigg:hasContractedTariff a owl:ObjectProperty ;
-    rdfs:label "has contracted tariff" ;
-    rdfs:domain bigg:UtilityPointOfDelivery ;
-    rdfs:range bigg:ContractedTariff .
-
-bigg:hasTariff a owl:ObjectProperty ;
-    rdfs:label "has tariff" ;
-    rdfs:domain bigg:ContractedTariff ;
-    rdfs:range bigg:Tariff .
-
-bigg:hasTariffComponentList a owl:ObjectProperty ;
-    rdfs:label "has tariff component list" ;
-    rdfs:domain bigg:Tariff ;
-    rdfs:range bigg:TariffComponentList .
-
-bigg:hasTariffComponentPoint a owl:ObjectProperty ;
-    rdfs:label "has tariff component point" ;
-    rdfs:domain bigg:TariffComponentList ;
-    rdfs:range bigg:TariffComponentPoint .
-
-bigg:hasTariffCurrencyUnit a owl:ObjectProperty ;
-    rdfs:label "has tariff currency unit" ;
-    rdfs:domain bigg:TariffComponentList ;
-    rdfs:range bigg:TariffCurrency .
-
-bigg:hasTariffMeasuredProperty a owl:ObjectProperty ;
-    rdfs:label "has tariff measured property" ;
-    rdfs:domain bigg:TariffComponentList ;
-    rdfs:range bigg:MeasuredProperty .
-
-bigg:hasTariffMeasuredUnit a owl:ObjectProperty ;
-    rdfs:label "has tariff measured unit" ;
-    rdfs:domain bigg:TariffComponentList ;
-    rdfs:range bigg:MeasurementUnit .
-
-bigg:tariffCompany a owl:DatatypeProperty ;
-    rdfs:label "tariff company" ;
-    rdfs:domain bigg:Tariff ;
+bigg:modelBaselineYear a owl:DatatypeProperty ;
+    rdfs:label "model baseline year" ;
+    rdfs:domain bigg:AnalyticalModel ;
     rdfs:range xsd:string .
 
-bigg:tariffName a owl:DatatypeProperty ;
-    rdfs:label "tariff name" ;
-    rdfs:domain bigg:Tariff ;
+bigg:modelLocation a owl:DatatypeProperty ;
+    rdfs:label "model location" ;
+    rdfs:domain bigg:AnalyticalModel ;
     rdfs:range xsd:string .
 
-bigg:CO2EmissionsPoint a owl:Class ;
-    rdfs:label "C O2 Emissions Point" ;
-    rdfs:subClassOf bigg:TimeSeriesPoint .
+bigg:modelName a owl:DatatypeProperty ;
+    rdfs:label "model name" ;
+    rdfs:domain bigg:AnalyticalModel ;
+    rdfs:range xsd:string .
 
-bigg:Contract a owl:Class ;
-    rdfs:label "Contract" .
+bigg:modelTrainedDate a owl:DatatypeProperty ;
+    rdfs:label "model trained date" ;
+    rdfs:domain bigg:AnalyticalModel ;
+    rdfs:range xsd:date .
 
-bigg:TariffComponentPoint a owl:Class ;
-    rdfs:label "Tariff Component Point" ;
-    rdfs:subClassOf bigg:TimeSeriesPoint .
+bigg:quantifiesKPI a owl:ObjectProperty ;
+    rdfs:label "quantifies k p i" ;
+    rdfs:domain bigg:KPIAssessment ;
+    rdfs:range bigg:KeyPerformanceIndicator .
 
-bigg:TariffCurrency a owl:Class ;
-    rdfs:label "Tariff Currency" .
+bigg:AggregationFunction a owl:Class ;
+    rdfs:label "Aggregation Function" .
 
-bigg:CO2EmissionsFactor a owl:Class ;
-    rdfs:label "C O2 Emissions Factor" .
-
-bigg:ContractedTariff a owl:Class ;
-    rdfs:label "Contracted Tariff" ;
-    rdfs:subClassOf bigg:Contract .
-
-bigg:MeasuredProperty a owl:Class ;
-    rdfs:label "Measured Property" .
-
-bigg:TimeSeriesList a owl:Class ;
-    rdfs:label "Time Series List" .
-
-bigg:TimeSeriesPoint a owl:Class ;
-    rdfs:label "Time Series Point" .
-
-bigg:UtilityPointOfDelivery a owl:Class ;
-    rdfs:label "Utility Point Of Delivery" .
+bigg:KPIType a owl:Class ;
+    rdfs:label "K P I Type" .
 
 bigg:MeasurementUnit a owl:Class ;
     rdfs:label "Measurement Unit" .
 
-bigg:Tariff a owl:Class ;
-    rdfs:label "Tariff" .
+bigg:ModelStorageInfrastructure a owl:Class ;
+    rdfs:label "Model Storage Infrastructure" .
 
-bigg:CO2EmissionsFactorList a owl:Class ;
-    rdfs:label "C O2 Emissions Factor List" ;
+bigg:ModelType a owl:Class ;
+    rdfs:label "Model Type" .
+
+bigg:SingleKPIAssessmentPoint a owl:Class ;
+    rdfs:label "Single K P I Assessment Point" ;
+    rdfs:subClassOf bigg:TimeSeriesPoint .
+
+bigg:TimeSeriesList a owl:Class ;
+    rdfs:label "Time Series List" .
+
+bigg:AggregatedKPIAssessment a owl:Class ;
+    rdfs:label "Aggregated K P I Assessment" ;
+    rdfs:subClassOf bigg:KPIAssessment .
+
+bigg:AggregatedKPIAssessmentPoint a owl:Class ;
+    rdfs:label "Aggregated K P I Assessment Point" ;
+    rdfs:subClassOf bigg:TimeSeriesPoint .
+
+bigg:AnalyticalGroup a owl:Class ;
+    rdfs:label "Analytical Group" .
+
+bigg:SingleKPIAssessment a owl:Class ;
+    rdfs:label "Single K P I Assessment" ;
+    rdfs:subClassOf bigg:KPIAssessment .
+
+bigg:TimeSeriesPoint a owl:Class ;
+    rdfs:label "Time Series Point" .
+
+bigg:KPIAssessment a owl:Class ;
+    rdfs:label "K P I Assessment" ;
     rdfs:subClassOf bigg:TimeSeriesList .
 
-bigg:TariffComponentList a owl:Class ;
-    rdfs:label "Tariff Component List" ;
-    rdfs:subClassOf bigg:TimeSeriesList .
+bigg:KeyPerformanceIndicator a owl:Class ;
+    rdfs:label "Key Performance Indicator" .
+
+bigg:KPICalculationItem a owl:Class ;
+    rdfs:label "K P I Calculation Item" .
+
+bigg:AnalyticalModel a owl:Class ;
+    rdfs:label "Analytical Model" .
+
 
 # extensions-project
 

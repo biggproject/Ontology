@@ -1542,17 +1542,12 @@ bigg:EnergyEfficiencyMeasure a owl:Class ;
 bigg:assessesAggregatedKPI a owl:ObjectProperty ;
     rdfs:label "assesses aggregated k p i" ;
     rdfs:domain bigg:AnalyticalGroup ;
-    rdfs:range bigg:AggregatedKPIAssesment .
+    rdfs:range bigg:AggregatedKPIAssessment .
 
 bigg:assessesSingleKPI a owl:ObjectProperty ;
     rdfs:label "assesses single k p i" ;
     rdfs:domain bigg:KPICalculationItem ;
-    rdfs:range bigg:SingleKPIAssesment .
-
-bigg:estimatesKPI a owl:ObjectProperty ;
-    rdfs:label "estimates k p i" ;
-    rdfs:domain bigg:KPIAssesment ;
-    rdfs:range bigg:AnalyticalModel .
+    rdfs:range bigg:SingleKPIAssessment .
 
 bigg:groupsForAnalytics a owl:ObjectProperty ;
     rdfs:label "groups for analytics" ;
@@ -1561,8 +1556,8 @@ bigg:groupsForAnalytics a owl:ObjectProperty ;
 
 bigg:hasAggregatedKPIPoint a owl:ObjectProperty ;
     rdfs:label "has aggregated k p i point" ;
-    rdfs:domain bigg:AggregatedKPIAssesment ;
-    rdfs:range bigg:AggregatedKPIAssesmentPoint .
+    rdfs:domain bigg:AggregatedKPIAssessment ;
+    rdfs:range bigg:AggregatedKPIAssessmentPoint .
 
 bigg:hasAnalyticalModel a owl:ObjectProperty ;
     rdfs:label "has analytical model" ;
@@ -1581,7 +1576,7 @@ bigg:hasKPIType a owl:ObjectProperty ;
 
 bigg:hasKPIUnit a owl:ObjectProperty ;
     rdfs:label "has k p i unit" ;
-    rdfs:domain bigg:KeyPerformanceIndicator ;
+    rdfs:domain bigg:KPIAssessment ;
     rdfs:range bigg:MeasurementUnit .
 
 bigg:hasModelStorageInfrastructure a owl:ObjectProperty ;
@@ -1589,10 +1584,25 @@ bigg:hasModelStorageInfrastructure a owl:ObjectProperty ;
     rdfs:domain bigg:AnalyticalModel ;
     rdfs:range bigg:ModelStorageInfrastructure .
 
+bigg:hasModelType a owl:ObjectProperty ;
+    rdfs:label "has model type" ;
+    rdfs:domain bigg:AnalyticalModel ;
+    rdfs:range bigg:ModelType .
+
 bigg:hasSingleKPIPoint a owl:ObjectProperty ;
     rdfs:label "has single k p i point" ;
-    rdfs:domain bigg:SingleKPIAssesment ;
-    rdfs:range bigg:SingleKPIAssesmentPoint .
+    rdfs:domain bigg:SingleKPIAssessment ;
+    rdfs:range bigg:SingleKPIAssessmentPoint .
+
+bigg:isEstimatedByModel a owl:ObjectProperty ;
+    rdfs:label "is estimated by model" ;
+    rdfs:domain bigg:KPIAssessment ;
+    rdfs:range bigg:AnalyticalModel .
+
+bigg:modelBaselineYear a owl:DatatypeProperty ;
+    rdfs:label "model baseline year" ;
+    rdfs:domain bigg:AnalyticalModel ;
+    rdfs:range xsd:string .
 
 bigg:modelLocation a owl:DatatypeProperty ;
     rdfs:label "model location" ;
@@ -1604,13 +1614,18 @@ bigg:modelName a owl:DatatypeProperty ;
     rdfs:domain bigg:AnalyticalModel ;
     rdfs:range xsd:string .
 
+bigg:modelTrainedDate a owl:DatatypeProperty ;
+    rdfs:label "model trained date" ;
+    rdfs:domain bigg:AnalyticalModel ;
+    rdfs:range xsd:date .
+
 bigg:quantifiesKPI a owl:ObjectProperty ;
     rdfs:label "quantifies k p i" ;
-    rdfs:domain bigg:KPIAssesment ;
+    rdfs:domain bigg:KPIAssessment ;
     rdfs:range bigg:KeyPerformanceIndicator .
 
-bigg:AggregatedKPIAssesmentPoint a owl:Class ;
-    rdfs:label "Aggregated K P I Assesment Point" ;
+bigg:AggregatedKPIAssessmentPoint a owl:Class ;
+    rdfs:label "Aggregated K P I Assessment Point" ;
     rdfs:subClassOf bigg:TimeSeriesPoint .
 
 bigg:KPIType a owl:Class ;
@@ -1622,39 +1637,44 @@ bigg:MeasurementUnit a owl:Class ;
 bigg:ModelStorageInfrastructure a owl:Class ;
     rdfs:label "Model Storage Infrastructure" .
 
-bigg:SingleKPIAssesmentPoint a owl:Class ;
-    rdfs:label "Single K P I Assesment Point" ;
+bigg:ModelType a owl:Class ;
+    rdfs:label "Model Type" .
+
+bigg:SingleKPIAssessmentPoint a owl:Class ;
+    rdfs:label "Single K P I Assessment Point" ;
     rdfs:subClassOf bigg:TimeSeriesPoint .
 
 bigg:TimeSeriesList a owl:Class ;
     rdfs:label "Time Series List" .
 
-bigg:AggregatedKPIAssesment a owl:Class ;
-    rdfs:label "Aggregated K P I Assesment" ;
-    rdfs:subClassOf bigg:KPIAssesment .
+bigg:AggregatedKPIAssessment a owl:Class ;
+    rdfs:label "Aggregated K P I Assessment" ;
+    rdfs:subClassOf bigg:KPIAssessment .
 
 bigg:AnalyticalGroup a owl:Class ;
     rdfs:label "Analytical Group" .
 
-bigg:SingleKPIAssesment a owl:Class ;
-    rdfs:label "Single K P I Assesment" ;
-    rdfs:subClassOf bigg:KPIAssesment .
+bigg:SingleKPIAssessment a owl:Class ;
+    rdfs:label "Single K P I Assessment" ;
+    rdfs:subClassOf bigg:KPIAssessment .
 
 bigg:TimeSeriesPoint a owl:Class ;
     rdfs:label "Time Series Point" .
 
-bigg:KPIAssesment a owl:Class ;
-    rdfs:label "K P I Assesment" ;
+bigg:KPIAssessment a owl:Class ;
+    rdfs:label "K P I Assessment" ;
     rdfs:subClassOf bigg:TimeSeriesList .
 
-bigg:AnalyticalModel a owl:Class ;
-    rdfs:label "Analytical Model" .
+bigg:KeyPerformanceIndicator a owl:Class ;
+    rdfs:label "Key Performance Indicator" .
 
 bigg:KPICalculationItem a owl:Class ;
     rdfs:label "K P I Calculation Item" .
 
-bigg:KeyPerformanceIndicator a owl:Class ;
-    rdfs:label "Key Performance Indicator" .
+bigg:AnalyticalModel a owl:Class ;
+    rdfs:label "Analytical Model" .
+
+
 
 # extensions-ifc
 

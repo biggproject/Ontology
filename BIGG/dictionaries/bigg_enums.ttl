@@ -2869,6 +2869,15 @@ bigg:TrustedModel.Other a bigg:EstimationMethod, skos:Concept;
   skos:broader bigg:TrustedModel ;
   bigg:considerEstimatedValues true .
 
+
+bigg:BaselineModel a bigg:ModelType, skos:Concept;
+  skos:broader bigg:TrustedModel ;
+  bigg:considerEstimatedValues true .
+
+bigg:DynamicModel a bigg:ModelType, skos:Concept;
+  skos:broader bigg:TrustedModel ;
+  bigg:considerEstimatedValues true .
+
 bigg:SafetyAndHealth a bigg:NonEnergyBenefitType, skos:Concept .
 
 bigg:QualityImprovement a bigg:NonEnergyBenefitType, skos:Concept .

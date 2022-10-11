@@ -4855,6 +4855,12 @@ unit:Euro a bigg:EnergyEfficiencyMeasureInvestmentCurrency,
     qudt:omUnit <http://www.ontology-of-units-of-measure.org/resource/om-2/euro> ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
 
+bigg:Euro-M2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Euro"@en ;
+    dcterms:description "European Union Euro per squared meter"^^rdf:HTML ;
+    qudt:currencyExponent 2 .
+
 unit:EuropeanCompositeUnit a bigg:EnergyEfficiencyMeasureInvestmentCurrency,
         bigg:MeasurementUnit,
         bigg:ProjectInvestmentCurrency,
@@ -6429,6 +6435,21 @@ unit:GM_Carbon-PER-M2-DAY a bigg:MeasurementUnit,
     qudt:plainTextDescription "A metric unit of volumeÂ over time indicating the amountÂ generated across oneÂ square meter over a day. Used to express productivity of an ecosystem." ;
     qudt:ucumCode "g.m-2.d-1{C}"^^qudt:UCUMcs ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+bigg:KiloGM-CO2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "grams CO2"@en,
+        "grams CO2"@en-us ;
+    qudt:expression "\\(kgCO2\\)."^^qudt:LatexString ;
+    qudt:hasQuantityKind quantitykind:Mass ;
+    qudt:ucumCode "g.m-2.d-1{C}"^^qudt:UCUMcs ;
+
+bigg:KiloGM-CO2-M2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "grams CO2 per square metre"@en,
+        "grams CO2 per square meter"@en-us ;
+    qudt:expression "\\(kgCO2/m^{2}\\)."^^qudt:LatexString ;
+    qudt:hasQuantityKind quantitykind:MassPerArea ;
 
 unit:GM_F-PER-CentiM2 a bigg:MeasurementUnit,
         qudt:Unit ;
@@ -9914,6 +9935,15 @@ unit:KiloW-HR a bigg:MeasurementUnit,
     qudt:uneceCommonCode "KWH" ;
     qudt:unitOfSystem sou:CGS ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> .
+
+bigg:KiloW-HR-M2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Kilowatthourperm2"@en ;
+    dcterms:description "The kilowatt hour per m2, or kilowatt-hour per squared meter, is a unit to measure the energy consumed by surface."^^qudt:LatexString ;
+    qudt:hasQuantityKind quantitykind:Energy  ;
+    qudt:ucumCode "kW.hm2"^^qudt:UCUMcs ;
+    qudt:uneceCommonCode "KWH" ;
+    qudt:unitOfSystem sou:CGS .
 
 unit:KiloWB-PER-M a bigg:MeasurementUnit,
         qudt:Unit ;

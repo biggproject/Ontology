@@ -2870,13 +2870,23 @@ bigg:TrustedModel.Other a bigg:EstimationMethod, skos:Concept;
   bigg:considerEstimatedValues true .
 
 
-bigg:BaselineModel a bigg:ModelType, skos:Concept;
-  skos:broader bigg:TrustedModel ;
-  bigg:considerEstimatedValues true .
+bigg:BaselineModel a bigg:ModelType, skos:Concept .
 
-bigg:DynamicModel a bigg:ModelType, skos:Concept;
-  skos:broader bigg:TrustedModel ;
-  bigg:considerEstimatedValues true .
+bigg:DynamicModel a bigg:ModelType, skos:Concept .
+
+bigg:P5 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P25 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P50 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P75 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P95 a bigg:AggregationFunction, skos:Concept .
+
+bigg:AVG a bigg:AggregationFunction, skos:Concept .
+
+bigg:SUM a bigg:AggregationFunction, skos:Concept .
 
 bigg:SafetyAndHealth a bigg:NonEnergyBenefitType, skos:Concept .
 

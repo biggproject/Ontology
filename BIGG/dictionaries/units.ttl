@@ -6442,14 +6442,14 @@ bigg:KiloGM-CO2 a bigg:MeasurementUnit,
         "grams CO2"@en-us ;
     qudt:expression "\\(kgCO2\\)."^^qudt:LatexString ;
     qudt:hasQuantityKind quantitykind:Mass ;
-    qudt:ucumCode "g.m-2.d-1{C}"^^qudt:UCUMcs ;
+    qudt:ucumCode "g.m-2.d-1{C}"^^qudt:UCUMcs .
 
 bigg:KiloGM-CO2-M2 a bigg:MeasurementUnit,
         qudt:Unit ;
     rdfs:label "grams CO2 per square metre"@en,
         "grams CO2 per square meter"@en-us ;
     qudt:expression "\\(kgCO2/m^{2}\\)."^^qudt:LatexString ;
-    qudt:hasQuantityKind quantitykind:MassPerArea ;
+    qudt:hasQuantityKind quantitykind:MassPerArea .
 
 unit:GM_F-PER-CentiM2 a bigg:MeasurementUnit,
         qudt:Unit ;

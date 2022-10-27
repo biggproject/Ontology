@@ -1597,6 +1597,11 @@ bigg:hasAggregatedKPIPoint a owl:ObjectProperty ;
     rdfs:domain bigg:AggregatedKPIAssessment ;
     rdfs:range bigg:AggregatedKPIAssessmentPoint .
 
+bigg:hasAggregationFunction a owl:ObjectProperty ;
+    rdfs:label "has aggregation function" ;
+    rdfs:domain bigg:AggregatedKPIAssessment ;
+    rdfs:range bigg:AggregationFunction .
+
 bigg:hasAnalyticalModel a owl:ObjectProperty ;
     rdfs:label "has analytical model" ;
     rdfs:domain bigg:KPICalculationItem ;
@@ -1666,6 +1671,9 @@ bigg:AggregatedKPIAssessmentPoint a owl:Class ;
     rdfs:label "Aggregated K P I Assessment Point" ;
     rdfs:subClassOf bigg:TimeSeriesPoint .
 
+bigg:AggregationFunction a owl:Class ;
+    rdfs:label "Aggregation Function" .
+
 bigg:KPIType a owl:Class ;
     rdfs:label "K P I Type" .
 
@@ -1685,10 +1693,6 @@ bigg:SingleKPIAssessmentPoint a owl:Class ;
 bigg:TimeSeriesList a owl:Class ;
     rdfs:label "Time Series List" .
 
-bigg:AggregatedKPIAssessment a owl:Class ;
-    rdfs:label "Aggregated K P I Assessment" ;
-    rdfs:subClassOf bigg:KPIAssessment .
-
 bigg:AnalyticalGroup a owl:Class ;
     rdfs:label "Analytical Group" .
 
@@ -1698,6 +1702,10 @@ bigg:SingleKPIAssessment a owl:Class ;
 
 bigg:TimeSeriesPoint a owl:Class ;
     rdfs:label "Time Series Point" .
+
+bigg:AggregatedKPIAssessment a owl:Class ;
+    rdfs:label "Aggregated K P I Assessment" ;
+    rdfs:subClassOf bigg:KPIAssessment .
 
 bigg:KPIAssessment a owl:Class ;
     rdfs:label "K P I Assessment" ;

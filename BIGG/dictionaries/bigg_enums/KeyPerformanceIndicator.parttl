@@ -1,0 +1,78 @@
+
+bigg:KPI-EnergyCost a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+    rdfs:label "Energy Cost@en";
+    bigg:shortName "EC@en".
+
+bigg:KPI-EnergyCostIntensity a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Cost Intensity@en";
+  bigg:shortName "ECI@en".
+
+bigg:KPI-EnergyCostSavings a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Cost Savings@en";
+  bigg:shortName "ECS@en";
+  bigg:enegy "Total" .
+
+bigg:KPI-EnergyCostSavingsIntensity a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Cost Savings Intensity@en";
+  bigg:shortName "ECSI@en" .
+
+bigg:KPI-EnergyEmissions a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Emissions@en";
+  bigg:shortName "EE@en".
+
+bigg:KPI-EnergyEmissionsIntensity a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Emissions Intensity@en";
+  bigg:shortName "EEI@en".
+
+bigg:KPI-EmissionsSavings a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Emissions Savings@en";
+  bigg:shortName "EES@en" .
+
+bigg:KPI-EEMEmissionsSavingsIntensity a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Emissions Savings Intensity@en";
+  bigg:shortName "EESI@en" .
+
+
+bigg:KPI-EnergyUse a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Use@en";
+  bigg:shortName "EU@en" .
+
+bigg:KPI-EnergyUseIntensity a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Use Intensity@en";
+  bigg:shortName "EUI@en" .
+
+bigg:KPI-EnergyUseSavings a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Use Savings@en";
+  bigg:shortName "EUS@en" .
+
+bigg:KPI-EnergyUseSavingsIntensity a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Use Savings Intensity@en";
+  bigg:shortName "EUSI@en" .
+
+bigg:KPI-NormalisedInvestmentCost a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Normalised Investment Cost@en";
+  bigg:shortName "NIC@en" .
+
+bigg:KPI-AvoidanceCost a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Avoidance Cost@en";
+  bigg:shortName "AC@en" .
+
+bigg:KPI-SimplePayback a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Simple Payback@en";
+  bigg:shortName "SP@en" .
+
+bigg:KPI-NetPresentValue a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Net Present Value@en";
+  bigg:shortName "NPV@en" .
+
+bigg:KPI-ProfitabilityIndex a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Profitability Index@en";
+  bigg:shortName "PI@en" .
+
+bigg:KPI-NetPresentValueQuotient a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;;
+  rdfs:label "Net Present Value Quotient@en";
+  bigg:shortName "NPVq@en" .
+
+bigg:KPI-InternalRateOfReturn a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;;
+  rdfs:label "Internal Rate of Return@en";
+  bigg:shortName "IRR@en" .

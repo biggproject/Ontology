@@ -1,0 +1,71 @@
+
+bigg:IfcWall a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A vertical construction in a premises that creates an enclosed building space" .
+
+bigg:IfcWall.ExternalWall a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "Outer walls of a building including the ones adjoining to another building and the ones abutting on an interior open space";
+  skos:broader bigg:IfcWall .
+
+bigg:IfcWall.ExternalWall.IfcCurtainWall a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "Outer covering of a building in which the outer walls are non-structural, utilized only to keep the weather out and the occupants in";
+  skos:broader bigg:IfcWall.ExternalWall .
+
+bigg:IfcWall.InternalWall a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "Walls providing separation between the internal spaces of a building";
+  skos:broader bigg:IfcWall .
+
+bigg:RoofOrCeiling a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "The exterior (roof) or internal (ceiling) structure forming the upper covering of the building" .
+
+bigg:RoofOrCeiling.PitchedRoof a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A roof that is formed by surfaces sloping downward with an angle of more than 20°";
+  skos:broader bigg:RoofOrCeiling .
+
+bigg:RoofOrCeiling.FlatRoof a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A roof that is flat or formed by surfaces sloping downward with an angle of less than 20°";
+  skos:broader bigg:RoofOrCeiling .
+
+bigg:RoofOrCeiling.ReflectiveRoof a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A reflective or cool roof is a roof coated with a high solar reflectance material that reflects sunlight and reduces the temperature and heat gain of the struture";
+  skos:broader bigg:RoofOrCeiling .
+
+bigg:RoofOrCeiling.GreenRoof a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A roof that is partially or completely covered with vegetation and a growing medium, planted over a waterproofing membrane";
+  skos:broader bigg:RoofOrCeiling .
+
+bigg:RoofOrCeiling.LoftCeiling a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "The covering ceiling of the space located inside the sloping roof of a building";
+  skos:broader bigg:RoofOrCeiling .
+
+bigg:Floor a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A horizontal construction in a building that creates the base of an enclosed space" .
+
+bigg:Floor.SuspendedFloor a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A ground floor with a void underneath the structure";
+  skos:broader bigg:Floor .
+
+bigg:Floor.SolidFloor a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A floor that consists of a layer of concrete";
+  skos:broader bigg:Floor .
+
+bigg:IfcSlab a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "Provides the lower support (floor) or upper construction (roof slab) in any space in a building." .
+
+bigg:IfcWindow a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "An opening in the wall of a building fitted with glass in a frame" .
+
+bigg:Skylight a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A window fitted in the roof or ceiling of a building, typically inclined or horizontal" .
+
+bigg:IfcDoor a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A surface component that is operable and separates two spaces in a building" .
+
+bigg:IfcDoor.AutomaticDoor a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A door equipped with a power-operated mechanism and controls that open and close the door automatically";
+  skos:broader bigg:IfcDoor .
+
+bigg:ShadingSystem a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "A system that can be added inside or outside of a fenestration system to block or redirects some amount of the solar radiation coming through the fenestration system" .
+
+bigg:OtherBuildingConstructionElement a bigg:BuildingConstructionElementType, skos:Concept;
+  rdfs:comment "Other building construction element" .

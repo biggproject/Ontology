@@ -1,0 +1,4 @@
+bigg:Total a bigg:MeasuredPropertyComponent, skos:Concept .
+bigg:Baseload a bigg:MeasuredPropertyComponent, skos:Concept .
+bigg:Heating a bigg:MeasuredPropertyComponent, skos:Concept .
+bigg:Cooling a bigg:MeasuredPropertyComponent, skos:Concept .

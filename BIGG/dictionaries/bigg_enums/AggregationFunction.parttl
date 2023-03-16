@@ -1,0 +1,14 @@
+
+bigg:P5 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P25 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P50 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P75 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P95 a bigg:AggregationFunction, skos:Concept .
+
+bigg:AVG a bigg:AggregationFunction, skos:Concept .
+
+bigg:SUM a bigg:AggregationFunction, skos:Concept .

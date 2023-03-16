@@ -1,0 +1,314 @@
+
+bigg:HeatingDegreeDays a bigg:BaselineInfluenceFactor, skos:Concept .
+
+bigg:CoolingDegreeDays a bigg:BaselineInfluenceFactor, skos:Concept .
+
+bigg:Occupancy a bigg:BaselineInfluenceFactor, skos:Concept .
+
+bigg:ProductionLevel a bigg:BaselineInfluenceFactor, skos:Concept .
+
+
+
+bigg:owned a bigg:BuildingOwnership, skos:Concept .
+
+bigg:rented a bigg:BuildingOwnership, skos:Concept .
+
+
+
+bigg:TotalEnergySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Total annual final energy savings (considering all billed energy sources) in the reference period, kWh/year" .
+
+bigg:GridElectricitySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased grid electricity, kWh/year" .
+
+bigg:GasSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased gas, kWh/year" .
+
+bigg:OilSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased oil, kWh/year" .
+
+bigg:CoalSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased coal, kWh/year" .
+
+bigg:DistrictHeatingSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased district heating, kWh/year" .
+
+bigg:DistrictCoolingSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased district cooling, kWh/year" .
+
+bigg:CHPSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over Combined Heat and Power (CHP), kWh/year" .
+
+bigg:BiomassSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased biomass, kWh/year" .
+
+bigg:BiofuelsSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased biofuels, kWh/year" .
+
+bigg:RenewableElectricitySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over produced elctrcity from renewable sources, kWh/year" .
+
+bigg:RenewableHeatSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over produced heat from renewable sources, kWh/year" .
+
+bigg:TotalAdjustedEnergySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Total annual final energy savings (considering all billed energy sources) adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedGridElectricitySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased grid electricity adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedGasSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased gas adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedOilSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased oil adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedCoalSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased coal adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedDistrictHeatingSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased district heating adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedDistrictCoolingSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased district cooling adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedCHPSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over Combined Heat and Power (CHP) adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedBiomassSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased biomass adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedBiofuelsSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased biofuels adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedRenewableElectricitySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over produced elctrcity from renewable sources adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedRenewableHeatSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over produced heat from renewable sources adjusted for weather/season/production, kWh/year" .
+
+bigg:OtherSavings a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings on unknown or not listed sources, kWh/year" .
+
+
+
+
+bigg:ThirdParty a bigg:EnergySavingVerificationSource, skos:Concept .
+
+bigg:ESCO a bigg:EnergySavingVerificationSource, skos:Concept .
+
+
+
+
+bigg:GRC_ZONE_A a bigg:AddressClimateZone, skos:Concept;
+  rdfs:comment "Greece, zone A" .
+
+bigg:GRC_ZONE_B a bigg:AddressClimateZone, skos:Concept;
+  rdfs:comment "Greece, zone B" .
+
+bigg:GRC_ZONE_C a bigg:AddressClimateZone, skos:Concept;
+  rdfs:comment "Greece, zone C" .
+
+bigg:GRC_ZONE_D a bigg:AddressClimateZone, skos:Concept;
+  rdfs:comment "Greece, zone D" .
+
+
+
+
+bigg:SafetyAndHealth a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:QualityImprovement a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:CostsSavings a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:TimeSavings a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:ValuePropositionImprovement a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:RisksMitigation a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:CarbonEmissionsReduction a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:OtherEmissionsReduction a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:CorporateSocialResponsibility a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:EmployeeSatisfaction a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:MarketValueIncrease a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:ProductivityImprovement a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:MaintenanceReduction a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:CustomerBenefits a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:SiteValueEnhancement a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:ComfortImprovement a bigg:NonEnergyBenefitType, skos:Concept .
+
+bigg:Compliance a bigg:NonEnergyBenefitType, skos:Concept .
+
+
+
+
+bigg:NotMeasured a bigg:NonEnergyBenefitImpactEvaluation, skos:Concept .
+
+bigg:Improved a bigg:NonEnergyBenefitImpactEvaluation, skos:Concept .
+
+bigg:NoImpact a bigg:NonEnergyBenefitImpactEvaluation, skos:Concept .
+
+bigg:Degraded a bigg:NonEnergyBenefitImpactEvaluation, skos:Concept .
+
+
+
+
+
+bigg:PublicBank a bigg:OrganizationType, skos:Concept;
+  rdfs:comment "PublicBank" .
+
+bigg:PrivateBank a bigg:OrganizationType, skos:Concept;
+  rdfs:comment "PrivateBank" .
+
+bigg:IFI a bigg:OrganizationType, skos:Concept;
+  rdfs:comment "IFI" .
+
+bigg:ESCO a bigg:OrganizationType, skos:Concept;
+  rdfs:comment "ESCO" .
+
+bigg:SchemeManager a bigg:OrganizationType, skos:Concept;
+  rdfs:comment "SchemeManager" .
+
+bigg:Supplier a bigg:OrganizationType, skos:Concept;
+  rdfs:comment "Supplier" .
+
+bigg:HostInvestor a bigg:OrganizationType, skos:Concept;
+  rdfs:comment "HostInvestor" .
+
+
+
+
+
+bigg:AfterEnergyAudit a bigg:ProjectMotivation, skos:Concept;
+  rdfs:comment "The project followed a mandatory energy audit" .
+
+bigg:PartOfImprovementWorks a bigg:ProjectMotivation, skos:Concept;
+  rdfs:comment "The project is part of larger modernization or improvement work" .
+
+bigg:ToImproveProductivity a bigg:ProjectMotivation, skos:Concept;
+  rdfs:comment "The project aimed at improving productivity" .
+
+bigg:ForCostSavings a bigg:ProjectMotivation, skos:Concept;
+  rdfs:comment "The project aimed at producing economic savings" .
+
+bigg:ForEnvironmentalPolicy a bigg:ProjectMotivation, skos:Concept;
+  rdfs:comment "The project aimed at complying with environmental policy requirements " .
+
+bigg:ForLegalRequirements a bigg:ProjectMotivation, skos:Concept;
+  rdfs:comment "The project aimed at complying with other legal requirements " .
+
+bigg:ToBenefitFromFinancialSupport a bigg:ProjectMotivation, skos:Concept;
+  rdfs:comment "The project aimed at benefitting from grants or financial support" .
+
+
+
+
+
+bigg:MultiLevelState a bigg:StateType, skos:Concept;
+  rdfs:comment "The state type of a device that can be set to multiple states" .
+
+bigg:OnOffState a bigg:StateType, skos:Concept;
+  rdfs:comment "The state type of a device that can be either on or off" .
+
+bigg:OpenCloseState a bigg:StateType, skos:Concept;
+  rdfs:comment "The state type of a device that can be either open or closed" .
+
+bigg:StartStopState a bigg:StateType, skos:Concept;
+  rdfs:comment "The state type of a device that can be started and stopped" .
+
+
+
+
+
+bigg:LightingSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building that fullfils a lighting function" .
+
+bigg:HVACandHotWaterSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building that fullfils an HVAC and/or water heating function" .
+
+bigg:HVACandHotWaterSystem.HeatingSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building that fullfils only a space heating function";
+  skos:broader bigg:HVACandHotWaterSystem .
+
+bigg:HVACandHotWaterSystem.CombinedHeatingCoolingSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building that fullfils both a space heating and cooling function";
+  skos:broader bigg:HVACandHotWaterSystem .
+
+bigg:HVACandHotWaterSystem.CoolingSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building that fullfils only a cooling function";
+  skos:broader bigg:HVACandHotWaterSystem .
+
+bigg:HVACandHotWaterSystem.HotWaterSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building that fullfils only a water heating function";
+  skos:broader bigg:HVACandHotWaterSystem .
+
+bigg:HVACandHotWaterSystem.CombinedHeatingHotWaterSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building that fullfils both a space and water heatingfunction";
+  skos:broader bigg:HVACandHotWaterSystem .
+
+bigg:HVACandHotWaterSystem.MechanicalVentilationSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building that fullfils a mechanical ventilation function";
+  skos:broader bigg:HVACandHotWaterSystem .
+
+bigg:BuildingFabricSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building that constitutes (part of) the building fabric" .
+
+bigg:ElectricPowerSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building  that fullfils an electric power-related function in the building" .
+
+bigg:RefrigerationSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building that fullfils a refrigeration function (space cooling is excluded)" .
+
+bigg:RenewableGenerationSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System of the building that fullfils a renewable energy generation function" .
+
+bigg:RenewableGenerationSystem.SolarPhotovoltaicSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "Photovoltaic (PV) systems that derives energy from incoming solar radiation ";
+  skos:broader bigg:RenewableGenerationSystem .
+
+bigg:RenewableGenerationSystem.SolarThermalSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "System that heats air or water using solar collectors";
+  skos:broader bigg:RenewableGenerationSystem .
+
+bigg:RenewableGenerationSystem.OtherRenewableGenerationSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "Other system that fullfils a renewable energy generation function";
+  skos:broader bigg:RenewableGenerationSystem .
+
+bigg:OtherSystem a bigg:SystemType, skos:Concept;
+  rdfs:comment "Other system" .
+
+
+
+
+bigg:Construction a bigg:ZoneType, skos:Concept;
+  rdfs:comment "The zone is used to represent a construction zone for the production process." .
+
+bigg:Firesafety a bigg:ZoneType, skos:Concept;
+  rdfs:comment "The zone is used to represent a fire safety zone, or fire compartment." .
+
+bigg:Lighting a bigg:ZoneType, skos:Concept;
+  rdfs:comment "The zone is used to represent a lighting zone; a daylight zone, or an artificial lighting zone." .
+
+bigg:Occupancy a bigg:ZoneType, skos:Concept;
+  rdfs:comment "The zone is used to represent a zone of particular occupancy." .
+
+bigg:Security a bigg:ZoneType, skos:Concept;
+  rdfs:comment "The zone is used to represent a zone for security planning and maintenance work." .
+
+bigg:Thermal a bigg:ZoneType, skos:Concept;
+  rdfs:comment "The zone is used to represent a thermal zone." .
+
+bigg:Transport a bigg:ZoneType, skos:Concept .
+
+bigg:Ventilation a bigg:ZoneType, skos:Concept;
+  rdfs:comment "The zone is used to represent a ventilation zone." .

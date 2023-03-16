@@ -1,0 +1,9 @@
+@base <https://bigg-project.eu/ontology#> .
+@prefix bigg: <http://bigg-project.eu/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .

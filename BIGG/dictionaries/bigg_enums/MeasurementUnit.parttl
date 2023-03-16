@@ -1,0 +1,56 @@
+
+bigg:Euro-M2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Euro per m2"@en ;
+    dcterms:description "European Union Euro per squared meter"^^rdf:HTML ;
+    qudt:symbol "€/m^2" ;
+    qudt:currencyExponent 2 .
+
+bigg:BulgarianLev-M2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Bulgarian Lev per m2"@en ;
+    qudt:symbol "лв/m^2" ;
+    dcterms:description "Bulgarian lev currency per squared meter"^^rdf:HTML ;
+    qudt:currencyExponent 2 .
+
+bigg:Euro-KiloW-HR a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Euro"@en ;
+    dcterms:description "European Union Euro per Kilo Watt Hour"^^rdf:HTML ;
+    qudt:symbol "€/kWh" ;
+    qudt:currencyExponent 2 .
+
+bigg:BulgarianLev-KiloW-HR a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Bulgarian lev per kilo watt hour"@en ;
+    dcterms:description "Bulgarian lev per Kilo Watt Hour"^^rdf:HTML ;
+    qudt:symbol "лв/kWh" ;
+    qudt:currencyExponent 2 .
+
+
+bigg:KiloGM-CO2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Kilo grams CO2"@en,
+        "grams CO2"@en-us ;
+    qudt:expression "\\(kgCO2\\)."^^qudt:LatexString ;
+    qudt:hasQuantityKind quantitykind:Mass ;
+    qudt:symbol "kgCO2" ;
+    qudt:ucumCode "g.m-2.d-1{C}"^^qudt:UCUMcs .
+
+bigg:KiloGM-CO2-M2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "kilograms CO2 per square metre"@en,
+        "kilograms CO2 per square meter"@en-us ;
+    qudt:expression "\\(kgCO2/m^{2}\\)."^^qudt:LatexString ;
+    qudt:symbol "kgCO2/m^2" ;
+    qudt:hasQuantityKind quantitykind:MassPerArea .
+
+bigg:KiloW-HR-M2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Kilowatthourperm2"@en ;
+    dcterms:description "The kilowatt hour per m2, or kilowatt-hour per squared meter, is a unit to measure the energy consumed by surface."^^qudt:LatexString ;
+    qudt:hasQuantityKind quantitykind:Energy  ;
+    qudt:ucumCode "kW.hm2"^^qudt:UCUMcs ;
+    qudt:uneceCommonCode "KWH" ;
+    qudt:symbol "kWh/m^2" ;
+    qudt:unitOfSystem sou:CGS .

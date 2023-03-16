@@ -1,0 +1,541 @@
+
+
+bigg:LightingElement a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Element used for the lighting of the building" .
+
+bigg:LightingElement.Luminaire a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A complete lighting module consisting of lamp(s) and ballast(s), together with the parts designed to distribute the light, to position and protect the lamps, and to connect the lamps to the power supply";
+  skos:broader bigg:LightingElement .
+
+bigg:LightingElement.Luminaire.IfcLamp a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A light source element sometimes also referred to as bulb or tube";
+  skos:broader bigg:LightingElement.Luminaire .
+
+bigg:LightingElement.Luminaire.IfcLamp.IncandescentLamp a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An electric light which produces light with a wire filament heated to a high temperature by an electric current passing through it, until it glows";
+  skos:broader bigg:LightingElement.Luminaire.IfcLamp .
+
+bigg:LightingElement.Luminaire.IfcLamp.FluorescentLamp a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A low pressure mercury-vapor gas-discharge lamp that uses fluorescence to produce visible light";
+  skos:broader bigg:LightingElement.Luminaire.IfcLamp .
+
+bigg:LightingElement.Luminaire.IfcLamp.LEDLamp a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "An ensamble of light-emitting diode chips which together emit electric light";
+  skos:broader bigg:LightingElement.Luminaire.IfcLamp .
+
+bigg:LightingElement.Luminaire.IfcLamp.T5Lamp a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A fluorescent tube with a 5/8 inch (15.9 mm) diameter";
+  skos:broader bigg:LightingElement.Luminaire.IfcLamp .
+
+bigg:LightingElement.Luminaire.IfcLamp.HIDLamp a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A type of electrical gas-discharge lamp that produces light by means of an electric arc between tungsten electrodes housed inside a translucent or transparent fused quartz or fused alumina arc tube";
+  skos:broader bigg:LightingElement.Luminaire.IfcLamp .
+
+bigg:LightingElement.Luminaire.IfcLamp.OtherLamp a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Other type of lamp";
+  skos:broader bigg:LightingElement.Luminaire.IfcLamp .
+
+bigg:LightingElement.Luminaire.IfcLightFixture a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A light fixture is a container that is designed for the purpose of housing one or more lamps and optionally devices that control, restrict or vary their emission.";
+  skos:broader bigg:LightingElement.Luminaire .
+
+bigg:LightingElement.Luminaire.Ballast a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A piece of equipment required to control the starting and operating voltages of electrical gas discharge lights.";
+  skos:broader bigg:LightingElement.Luminaire .
+
+bigg:LightingElement.Luminaire.Reflector a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Luminaire component that serves the purpose of light guidance";
+  skos:broader bigg:LightingElement.Luminaire .
+
+bigg:LightingElement.LightDimmer a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A device connected to a light fixture used to vary the brightness of light";
+  skos:broader bigg:LightingElement .
+
+bigg:LightingElement.OtherLightingElement a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Other element of the lighting system";
+  skos:broader bigg:LightingElement .
+
+bigg:HVACAndHotWaterElement a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Elements used for HVAC and/or hot water necessities of the building" .
+
+bigg:HVACAndHotWaterElement.ProductionElements a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Elements of the HVAC and hot water system involved in the heat/cool production process";
+  skos:broader bigg:HVACAndHotWaterElement .
+
+bigg:HVACAndHotWaterElement.ProductionElements.HeatPump a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A device capable of extracting heat from an ambient at lower temperature and delivering it to another ambient at a higher temperature";
+  skos:broader bigg:HVACAndHotWaterElement.ProductionElements .
+
+bigg:HVACAndHotWaterElement.ProductionElements.Furnace a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Packaged assembly of components that includes a heating source, a fan and an air filter, that relies on convection for heating delivery";
+  skos:broader bigg:HVACAndHotWaterElement.ProductionElements .
+
+bigg:HVACAndHotWaterElement.ProductionElements.EvaporativeCooler a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A cooler that cools indoor air by moisture evaporation, thereby lowering its dry-bulb temperature and raising its wet-bulb temperature, all at a constant energy level";
+  skos:broader bigg:HVACAndHotWaterElement.ProductionElements .
+
+bigg:HVACAndHotWaterElement.ProductionElements.AirConditioner a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A device that operated in an enclosed area via a refrigeration cycle in which heat is extracted from the air";
+  skos:broader bigg:HVACAndHotWaterElement.ProductionElements .
+
+bigg:HVACAndHotWaterElement.ProductionElements.DistrictHeating a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A system used for the centralized production and distribution of heating energy";
+  skos:broader bigg:HVACAndHotWaterElement.ProductionElements .
+
+bigg:HVACAndHotWaterElement.ProductionElements.DisctrictCooling a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A system used for the centralized production and distribution of cooling energy";
+  skos:broader bigg:HVACAndHotWaterElement.ProductionElements .
+
+bigg:HVACAndHotWaterElement.ProductionElements.DistrictCombinedHeatingAndCooling a
+    bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A system used for the centralized production and distribution of both heating and cooling energy";
+  skos:broader bigg:HVACAndHotWaterElement.ProductionElements .
+
+bigg:HVACAndHotWaterElement.ProductionElements.CoolingTower a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Heat exchanger that use water and air to transfer heat from air-conditioning systems to the outdoor environment";
+  skos:broader bigg:HVACAndHotWaterElement.ProductionElements .
+
+bigg:HVACAndHotWaterElement.ProductionElements.AirTerminalBox a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A flow controller that participates in an HVAC duct distribution system and is used to control or modulate the amount of air delivered to its downstream ductwork";
+  skos:broader bigg:HVACAndHotWaterElement.ProductionElements .
+
+bigg:HVACAndHotWaterElement.ProductionElements.OtherProductionSystemElement a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Other elements of the HVAC and hot water system involved in the heat/cool production process";
+  skos:broader bigg:HVACAndHotWaterElement.ProductionElements .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Elements of the HVAC and hot water system involved in the distribution process";
+  skos:broader bigg:HVACAndHotWaterElement .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements.Motor a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An engine that converts electrical energy into mechanical energy";
+  skos:broader bigg:HVACAndHotWaterElement.DistributionAndStorageElements .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements.VariableSpeedDrive a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A type of adjustable-speed drive used in electro-mechanical drive systems to control AC motor speed and torque by varying motor input frequency and voltage";
+  skos:broader bigg:HVACAndHotWaterElement.DistributionAndStorageElements .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements.Valve a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An element of the building piping distribution system used to control or modulate the flow of the fluid";
+  skos:broader bigg:HVACAndHotWaterElement.DistributionAndStorageElements .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements.Filter a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An apparatus used to remove particulate or gaseous matter from fluids and gases";
+  skos:broader bigg:HVACAndHotWaterElement.DistributionAndStorageElements .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements.Pipes a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Tube used to convey water, gas, or other fluid substances in the distribution system of the building";
+  skos:broader bigg:HVACAndHotWaterElement.DistributionAndStorageElements .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements.Ducts a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Conduits used in the distribution system of the building to deliver and remove air";
+  skos:broader bigg:HVACAndHotWaterElement.DistributionAndStorageElements .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements.StorageTank a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A vessel or container in which water or another fluid stored for later use";
+  skos:broader bigg:HVACAndHotWaterElement.DistributionAndStorageElements .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements.HeatRecoveryUnit a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An apparatus that extracts moist and stale air from the building, recovers heat from it, and uses it to supply clean, filtered, and pre-heated fresh air";
+  skos:broader bigg:HVACAndHotWaterElement.DistributionAndStorageElements .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements.HeatRecoveryUnit.AirToAirHeatRecovery
+  a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A balanced system in which the heat in extract air is recovered and transferred to the supply air";
+  skos:broader bigg:HVACAndHotWaterElement.DistributionAndStorageElements.HeatRecoveryUnit .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements.AirHandlingUnit a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An apparatus that performs functions such as circulating, cleaning, humidifying, heating, cooling or mixing of air";
+  skos:broader bigg:HVACAndHotWaterElement.DistributionAndStorageElements .
+
+bigg:HVACAndHotWaterElement.DistributionAndStorageElements.OtherDistributionAndStorageElement
+  a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Other elements of the HVAC and hot water system involved in the distribution process";
+  skos:broader bigg:HVACAndHotWaterElement.DistributionAndStorageElements .
+
+bigg:HVACAndHotWaterElement.FinalElements a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Final elements of the HVAC and hot water system ";
+  skos:broader bigg:HVACAndHotWaterElement .
+
+bigg:HVACAndHotWaterElement.FinalElements.IfcSpaceHeater a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Space heaters utilize a combination of radiation and/or natural convection using a heating source such as electricity, steam or hot water to heat a limited space or area. ";
+  skos:broader bigg:HVACAndHotWaterElement.FinalElements .
+
+bigg:HVACAndHotWaterElement.FinalElements.IfcSpaceHeater.Radiator a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An heat exchanger used to transfer thermal energy from one medium to another for the purpose of space heating";
+  skos:broader bigg:HVACAndHotWaterElement.FinalElements.IfcSpaceHeater .
+
+bigg:HVACAndHotWaterElement.FinalElements.ConvectorHeater a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A type of heater that uses convection currents to heat and circulate air";
+  skos:broader bigg:HVACAndHotWaterElement.FinalElements .
+
+bigg:HVACAndHotWaterElement.FinalElements.RadiantFloorOrCeiling a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Pipework  system installed below the floor or ceiling for the purpose of space heating or cooling";
+  skos:broader bigg:HVACAndHotWaterElement.FinalElements .
+
+bigg:HVACAndHotWaterElement.FinalElements.TapWaterSavingDevices a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Installation of devices that reduce water consumption to taps and faucets (eg. aerators)";
+  skos:broader bigg:HVACAndHotWaterElement.FinalElements .
+
+bigg:HVACAndHotWaterElement.FinalElements.CooledBeam a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Long rectangular finned tubes mounted at high level at regular intervals within a space that provide quiet draught-free cooling";
+  skos:broader bigg:HVACAndHotWaterElement.FinalElements .
+
+bigg:HVACAndHotWaterElement.FinalElements.OtherFinalElement a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Other final elements of the HVAC and hot water system ";
+  skos:broader bigg:HVACAndHotWaterElement.FinalElements .
+
+bigg:HVACAndHotWaterElement.ControlElements a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Elements of the HVAC and hot water system involved in the control of its subsystems that are not devices";
+  skos:broader bigg:HVACAndHotWaterElement .
+
+bigg:HVACAndHotWaterElement.ControlElements.ThermostaticValve a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A thermostatic radiator valve (TRV) is a self-regulating valve fitted to hot water heating system radiator, to control the temperature of a room by changing the flow of hot water to the radiator.";
+  skos:broader bigg:HVACAndHotWaterElement.ControlElements .
+
+bigg:HVACAndHotWaterElement.ControlElements.Thermostat a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A thermostat is a device that automatically regulates temperature, or that activates a device when the temperature reaches a certain point.";
+  skos:broader bigg:HVACAndHotWaterElement.ControlElements .
+
+bigg:HVACAndHotWaterElement.ControlElements.OtherControlElement a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Other elements of the HVAC and hot water system involved in the control of its subsystems that are not devices";
+  skos:broader bigg:HVACAndHotWaterElement.ControlElements .
+
+bigg:BuildingFabricElement a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Elements of the building fabric that are not construction elements" .
+
+bigg:BuildingFabricElement.AirCurtain a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A fan-powered device that creates an air barrier over a doorway or window to prevent to the loss of warm or cold air";
+  skos:broader bigg:BuildingFabricElement .
+
+bigg:BuildingFabricElement.OtherBuildingFabricElement a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Other elements of the building fabric that are not construction elements";
+  skos:broader bigg:BuildingFabricElement .
+
+bigg:ElectricPowerElement a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Elements of the electric power system of the building" .
+
+bigg:ElectricPowerElement.PowerSystemElement a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Elements of the electric power system of the building";
+  skos:broader bigg:ElectricPowerElement .
+
+bigg:ElectricPowerElement.PowerSystemElement.Transformer a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An inductive stationary device that transfers electrical energy from one circuit to another and is used to transform electric power";
+  skos:broader bigg:ElectricPowerElement.PowerSystemElement .
+
+bigg:ElectricPowerElement.PowerSystemElement.Battery a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An energy storage systems consisting of one or more cells, in which chemical energy is converted into electricity and used as a source of power";
+  skos:broader bigg:ElectricPowerElement.PowerSystemElement .
+
+bigg:ElectricPowerElement.PowerSystemElement.ElectricDistributionPanel a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A component of an electricity supply system that divides the electrical power feed into subsidiary circuits, while providing a protective fuse or circuit breaker for each circuit in a common enclosure";
+  skos:broader bigg:ElectricPowerElement.PowerSystemElement .
+
+bigg:ElectricPowerElement.PowerSystemElement.UninterruptiblePowerSupplySystem a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Uninterruptible Power Supply (UPS) is a combination of converters, switches, and energy storage devices (such as batteries) constituting a power system for maintaining continuity of load power in case of input power failure.";
+  skos:broader bigg:ElectricPowerElement.PowerSystemElement .
+
+bigg:ElectricPowerElement.PowerSystemElement.ElectricTimeControl a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A device that applies control to the provision or flow of electrical energy over time";
+  skos:broader bigg:ElectricPowerElement.PowerSystemElement .
+
+bigg:ElectricPowerElement.PowerSystemElement.ProtectiveDevice a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Breaks an electrical circuit when a stated electric current that passes through it is exceeded";
+  skos:broader bigg:ElectricPowerElement.PowerSystemElement .
+
+bigg:ElectricPowerElement.PowerSystemElement.SwitchingDevice a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A switch is used in a cable distribution system (electrical circuit) to control or modulate the flow of electricity";
+  skos:broader bigg:ElectricPowerElement.PowerSystemElement .
+
+bigg:ElectricPowerElement.PowerSystemElement.OtherPowerSystemElement a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Other elements of the electric power system of the building";
+  skos:broader bigg:ElectricPowerElement.PowerSystemElement .
+
+bigg:ElectricPowerElement.ElectricEquipmentElement a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Any machine powered by electricity";
+  skos:broader bigg:ElectricPowerElement .
+
+bigg:ElectricPowerElement.ElectricEquipmentElement.ElectricAppliance a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A device intended for consumer usage that is powered by electricity (provided from an electric circuit or a battery)";
+  skos:broader bigg:ElectricPowerElement.ElectricEquipmentElement .
+
+bigg:ElectricPowerElement.ElectricEquipmentElement.ElectricAppliance.VendingMachine
+  a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A machine that dispenses small articles such as food or drinks and that may require refrigeration capabilities";
+  skos:broader bigg:ElectricPowerElement.ElectricEquipmentElement.ElectricAppliance .
+
+bigg:ElectricPowerElement.ElectricEquipmentElement.ElectricAppliance.Elevator a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An elevator is a platform or compartment housed in a shaft for raising and lowering people or things to different floors or levels";
+  skos:broader bigg:ElectricPowerElement.ElectricEquipmentElement.ElectricAppliance .
+
+bigg:ElectricPowerElement.ElectricEquipmentElement.ElectricAppliance.OtherElectricAppliance
+  a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Other electric appliance";
+  skos:broader bigg:ElectricPowerElement.ElectricEquipmentElement.ElectricAppliance .
+
+bigg:ElectricPowerElement.ICTEquipment a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Any appliance that transmits and receives electronic or digital information as data or sound";
+  skos:broader bigg:ElectricPowerElement .
+
+bigg:ElectricPowerElement.ICTEquipment.Computer a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A device which performs logical operations and processes data";
+  skos:broader bigg:ElectricPowerElement.ICTEquipment .
+
+bigg:ElectricPowerElement.ICTEquipment.Server a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A computer server that is bundled with a pre-installed OS and application software that is used to perform a dedicated function or set of tightly coupled functions. Server appliances deliver services through one or more networks (e.g., IP or SAN), and are typically managed through a web or command line interface. Server appliance hardware and software configurations are customized by the vendor to perform a specific task (e.g., name services, firewall services, authentication services, encryption services, and voice-over-IP (VoIP) services), and are not intended to execute user-supplied software.";
+  skos:broader bigg:ElectricPowerElement.ICTEquipment .
+
+bigg:ElectricPowerElement.ICTEquipment.Printer a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Generates paper output from electronic input. A printer is capable of receiving information from single-user or networked computers, or other input devices (e.g., digital cameras).";
+  skos:broader bigg:ElectricPowerElement.ICTEquipment .
+
+bigg:ElectricPowerElement.ICTEquipment.OtherICTEquipment a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Other ICT equipment";
+  skos:broader bigg:ElectricPowerElement.ICTEquipment .
+
+bigg:RefrigerationElement a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Elements of the refrigeration system of the building (does not include space cooling system elements)" .
+
+bigg:RefrigerationElement.RefrigerationCompressor a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A device that uses pistons or some other method to compress the refrigerant gas";
+  skos:broader bigg:RefrigerationElement .
+
+bigg:RefrigerationElement.RefrigerationCondenser a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A device or unit used to condense a substance from its gaseous to its liquid state, by cooling it. In so doing, the latent heat is given up by the substance, and will transfer to the condenser coolant.";
+  skos:broader bigg:RefrigerationElement .
+
+bigg:RefrigerationElement.DefrostingSubsystem a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "System used for commercial refrigerated display and storage cabinets. Designed to remove frost (ice) from cooling coils of a refrigerating system.";
+  skos:broader bigg:RefrigerationElement .
+
+bigg:RefrigerationElement.FloatingHeadPressureController a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A controller that allows the head pressure of the system to follow the ambient dry bulb temperature instead of a preset on/off operation and allows to achieve savings then occur from the load reduction of the refrigeration system";
+  skos:broader bigg:RefrigerationElement .
+
+bigg:RefrigerationElement.RefrigerationSpaceDoorsOrCurtains a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Doors or curtains used to insulate a cold room from non-refrigerated areas of the building";
+  skos:broader bigg:RefrigerationElement .
+
+bigg:RefrigerationElement.OtherRefrigerationElement a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Other element of the refrigeration system";
+  skos:broader bigg:RefrigerationElement .
+
+bigg:RenewableGenerationElement a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Elements of the renewable generation system of the building" .
+
+bigg:RenewableGenerationElement.SolarPhotovoltaicPanel a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Photovoltaic (PV) panel that derive energy from incoming solar radiation";
+  skos:broader bigg:RenewableGenerationElement .
+
+bigg:RenewableGenerationElement.SolarThermalCollector a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Collector used to heat air or water";
+  skos:broader bigg:RenewableGenerationElement .
+
+bigg:RenewableGenerationElement.OtherRenewableGenerationElement a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Other element used for the generation of renewable energy";
+  skos:broader bigg:RenewableGenerationElement .
+
+bigg:IfcActuator a bigg:BuildingSystemElementType, skos:Concept .
+
+bigg:IfcAlarm a bigg:BuildingSystemElementType, skos:Concept .
+
+bigg:IfcController a bigg:BuildingSystemElementType, skos:Concept .
+
+bigg:IfcElectricFlowStorageDevice a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "An electric flow storage device is a device in which electrical energy is stored and from which energy may be progressively released." .
+
+bigg:IfcEnergyConversionDevice a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "Defines the occurrence of a device used to perform energy conversion or heat transfer and typically participates in a flow distribution system." .
+
+bigg:IfcEnergyConversionDevice.IfcAirToAirHeatRecovery a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Employs a counter-flow heat exchanger between inbound and outbound air flow.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcBoiler a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A boiler is a closed, pressure-rated vessel in which water or other fluid is heated using an energy source such as natural gas, heating oil, or electricity.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcBurner a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A burner is a device that converts fuel into heat through combustion. It includes gas, oil, and wood burners.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcChiller a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A chiller is a device used to remove heat from a liquid via a vapor-compression or absorption refrigeration cycle to cool a fluid, typically water or a mixture of water and glycol. ";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcCoil a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A coil is a device used to provide heat transfer between non-mixing media.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcCondenser a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A condenser is a device that is used to dissipate heat, typically by condensing a substance such as a refrigerant from its gaseous to its liquid state.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcCooledBeam a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A cooled beam (or chilled beam) is a device typically used to cool air by circulating a fluid such as chilled water through exposed finned tubes above a space. ";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcCoolingTower a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A cooling tower is a device which rejects heat to ambient air by circulating a fluid such as water through it to reduce its temperature by partial evaporation.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcElectricGenerator a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An electric generator is an engine that is a machine for converting mechanical energy into electrical energy.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcElectricMotor a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An electric motor is an engine that is a machine for converting electrical energy into mechanical energy.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcEngine a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "An engine is a device that converts fuel into mechanical energy through combustion.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcEvaporativeCooler a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "An evaporative cooler is a device that cools air by saturating it with water vapor.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcEvaporator a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "An evaporator is a device in which a liquid refrigerent is vaporized and absorbs heat from the surrounding fluid.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcHeatExchanger a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A heat exchanger is a device used to provide heat transfer between non-mixing media such as plate and shell and tube heat exchangers.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcHumidifier a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A humidifier is a device that adds moisture into the air.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcMotorConnection a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A motor connection provides the means for connecting a motor as the driving device to the driven device.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcSolarDevice a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A solar device converts solar radiation into other energy such as electric current or thermal energy.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcTransformer a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A transformer is an inductive stationary device that transfers electrical energy from one circuit to another.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcTubeBundle a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A tube bundle is a device consisting of tubes and bundles of tubes used for heat transfer and contained typically within other energy conversion devices, such as a chiller or coil.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcEnergyConversionDevice.IfcUnitaryEquipment a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "Unitary equipment typically combine a number of components into a single product, such as air handlers, pre-packaged rooftop air-conditioning units, heat pumps, and split systems.";
+  skos:broader bigg:IfcEnergyConversionDevice .
+
+bigg:IfcFlowController a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "The distribution flow element IfcFlowController defines the occurrence of elements of a distribution system that are used to regulate flow through a distribution system. " .
+
+bigg:IfcFlowController.IfcAirTerminalBox a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "An air terminal box typically participates in an HVAC duct distribution system and is used to control or modulate the amount of air delivered to its downstream ductwork. ";
+  skos:broader bigg:IfcFlowController .
+
+bigg:IfcFlowController.IfcDamper a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A damper typically participates in an HVAC duct distribution system and is used to control or modulate the flow of air.";
+  skos:broader bigg:IfcFlowController .
+
+bigg:IfcFlowController.IfcElectricDistributionBoard a bigg:BuildingSystemElementType,
+    skos:Concept;
+  rdfs:comment "A distribution board is a flow controller in which instances of electrical devices are brought together at a single place for a particular purpose.";
+  skos:broader bigg:IfcFlowController .
+
+bigg:IfcFlowController.IfcElectricTimeControl a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "An electric time control is a device that applies control to the provision or flow of electrical energy over time.";
+  skos:broader bigg:IfcFlowController .
+
+bigg:IfcFlowController.IfcProtectiveDevice a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A protective device breaks an electrical circuit when a stated electric current that passes through it is exceeded.";
+  skos:broader bigg:IfcFlowController .
+
+bigg:IfcFlowController.IfcSwitchingDevice a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A switch is used in a cable distribution system (electrical circuit) to control or modulate the flow of electricity.";
+  skos:broader bigg:IfcFlowController .
+
+bigg:IfcFlowController.IfcValve a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A valve is used in a building services piping distribution system to control or modulate the flow of the fluid.";
+  skos:broader bigg:IfcFlowController .
+
+bigg:IfcFlowMovingDevice a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "defines the occurrence of an apparatus used to distribute, circulate or perform conveyance of fluids, including liquids and gases (such as a pump or fan), and typically participates in a flow distribution system." .
+
+bigg:IfcFlowMovingDevice.IfcCompressor a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A compressor is a device that compresses a fluid typically used in a refrigeration circuit.";
+  skos:broader bigg:IfcFlowMovingDevice .
+
+bigg:IfcFlowMovingDevice.IfcFan a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A fan is a device which imparts mechanical work on a gas. A typical usage of a fan is to induce airflow in a building services air distribution system.";
+  skos:broader bigg:IfcFlowMovingDevice .
+
+bigg:IfcFlowMovingDevice a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "defines the occurrence of an apparatus used to distribute, circulate or perform conveyance of fluids, including liquids and gases (such as a pump or fan), and typically participates in a flow distribution system." .
+
+bigg:IfcFlowMovingDevice.IfcPump a bigg:BuildingSystemElementType, skos:Concept;
+  rdfs:comment "A pump is a device which imparts mechanical work on fluids or slurries to move them through a channel or pipeline.";
+  skos:broader bigg:IfcFlowMovingDevice .
+
+bigg:IfcUnitaryControlElement a bigg:BuildingSystemElementType, skos:Concept .

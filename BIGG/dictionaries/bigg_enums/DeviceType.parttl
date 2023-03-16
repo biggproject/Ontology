@@ -1,0 +1,111 @@
+
+bigg:BuildingEnergyManagementSystem a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A software system to automate building controls, also known as an Energy Management Control Systems (EMCS)." .
+
+bigg:IfcDistributionControlElement a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A building automation device that is used to impart control over elements of one of its systems" .
+
+bigg:IfcDistributionControlElement.IfcFlowInstrument a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A flow instrument reads and displays the value of a particular property of a system at a point, or displays the difference in the value of a property between two points.";
+  skos:broader bigg:IfcDistributionControlElement .
+
+bigg:IfcDistributionControlElement.IfcSensor a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A device that measures a physical quantity and converts it into a signal which can be read by an observer or by an instrument";
+  skos:broader bigg:IfcDistributionControlElement .
+
+bigg:IfcDistributionControlElement.IfcSensor.LightSensor a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A passive device that convert photons into an electrical signal output";
+  skos:broader bigg:IfcDistributionControlElement.IfcSensor .
+
+bigg:IfcDistributionControlElement.IfcSensor.OccupancySensor a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A motion detecting device used to detect the presence of a person, oftern used to automatically control one of the building systems";
+  skos:broader bigg:IfcDistributionControlElement.IfcSensor .
+
+bigg:IfcDistributionControlElement.IfcSensor.TemperatureSensor a bigg:DeviceType,
+    skos:Concept;
+  rdfs:comment "An electronic device that converts the measurement of the temperature of its environment into electronic data";
+  skos:broader bigg:IfcDistributionControlElement.IfcSensor .
+
+bigg:IfcDistributionControlElement.IfcSensor.PressureSensor a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An electronic device that converts the measurement of the pressure of its environment into electronic data";
+  skos:broader bigg:IfcDistributionControlElement.IfcSensor .
+
+bigg:IfcDistributionControlElement.Timer a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An automatic mechanism for activating a device at a preset time";
+  skos:broader bigg:IfcDistributionControlElement .
+
+bigg:IfcDistributionControlElement.Thermostat a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A device that automatically regulates temperature, or that activates a device when the temperature reaches a certain point";
+  skos:broader bigg:IfcDistributionControlElement .
+
+bigg:Meter a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A device built to accurately detect and display a quantity in a form readable by a human being" .
+
+bigg:Meter.IfcFlowMeter a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A flow meter is a device that is used to measure the flow rate in a system.";
+  skos:broader bigg:Meter .
+
+bigg:Meter.IfcFlowMeter.Water a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A flow meter used to measure the water flow consumption";
+  skos:broader bigg:Meter.IfcFlowMeter .
+
+bigg:Meter.EnergyMeter a bigg:DeviceType, skos:Concept;
+  skos:broader bigg:Meter .
+
+bigg:Meter.EnergyMeter.Total a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the combined set of  consumptions";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Electricity a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the electricity consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Gas a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the gas consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Oil a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the oil consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Coal a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the coal consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Heat a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the District Heating consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Cool a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the District Cooling consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.CHP a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the CHP consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Biomass a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the biomass consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Biofuels a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the biofuels consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.RenewableElectricity a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the renewable electricity consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.RenewableHeat a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the renewable heat consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.SmartMeter a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A smart meter is usually an electronic device that records consumption of electric energy in intervals of an hour or less and communicates that information at least daily back to the utility for monitoring and billing.";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.AnalogMeter a bigg:DeviceType, skos:Concept;
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:OtherDevice a bigg:DeviceType, skos:Concept;
+  rdfs:comment "Other device type" .

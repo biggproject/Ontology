@@ -1,0 +1,257 @@
+
+bigg:EnergyConsumptionOthers a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumption from other unspecified resources" .
+
+bigg:NOPROPERTY a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The measurement does not have a property" .
+
+bigg:EnergyConsumptionTotal a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumption" .
+
+bigg:EnergyConsumptionGridElectricity a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from the electricity grid" .
+
+bigg:EnergyConsumptionGas a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from gas resource" .
+
+bigg:EnergyConsumptionOil a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from oil resource" .
+
+bigg:EnergyConsumptionCoal a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from coal resource, including coal-based products" .
+
+bigg:EnergyConsumptionDistrictHeating a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from district heating system" .
+
+bigg:EnergyConsumptionDistrictCooling a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from district cooling system" .
+
+bigg:EnergyConsumptionCHP a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from CHP" .
+
+bigg:EnergyConsumptionBiomass a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from biomass resources" .
+
+bigg:EnergyConsumptionBiofuels a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from biofuel resources" .
+
+bigg:EnergyConsumptionRenewableElectricity a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from renewable electricity generation" .
+
+bigg:EnergyConsumptionRenewableHeat a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from renewable heat generation" .
+
+bigg:ConsumptionWater a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total water consumed" .
+
+bigg:AdjustedEnergyConsumptionTotal a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumption" .
+
+bigg:AdjustedEnergyConsumptionGridElectricity a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed from the electricity grid" .
+
+bigg:AdjustedEnergyConsumptionGas a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed from gas resource" .
+
+bigg:AdjustedEnergyConsumptionOil a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed from oil resource" .
+
+bigg:AdjustedEnergyConsumptionCoal a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed from coal resource, including coal-based products" .
+
+bigg:AdjustedEnergyConsumptionDistrictHeating a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed from district heating system" .
+
+bigg:AdjustedEnergyConsumptionDistrictCooling a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed from district cooling system" .
+
+bigg:AdjustedEnergyConsumptionCHP a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed from CHP" .
+
+bigg:AdjustedEnergyConsumptionBiomass a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed from biomass resources" .
+
+bigg:AdjustedEnergyConsumptionBiofuels a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed from biofuel resources" .
+
+bigg:AdjustedEnergyConsumptionRenewableElectricity a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed from renewable electricity generation" .
+
+bigg:AdjustedEnergyConsumptionRenewableHeat a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed from renewable heat generation" .
+
+bigg:EnergyConsumptionSpaceHeating a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed for space heating end-use" .
+
+bigg:EnergyConsumptionSpaceCooling a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed for space cooling end-use" .
+
+bigg:EnergyConsumptionWaterHeating a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed for water heating end-use" .
+
+bigg:EnergyConsumptionCombinedSpaceHeatingAndCooling a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed for combined space heating and cooling end-use" .
+
+bigg:EnergyConsumptionCombinedSpaceAndWaterHeating a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed for combined space and water heating end-use" .
+
+bigg:EnergyConsumptionVentilation a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed for ventilation end-use" .
+
+bigg:EnergyConsumptionRefrigeration a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed for refrigeration (excluding space cooling) end-use" .
+
+bigg:EnergyConsumptionLighting a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed for lighting end-use" .
+
+bigg:EnergyConsumptionAppliances a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed for the use of appliances" .
+
+bigg:AdjustedEnergyConsumptionSpaceHeating a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed for space heating end-use" .
+
+bigg:AdjustedEnergyConsumptionSpaceCooling a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed for space cooling end-use" .
+
+bigg:AdjustedEnergyConsumptionWaterHeating a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed for water heating end-use" .
+
+bigg:AdjustedEnergyConsumptionCombinedSpaceHeatingAndCooling a bigg:MeasuredProperty,
+    skos:Concept;
+  rdfs:comment "Adjusted total energy consumed for combined space heating and cooling end-use" .
+
+bigg:AdjustedEnergyConsumptionCombinedSpaceAndWaterHeating a bigg:MeasuredProperty,
+    skos:Concept;
+  rdfs:comment "Adjusted total energy consumed for combined space and water heating end-use" .
+
+bigg:AdjustedEnergyConsumptionVentilation a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed for ventilation end-use" .
+
+bigg:AdjustedEnergyConsumptionRefrigeration a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed for refrigeration (excluding space cooling) end-use" .
+
+bigg:AdjustedEnergyConsumptionLighting a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed for lighting end-use" .
+
+bigg:AdjustedEnergyConsumptionAppliances a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Adjusted total energy consumed for the use of appliances" .
+
+bigg:Humidity a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The amount of water vapor in the air" .
+
+bigg:Illuminance a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The area density of the luminous flux incident at a point on a surface" .
+
+bigg:Motion a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The phenomenon for which an object changes its position over time" .
+
+bigg:Occupancy a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The action of occupying a place" .
+
+bigg:Power a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The amount of energy transferred or converted per unit time" .
+
+bigg:StaticPressure a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The perpendicular force per unit area" .
+
+bigg:Price a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The monetary value of a good, service or resource" .
+
+bigg:Price.EnergyPriceTotal a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy price";
+  skos:broader bigg:Price .
+
+bigg:Price.EnergyPriceGridElectricity a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Energy price for grid electricity";
+  skos:broader bigg:Price .
+
+bigg:Price.EnergyPriceGas a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Energy price for gas";
+  skos:broader bigg:Price .
+
+bigg:Price.EnergyPriceOil a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Energy price for oil";
+  skos:broader bigg:Price .
+
+bigg:Price.EnergyPriceCoal a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Energy price for coal, including coal-based products";
+  skos:broader bigg:Price .
+
+bigg:Price.EnergyPriceDistrictHeating a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Energy price for district heating";
+  skos:broader bigg:Price .
+
+bigg:Price.EnergyPriceDistrictCooling a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Energy price for district cooling";
+  skos:broader bigg:Price .
+
+bigg:Price.EnergyPriceCHP a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Energy price for CHP energy";
+  skos:broader bigg:Price .
+
+bigg:Price.EnergyPriceBiomass a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Energy price for biomass";
+  skos:broader bigg:Price .
+
+bigg:Price.EnergyPriceBiofuels a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Energy price for biofuels";
+  skos:broader bigg:Price .
+
+bigg:Price.EnergyPriceRenewableElectricity a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Energy price for renewable-generated electricity";
+  skos:broader bigg:Price .
+
+bigg:Price.EnergyPriceRenewableHeat a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Energy price for renewable-generated heat";
+  skos:broader bigg:Price .
+
+bigg:Smoke a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The collection of airborne particulates and gases emitted by a material undergoing combustion or pyrolysis" .
+
+bigg:Temperature a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The expressions of the average kinetic energy of atoms and molecules in a system" .
+
+bigg:Concentration a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The quantity of solute present in a given quantity of solution" .
+
+bigg:Sound a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The mechanical disturbance from a state of equilibrium that propagates through an elastic material medium" .
+
+bigg:Speed a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The rate at which an object covers distance" .
+
+bigg:Flow a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The quantity of fluid (gas, liquid or vapour) that passes a point per unit of time" .
+
+bigg:CoolingDegreeDays a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The sum of the differences between daily average temperatures and the base temperature, calculated at the ASHRAE base temperature of 18°C (or 65°F)" .
+
+bigg:HeatingDegreeDays a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The sum of the differences between daily average temperatures and the base temperature, calculated at the ASHRAE base temperature of 10°C (50°F)" .
+
+bigg:HumidityRatio a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The ratio between the actual mass of water vapor present in moist air - to the mass of the dry air" .
+
+bigg:RelativeHumidity a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The amount of water vapour present in air expressed as a percentage of the amount needed for saturation at the same temperature" .
+
+bigg:DiffuseHorizontalRadiation a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The radiation component that strikes a horizontal plane from the sky" .
+
+bigg:DirectNormalRadiation a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The amount of solar radiation from the direction of the sun" .
+
+bigg:DryBulbTemperature a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The air temperature measured by a dry temperature sensor or thermometer" .
+
+bigg:WetBulbTemperature a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The temperature Indicated by a psychrometer when the bulb of one thermometer is covered with a water-saturated wick over which air is caused to flow at approximately 4.5 m/s (900 ft/min) to reach an equilibrium temperature of water evaporating into air, when the heat of vaporization is supplied by the sensible heat of the air" .
+
+bigg:WindSpeed a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The speed of wind for the site at a height of 10 meter" .
+
+bigg:BoilerModulationLevel a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Boiler modulation level" .
+
+bigg:CO2Emissions a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "CO2 emissions for kwh" .

@@ -2028,3 +2028,32 @@ bigg:EnergyPerformanceCertificateAdditionalInfo a owl:Class ;
 bigg:EnergyPerformanceCertificate a owl:Class ;
     rdfs:label "Energy Performance Certificate" .
 
+# extensions-resources
+
+bigg:relatedDeviceType a owl:ObjectProperty ;
+    rdfs:label "related device type" ;
+    rdfs:domain bigg:ResourceType ;
+    rdfs:range bigg:UtilityType .
+
+bigg:relatedMeasuredProperty a owl:ObjectProperty ;
+    rdfs:label "related measured property" ;
+    rdfs:domain bigg:ResourceType ;
+    rdfs:range bigg:MeasuredProperty .
+
+bigg:relatedUtilityType a owl:ObjectProperty ;
+    rdfs:label "related utility type" ;
+    rdfs:domain bigg:ResourceType ;
+    rdfs:range bigg:DeviceType .
+
+bigg:DeviceType a owl:Class ;
+    rdfs:label "Device Type" .
+
+bigg:MeasuredProperty a owl:Class ;
+    rdfs:label "Measured Property" .
+
+bigg:UtilityType a owl:Class ;
+    rdfs:label "Utility Type" .
+
+bigg:ResourceType a owl:Class ;
+    rdfs:label "Resource Type" .
+

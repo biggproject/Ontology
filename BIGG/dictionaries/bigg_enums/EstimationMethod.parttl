@@ -1,0 +1,25 @@
+
+
+bigg:Naive a bigg:EstimationMethod, skos:Concept;
+  bigg:considerEstimatedValues false .
+
+bigg:Profiled a bigg:EstimationMethod, skos:Concept;
+  bigg:considerEstimatedValues false .
+
+bigg:Interpolated a bigg:EstimationMethod, skos:Concept ;
+  bigg:considerEstimatedValues false .
+
+bigg:TrustedModel a bigg:EstimationMethod, skos:Concept ;
+  bigg:considerEstimatedValues true .
+
+bigg:TrustedModel.RegressionModel a bigg:EstimationMethod, skos:Concept;
+  skos:broader bigg:TrustedModel ;
+  bigg:considerEstimatedValues true .
+
+bigg:TrustedModel.ClassificationModel a bigg:EstimationMethod, skos:Concept;
+  skos:broader bigg:TrustedModel ;
+  bigg:considerEstimatedValues true .
+
+bigg:TrustedModel.Other a bigg:EstimationMethod, skos:Concept;
+  skos:broader bigg:TrustedModel ;
+  bigg:considerEstimatedValues true .

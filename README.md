@@ -47,3 +47,20 @@ The clases definition is not repeated in each UML to save space and make it easy
 6. extensions-kpi        -> The kpi extension and the relationship with the model parts.
 7. extensions-ifc        -> The ifc extension including Zone and Groups.
 8. extensions-epc        -> The energy performance certificate extension.
+
+
+## Dictionary Generation:
+
+Some of the ttl dictionaries available are extracted from external sources. Some additional classes have been added to the existing class TTL to be able to filter better and align with the ontology.
+
+1. units.ttl                                    -> [qudt](https://www.qudt.org/)
+2. municipality, provinces, regions, countries  -> [geonames](https://sws.geonames.org)
+3. bigg_enums                                   -> Custom generation of taxonomies for the project
+
+To manage better the enumerates, we provide the following utilities:
+
+1. Create a folder with the name of the final ttl
+2. Add prefixes in files with extension ".headttl"
+3. Add enumeration  in files with extension ".parttl"
+4. place and run the mace_dict.sh script in the folder.
+5. 

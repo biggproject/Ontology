@@ -1,9 +1,27 @@
+
 @base <https://bigg-project.eu/ontology#> .
 @prefix bigg: <http://bigg-project.eu/ontology#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix sou: <http://qudt.org/vocab/sou/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
+bigg:P5 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P25 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P50 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P75 a bigg:AggregationFunction, skos:Concept .
+
+bigg:P95 a bigg:AggregationFunction, skos:Concept .
+
+bigg:AVG a bigg:AggregationFunction, skos:Concept .
+
+bigg:SUM a bigg:AggregationFunction, skos:Concept .
 
 bigg:GrossFloorArea a bigg:AreaType, skos:Concept;
   rdfs:comment "Sum of the floor areas of all building spaces measured from the external faces of the exterior walls" .
@@ -25,18 +43,6 @@ bigg:HeatedFloorArea a bigg:AreaType, skos:Concept;
 
 bigg:CadastralParcelArea a bigg:AreaType, skos:Concept;
   rdfs:comment "The area of the cadastral parcel over which the building is constriucted" .
-
-bigg:HeatingDegreeDays a bigg:BaselineInfluenceFactor, skos:Concept .
-
-bigg:CoolingDegreeDays a bigg:BaselineInfluenceFactor, skos:Concept .
-
-bigg:Occupancy a bigg:BaselineInfluenceFactor, skos:Concept .
-
-bigg:ProductionLevel a bigg:BaselineInfluenceFactor, skos:Concept .
-
-bigg:owned a bigg:BuildingOwnership, skos:Concept .
-
-bigg:rented a bigg:BuildingOwnership, skos:Concept .
 
 bigg:IfcWall a bigg:BuildingConstructionElementType, skos:Concept;
   rdfs:comment "A vertical construction in a premises that creates an enclosed building space" .
@@ -413,6 +419,7 @@ bigg:Multi-use a bigg:BuildingSpaceUseType, skos:Concept;
 
 bigg:Unknown a bigg:BuildingSpaceUseType, skos:Concept;
   rdfs:comment "Building which use or purpose is unknow to the user" .
+
 
 bigg:LightingElement a bigg:BuildingSystemElementType, skos:Concept;
   rdfs:comment "Element used for the lighting of the building" .
@@ -1000,8 +1007,16 @@ bigg:Meter.IfcFlowMeter a bigg:DeviceType, skos:Concept;
   rdfs:comment "A flow meter is a device that is used to measure the flow rate in a system.";
   skos:broader bigg:Meter .
 
+bigg:Meter.IfcFlowMeter.Water a bigg:DeviceType, skos:Concept;
+  rdfs:comment "A flow meter used to measure the water flow consumption";
+  skos:broader bigg:Meter.IfcFlowMeter .
+
 bigg:Meter.EnergyMeter a bigg:DeviceType, skos:Concept;
   skos:broader bigg:Meter .
+
+bigg:Meter.EnergyMeter.Total a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the combined set of  consumptions";
+  skos:broader bigg:Meter.EnergyMeter .
 
 bigg:Meter.EnergyMeter.Electricity a bigg:DeviceType, skos:Concept;
   rdfs:comment "An energy meter used to measure the electricity consumption";
@@ -1009,6 +1024,42 @@ bigg:Meter.EnergyMeter.Electricity a bigg:DeviceType, skos:Concept;
 
 bigg:Meter.EnergyMeter.Gas a bigg:DeviceType, skos:Concept;
   rdfs:comment "An energy meter used to measure the gas consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Oil a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the oil consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Coal a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the coal consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Heat a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the District Heating consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Cool a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the District Cooling consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.CHP a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the CHP consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Biomass a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the biomass consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Biofuels a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the biofuels consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.RenewableElectricity a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the renewable electricity consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.RenewableHeat a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the renewable heat consumption";
   skos:broader bigg:Meter.EnergyMeter .
 
 bigg:Meter.EnergyMeter.SmartMeter a bigg:DeviceType, skos:Concept;
@@ -2506,99 +2557,114 @@ bigg:RenewableGenerationMeasure.OtherRenewableGenerationMeasure a bigg:EnergyEff
   rdfs:comment "Other measure related to renewable energy generation";
   skos:broader bigg:RenewableGenerationMeasure .
 
-bigg:TotalEnergySaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Total annual final energy savings (considering all billed energy sources) in the reference period, kWh/year" .
 
-bigg:GridElectricitySaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased grid electricity, kWh/year" .
+bigg:Naive a bigg:EstimationMethod, skos:Concept;
+  bigg:considerEstimatedValues false .
 
-bigg:GasSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased gas, kWh/year" .
+bigg:Profiled a bigg:EstimationMethod, skos:Concept;
+  bigg:considerEstimatedValues false .
 
-bigg:OilSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased oil, kWh/year" .
+bigg:Interpolated a bigg:EstimationMethod, skos:Concept ;
+  bigg:considerEstimatedValues false .
 
-bigg:CoalSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased coal, kWh/year" .
+bigg:TrustedModel a bigg:EstimationMethod, skos:Concept ;
+  bigg:considerEstimatedValues true .
 
-bigg:DistrictHeatingSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased district heating, kWh/year" .
+bigg:TrustedModel.RegressionModel a bigg:EstimationMethod, skos:Concept;
+  skos:broader bigg:TrustedModel ;
+  bigg:considerEstimatedValues true .
 
-bigg:DistrictCoolingSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased district cooling, kWh/year" .
+bigg:TrustedModel.ClassificationModel a bigg:EstimationMethod, skos:Concept;
+  skos:broader bigg:TrustedModel ;
+  bigg:considerEstimatedValues true .
 
-bigg:CHPSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over Combined Heat and Power (CHP), kWh/year" .
+bigg:TrustedModel.Other a bigg:EstimationMethod, skos:Concept;
+  skos:broader bigg:TrustedModel ;
+  bigg:considerEstimatedValues true .
 
-bigg:BiomassSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased biomass, kWh/year" .
+bigg:KPI-EnergyCost a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+    rdfs:label "Energy Cost@en";
+    bigg:shortName "EC@en".
 
-bigg:BiofuelsSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased biofuels, kWh/year" .
+bigg:KPI-EnergyCostIntensity a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Cost Intensity@en";
+  bigg:shortName "ECI@en".
 
-bigg:RenewableElectricitySaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over produced elctrcity from renewable sources, kWh/year" .
+bigg:KPI-EnergyCostSavings a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Cost Savings@en";
+  bigg:shortName "ECS@en";
+  bigg:enegy "Total" .
 
-bigg:RenewableHeatSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over produced heat from renewable sources, kWh/year" .
+bigg:KPI-EnergyCostSavingsIntensity a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Cost Savings Intensity@en";
+  bigg:shortName "ECSI@en" .
 
-bigg:TotalAdjustedEnergySaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Total annual final energy savings (considering all billed energy sources) adjusted for weather/season/production, kWh/year" .
+bigg:KPI-EnergyEmissions a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Emissions@en";
+  bigg:shortName "EE@en".
 
-bigg:AdjustedGridElectricitySaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased grid electricity adjusted for weather/season/production, kWh/year" .
+bigg:KPI-EnergyEmissionsIntensity a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Emissions Intensity@en";
+  bigg:shortName "EEI@en".
 
-bigg:AdjustedGasSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased gas adjusted for weather/season/production, kWh/year" .
+bigg:KPI-EmissionsSavings a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Emissions Savings@en";
+  bigg:shortName "EES@en" .
 
-bigg:AdjustedOilSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased oil adjusted for weather/season/production, kWh/year" .
+bigg:KPI-EEMEmissionsSavingsIntensity a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Emissions Savings Intensity@en";
+  bigg:shortName "EESI@en" .
 
-bigg:AdjustedCoalSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased coal adjusted for weather/season/production, kWh/year" .
 
-bigg:AdjustedDistrictHeatingSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased district heating adjusted for weather/season/production, kWh/year" .
+bigg:KPI-EnergyUse a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Use@en";
+  bigg:shortName "EU@en" .
 
-bigg:AdjustedDistrictCoolingSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased district cooling adjusted for weather/season/production, kWh/year" .
+bigg:KPI-EnergyUseIntensity a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Use Intensity@en";
+  bigg:shortName "EUI@en" .
 
-bigg:AdjustedCHPSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over Combined Heat and Power (CHP) adjusted for weather/season/production, kWh/year" .
+bigg:KPI-EnergyUseSavings a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Use Savings@en";
+  bigg:shortName "EUS@en" .
 
-bigg:AdjustedBiomassSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased biomass adjusted for weather/season/production, kWh/year" .
+bigg:KPI-EnergyUseSavingsIntensity a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Energy Use Savings Intensity@en";
+  bigg:shortName "EUSI@en" .
 
-bigg:AdjustedBiofuelsSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over purchased biofuels adjusted for weather/season/production, kWh/year" .
+bigg:KPI-NormalisedInvestmentCost a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Normalised Investment Cost@en";
+  bigg:shortName "NIC@en" .
 
-bigg:AdjustedRenewableElectricitySaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over produced elctrcity from renewable sources adjusted for weather/season/production, kWh/year" .
+bigg:KPI-AvoidanceCost a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Avoidance Cost@en";
+  bigg:shortName "AC@en" .
 
-bigg:AdjustedRenewableHeatSaving a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings over produced heat from renewable sources adjusted for weather/season/production, kWh/year" .
+bigg:KPI-SimplePayback a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Simple Payback@en";
+  bigg:shortName "SP@en" .
 
-bigg:OtherSavings a bigg:EnergySavingType, skos:Concept;
-  rdfs:comment "Annual energy savings on unknown or not listed sources, kWh/year" .
+bigg:KPI-NetPresentValue a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Net Present Value@en";
+  bigg:shortName "NPV@en" .
 
-bigg:ThirdParty a bigg:EnergySavingVerificationSource, skos:Concept .
+bigg:KPI-ProfitabilityIndex a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Profitability Index@en";
+  bigg:shortName "PI@en" .
 
-bigg:ESCO a bigg:EnergySavingVerificationSource, skos:Concept .
+bigg:KPI-NetPresentValueQuotient a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;;
+  rdfs:label "Net Present Value Quotient@en";
+  bigg:shortName "NPVq@en" .
 
-bigg:GRC_ZONE_A a bigg:AddressClimateZone, skos:Concept;
-  rdfs:comment "Greece, zone A" .
-
-bigg:GRC_ZONE_B a bigg:AddressClimateZone, skos:Concept;
-  rdfs:comment "Greece, zone B" .
-
-bigg:GRC_ZONE_C a bigg:AddressClimateZone, skos:Concept;
-  rdfs:comment "Greece, zone C" .
-
-bigg:GRC_ZONE_D a bigg:AddressClimateZone, skos:Concept;
-  rdfs:comment "Greece, zone D" .
+bigg:KPI-InternalRateOfReturn a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;;
+  rdfs:label "Internal Rate of Return@en";
+  bigg:shortName "IRR@en" .
 
 bigg:EnergyConsumptionOthers a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Total energy consumption from other unspecified resources" .
+
+bigg:NOPROPERTY a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "The measurement does not have a property" .
 
 bigg:EnergyConsumptionTotal a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Total energy consumption" .
@@ -2635,6 +2701,9 @@ bigg:EnergyConsumptionRenewableElectricity a bigg:MeasuredProperty, skos:Concept
 
 bigg:EnergyConsumptionRenewableHeat a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Total energy consumed from renewable heat generation" .
+
+bigg:ConsumptionWater a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total water consumed" .
 
 bigg:AdjustedEnergyConsumptionTotal a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Adjusted total energy consumption" .
@@ -2845,48 +2914,293 @@ bigg:WindSpeed a bigg:MeasuredProperty, skos:Concept;
 bigg:BoilerModulationLevel a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Boiler modulation level" .
 
-bigg:Naive a bigg:EstimationMethod, skos:Concept;
-  bigg:considerEstimatedValues false .
+bigg:CO2Emissions a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "CO2 emissions for kwh" .
+bigg:Total a bigg:MeasuredPropertyComponent, skos:Concept .
+bigg:Baseload a bigg:MeasuredPropertyComponent, skos:Concept .
+bigg:Heating a bigg:MeasuredPropertyComponent, skos:Concept .
+bigg:Cooling a bigg:MeasuredPropertyComponent, skos:Concept .
 
-bigg:Profiled a bigg:EstimationMethod, skos:Concept;
-  bigg:considerEstimatedValues false .
+bigg:Euro-M2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Euro per m2"@en ;
+    dcterms:description "European Union Euro per squared meter"^^rdf:HTML ;
+    qudt:symbol "€/m^2" ;
+    qudt:currencyExponent 2 .
 
-bigg:Interpolated a bigg:EstimationMethod, skos:Concept ;
-  bigg:considerEstimatedValues false .
+bigg:BulgarianLev-M2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Bulgarian Lev per m2"@en ;
+    qudt:symbol "лв/m^2" ;
+    dcterms:description "Bulgarian lev currency per squared meter"^^rdf:HTML ;
+    qudt:currencyExponent 2 .
 
-bigg:TrustedModel a bigg:EstimationMethod, skos:Concept ;
-  bigg:considerEstimatedValues true .
+bigg:Euro-KiloW-HR a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Euro"@en ;
+    dcterms:description "European Union Euro per Kilo Watt Hour"^^rdf:HTML ;
+    qudt:symbol "€/kWh" ;
+    qudt:currencyExponent 2 .
 
-bigg:TrustedModel.RegressionModel a bigg:EstimationMethod, skos:Concept;
-  skos:broader bigg:TrustedModel ;
-  bigg:considerEstimatedValues true .
+bigg:BulgarianLev-KiloW-HR a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Bulgarian lev per kilo watt hour"@en ;
+    dcterms:description "Bulgarian lev per Kilo Watt Hour"^^rdf:HTML ;
+    qudt:symbol "лв/kWh" ;
+    qudt:currencyExponent 2 .
 
-bigg:TrustedModel.ClassificationModel a bigg:EstimationMethod, skos:Concept;
-  skos:broader bigg:TrustedModel ;
-  bigg:considerEstimatedValues true .
 
-bigg:TrustedModel.Other a bigg:EstimationMethod, skos:Concept;
-  skos:broader bigg:TrustedModel ;
-  bigg:considerEstimatedValues true .
+bigg:KiloGM-CO2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Kilo grams CO2"@en,
+        "grams CO2"@en-us ;
+    qudt:expression "\\(kgCO2\\)."^^qudt:LatexString ;
+    qudt:hasQuantityKind quantitykind:Mass ;
+    qudt:symbol "kgCO2" ;
+    qudt:ucumCode "g.m-2.d-1{C}"^^qudt:UCUMcs .
 
+bigg:KiloGM-CO2-M2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "kilograms CO2 per square metre"@en,
+        "kilograms CO2 per square meter"@en-us ;
+    qudt:expression "\\(kgCO2/m^{2}\\)."^^qudt:LatexString ;
+    qudt:symbol "kgCO2/m^2" ;
+    qudt:hasQuantityKind quantitykind:MassPerArea .
+
+bigg:KiloW-HR-M2 a bigg:MeasurementUnit,
+        qudt:Unit ;
+    rdfs:label "Kilowatthourperm2"@en ;
+    dcterms:description "The kilowatt hour per m2, or kilowatt-hour per squared meter, is a unit to measure the energy consumed by surface."^^qudt:LatexString ;
+    qudt:hasQuantityKind quantitykind:Energy  ;
+    qudt:ucumCode "kW.hm2"^^qudt:UCUMcs ;
+    qudt:uneceCommonCode "KWH" ;
+    qudt:symbol "kWh/m^2" ;
+    qudt:unitOfSystem sou:CGS .
 
 bigg:BaselineModel a bigg:ModelType, skos:Concept .
 
 bigg:DynamicModel a bigg:ModelType, skos:Concept .
 
-bigg:P5 a bigg:AggregationFunction, skos:Concept .
+bigg:TotalEnergy a bigg:ReferenceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionTotal;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Total;
+  bigg:relatedUtilityType bigg:TotalUtility;
+  rdfs:comment "A group of energy resources combined" .
 
-bigg:P25 a bigg:AggregationFunction, skos:Concept .
+bigg:Electricity a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionGridElectricity;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Electricity;
+  bigg:relatedUtilityType bigg:ElectricUtility;
+  rdfs:comment "Electric resource" .
 
-bigg:P50 a bigg:AggregationFunction, skos:Concept .
+bigg:Gas a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionGas;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Gas;
+  bigg:relatedUtilityType bigg:GasUtility;
+  rdfs:comment "Gas resource" .
 
-bigg:P75 a bigg:AggregationFunction, skos:Concept .
+bigg:Oil a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionOil;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Oil;
+  bigg:relatedUtilityType bigg:OilUtility;
+  rdfs:comment "Oil resource" .
 
-bigg:P95 a bigg:AggregationFunction, skos:Concept .
+bigg:Coal a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionCoal;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Coal;
+  bigg:relatedUtilityType bigg:CoalUtility;
+  rdfs:comment "Coal resource, including coal-based products" .
 
-bigg:AVG a bigg:AggregationFunction, skos:Concept .
+bigg:Heat a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionDistrictHeating;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Heat;
+  bigg:relatedUtilityType bigg:DistrictHeatingUtility;
+  rdfs:comment "Heating resource" .
 
-bigg:SUM a bigg:AggregationFunction, skos:Concept .
+bigg:Cool a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionDistrictCooling;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Cool;
+  bigg:relatedUtilityType bigg:DistrictCoolingUtility;
+  rdfs:comment "Cooling resource" .
+
+
+bigg:Water a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:ConsumptionWater;
+  bigg:relatedDeviceType bigg:Meter.IfcFlowMeter.Water;
+  bigg:relatedUtilityType bigg:WaterUtility;
+  rdfs:comment "Cooling resource" .
+
+bigg:CHP a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionCHP;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.CHP;
+  bigg:relatedUtilityType bigg:CHPUtility;
+  rdfs:comment "Resource of combined heat and power system" .
+
+bigg:Biomass a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionBiomass;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Biomass;
+  bigg:relatedUtilityType bigg:BiomassUtility;
+  rdfs:comment "Biomass resources" .
+
+bigg:Biofuels a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionBiofuels;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Biofuels;
+  bigg:relatedUtilityType bigg:BiofuelsUtility;
+  rdfs:comment "Biofuel resources" .
+
+bigg:RenewableElectricity a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionRenewableElectricity;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.RenewableElectricity;
+  bigg:relatedUtilityType bigg:RenewableElectricityUtility;
+  rdfs:comment "Renewable electricity resource" .
+
+bigg:RenewableHeat a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionRenewableHeat;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.RenewableHeat;
+  bigg:relatedUtilityType bigg:RenewableHeatUtility;
+  rdfs:comment "Renewable heat resource" .
+
+bigg:TotalUtility a bigg:UtilityType, skos:Concept .
+
+bigg:ElectricUtility a bigg:UtilityType, skos:Concept .
+
+bigg:GasUtility a bigg:UtilityType, skos:Concept .
+
+bigg:WaterUtility a bigg:UtilityType, skos:Concept .
+
+bigg:OilUtility a bigg:UtilityType, skos:Concept .
+
+bigg:CoalUtility a bigg:UtilityType, skos:Concept .
+
+bigg:DistrictHeatingUtility a bigg:UtilityType, skos:Concept .
+
+bigg:DistrictCoolingUtility a bigg:UtilityType, skos:Concept .
+
+bigg:CHPUtility a bigg:UtilityType, skos:Concept .
+
+bigg:BiomassUtility a bigg:UtilityType, skos:Concept .
+
+bigg:BiofuelsUtility a bigg:UtilityType, skos:Concept .
+
+bigg:RenewableElectricityUtility a bigg:UtilityType, skos:Concept .
+
+bigg:RenewableHeatUtility a bigg:UtilityType, skos:Concept .
+
+bigg:HeatingDegreeDays a bigg:BaselineInfluenceFactor, skos:Concept .
+
+bigg:CoolingDegreeDays a bigg:BaselineInfluenceFactor, skos:Concept .
+
+bigg:Occupancy a bigg:BaselineInfluenceFactor, skos:Concept .
+
+bigg:ProductionLevel a bigg:BaselineInfluenceFactor, skos:Concept .
+
+
+
+bigg:owned a bigg:BuildingOwnership, skos:Concept .
+
+bigg:rented a bigg:BuildingOwnership, skos:Concept .
+
+
+
+bigg:TotalEnergySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Total annual final energy savings (considering all billed energy sources) in the reference period, kWh/year" .
+
+bigg:GridElectricitySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased grid electricity, kWh/year" .
+
+bigg:GasSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased gas, kWh/year" .
+
+bigg:OilSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased oil, kWh/year" .
+
+bigg:CoalSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased coal, kWh/year" .
+
+bigg:DistrictHeatingSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased district heating, kWh/year" .
+
+bigg:DistrictCoolingSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased district cooling, kWh/year" .
+
+bigg:CHPSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over Combined Heat and Power (CHP), kWh/year" .
+
+bigg:BiomassSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased biomass, kWh/year" .
+
+bigg:BiofuelsSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased biofuels, kWh/year" .
+
+bigg:RenewableElectricitySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over produced elctrcity from renewable sources, kWh/year" .
+
+bigg:RenewableHeatSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over produced heat from renewable sources, kWh/year" .
+
+bigg:TotalAdjustedEnergySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Total annual final energy savings (considering all billed energy sources) adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedGridElectricitySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased grid electricity adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedGasSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased gas adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedOilSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased oil adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedCoalSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased coal adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedDistrictHeatingSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased district heating adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedDistrictCoolingSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased district cooling adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedCHPSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over Combined Heat and Power (CHP) adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedBiomassSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased biomass adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedBiofuelsSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over purchased biofuels adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedRenewableElectricitySaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over produced elctrcity from renewable sources adjusted for weather/season/production, kWh/year" .
+
+bigg:AdjustedRenewableHeatSaving a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings over produced heat from renewable sources adjusted for weather/season/production, kWh/year" .
+
+bigg:OtherSavings a bigg:EnergySavingType, skos:Concept;
+  rdfs:comment "Annual energy savings on unknown or not listed sources, kWh/year" .
+
+
+
+
+bigg:ThirdParty a bigg:EnergySavingVerificationSource, skos:Concept .
+
+bigg:ESCO a bigg:EnergySavingVerificationSource, skos:Concept .
+
+
+
+
+bigg:GRC_ZONE_A a bigg:AddressClimateZone, skos:Concept;
+  rdfs:comment "Greece, zone A" .
+
+bigg:GRC_ZONE_B a bigg:AddressClimateZone, skos:Concept;
+  rdfs:comment "Greece, zone B" .
+
+bigg:GRC_ZONE_C a bigg:AddressClimateZone, skos:Concept;
+  rdfs:comment "Greece, zone C" .
+
+bigg:GRC_ZONE_D a bigg:AddressClimateZone, skos:Concept;
+  rdfs:comment "Greece, zone D" .
+
+
+
 
 bigg:SafetyAndHealth a bigg:NonEnergyBenefitType, skos:Concept .
 
@@ -2922,6 +3236,9 @@ bigg:ComfortImprovement a bigg:NonEnergyBenefitType, skos:Concept .
 
 bigg:Compliance a bigg:NonEnergyBenefitType, skos:Concept .
 
+
+
+
 bigg:NotMeasured a bigg:NonEnergyBenefitImpactEvaluation, skos:Concept .
 
 bigg:Improved a bigg:NonEnergyBenefitImpactEvaluation, skos:Concept .
@@ -2930,23 +3247,9 @@ bigg:NoImpact a bigg:NonEnergyBenefitImpactEvaluation, skos:Concept .
 
 bigg:Degraded a bigg:NonEnergyBenefitImpactEvaluation, skos:Concept .
 
-bigg:Lighting a skos:Concept .
 
-bigg:SpaceHeating a skos:Concept .
 
-bigg:SpaceCooling a skos:Concept .
 
-bigg:CombinedSpaceHeatingAndCooling a skos:Concept .
-
-bigg:HotWater a skos:Concept .
-
-bigg:CombinedSpaceAndWaterHeating a skos:Concept .
-
-bigg:Ventilation a skos:Concept .
-
-bigg:Electricity a skos:Concept .
-
-bigg:Refrigeration a skos:Concept .
 
 bigg:PublicBank a bigg:OrganizationType, skos:Concept;
   rdfs:comment "PublicBank" .
@@ -2969,6 +3272,10 @@ bigg:Supplier a bigg:OrganizationType, skos:Concept;
 bigg:HostInvestor a bigg:OrganizationType, skos:Concept;
   rdfs:comment "HostInvestor" .
 
+
+
+
+
 bigg:AfterEnergyAudit a bigg:ProjectMotivation, skos:Concept;
   rdfs:comment "The project followed a mandatory energy audit" .
 
@@ -2990,6 +3297,10 @@ bigg:ForLegalRequirements a bigg:ProjectMotivation, skos:Concept;
 bigg:ToBenefitFromFinancialSupport a bigg:ProjectMotivation, skos:Concept;
   rdfs:comment "The project aimed at benefitting from grants or financial support" .
 
+
+
+
+
 bigg:MultiLevelState a bigg:StateType, skos:Concept;
   rdfs:comment "The state type of a device that can be set to multiple states" .
 
@@ -3001,6 +3312,10 @@ bigg:OpenCloseState a bigg:StateType, skos:Concept;
 
 bigg:StartStopState a bigg:StateType, skos:Concept;
   rdfs:comment "The state type of a device that can be started and stopped" .
+
+
+
+
 
 bigg:LightingSystem a bigg:SystemType, skos:Concept;
   rdfs:comment "System of the building that fullfils a lighting function" .
@@ -3059,11 +3374,8 @@ bigg:RenewableGenerationSystem.OtherRenewableGenerationSystem a bigg:SystemType,
 bigg:OtherSystem a bigg:SystemType, skos:Concept;
   rdfs:comment "Other system" .
 
-bigg:Electricity a bigg:UtilityType, skos:Concept .
 
-bigg:Gas a bigg:UtilityType, skos:Concept .
 
-bigg:Water a bigg:UtilityType, skos:Concept .
 
 bigg:Construction a bigg:ZoneType, skos:Concept;
   rdfs:comment "The zone is used to represent a construction zone for the production process." .

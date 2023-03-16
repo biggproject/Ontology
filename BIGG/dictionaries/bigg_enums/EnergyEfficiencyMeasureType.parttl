@@ -1,0 +1,1485 @@
+
+bigg:LightingMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the lighting system of the building" .
+
+bigg:LightingMeasure.LightingIndoorMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the indoor lighting system of the building";
+  skos:broader bigg:LightingMeasure .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorRelamp a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the indoor lighting units or of their subcomponents";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorRelamp.IndoorRelampToLED a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the lighting units with LED ones";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorRelamp .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorRelamp.IndoorRelampToT5 a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the lighting units with T5 ones";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorRelamp .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorRelamp.IndoorBallastReplacement a
+    bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of hemagnetic ballasts with electronic ones";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorRelamp .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorRelamp.OtherIndoorRelamp a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other indoor relamp measure";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorRelamp .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingTechnicalOptimization a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Technical optimization of the indoor lighting system by component renewal, supplement, or maintenance";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingTechnicalOptimization.IndoorReflectorsInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of light reflectors";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingTechnicalOptimization .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingTechnicalOptimization.IndoorLightSourcesReduction
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Reduction of the number of light sources";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingTechnicalOptimization .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingTechnicalOptimization.OtherIndoorTechnicalOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other indoor lighting technical optimization measure";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingTechnicalOptimization .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization a
+    bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Operational optimization by controls and automation or maintenance";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization.IndoorNaturalLightMaximization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Maximization of natural light use";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization.IndoorLightingUnitsCleaning
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Cleaning of the lamps or luminaries ";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization.IndoorOccupancySensorInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of occupancy sensor to automate the turning on/off of the lighting units";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization.IndoorLightingTimersInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of timers to automate the turning on/off of the lighting units";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization.IndoorLightControlInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of light sensors or dimmers to automate the turning on/off or intensity of the lighting units";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization .
+
+bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization.OtherIndoorOperationalOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other indoor lighting operational optimization measure";
+  skos:broader bigg:LightingMeasure.LightingIndoorMeasure.IndoorLightingOperationalOptimization .
+
+bigg:LightingMeasure.LightingOutdoorMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the outdoor lighting system of the building";
+  skos:broader bigg:LightingMeasure .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorRelamp a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the outdoor lighting units or of their subcomponents";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorRelamp.OutdoorRelampToLED a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the units with LED ones";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorRelamp .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorRelamp.OutdoorRelampToT5 a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the lighting units with T5 ones";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorRelamp .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorRelamp.OutdoorBallastReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of  hemagnetic ballasts with electronic ones";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorRelamp .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorRelamp.OtherOutdoorRelamp a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other outdoor relamp measure";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorRelamp .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingTechnicalOptimization a
+    bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Technical optimization of the outdoor lighting system by component renewal, supplement, or maintenance";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingTechnicalOptimization.OutdoorReflectorsInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of light reflectors";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingTechnicalOptimization .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingTechnicalOptimization.OutdoorLightSourcesReduction
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Reduction of the number of light sources";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingTechnicalOptimization .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingTechnicalOptimization.OtherOutdoorTechnicalOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other outdoor lighting technical optimization measure";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingTechnicalOptimization .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Operational optimization by controls and automation or maintenance";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization.OutdoorNaturalLightMaximization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Maximization of natural light use";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization.OutdoorLightingUnitsCleaning
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Cleaning of the lamps or luminaries ";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization.OutdoorOccupancySensorInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of occupancy sensor to automate the turning on/off of the lighting units";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization.OutdoorLightingTimersInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of timers to automate the turning on/off of the lighting units";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization.OutdoorLightControlInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of light sensors or dimmers to automate the turning on/off or intensity of the lighting units";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization .
+
+bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization.OtherOutdoorOperationalOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other outdoor lighting operational optimization measure";
+  skos:broader bigg:LightingMeasure.LightingOutdoorMeasure.OutdoorLightingOperationalOptimization .
+
+bigg:HVACAndHotWaterMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the space heating, ventilation, air conditioning, or water heating system of the building" .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that only affects the space heating system of the building";
+  skos:broader bigg:HVACAndHotWaterMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the heat production subsystem of space heating";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure.HeatingBoilerReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the boiler with a more efficient one that uses the same fuel";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure.HeatingHeatPumpReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the heat pump with a more efficient one";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure.HeatProductionFuelConversion
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the heat production system with one that operates with a different fuel source ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure.HeatingHeatExchangersReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of heat exchangers ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure.HeatingBurnerReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the burner";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure.HeatingOtherElementReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Change of another single component in the heat production system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure.HeatProductionSystemInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the heat production elements insulation";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure.DistrictHeatingConnection
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Connection of the building space heating system to district heating";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure.OtherHeatProductionMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the heat production system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the distribution or the storage subsystems of space heating ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingDistributionSystemReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Complete change of the heating distribution system ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingDistributionPumpReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of a pump";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingDistributionFanReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of a fan";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingDistibutionVariableSpeedDrivesInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of variable speed drives for the control of heating distribution elements (eg. Pumps, fans,…)";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingDistributionOtherComponentReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement or installation of other distribution elements (eg. valves or filters)";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingDistributionBalancingAndFlowRegulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Optimization of the heating distribution through regulation of the water/airflow (eg. by means of balancing valves or dampers) ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingPipesSubstitution
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Substitution of the pipes";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingPipesInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the pipes";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingDuctsSubstitution
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Substitution of the ducts";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingDuctsInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the ducts";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingStorageTankInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation or substitution of the hot water storage tank";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.HeatingStorageTankInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the hot water storage tank";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure.OtherDistributionAndStorageMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the heating distribution or storage systems";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingFinalElementsMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the heating system final elements (eg. radiators)";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingFinalElementsMeasure.HeatingFinalElementsReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the final elements of the heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingFinalElementsMeasure.HeatingFinalElementsRelocation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Change of the location of the final elements of the heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingFinalElementsMeasure.HeatingUnderfloorInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of an underfloor heating system ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingFinalElementsMeasure.OtherHeatingFinalElementsMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the final elements of the hating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the automation and controls of the heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure.HeatingStopStartOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Implementation of a control to optimize the start/stop of the heating system to reach the temperature setpoint ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure.HeatingTimeControlImplementation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of a timer to control the turn on/off of the heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure.HeatingTemperatureSensorInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of temperature sensors to control the turn on/off of the heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure.HeatingThermostaticValvesInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of thermostatic valves to the final elements of the heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure.HeatingThermostatInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of a thermostat for the control of the heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure.OtherHeatingControlMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure for the control and automation of the heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HeatingSystemMeasure.HeatingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure with a combined effect on the space heating and cooling systems of the building";
+  skos:broader bigg:HVACAndHotWaterMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the heat/cool production equipment of a combined heating/cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure.HeatAndCoolHeatPumpReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the heat pump with a more efficient one";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure.HeatAndCoolProductionFuelConversion
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the system with one that operates with a different fuel source ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure.HeatAndCoolHeatExchangersReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of heat exchangers ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure.HeatAndCoolCompressorReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the compressor";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure.HeatingAndCoolingOtherElementReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Change of another single component in the heat/cool production subsystem";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure.HeatAndCoolProductionSystemInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the heat/cool production elements insulation";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure.DistrictCombinedHeatingAndCoolingConnection
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Connection of the building space heating and cooling system to district heating and cooling";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure.OtherHeatAndCoolProductionMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the heat/cool production system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatAndCoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the space heating and cooling distribution subsystem";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure.HeatingAndCoolingDistributionSystemReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Complete change of the heating and cooling distribution system ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure.HeatingAndCoolingDistributionPumpReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of a pump";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure.HeatingAndCoolingDistributionFanReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of a fan";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure.HeatingAndCoolingDistibutionVariableSpeedDrivesInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of variable speed drives for the control of heating/cooling distribution elements (eg. pumps, fans,…)";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure.HeatingAndCoolingDistributionOtherComponentReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement or installation of other distribution elements (eg. valves or filters)";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure.HeatingAndCoolingDistributionBalancingAndFlowRegulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Optimization of the heating/cooling distribution through regulation of the water/airflow (eg. by means of balancing valves or dampers) ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure.HeatingAndCoolingPipesSubstitution
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Substitution of the pipes";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure.HeatingAndCoolingPipesInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the pipes";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure.HeatingAndCoolingDuctsSubstitution
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Substitution of the ducts";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure.HeatingAndCoolingDuctsInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the ducts";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure.OtherHeatingAndCoolingDistributionMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the heating and cooling distribution system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingFinalElementsMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the heating and cooling system final elements (eg. convectors)";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingFinalElementsMeasure.HeatingAndCoolingFinalElementsReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the final elements of the heating and cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingFinalElementsMeasure.HeatingAndCoolingFinalElementsRelocation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Change of the location of the final elements of the heating and cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingFinalElementsMeasure.HeatingAndCoolingUnderfloorInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of an underfloor heating/cooling system ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingFinalElementsMeasure.OtherHeatingAndCoolingFinalElementsMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the final elements of the heating/cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingControlMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the automation and controls of the heating/cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingControlMeasure.HeatingAndCoolingTemperatureSensorInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of temperature sensors to control the turn on/off of the heating and cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingControlMeasure.HeatingAndCoolingThermostatInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of thermostatic valves to the final elements of the heating and cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingControlMeasure.OtherHeatingAndCoolingControlMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure for the control and automation of the heating and cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingCoolingSystemMeasure.HeatingAndCoolingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that only affects the space cooling system of the building";
+  skos:broader bigg:HVACAndHotWaterMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the cooling production subsystem of space cooling";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure.CoolingHeatPumpReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the heat pump with a more efficient one";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure.CoolingChillerReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the chiller with a more efficient one";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure.CoolingHeatExchangerReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of heat exchangers ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure.CoolingCompressorReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the compressor";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure.CoolingOtherElementReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Change of another single component in the cooling production system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure.CoolingProductionSystemInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the cooling production elements insulation";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure.DistrictCoolingConnection
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Connection of the building space heating system to district heating";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure.OtherCoolProductionMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the cooling production system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the distribution or the storage subsystems of space cooling ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingDistributionSystemReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Complete change of the cooling distribution system ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingDistributionPumpReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of a pump";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingDistributionFanReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of a fan";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingDistibutionVariableSpeedDrivesInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of variable speed drives for the control of cooling distribution elements (eg. pumps, fans,…)";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingDistributionOtherComponentReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement or installation of other distribution elements (eg. valves or filters)";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingDistributionBalancingAndFlowRegulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Optimization of the cooling distribution through regulation of the water/airflow (eg. by means of balancing valves or dampers) ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingPipesSubstitution
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Substitution of the pipes";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingPipesInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the pipes";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingDuctsSubstitution
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Substitution of the ducts";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingDuctsInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the ducts";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingStorageTankInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation or substitution of the cold water storage tank";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.CoolingStorageTankInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the cold water storage tank";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure.OtherCoolingDistributionAndStorageMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the cooling distribution or storage systems";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingFinalElementsMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the final elements used for space cooling (eg. fans, convectors, ...)";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingFinalElementsMeasure.CoolingFinalElementsReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the final elements of the cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingFinalElementsMeasure.CoolingFinalElementsRelocation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Change of the location of the final elements of the cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingFinalElementsMeasure.CoolingUnderfloorInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of an underfloor cooling system ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingFinalElementsMeasure.OtherCoolingFinalElementsMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the final elements of the cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingControlMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the automation and controls of the cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingControlMeasure.CoolingStopStartOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Implementation of a control to optimize the start/stop of the cooling system to reach the temperature setpoint ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingControlMeasure.CoolingTimeControl
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of a timer to control the turn on/off of the cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingControlMeasure.CoolingTemperatureSensorInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of temperature sensors to control the turn on/off of the cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingControlMeasure.CoolingThermostatInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of a thermostat for the control of the cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingControlMeasure.OtherCoolingControlMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure for the control and automation of the cooling system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CoolingSystemMeasure.CoolingControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that only affects the water heating system of the building";
+  skos:broader bigg:HVACAndHotWaterMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the heat production subsystem of space heating";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure.HotWaterBoilerReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the boiler with a more efficient one that uses the same fuel";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure.HotWaterHeatPumpReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the heat pump with a more efficient one";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure.HotWaterProductionFuelConversion
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the heat production system with one that operates with a different fuel source ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure.HotWaterHeatExchangersReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of heat exchangers ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure.HotWaterBurnerReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the burner";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure.HotWaterOtherElementReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Change of another single component in the hot water production system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure.HotWaterProductionSystemInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the hot water production elements insulation";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure.OtherHotWaterProductionMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the hot water production system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the distribution or the storage subsystems of water heating ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure.HotWaterDistributionSystemReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Complete change of the hot water distribution system ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure.HotWaterDistributionPumpReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of a pump";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure.HotWaterDistibutionVariableSpeedDrivesInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of variable speed drives for the control of hot water distribution elements (eg. pumps)";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure.HotWaterDistributionOtherComponentReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement or installation of other distribution elements (eg. valves or filters)";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure.HotWaterDistributionBalancingAndFlowRegulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Optimization of the hot water distribution through regulation of the water flow by means of balancing valves";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure.HotWaterPipesSubstitution
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Substitution of the pipes";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure.HotWaterPipesInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the pipes";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure.HotWaterStorageTankInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation or substitution of the hot water storage tank";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the space heating, ventilation, air conditioning, or water heating system of the building" .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that only affects the water heating system of the building";
+  skos:broader bigg:HVACAndHotWaterMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the distribution or the storage subsystems of water heating ";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure.HotWaterStorageTankInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the hot water storage tank";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure.OtherHotWaterDistributionAndStorageMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the hot water distribution or storage systems";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterFinalElementsMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the water heating system final elements  (eg. taps)";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterFinalElementsMeasure.HotWaterTapSavingDeviceInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of saving devices to hot water taps or shower (eg. tap aerators)";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterFinalElementsMeasure.OtherHotWaterFinalElementsMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the final elements of the water heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterFinalElementsMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterControlMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the automation and controls of the water heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterControlMeasure.HotWaterTimeControl
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of a timer to control the turn on/off of the water heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterControlMeasure.HotWaterTemperatureSensorInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of temperature sensors to control the turn on/off of the water heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterControlMeasure.OtherHotWaterControlMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure for the control and automation of the water heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.HotWaterSystemMeasure.HotWaterControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure with a combined effect onthe space and water heating systems of the building";
+  skos:broader bigg:HVACAndHotWaterMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the hot  water production system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure.HeatAndHotWaterBoilerReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the boiler with a more efficient one that uses the same fuel";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure.HeatAndHotWaterHeatPumpReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the heat pump with a more efficient one";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure.HeatAndHotWaterProductionFuelConversion
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the hot water production system with one that operates with a different fuel source ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure.HeatAndHotWaterHeatExchangersReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of heat exchangers ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure.HeatAndHotWaterBurnerReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the burner";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure.HeatAndHotWaterOtherElementReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Change of another single component in the hot water production system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure.HeatAndHotWaterProductionSystemInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the hot water production elements insulation";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure.OtherHeatAndHotWaterProductionMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the hot water production system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatAndHotWaterProductionMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the distribution subsystems of space/water heating ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure.HeatAndHotWaterDistributionSystemReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Complete change of the hot water distribution system ";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure.HeatAndHotWaterDistributionPumpReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of a pump";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure.HeatingAndHotWaterDistributionVariableSpeedDrivesInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of variable speed drives for the control of hot water distribution elements (eg. pumps)";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure.HeatAndHotWaterDistributionOtherComponentReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement or installation of other distribution elements (eg. valves or filters)";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure.HeatingAndHotWaterDistributionBalancingAndFlowRegulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Optimization of the hot water distribution through regulation of the water flow by means of balancing valves";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure.HeatAndHotWaterPipesSubstitution
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Substitution of the pipes";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure.HeatAndHotWaterPipesInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the pipes";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure.HeatAndHotWaterStorageTankInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation or substitution of the hot water storage tank";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure.HeatAndHotWaterStorageTankInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the hot water storage tank";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure.OtherHeatAndHotWaterDistributionMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the space/water heating distribution or storage systems";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterDistributionAndStorageMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterControlMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the automation and controls of the space/water heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterControlMeasure.HeatingAndHotWaterTemperatureSensorInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of temperature sensors to control the turn on/off of the space/water heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterControlMeasure.OtherHeatingAndHotWaterControlMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure for the control and automation of the pace/water heating system";
+  skos:broader bigg:HVACAndHotWaterMeasure.CombinedHeatingHotWaterSystemMeasure.HeatingAndHotWaterControlMeasure .
+
+bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the mechanical ventilation system of the building";
+  skos:broader bigg:HVACAndHotWaterMeasure .
+
+bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the air distribution ";
+  skos:broader bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure .
+
+bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure.VentilationSystemReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation or replacement of a mechanical ventilation system";
+  skos:broader bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure.VentilationFansOrMotorReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of motors or fans";
+  skos:broader bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure.VentilationVariableSpeedDrivesInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of variable speed drives for the control of air distribution elements (eg. fans)";
+  skos:broader bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure.VentilationHeatRecoveryInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of a recovery system that uses the heat exhaust air to preheat incoming fresh air";
+  skos:broader bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure.AirHandlingUnitReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the Air Handling Unit (AHU) of the building";
+  skos:broader bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure.VentilationDistributionFlowRegulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Optimization of the air distribution through flow regulation (eg. by means of dampers)";
+  skos:broader bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure.VentilationDuctsSubstitution
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Substitution of the ducts";
+  skos:broader bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure.VentilationDuctsInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the ducts";
+  skos:broader bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure .
+
+bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure.OtherMechanicalVentilationMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure on the air distribution system";
+  skos:broader bigg:HVACAndHotWaterMeasure.MechanicalVentilationSystemMeasure.MechanicalVentilationDistributionMeasure .
+
+bigg:BuildingFabricMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the building fabric or envelope" .
+
+bigg:BuildingFabricMeasure.WallMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the building walls";
+  skos:broader bigg:BuildingFabricMeasure .
+
+bigg:BuildingFabricMeasure.WallMeasure.WallExternalInsulation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "External walls insulation addition or replacement";
+  skos:broader bigg:BuildingFabricMeasure.WallMeasure .
+
+bigg:BuildingFabricMeasure.WallMeasure.WallWaterproofing a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Addition of a waterproof layer to the building walls to prevent the penetration of water into the structure ";
+  skos:broader bigg:BuildingFabricMeasure.WallMeasure .
+
+bigg:BuildingFabricMeasure.WallMeasure.WallCavityInsulation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Wall cavities insulation addition or replacement";
+  skos:broader bigg:BuildingFabricMeasure.WallMeasure .
+
+bigg:BuildingFabricMeasure.WallMeasure.WallInternalInsulation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Internal walls insulation addition or replacement";
+  skos:broader bigg:BuildingFabricMeasure.WallMeasure .
+
+bigg:BuildingFabricMeasure.WallMeasure.OtherWallMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other measure on the building walls";
+  skos:broader bigg:BuildingFabricMeasure.WallMeasure .
+
+bigg:BuildingFabricMeasure.RoofAndCeilingMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the building roof or ceiling";
+  skos:broader bigg:BuildingFabricMeasure .
+
+bigg:BuildingFabricMeasure.RoofAndCeilingMeasure.PitchedRoofInsulation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Insulation of a roof that is formed by surfaces sloping downward with an angle of more than 20°";
+  skos:broader bigg:BuildingFabricMeasure.RoofAndCeilingMeasure .
+
+bigg:BuildingFabricMeasure.RoofAndCeilingMeasure.FlatRoofInsulation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Insulation of a roof that is flat or formed by surfaces sloping downward with an angle of less than 20°";
+  skos:broader bigg:BuildingFabricMeasure.RoofAndCeilingMeasure .
+
+bigg:BuildingFabricMeasure.RoofAndCeilingMeasure.ReflectiveRoofCoating a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Application of a coating to the roof to reflect more sunlight and decrease the heat absorbed by the structure";
+  skos:broader bigg:BuildingFabricMeasure.RoofAndCeilingMeasure .
+
+bigg:BuildingFabricMeasure.RoofAndCeilingMeasure.RoofWaterproofing a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Addition of a waterproof layer to the building roof to prevent the penetration of water into the structure ";
+  skos:broader bigg:BuildingFabricMeasure.RoofAndCeilingMeasure .
+
+bigg:BuildingFabricMeasure.RoofAndCeilingMeasure.GreenRoofInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation on the roof of a layer of vegetation planted over a waterproofing system.";
+  skos:broader bigg:BuildingFabricMeasure.RoofAndCeilingMeasure .
+
+bigg:BuildingFabricMeasure.RoofAndCeilingMeasure.CeilingLoftInsulation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation of insulating material over the loft floor or between the roof rafters";
+  skos:broader bigg:BuildingFabricMeasure.RoofAndCeilingMeasure .
+
+bigg:BuildingFabricMeasure.RoofAndCeilingMeasure.OtherRoofAndCeilingMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other measure on the building roof or ceiling";
+  skos:broader bigg:BuildingFabricMeasure.RoofAndCeilingMeasure .
+
+bigg:BuildingFabricMeasure.FloorMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the building floor";
+  skos:broader bigg:BuildingFabricMeasure .
+
+bigg:BuildingFabricMeasure.FloorMeasure.SuspendedFloorInsulation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation of insulating material between the suspended floor supporting structure";
+  skos:broader bigg:BuildingFabricMeasure.FloorMeasure .
+
+bigg:BuildingFabricMeasure.FloorMeasure.SolidFloorInsulation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation of an insulation layer between the concrete slab and the floor";
+  skos:broader bigg:BuildingFabricMeasure.FloorMeasure .
+
+bigg:BuildingFabricMeasure.FloorMeasure.OtherFloorMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other measure that affects the building floor";
+  skos:broader bigg:BuildingFabricMeasure.FloorMeasure .
+
+bigg:BuildingFabricMeasure.WindowMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the windows of the building";
+  skos:broader bigg:BuildingFabricMeasure .
+
+bigg:BuildingFabricMeasure.WindowMeasure.WindowReplacement a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the whole windows with more energy-efficient ones (eg. simple to double glass or to low emissive double glass)";
+  skos:broader bigg:BuildingFabricMeasure.WindowMeasure .
+
+bigg:BuildingFabricMeasure.WindowMeasure.WindowsGlassReplacement a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the windows’ glass panes (eg. simple to double glass or to low emissive double glass)";
+  skos:broader bigg:BuildingFabricMeasure.WindowMeasure .
+
+bigg:BuildingFabricMeasure.WindowMeasure.WindowCoatingInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation of tinted or reflective coating over the windows' glass panes";
+  skos:broader bigg:BuildingFabricMeasure.WindowMeasure .
+
+bigg:BuildingFabricMeasure.WindowMeasure.WindowsSealingImprovement a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Improvement of the sealing of windows (eg. adhesive sealing)";
+  skos:broader bigg:BuildingFabricMeasure.WindowMeasure .
+
+bigg:BuildingFabricMeasure.WindowMeasure.OtherWindowMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other measure that affects the windows of the building";
+  skos:broader bigg:BuildingFabricMeasure.WindowMeasure .
+
+bigg:BuildingFabricMeasure.SkylightsMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the skylights of the building";
+  skos:broader bigg:BuildingFabricMeasure .
+
+bigg:BuildingFabricMeasure.SkylightsMeasure.SkylightReplacement a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the whole skylights with more energy-efficient ones (eg. simple to double glass or to low emissive double glass)";
+  skos:broader bigg:BuildingFabricMeasure.SkylightsMeasure .
+
+bigg:BuildingFabricMeasure.SkylightsMeasure.SkylightGlassReplacement a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the skylights’ glass panes (eg. simple to double glass or to low emissive double glass)";
+  skos:broader bigg:BuildingFabricMeasure.SkylightsMeasure .
+
+bigg:BuildingFabricMeasure.SkylightsMeasure.SkylightCoatingInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation of tinted or reflective coating over the skylights' glass panes";
+  skos:broader bigg:BuildingFabricMeasure.SkylightsMeasure .
+
+bigg:BuildingFabricMeasure.SkylightsMeasure.OtherSkylightMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other measure that affects the skylights of the building";
+  skos:broader bigg:BuildingFabricMeasure.SkylightsMeasure .
+
+bigg:BuildingFabricMeasure.DoorsMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the doors of the building";
+  skos:broader bigg:BuildingFabricMeasure .
+
+bigg:BuildingFabricMeasure.DoorsMeasure.DoorsReplacement a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the whole door(s)";
+  skos:broader bigg:BuildingFabricMeasure.DoorsMeasure .
+
+bigg:BuildingFabricMeasure.DoorsMeasure.AutomaticDoorInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation of mechanical drives to automatically close the doors that lead to the exterior or to non-climatized spaces";
+  skos:broader bigg:BuildingFabricMeasure.DoorsMeasure .
+
+bigg:BuildingFabricMeasure.DoorsMeasure.DoorGlassReplacement a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Replacement of the doors’ glasses (simple to double glass or to low emissive double glass)";
+  skos:broader bigg:BuildingFabricMeasure.DoorsMeasure .
+
+bigg:BuildingFabricMeasure.DoorsMeasure.DoorGlassCoatingInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation of tinted or reflective coating over the doors' glass panes";
+  skos:broader bigg:BuildingFabricMeasure.DoorsMeasure .
+
+bigg:BuildingFabricMeasure.DoorsMeasure.DoorsSealingImprovement a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Improvement of the sealing of doors (eg. adhesive sealing)";
+  skos:broader bigg:BuildingFabricMeasure.DoorsMeasure .
+
+bigg:BuildingFabricMeasure.DoorsMeasure.OtherDoorMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other measure that affects the doors of the building";
+  skos:broader bigg:BuildingFabricMeasure.DoorsMeasure .
+
+bigg:BuildingFabricMeasure.AirInfiltrationMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that aims at reducing the air infiltrations through the building envelope";
+  skos:broader bigg:BuildingFabricMeasure .
+
+bigg:BuildingFabricMeasure.AirInfiltrationMeasure.DraughtProofing a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation of internal draught-proofing elements to prevent the infiltration of external air through the surface elements of the building";
+  skos:broader bigg:BuildingFabricMeasure.AirInfiltrationMeasure .
+
+bigg:BuildingFabricMeasure.AirInfiltrationMeasure.AirCurtainsInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation of a fan-powered air curtain over openings that lead to the exterior or to non-climatized spaces ";
+  skos:broader bigg:BuildingFabricMeasure.AirInfiltrationMeasure .
+
+bigg:BuildingFabricMeasure.AirInfiltrationMeasure.OtherAirInfiltrationMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other measure that aims at reducing the air infiltrations through the building envelope";
+  skos:broader bigg:BuildingFabricMeasure.AirInfiltrationMeasure .
+
+bigg:BuildingFabricMeasure.ShadingMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that aims at preventing overheating due to solar light";
+  skos:broader bigg:BuildingFabricMeasure .
+
+bigg:BuildingFabricMeasure.ShadingMeasure.ExternalShadingInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation of shading devices on the building façade glazing elements to reduce solar heat gain";
+  skos:broader bigg:BuildingFabricMeasure.ShadingMeasure .
+
+bigg:BuildingFabricMeasure.ShadingMeasure.InternalShadingInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation of blinds or curtains to reduce solar heat gain";
+  skos:broader bigg:BuildingFabricMeasure.ShadingMeasure .
+
+bigg:BuildingFabricMeasure.ShadingMeasure.AutomaticShadingSystemInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Implementation of a programmable system for the automated opening/closing of solar shading devices";
+  skos:broader bigg:BuildingFabricMeasure.ShadingMeasure .
+
+bigg:BuildingFabricMeasure.ShadingMeasure.OtherShadingMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other measure that aims at preventing overheating due to solar light";
+  skos:broader bigg:BuildingFabricMeasure.ShadingMeasure .
+
+bigg:BuildingFabricMeasure.ComprehensiveBuildingFabricRenovation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Comprehensive intervention on the building fabric that aims at improving the energy efficiency of the building (eg. modernization, retroﬁt, or upgrade)";
+  skos:broader bigg:BuildingFabricMeasure .
+
+bigg:ElectricPowerSystemMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects the building power system or the electric equipment that it contains" .
+
+bigg:ElectricPowerSystemMeasure.PowerSystemMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the building power system ";
+  skos:broader bigg:ElectricPowerSystemMeasure .
+
+bigg:ElectricPowerSystemMeasure.PowerSystemMeasure.PowerSystemCompleteUpgrade a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Complete upgrade and renovation of the building electric power system ";
+  skos:broader bigg:ElectricPowerSystemMeasure.PowerSystemMeasure .
+
+bigg:ElectricPowerSystemMeasure.PowerSystemMeasure.PowerSystemVoltageOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of technologies to regulate, clean and condition the incoming power supply to reduce the voltage to the optimum level for the on-site electrical equipment and appliances";
+  skos:broader bigg:ElectricPowerSystemMeasure.PowerSystemMeasure .
+
+bigg:ElectricPowerSystemMeasure.PowerSystemMeasure.PowerFactorCorrection a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation power factor correction capacitor banks to reduce the electrical current drawn for inductive loads";
+  skos:broader bigg:ElectricPowerSystemMeasure.PowerSystemMeasure .
+
+bigg:ElectricPowerSystemMeasure.PowerSystemMeasure.PowerSystemTransformersReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of new, more energy-efficient transformers";
+  skos:broader bigg:ElectricPowerSystemMeasure.PowerSystemMeasure .
+
+bigg:ElectricPowerSystemMeasure.PowerSystemMeasure.ElectricDistributionPanelReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement or upgrade of the electricity distribution panel";
+  skos:broader bigg:ElectricPowerSystemMeasure.PowerSystemMeasure .
+
+bigg:ElectricPowerSystemMeasure.PowerSystemMeasure.UninterruptiblePowerSupplyInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of an Uninterruptible Power Supply (UPS) backup system";
+  skos:broader bigg:ElectricPowerSystemMeasure.PowerSystemMeasure .
+
+bigg:ElectricPowerSystemMeasure.PowerSystemMeasure.OtherPowerSystemMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other measure that affects the building power system ";
+  skos:broader bigg:ElectricPowerSystemMeasure.PowerSystemMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the electric equipment contained in the building";
+  skos:broader bigg:ElectricPowerSystemMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ElectricApplianceMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of electrical appliances with more efficient ones or other appliance measures";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ElectricApplianceMeasure.VendingMachinesReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the vending machines with more efficient ones";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ElectricApplianceMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ElectricApplianceMeasure.ElevatorReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement or installation of an elevator";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ElectricApplianceMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ElectricApplianceMeasure.OtherElectricApplianceMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other replacement or measure on electric appliances";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ElectricApplianceMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Measure that affects the Information and Communication Technology (ICT) equipment in the building";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure.ServersFreeCooling
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of equipment to cool the servers by using naturally cool air or water instead of mechanical refrigeration";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure.ServersVirtualization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Conversion of physical servers into multiple virtual machines to reduce power consumption and heat generation";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure.ServersReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement or upgrade of the servers";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure.PrintersReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement or upgrade of the printers";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure.ComputersReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of computers (eg. desktop to laptop)";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure.ComputersPowerManagement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Implementation of a control to reduce the power usage of computers";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure .
+
+bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure.OtherICTEquipmentMeasure
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other measure that affects the Information and Communication Technology (ICT) equipment in the building";
+  skos:broader bigg:ElectricPowerSystemMeasure.ElectricEquipmentMeasure.ICTEquipmentMeasure .
+
+bigg:RefrigerationSystemsMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that affects building refrigeration system in the building (does not include space cooling)" .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationTechnicalOptimization a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Technical optimization of the refrigeration system by component renewal, supplement, or maintenance";
+  skos:broader bigg:RefrigerationSystemsMeasure .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationTechnicalOptimization.RefrigerationSystemEfficiencyImprovement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure that aims at improving the overall efficiency of the refrigeration system";
+  skos:broader bigg:RefrigerationSystemsMeasure.RefrigerationTechnicalOptimization .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationTechnicalOptimization.RefrigerationCompressorsReplacement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Replacement of the compressor";
+  skos:broader bigg:RefrigerationSystemsMeasure.RefrigerationTechnicalOptimization .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationTechnicalOptimization.RefrigeratedSpaceDoorsOrCurtainsInstallation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Installation of doors or curtains to separate the fridges or refrigerated rooms from areas at ambient temperature ";
+  skos:broader bigg:RefrigerationSystemsMeasure.RefrigerationTechnicalOptimization .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationTechnicalOptimization.RefrigeratedSpaceInsulation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the insulation of the refrigerated space";
+  skos:broader bigg:RefrigerationSystemsMeasure.RefrigerationTechnicalOptimization .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationTechnicalOptimization.OtherRefrigerationTechnicalOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other technical optimization of the refrigeration system";
+  skos:broader bigg:RefrigerationSystemsMeasure.RefrigerationTechnicalOptimization .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationOperationalOptimization a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Operational optimization (controls and automation)";
+  skos:broader bigg:RefrigerationSystemsMeasure .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationOperationalOptimization.RefrigerationControlImprovement
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Improvement of the controls of the refrigeration system";
+  skos:broader bigg:RefrigerationSystemsMeasure.RefrigerationOperationalOptimization .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationOperationalOptimization.DefrostCycleControlOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Implementation of a defrost cycle control to improve performance of the system";
+  skos:broader bigg:RefrigerationSystemsMeasure.RefrigerationOperationalOptimization .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationOperationalOptimization.RefrigerationCondensingUnitCapacityControlOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Implementation of a control to reduce the refrigeration load while maintaining the temperature setpoint";
+  skos:broader bigg:RefrigerationSystemsMeasure.RefrigerationOperationalOptimization .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationOperationalOptimization.RefrigerationFloatingHeadPressureControlImplementation
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Implementation of a control to reduce the exit pressure of the compressor in function of the outside temperature ";
+  skos:broader bigg:RefrigerationSystemsMeasure.RefrigerationOperationalOptimization .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationOperationalOptimization.OtherRefrigerationOperationalOptimization
+  a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Other operational optimization of the refrigeration system";
+  skos:broader bigg:RefrigerationSystemsMeasure.RefrigerationOperationalOptimization .
+
+bigg:RefrigerationSystemsMeasure.RefrigerationSystemCompleteRenewal a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Complete renewal or substitution of the refrigeration system";
+  skos:broader bigg:RefrigerationSystemsMeasure .
+
+bigg:ManagementMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Management measure adopted to reduce the energy consumption of the building" .
+
+bigg:ManagementMeasure.BuildingEnergyManagementSystemInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation or replacement of a Building Energy Management System (BEMS)";
+  skos:broader bigg:ManagementMeasure .
+
+bigg:ManagementMeasure.PersonnelTraining a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Training of the personnel and awareness-raising";
+  skos:broader bigg:ManagementMeasure .
+
+bigg:ManagementMeasure.EnergyManagerAppointment a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Appointment of an energy manager to evaluate energy use and design programs to increase efficiency and reduce energy consumption";
+  skos:broader bigg:ManagementMeasure .
+
+bigg:ManagementMeasure.EnergyManagementExternalization a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Externalization of the energy management service (eg. By contracting ESCOs)";
+  skos:broader bigg:ManagementMeasure .
+
+bigg:ManagementMeasure.OtherManagementMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other management measure ";
+  skos:broader bigg:ManagementMeasure .
+
+bigg:RenewableGenerationMeasure a bigg:EnergyEfficiencyMeasureType, skos:Concept;
+  rdfs:comment "Measure related to renewable energy generation" .
+
+bigg:RenewableGenerationMeasure.SolarPhotovoltaicInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation or replacement of photovoltaic panels";
+  skos:broader bigg:RenewableGenerationMeasure .
+
+bigg:RenewableGenerationMeasure.SolarThermalForHeatingInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation or replacement of a solar thermal system for heating purposes";
+  skos:broader bigg:RenewableGenerationMeasure .
+
+bigg:RenewableGenerationMeasure.SolarThermalForCoolingInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation or replacement of a solar thermal system for combined heating and cooling purposes";
+  skos:broader bigg:RenewableGenerationMeasure .
+
+bigg:RenewableGenerationMeasure.SolarThermalForHeatingAndCoolingInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation or replacement of a solar thermal system for cooling purposes";
+  skos:broader bigg:RenewableGenerationMeasure .
+
+bigg:RenewableGenerationMeasure.SolarThermalForHotWaterInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Solar thermal installation or replacement";
+  skos:broader bigg:RenewableGenerationMeasure .
+
+bigg:RenewableGenerationMeasure.SolarThermalForHeatingAndHotWaterInstallation a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Installation or replacement of a solar thermal system for combined space and water heating";
+  skos:broader bigg:RenewableGenerationMeasure .
+
+bigg:RenewableGenerationMeasure.OtherRenewableGenerationMeasure a bigg:EnergyEfficiencyMeasureType,
+    skos:Concept;
+  rdfs:comment "Other measure related to renewable energy generation";
+  skos:broader bigg:RenewableGenerationMeasure .

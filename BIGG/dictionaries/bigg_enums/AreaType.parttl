@@ -1,0 +1,21 @@
+
+bigg:GrossFloorArea a bigg:AreaType, skos:Concept;
+  rdfs:comment "Sum of the floor areas of all building spaces measured from the external faces of the exterior walls" .
+
+bigg:GrossFloorAreaAboveGround a bigg:AreaType, skos:Concept;
+  rdfs:comment "Part of the gross floor area above ground" .
+
+bigg:GrossFloorAreaUnderGround a bigg:AreaType, skos:Concept;
+  rdfs:comment "Part of the gross floor area below ground" .
+
+bigg:NetFloorArea a bigg:AreaType, skos:Concept;
+  rdfs:comment "Gross floor area, excluding the area occupied by walls and partitions, the circulation area (where people walk), and the mechanical area (where there is mechanical equipment), i.e., gross floor area reduced by the area for structural components" .
+
+bigg:CooledFloorArea a bigg:AreaType, skos:Concept;
+  rdfs:comment "Part of the net floor area that is cooled or air conditioned" .
+
+bigg:HeatedFloorArea a bigg:AreaType, skos:Concept;
+  rdfs:comment "Part of the net floor area that is heated" .
+
+bigg:CadastralParcelArea a bigg:AreaType, skos:Concept;
+  rdfs:comment "The area of the cadastral parcel over which the building is constriucted" .

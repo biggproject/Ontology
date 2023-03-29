@@ -1,3 +1,8 @@
+bigg:OtherEnergy a bigg:ReferenceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionOther;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Other;
+  bigg:relatedUtilityType bigg:OtherUtility;
+  rdfs:comment "A group of energy resources combined" .
 
 bigg:TotalEnergy a bigg:ReferenceType, skos:Concept;
   bigg:relatedMeasuredProperty bigg:EnergyConsumptionTotal;
@@ -17,11 +22,24 @@ bigg:Gas a bigg:ResourceType, skos:Concept;
   bigg:relatedUtilityType bigg:GasUtility;
   rdfs:comment "Gas resource" .
 
-bigg:Oil a bigg:ResourceType, skos:Concept;
-  bigg:relatedMeasuredProperty bigg:EnergyConsumptionOil;
-  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Oil;
-  bigg:relatedUtilityType bigg:OilUtility;
-  rdfs:comment "Oil resource" .
+bigg:LPG a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionLPG;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.LPG;
+  bigg:relatedUtilityType bigg:LPGUtility;
+  rdfs:comment "LPG resource" .
+
+bigg:Diesel a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionDiesel;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Diesel;
+  bigg:relatedUtilityType bigg:DieselUtility;
+  rdfs:comment "Diesel resource" .
+
+bigg:HeavyFuel a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionHeavyFuel;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.HeavyFuel;
+  bigg:relatedUtilityType bigg:HeavyFuelUtility;
+  rdfs:comment "HeavyFuel resource" .
+
 
 bigg:Coal a bigg:ResourceType, skos:Concept;
   bigg:relatedMeasuredProperty bigg:EnergyConsumptionCoal;
@@ -54,11 +72,17 @@ bigg:CHP a bigg:ResourceType, skos:Concept;
   bigg:relatedUtilityType bigg:CHPUtility;
   rdfs:comment "Resource of combined heat and power system" .
 
-bigg:Biomass a bigg:ResourceType, skos:Concept;
-  bigg:relatedMeasuredProperty bigg:EnergyConsumptionBiomass;
-  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Biomass;
-  bigg:relatedUtilityType bigg:BiomassUtility;
-  rdfs:comment "Biomass resources" .
+bigg:Wood a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionWood;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Wood;
+  bigg:relatedUtilityType bigg:WoodUtility;
+  rdfs:comment "Wood resources" .
+
+bigg:Pellets a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionPellets;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.Pellets;
+  bigg:relatedUtilityType bigg:PelletsUtility;
+  rdfs:comment "Pellets resources" .
 
 bigg:Biofuels a bigg:ResourceType, skos:Concept;
   bigg:relatedMeasuredProperty bigg:EnergyConsumptionBiofuels;
@@ -66,14 +90,14 @@ bigg:Biofuels a bigg:ResourceType, skos:Concept;
   bigg:relatedUtilityType bigg:BiofuelsUtility;
   rdfs:comment "Biofuel resources" .
 
-bigg:RenewableElectricity a bigg:ResourceType, skos:Concept;
-  bigg:relatedMeasuredProperty bigg:EnergyConsumptionRenewableElectricity;
-  bigg:relatedDeviceType bigg:Meter.EnergyMeter.RenewableElectricity;
-  bigg:relatedUtilityType bigg:RenewableElectricityUtility;
-  rdfs:comment "Renewable electricity resource" .
+bigg:RenewableElectricityAuto-Consumption a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionRenewableElectricityAuto-Consumption;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.RenewableElectricityAuto-Consumption;
+  bigg:relatedUtilityType bigg:RenewableElectricityUtilityAuto-Consumption;
+  rdfs:comment "Renewable electricity auto-Consumption resource" .
 
-bigg:RenewableHeat a bigg:ResourceType, skos:Concept;
-  bigg:relatedMeasuredProperty bigg:EnergyConsumptionRenewableHeat;
-  bigg:relatedDeviceType bigg:Meter.EnergyMeter.RenewableHeat;
-  bigg:relatedUtilityType bigg:RenewableHeatUtility;
-  rdfs:comment "Renewable heat resource" .
+bigg:SolarThermal a bigg:ResourceType, skos:Concept;
+  bigg:relatedMeasuredProperty bigg:EnergyConsumptionSolarThermal;
+  bigg:relatedDeviceType bigg:Meter.EnergyMeter.SolarThermal;
+  bigg:relatedUtilityType bigg:SolarThermalUtility;
+  rdfs:comment "Solar thermal resource" .

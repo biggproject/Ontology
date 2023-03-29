@@ -1,3 +1,4 @@
+bigg:TotalOther a bigg:UtilityType, skos:Concept .
 
 bigg:TotalUtility a bigg:UtilityType, skos:Concept .
 
@@ -5,9 +6,13 @@ bigg:ElectricUtility a bigg:UtilityType, skos:Concept .
 
 bigg:GasUtility a bigg:UtilityType, skos:Concept .
 
+bigg:LPGUtility a bigg:UtilityType, skos:Concept .
+
 bigg:WaterUtility a bigg:UtilityType, skos:Concept .
 
-bigg:OilUtility a bigg:UtilityType, skos:Concept .
+bigg:DieselUtility a bigg:UtilityType, skos:Concept .
+
+bigg:HeavyFuelUtility a bigg:UtilityType, skos:Concept .
 
 bigg:CoalUtility a bigg:UtilityType, skos:Concept .
 
@@ -17,10 +22,12 @@ bigg:DistrictCoolingUtility a bigg:UtilityType, skos:Concept .
 
 bigg:CHPUtility a bigg:UtilityType, skos:Concept .
 
-bigg:BiomassUtility a bigg:UtilityType, skos:Concept .
+bigg:WoodUtility a bigg:UtilityType, skos:Concept .
+
+bigg:PelletsUtility a bigg:UtilityType, skos:Concept .
 
 bigg:BiofuelsUtility a bigg:UtilityType, skos:Concept .
 
-bigg:RenewableElectricityUtility a bigg:UtilityType, skos:Concept .
+bigg:RenewableElectricityUtilityAuto-Consumption a bigg:UtilityType, skos:Concept .
 
-bigg:RenewableHeatUtility a bigg:UtilityType, skos:Concept .
+bigg:SolarThermal a bigg:UtilityType, skos:Concept .

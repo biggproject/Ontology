@@ -1,5 +1,5 @@
 
-bigg:EnergyConsumptionOthers a bigg:MeasuredProperty, skos:Concept;
+bigg:EnergyConsumptionOther a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Total energy consumption from other unspecified resources" .
 
 bigg:NOPROPERTY a bigg:MeasuredProperty, skos:Concept;
@@ -14,8 +14,14 @@ bigg:EnergyConsumptionGridElectricity a bigg:MeasuredProperty, skos:Concept;
 bigg:EnergyConsumptionGas a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Total energy consumed from gas resource" .
 
-bigg:EnergyConsumptionOil a bigg:MeasuredProperty, skos:Concept;
-  rdfs:comment "Total energy consumed from oil resource" .
+bigg:EnergyConsumptionLPG a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from LPG resource" .
+
+bigg:EnergyConsumptionDiesel a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from diesel resource" .
+
+bigg:EnergyConsumptionHeavyFuel a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from heavy fuel resource" .
 
 bigg:EnergyConsumptionCoal a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Total energy consumed from coal resource, including coal-based products" .
@@ -29,17 +35,20 @@ bigg:EnergyConsumptionDistrictCooling a bigg:MeasuredProperty, skos:Concept;
 bigg:EnergyConsumptionCHP a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Total energy consumed from CHP" .
 
-bigg:EnergyConsumptionBiomass a bigg:MeasuredProperty, skos:Concept;
-  rdfs:comment "Total energy consumed from biomass resources" .
+bigg:EnergyConsumptionWood a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from wood resources" .
+
+bigg:EnergyConsumptionPellets a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from pellets resources" .
 
 bigg:EnergyConsumptionBiofuels a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Total energy consumed from biofuel resources" .
 
-bigg:EnergyConsumptionRenewableElectricity a bigg:MeasuredProperty, skos:Concept;
+bigg:EnergyConsumptionRenewableElectricityAuto-Consumption  a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Total energy consumed from renewable electricity generation" .
 
-bigg:EnergyConsumptionRenewableHeat a bigg:MeasuredProperty, skos:Concept;
-  rdfs:comment "Total energy consumed from renewable heat generation" .
+bigg:EnergyConsumptionSolarThermal a bigg:MeasuredProperty, skos:Concept;
+  rdfs:comment "Total energy consumed from solar thermal generation" .
 
 bigg:ConsumptionWater a bigg:MeasuredProperty, skos:Concept;
   rdfs:comment "Total water consumed" .

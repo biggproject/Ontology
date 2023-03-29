@@ -52,6 +52,10 @@ bigg:Meter.IfcFlowMeter.Water a bigg:DeviceType, skos:Concept;
 bigg:Meter.EnergyMeter a bigg:DeviceType, skos:Concept;
   skos:broader bigg:Meter .
 
+bigg:Meter.EnergyMeter.Other a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure other  consumptions";
+  skos:broader bigg:Meter.EnergyMeter .
+
 bigg:Meter.EnergyMeter.Total a bigg:DeviceType, skos:Concept;
   rdfs:comment "An energy meter used to measure the combined set of  consumptions";
   skos:broader bigg:Meter.EnergyMeter .
@@ -64,8 +68,16 @@ bigg:Meter.EnergyMeter.Gas a bigg:DeviceType, skos:Concept;
   rdfs:comment "An energy meter used to measure the gas consumption";
   skos:broader bigg:Meter.EnergyMeter .
 
-bigg:Meter.EnergyMeter.Oil a bigg:DeviceType, skos:Concept;
-  rdfs:comment "An energy meter used to measure the oil consumption";
+bigg:Meter.EnergyMeter.LPG a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the LPG consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Diesel a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the diesel consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.HeavyFuel a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the heavy fuel consumption";
   skos:broader bigg:Meter.EnergyMeter .
 
 bigg:Meter.EnergyMeter.Coal a bigg:DeviceType, skos:Concept;
@@ -84,20 +96,24 @@ bigg:Meter.EnergyMeter.CHP a bigg:DeviceType, skos:Concept;
   rdfs:comment "An energy meter used to measure the CHP consumption";
   skos:broader bigg:Meter.EnergyMeter .
 
-bigg:Meter.EnergyMeter.Biomass a bigg:DeviceType, skos:Concept;
-  rdfs:comment "An energy meter used to measure the biomass consumption";
+bigg:Meter.EnergyMeter.Wood a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the wood consumption";
+  skos:broader bigg:Meter.EnergyMeter .
+
+bigg:Meter.EnergyMeter.Pellets a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the pellets consumption";
   skos:broader bigg:Meter.EnergyMeter .
 
 bigg:Meter.EnergyMeter.Biofuels a bigg:DeviceType, skos:Concept;
   rdfs:comment "An energy meter used to measure the biofuels consumption";
   skos:broader bigg:Meter.EnergyMeter .
 
-bigg:Meter.EnergyMeter.RenewableElectricity a bigg:DeviceType, skos:Concept;
+bigg:Meter.EnergyMeter.RenewableElectricityAuto-Consumption a bigg:DeviceType, skos:Concept;
   rdfs:comment "An energy meter used to measure the renewable electricity consumption";
   skos:broader bigg:Meter.EnergyMeter .
 
-bigg:Meter.EnergyMeter.RenewableHeat a bigg:DeviceType, skos:Concept;
-  rdfs:comment "An energy meter used to measure the renewable heat consumption";
+bigg:Meter.EnergyMeter.SolarThermal a bigg:DeviceType, skos:Concept;
+  rdfs:comment "An energy meter used to measure the solar thermal consumption";
   skos:broader bigg:Meter.EnergyMeter .
 
 bigg:Meter.EnergyMeter.SmartMeter a bigg:DeviceType, skos:Concept;

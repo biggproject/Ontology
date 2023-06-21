@@ -763,15 +763,6 @@ bigg:EnergyDevice rdf:type owl:Class ;
                   rdfs:label "Energy device"@en .
 
 
-###  http://bigg-project.eu/ld/ontology#EnergyInfrastructure
-bigg:EnergyInfrastructure rdf:type owl:Class ;
-                          rdfs:subClassOf geosp:Feature ,
-                                          saref:FeatureOfInterest ,
-                                          s4syst:System ;
-                          rdfs:comment "An energy infrastructure is the set of facilities, services, and installations needed for energy management."@en ;
-                          rdfs:label "Energy Infrastructure"@en .
-
-
 ###  http://bigg-project.eu/ld/ontology#EnergyMeter
 bigg:EnergyMeter rdf:type owl:Class ;
                  rdfs:subClassOf bigg:EnergyDevice ,
@@ -1044,7 +1035,8 @@ ssn:Deployment rdf:type owl:Class ;
 
 ###  http://www.w3.org/ns/ssn/System
 ssn:System rdf:type owl:Class ;
-           rdfs:subClassOf [ rdf:type owl:Restriction ;
+           rdfs:subClassOf s4syst:System ,
+                           [ rdf:type owl:Restriction ;
                              owl:onProperty ssn:hasDeployment ;
                              owl:allValuesFrom ssn:Deployment
                            ] ,

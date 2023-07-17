@@ -13,8 +13,7 @@
                                           dcterms:contributor "Eloi Gabaldon" ,
                                                            "Guillaume Picinbono" ,
                                                            "Nicolas Bus" ,
-							   "Edgar Martínez-Sarmiento",
-							   "Jordi Carbonell",
+														   "Edgar Martínez-Sarmiento",
                                                            "Stoyan Danov" ;
                                           dcterms:creator "Edgar Martínez-Sarmiento" ;
                                           dcterms:description "This is the bigg ontology extension for energy tariff."@en ;

@@ -1,0 +1,44 @@
+ @prefix bigg: <http://bigg-project.eu/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+bigg: a owl:Ontology ;
+    dc:contributor "Eloi Gabaldon",
+        "Guillaume Picinbono",
+        "Nicolas Bus",
+        "Stoyan Danov",
+        "Timson Yeung" ;
+    dc:creator "Edgar Martinez" ;
+    dc:description "Ontology code created by Chowlk",
+        "The BiGG Ontology is an ontology dedicadted to Building Digital Twin and focused on energy consumption, optimization and retrofit" ;
+    dc:title "BIGG Ontology" ;
+    owl:versionInfo "0.0.1" .
+
+bigg:relatedDeviceType a owl:ObjectProperty ;
+    rdfs:label "related device type" ;
+    rdfs:domain bigg:ResourceType ;
+    rdfs:range bigg:UtilityType .
+
+bigg:relatedMeasuredProperty a owl:ObjectProperty ;
+    rdfs:label "related measured property" ;
+    rdfs:domain bigg:ResourceType ;
+    rdfs:range bigg:MeasuredProperty .
+
+bigg:relatedUtilityType a owl:ObjectProperty ;
+    rdfs:label "related utility type" ;
+    rdfs:domain bigg:ResourceType ;
+    rdfs:range bigg:DeviceType .
+
+bigg:DeviceType a owl:Class ;
+    rdfs:label "Device Type" .
+
+bigg:MeasuredProperty a owl:Class ;
+    rdfs:label "Measured Property" .
+
+bigg:UtilityType a owl:Class ;
+    rdfs:label "Utility Type" .
+
+bigg:ResourceType a owl:Class ;
+    rdfs:label "Resource Type" .
+

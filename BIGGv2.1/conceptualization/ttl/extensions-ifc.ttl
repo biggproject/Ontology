@@ -1,0 +1,81 @@
+ @prefix bigg: <http://bigg-project.eu/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bigg: a owl:Ontology ;
+    dc:contributor "Eloi Gabaldon",
+        "Guillaume Picinbono",
+        "Nicolas Bus",
+        "Stoyan Danov",
+        "Timson Yeung" ;
+    dc:creator "Edgar Martinez" ;
+    dc:description "Ontology code created by Chowlk",
+        "The BiGG Ontology is an ontology dedicadted to Building Digital Twin and focused on energy consumption, optimization and retrofit" ;
+    dc:title "BIGG Ontology" ;
+    owl:versionInfo "0.0.1" .
+
+bigg:containsBuildingSpace a owl:ObjectProperty ;
+    rdfs:label "contains building space" ;
+    rdfs:domain bigg:Zone ;
+    rdfs:range bigg:BuildingSpace .
+
+bigg:containsElement a owl:ObjectProperty ;
+    rdfs:label "contains element" ;
+    rdfs:domain bigg:System ;
+    rdfs:range bigg:Element .
+
+bigg:groupName a owl:DatatypeProperty ;
+    rdfs:label "group name" ;
+    rdfs:domain bigg:Group ;
+    rdfs:range xsd:string .
+
+bigg:hasSystemType a owl:ObjectProperty ;
+    rdfs:label "has system type" ;
+    rdfs:domain bigg:System ;
+    rdfs:range bigg:SystemType .
+
+bigg:hasZoneType a owl:ObjectProperty ;
+    rdfs:label "has zone type" ;
+    rdfs:domain bigg:Zone ;
+    rdfs:range bigg:ZoneType .
+
+bigg:isContainedInSystem a owl:ObjectProperty ;
+    rdfs:label "is contained in system" ;
+    rdfs:domain bigg:Element ;
+    rdfs:range bigg:System .
+
+bigg:isContainedInZone a owl:ObjectProperty ;
+    rdfs:label "is contained in zone" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range bigg:Zone .
+
+bigg:servesZone a owl:ObjectProperty ;
+    rdfs:label "serves zone" ;
+    rdfs:domain bigg:System ;
+    rdfs:range bigg:Zone .
+
+bigg:SystemType a owl:Class ;
+    rdfs:label "System Type" .
+
+bigg:ZoneType a owl:Class ;
+    rdfs:label "Zone Type" .
+
+bigg:BuildingSpace a owl:Class ;
+    rdfs:label "Building Space" .
+
+bigg:Element a owl:Class ;
+    rdfs:label "Element" .
+
+bigg:Group a owl:Class ;
+    rdfs:label "Group" .
+
+bigg:System a owl:Class ;
+    rdfs:label "System" ;
+    rdfs:subClassOf bigg:Group .
+
+bigg:Zone a owl:Class ;
+    rdfs:label "Zone" ;
+    rdfs:subClassOf bigg:Group .
+

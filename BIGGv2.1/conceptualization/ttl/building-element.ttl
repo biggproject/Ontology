@@ -1,0 +1,362 @@
+ @prefix bigg: <http://bigg-project.eu/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bigg: a owl:Ontology ;
+    dc:contributor "Eloi Gabaldon",
+        "Guillaume Picinbono",
+        "Nicolas Bus",
+        "Stoyan Danov",
+        "Timson Yeung" ;
+    dc:creator "Edgar Martinez" ;
+    dc:description "Ontology code created by Chowlk",
+        "The BiGG Ontology is an ontology dedicadted to Building Digital Twin and focused on energy consumption, optimization and retrofit" ;
+    dc:title "BIGG Ontology" ;
+    owl:versionInfo "0.0.1" .
+
+bigg:Device a owl:Class ;
+    rdfs:label "Device" ;
+    rdfs:subClassOf bigg:Element .
+
+bigg:affectsElement a owl:ObjectProperty ;
+    rdfs:label "affects element" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range bigg:Element .
+
+bigg:areaValue a owl:DatatypeProperty ;
+    rdfs:label "area value" ;
+    rdfs:domain bigg:Area ;
+    rdfs:range xsd:float .
+
+bigg:buildingElementBrand a owl:DatatypeProperty ;
+    rdfs:label "building element brand" ;
+    rdfs:domain bigg:BuildingElement ;
+    rdfs:range xsd:string .
+
+bigg:buildingElementIdFromOrganizationstring a owl:DatatypeProperty ;
+    rdfs:label "building element id from organizationstring" ;
+    rdfs:domain bigg:BuildingElement .
+
+bigg:buildingElementInstallationDate a owl:DatatypeProperty ;
+    rdfs:label "building element installation date" ;
+    rdfs:domain bigg:BuildingElement ;
+    rdfs:range xsd:string .
+
+bigg:buildingElementManufactureDatestring a owl:DatatypeProperty ;
+    rdfs:label "building element manufacture datestring" ;
+    rdfs:domain bigg:BuildingElement .
+
+bigg:buildingElementManufacturer a owl:DatatypeProperty ;
+    rdfs:label "building element manufacturer" ;
+    rdfs:domain bigg:BuildingElement ;
+    rdfs:range xsd:string .
+
+bigg:buildingElementModelstring a owl:DatatypeProperty ;
+    rdfs:label "building element modelstring" ;
+    rdfs:domain bigg:BuildingElement .
+
+bigg:buildingElementPurchaseDate a owl:DatatypeProperty ;
+    rdfs:label "building element purchase date" ;
+    rdfs:domain bigg:BuildingElement ;
+    rdfs:range xsd:date .
+
+bigg:buildingElementSerialNumber a owl:DatatypeProperty ;
+    rdfs:label "building element serial number" ;
+    rdfs:domain bigg:BuildingElement ;
+    rdfs:range xsd:string .
+
+bigg:buildingElementState a owl:DatatypeProperty ;
+    rdfs:label "building element state" ;
+    rdfs:domain bigg:BuildingElement ;
+    rdfs:range xsd:boolean .
+
+bigg:buildingSystemElementEfficiency a owl:DatatypeProperty ;
+    rdfs:label "building system element efficiency" ;
+    rdfs:domain bigg:BuildingSystemElement ;
+    rdfs:range xsd:float .
+
+bigg:buildingSystemElementMaxOutput a owl:DatatypeProperty ;
+    rdfs:label "building system element max output" ;
+    rdfs:domain bigg:BuildingSystemElement ;
+    rdfs:range xsd:float .
+
+bigg:buildingSystemElementMinOutput a owl:DatatypeProperty ;
+    rdfs:label "building system element min output" ;
+    rdfs:domain bigg:BuildingSystemElement ;
+    rdfs:range xsd:float .
+
+bigg:containsElement a owl:ObjectProperty ;
+    rdfs:label "contains element" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range bigg:Element .
+
+bigg:energyEfficiencyMeasureCO2Reduction a owl:DatatypeProperty ;
+    rdfs:label "energy efficiency measure c o2 reduction" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:float .
+
+bigg:energyEfficiencyMeasureCurrencyExchangeRate a owl:DatatypeProperty ;
+    rdfs:label "energy efficiency measure currency exchange rate" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:string .
+
+bigg:energyEfficiencyMeasureDescription a owl:DatatypeProperty ;
+    rdfs:label "energy efficiency measure description" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:string .
+
+bigg:energyEfficiencyMeasureFinancialSavings a owl:DatatypeProperty ;
+    rdfs:label "energy efficiency measure financial savings" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:string .
+
+bigg:energyEfficiencyMeasureInvestment a owl:DatatypeProperty ;
+    rdfs:label "energy efficiency measure investment" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:float .
+
+bigg:energyEfficiencyMeasureLifetime a owl:DatatypeProperty ;
+    rdfs:label "energy efficiency measure lifetime" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:float .
+
+bigg:energyEfficiencyMeasureOperationalDate a owl:DatatypeProperty ;
+    rdfs:label "energy efficiency measure operational date" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:date .
+
+bigg:energyEfficiencyMeasureSavingsToInvestmentRatio a owl:DatatypeProperty ;
+    rdfs:label "energy efficiency measure savings to investment ratio" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:string .
+
+bigg:energySourcePriceEscalationRate a owl:DatatypeProperty ;
+    rdfs:label "energy source price escalation rate" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:string .
+
+bigg:hasArea a owl:ObjectProperty ;
+    rdfs:label "has area" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range bigg:Area .
+
+bigg:hasAreaType a owl:ObjectProperty ;
+    rdfs:label "has area type" ;
+    rdfs:domain bigg:Area ;
+    rdfs:range bigg:AreaType .
+
+bigg:hasAreaUnitOfMeasurement a owl:ObjectProperty ;
+    rdfs:label "has area unit of measurement" ;
+    rdfs:domain bigg:Area ;
+    rdfs:range bigg:AreaUnitOfMeasurement .
+
+bigg:hasBuildingConstructionElementType a owl:ObjectProperty ;
+    rdfs:label "has building construction element type" ;
+    rdfs:domain bigg:BuildingConstructionElement ;
+    rdfs:range bigg:BuildingConstructionElementType .
+
+bigg:hasBuildingSpaceUseType a owl:ObjectProperty ;
+    rdfs:label "has building space use type" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range bigg:BuildingSpaceUseType .
+
+bigg:hasBuildingSystemElementType a owl:ObjectProperty ;
+    rdfs:label "has building system element type" ;
+    rdfs:domain bigg:BuildingSystemElement ;
+    rdfs:range bigg:BuildingSystemElementType .
+
+bigg:hasEnergyEfficiencyMeasureInvestmentCurrency a owl:ObjectProperty ;
+    rdfs:label "has energy efficiency measure investment currency" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range bigg:EnergyEfficiencyMeasureInvestmentCurrency .
+
+bigg:hasEnergyEfficiencyMeasureType a owl:ObjectProperty ;
+    rdfs:label "has energy efficiency measure type" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range bigg:EnergyEfficiencyMeasureType .
+
+bigg:hasIndoorQualityPerception a owl:ObjectProperty ;
+    rdfs:label "has indoor quality perception" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range bigg:IndoorQualityPerception .
+
+bigg:hasIndoorQualityUserPerception a owl:ObjectProperty ;
+    rdfs:label "has indoor quality user perception" ;
+    rdfs:domain bigg:IndoorQualityPerception ;
+    rdfs:range bigg:IndoorQualityUserPerception .
+
+bigg:hasMaintenanceActionType a owl:ObjectProperty ;
+    rdfs:label "has maintenance action type" ;
+    rdfs:domain bigg:MaintenanceAction ;
+    rdfs:range bigg:MaintenanceActionType .
+
+bigg:hasOccupancyProfile a owl:ObjectProperty ;
+    rdfs:label "has occupancy profile" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range bigg:OccupancyProfile .
+
+bigg:hasSpace a owl:ObjectProperty ;
+    rdfs:label "has space" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range bigg:BuildingSpace .
+
+bigg:hasSubElement a owl:ObjectProperty ;
+    rdfs:label "has sub element" ;
+    rdfs:domain bigg:Element ;
+    rdfs:range bigg:Element .
+
+bigg:indoorQualityValidityEndDate a owl:DatatypeProperty ;
+    rdfs:label "indoor quality validity end date" ;
+    rdfs:domain bigg:IndoorQualityPerception ;
+    rdfs:range xsd:date .
+
+bigg:indoorQualityValidityStartDate a owl:DatatypeProperty ;
+    rdfs:label "indoor quality validity start date" ;
+    rdfs:domain bigg:IndoorQualityPerception ;
+    rdfs:range xsd:date .
+
+bigg:isAffectedByMeasure a owl:ObjectProperty ;
+    rdfs:label "is affected by measure" ;
+    rdfs:domain bigg:Element ;
+    rdfs:range bigg:EnergyEfficiencyMeasure .
+
+bigg:isAssociatedWithElement a owl:ObjectProperty ;
+    rdfs:label "is associated with element" ;
+    rdfs:domain bigg:BuildingSpace ;
+    rdfs:range bigg:Element .
+
+bigg:isAssociatedWithSpace a owl:ObjectProperty ;
+    rdfs:label "is associated with space" ;
+    rdfs:domain bigg:Element ;
+    rdfs:range bigg:BuildingSpace .
+
+bigg:isContainedInSpace a owl:ObjectProperty ;
+    rdfs:label "is contained in space" ;
+    rdfs:domain bigg:Element ;
+    rdfs:range bigg:BuildingSpace .
+
+bigg:isSubjectToMaintenance a owl:ObjectProperty ;
+    rdfs:label "is subject to maintenance" ;
+    rdfs:domain bigg:MaintenanceAction ;
+    rdfs:range bigg:Element .
+
+bigg:maintainsElement a owl:ObjectProperty ;
+    rdfs:label "maintains element" ;
+    rdfs:domain bigg:Element ;
+    rdfs:range bigg:MaintenanceAction .
+
+bigg:maintenanceActionDate a owl:DatatypeProperty ;
+    rdfs:label "maintenance action date" ;
+    rdfs:domain bigg:MaintenanceAction ;
+    rdfs:range xsd:date .
+
+bigg:maintenanceActionDescription a owl:DatatypeProperty ;
+    rdfs:label "maintenance action description" ;
+    rdfs:domain bigg:MaintenanceAction ;
+    rdfs:range xsd:string .
+
+bigg:maintenanceActionFrequency a owl:DatatypeProperty ;
+    rdfs:label "maintenance action frequency" ;
+    rdfs:domain bigg:MaintenanceAction ;
+    rdfs:range xsd:duration .
+
+bigg:maintenanceActionIsPeriodic a owl:DatatypeProperty ;
+    rdfs:label "maintenance action is periodic" ;
+    rdfs:domain bigg:MaintenanceAction ;
+    rdfs:range xsd:boolean .
+
+bigg:maintenanceActionName a owl:DatatypeProperty ;
+    rdfs:label "maintenance action name" ;
+    rdfs:domain bigg:MaintenanceAction ;
+    rdfs:range xsd:string .
+
+bigg:occupancyNumberOfOccupants a owl:DatatypeProperty ;
+    rdfs:label "occupancy number of occupants" ;
+    rdfs:domain bigg:OccupancyProfile ;
+    rdfs:range xsd:integer .
+
+bigg:occupancyProfileValidityEndDate a owl:DatatypeProperty ;
+    rdfs:label "occupancy profile validity end date" ;
+    rdfs:domain bigg:OccupancyProfile ;
+    rdfs:range xsd:date .
+
+bigg:occupancyProfileValidityStartDate a owl:DatatypeProperty ;
+    rdfs:label "occupancy profile validity start date" ;
+    rdfs:domain bigg:OccupancyProfile ;
+    rdfs:range xsd:date .
+
+bigg:occupancyVacationDates a owl:DatatypeProperty ;
+    rdfs:label "occupancy vacation dates" ;
+    rdfs:domain bigg:OccupancyProfile ;
+    rdfs:range xsd:date .
+
+bigg:shareOfAffectedElement a owl:DatatypeProperty ;
+    rdfs:label "share of affected element" ;
+    rdfs:domain bigg:EnergyEfficiencyMeasure ;
+    rdfs:range xsd:float .
+
+bigg:AreaType a owl:Class ;
+    rdfs:label "Area Type" .
+
+bigg:AreaUnitOfMeasurement a owl:Class ;
+    rdfs:label "Area Unit Of Measurement" .
+
+bigg:Building a owl:Class ;
+    rdfs:label "Building" .
+
+bigg:BuildingConstructionElement a owl:Class ;
+    rdfs:label "Building Construction Element" ;
+    rdfs:subClassOf bigg:BuildingElement .
+
+bigg:BuildingConstructionElementType a owl:Class ;
+    rdfs:label "Building Construction Element Type" .
+
+bigg:BuildingSpaceUseType a owl:Class ;
+    rdfs:label "Building Space Use Type" .
+
+bigg:BuildingSystemElementType a owl:Class ;
+    rdfs:label "Building System Element Type" .
+
+bigg:EnergyEfficiencyMeasureInvestmentCurrency a owl:Class ;
+    rdfs:label "Energy Efficiency Measure Investment Currency" .
+
+bigg:EnergyEfficiencyMeasureType a owl:Class ;
+    rdfs:label "Energy Efficiency Measure Type" .
+
+bigg:IndoorQualityUserPerception a owl:Class ;
+    rdfs:label "Indoor Quality User Perception" .
+
+bigg:MaintenanceActionType a owl:Class ;
+    rdfs:label "Maintenance Action Type" .
+
+bigg:Area a owl:Class ;
+    rdfs:label "Area" .
+
+bigg:BuildingSystemElement a owl:Class ;
+    rdfs:label "Building System Element" ;
+    rdfs:subClassOf bigg:BuildingElement .
+
+bigg:IndoorQualityPerception a owl:Class ;
+    rdfs:label "Indoor Quality Perception" .
+
+bigg:OccupancyProfile a owl:Class ;
+    rdfs:label "Occupancy Profile" .
+
+bigg:MaintenanceAction a owl:Class ;
+    rdfs:label "Maintenance Action" .
+
+bigg:BuildingSpace a owl:Class ;
+    rdfs:label "Building Space" .
+
+bigg:BuildingElement a owl:Class ;
+    rdfs:label "Building Element" ;
+    rdfs:subClassOf bigg:Element .
+
+bigg:Element a owl:Class ;
+    rdfs:label "Element" .
+
+bigg:EnergyEfficiencyMeasure a owl:Class ;
+    rdfs:label "Energy Efficiency Measure" .
+

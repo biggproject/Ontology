@@ -1,0 +1,76 @@
+@prefix : <http://bigg-project.eu/ld/alignments/> .
+@prefix gn: <https://www.geonames.org/ontology#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bigg: <http://bigg-project.eu/ld/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix geosp: <http://www.opengis.net/ont/geosparql#> .
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix s4agri: <https://saref.etsi.org/saref4agri/> .
+@prefix s4city: <https://saref.etsi.org/saref4city/> .
+@prefix s4syst: <https://saref.etsi.org/saref4syst/> .
+@prefix s4watr: <https://saref.etsi.org/saref4watr/> .
+@prefix org:<http://www.w3.org/ns/org#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix voaf:   	<http://purl.org/vocommons/voaf#> .
+@prefix vs:     	<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix vcard: 		<http://www.w3.org/2006/vcard/ns#> .
+@prefix schema: 	<https://schema.org/> .
+@prefix dce:    	<http://purl.org/dc/elements/1.1/> .
+@prefix dbo:    	<http://dbpedia.org/ontology/> .
+
+voaf:Vocabulary a owl:Class .
+dcterms:title a owl:AnnotationProperty .
+dcterms:description a owl:AnnotationProperty .
+dcterms:issued a owl:AnnotationProperty .
+dcterms:modified a owl:AnnotationProperty .
+dcterms:creator a owl:AnnotationProperty .
+dcterms:contributor a owl:AnnotationProperty .
+dcterms:license a owl:AnnotationProperty .
+vann:preferredNamespacePrefix a owl:AnnotationProperty .
+vann:preferredNamespaceUri a owl:AnnotationProperty .
+vs:term_status a owl:AnnotationProperty .
+vcard:fn a owl:AnnotationProperty .
+schema:name a owl:AnnotationProperty .
+
+
+
+<http://bigg-project.eu/ld/alignments#> rdf:type owl:Ontology , voaf:Vocabulary ;
+                                      owl:versionIRI <http://bigg-project.eu/ld/alignments/v1.0.0/> ;
+                                      dcterms:contributor "Edgar Martínez-Sarmiento" ,
+                                                          "Eloi Gabaldon" ,
+                                                          "Guillaume Picinbono" ,
+                                                          "Nicolas Bus" ,
+                                                          "Stoyan Danov" ;
+                                      dcterms:creator "Edgar Martínez-Sarmiento" ;
+                                      dcterms:description "This ontology defines proposed alignments of BIGG with other existing ontologies."@en ;
+                                      dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                      dcterms:issued "2023-06-20"^^xsd:date ;
+                                      dcterms:modified "2023-06-20"^^xsd:date ;
+                                      dcterms:title "The BIGG (Building information aggregation harmonization and analytics platform) ontology alignments."@en ;
+                                      owl:versionInfo "v1.0.0" ;
+                                      owl:imports <http://bigg-project.eu/ld/ontology#> .
+
+
+#################################
+# Class alignments
+#################################
+###  http://www.opengis.net/ont/geosparql#Feature
+geosp:Feature owl:equivalentClass gn:Feature.
+
+###  http://www.opengis.net/ont/geosparql#SpatialObject
+geosp:SpatialObject owl:equivalentClass geo:SpatialThing .
+
+###  http://www.w3.org/ns/org#Organization
+org:Organization owl:equivalentClass foaf:Organization .

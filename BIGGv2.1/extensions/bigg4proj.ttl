@@ -1,0 +1,296 @@
+ @prefix bigg: <http://bigg-project.eu/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+bigg: a owl:Ontology ;
+    dc:contributor "Eloi Gabaldon",
+        "Guillaume Picinbono",
+        "Nicolas Bus",
+        "Stoyan Danov",
+        "Timson Yeung" ;
+    dc:creator "Edgar Martinez" ;
+    dc:description "Ontology code created by Chowlk",
+        "The BiGG Ontology is an ontology dedicadted to Building Digital Twin and focused on energy consumption, optimization and retrofit" ;
+    dc:title "BIGG Ontology" ;
+    owl:versionInfo "0.0.1" .
+
+bigg:IsConnectedToEnergySaving a owl:ObjectProperty ;
+    rdfs:label "is connected to energy saving" ;
+    rdfs:domain bigg:EnergyPerformanceContractObjective ;
+    rdfs:range bigg:EnergySaving .
+
+bigg:RenovationProject a owl:Class ;
+    rdfs:label "Renovation Project" ;
+    rdfs:subClassOf bigg:Project .
+
+bigg:affectsBuilding a owl:ObjectProperty ;
+    rdfs:label "affects building" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range bigg:Building .
+
+bigg:energySavingEndDate a owl:DatatypeProperty ;
+    rdfs:label "energy saving end date" ;
+    rdfs:domain bigg:EnergySaving ;
+    rdfs:range xsd:string .
+
+bigg:energySavingIndependentlyVerified a owl:DatatypeProperty ;
+    rdfs:label "energy saving independently verified" ;
+    rdfs:domain bigg:EnergySaving ;
+    rdfs:range xsd:boolean .
+
+bigg:energySavingStartDate a owl:DatatypeProperty ;
+    rdfs:label "energy saving start date" ;
+    rdfs:domain bigg:EnergySaving ;
+    rdfs:range xsd:string .
+
+bigg:energySavingValue a owl:DatatypeProperty ;
+    rdfs:label "energy saving value" ;
+    rdfs:domain bigg:EnergySaving ;
+    rdfs:range xsd:float .
+
+bigg:geometrySRID a owl:DatatypeProperty ;
+    rdfs:label "geometry s r i d" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:string .
+
+bigg:hasEnergySavingType a owl:ObjectProperty ;
+    rdfs:label "has energy saving type" ;
+    rdfs:domain bigg:EnergySaving ;
+    rdfs:range bigg:EnergySavingType .
+
+bigg:hasEnergySavingVerificationSource a owl:ObjectProperty ;
+    rdfs:label "has energy saving verification source" ;
+    rdfs:domain bigg:EnergySaving ;
+    rdfs:range bigg:EnergySavingVerificationSource .
+
+bigg:hasNonEnergyBenefitImpactEvaluation a owl:ObjectProperty ;
+    rdfs:label "has non energy benefit impact evaluation" ;
+    rdfs:domain bigg:NonEnergyBenefit ;
+    rdfs:range bigg:NonEnergyBenefitImpactEvaluation .
+
+bigg:hasNonEnergyBenefitImpactValueUnit a owl:ObjectProperty ;
+    rdfs:label "has non energy benefit impact value unit" ;
+    rdfs:domain bigg:NonEnergyBenefit ;
+    rdfs:range bigg:NonEnergyBenefitImpactValueUnit .
+
+bigg:hasNonEnergyBenefitType a owl:ObjectProperty ;
+    rdfs:label "has non energy benefit type" ;
+    rdfs:domain bigg:NonEnergyBenefit ;
+    rdfs:range bigg:NonEnergyBenefitType .
+
+bigg:hasProject a owl:ObjectProperty ;
+    rdfs:label "has project" ;
+    rdfs:domain bigg:Building ;
+    rdfs:range bigg:Project .
+
+bigg:hasProjectInvestmentCurrency a owl:ObjectProperty ;
+    rdfs:label "has project investment currency" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range bigg:ProjectInvestmentCurrency .
+
+bigg:hasProjectMotivation a owl:ObjectProperty ;
+    rdfs:label "has project motivation" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range bigg:ProjectMotivation .
+
+bigg:hasSubProject a owl:ObjectProperty ;
+    rdfs:label "has sub project" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range bigg:Project .
+
+bigg:includesMeasure a owl:ObjectProperty ;
+    rdfs:label "includes measure" ;
+    rdfs:domain bigg:RetrofitProject ;
+    rdfs:range bigg:EnergyEfficiencyMeasure .
+
+bigg:influencesObjective a owl:ObjectProperty ;
+    rdfs:label "influences objective" ;
+    rdfs:domain bigg:EnergySaving ;
+    rdfs:range bigg:EnergyPerformanceContractObjective .
+
+bigg:nonEnergyBenefitImpactValue a owl:DatatypeProperty ;
+    rdfs:label "non energy benefit impact value" ;
+    rdfs:domain bigg:NonEnergyBenefit .
+
+bigg:nonEnergyBenefitImpactValueDescription a owl:DatatypeProperty ;
+    rdfs:label "non energy benefit impact value description" ;
+    rdfs:domain bigg:NonEnergyBenefit ;
+    rdfs:range xsd:string .
+
+bigg:nonEnergyBenefitImpactValueVerifiedAndMeasured a owl:DatatypeProperty ;
+    rdfs:label "non energy benefit impact value verified and measured" ;
+    rdfs:domain bigg:NonEnergyBenefit ;
+    rdfs:range xsd:boolean .
+
+bigg:nonEnergyBenefitImpactVerificationMethod a owl:DatatypeProperty ;
+    rdfs:label "non energy benefit impact verification method" ;
+    rdfs:domain bigg:NonEnergyBenefit ;
+    rdfs:range xsd:string .
+
+bigg:producesNonEnergyBenefit a owl:ObjectProperty ;
+    rdfs:label "produces non energy benefit" ;
+    rdfs:domain bigg:NonEnergyBenefitProducingItem ;
+    rdfs:range bigg:NonEnergyBenefit .
+
+bigg:producesSaving a owl:ObjectProperty ;
+    rdfs:label "produces saving" ;
+    rdfs:domain bigg:SavingProducingItem ;
+    rdfs:range bigg:EnergySaving .
+
+bigg:projectCO2Reduction a owl:DatatypeProperty ;
+    rdfs:label "project c o2 reduction" ;
+    rdfs:domain bigg:RetrofitProject ;
+    rdfs:range xsd:float .
+
+bigg:projectCurrencyExchangeRate a owl:DatatypeProperty ;
+    rdfs:label "project currency exchange rate" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:float .
+
+bigg:projectDescription a owl:DatatypeProperty ;
+    rdfs:label "project description" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:string .
+
+bigg:projectDiscountRate a owl:DatatypeProperty ;
+    rdfs:label "project discount rate" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:float .
+
+bigg:projectGrantsShareOfCosts a owl:DatatypeProperty ;
+    rdfs:label "project grants share of costs" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:float .
+
+bigg:projectIDFromOrganization a owl:DatatypeProperty ;
+    rdfs:label "project i d from organization" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:string .
+
+bigg:projectIncludedConfortmeterSurvey a owl:DatatypeProperty ;
+    rdfs:label "project included confortmeter survey" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:boolean .
+
+bigg:projectIncludedNonEnergyBenefitsEstimate a owl:DatatypeProperty ;
+    rdfs:label "project included non energy benefits estimate" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:boolean .
+
+bigg:projectInterestRate a owl:DatatypeProperty ;
+    rdfs:label "project interest rate" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:float .
+
+bigg:projectInternalRateOfReturn a owl:DatatypeProperty ;
+    rdfs:label "project internal rate of return" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:float .
+
+bigg:projectInventivesShareOfRevenues a owl:DatatypeProperty ;
+    rdfs:label "project inventives share of revenues" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:float .
+
+bigg:projectInvestment a owl:DatatypeProperty ;
+    rdfs:label "project investment" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:float .
+
+bigg:projectName a owl:DatatypeProperty ;
+    rdfs:label "project name" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:string .
+
+bigg:projectNetPresentValue a owl:DatatypeProperty ;
+    rdfs:label "project net present value" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:float .
+
+bigg:projectOperationalDate a owl:DatatypeProperty ;
+    rdfs:label "project operational date" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:date .
+
+bigg:projectReceivedGrantFounding a owl:DatatypeProperty ;
+    rdfs:label "project received grant founding" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:boolean .
+
+bigg:projectSavingsToInvestmentRatio a owl:DatatypeProperty ;
+    rdfs:label "project savings to investment ratio" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:float .
+
+bigg:projectSimplePaybackTime a owl:DatatypeProperty ;
+    rdfs:label "project simple payback time" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:float .
+
+bigg:projectStartDate a owl:DatatypeProperty ;
+    rdfs:label "project start date" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:date .
+
+bigg:projectUsesIncentives a owl:DatatypeProperty ;
+    rdfs:label "project uses incentives" ;
+    rdfs:domain bigg:Project ;
+    rdfs:range xsd:boolean .
+
+bigg:EnergyEfficiencyMeasure a owl:Class ;
+    rdfs:label "Energy Efficiency Measure" ;
+    rdfs:subClassOf bigg:NonEnergyBenefitProducingItem,
+        bigg:SavingProducingItem .
+
+bigg:EnergySavingType a owl:Class ;
+    rdfs:label "Energy Saving Type" .
+
+bigg:EnergySavingVerificationSource a owl:Class ;
+    rdfs:label "Energy Saving Verification Source" .
+
+bigg:NonEnergyBenefitImpactEvaluation a owl:Class ;
+    rdfs:label "Non Energy Benefit Impact Evaluation" .
+
+bigg:NonEnergyBenefitImpactValueUnit a owl:Class ;
+    rdfs:label "Non Energy Benefit Impact Value Unit" .
+
+bigg:NonEnergyBenefitType a owl:Class ;
+    rdfs:label "Non Energy Benefit Type" .
+
+bigg:ProjectInvestmentCurrency a owl:Class ;
+    rdfs:label "Project Investment Currency" .
+
+bigg:ProjectMotivation a owl:Class ;
+    rdfs:label "Project Motivation" .
+
+bigg:Building a owl:Class ;
+    rdfs:label "Building" .
+
+bigg:EnergyPerformanceContractObjective a owl:Class ;
+    rdfs:label "Energy Performance Contract Objective" .
+
+bigg:RetrofitProject a owl:Class ;
+    rdfs:label "Retrofit Project" ;
+    rdfs:subClassOf bigg:Project .
+
+bigg:NonEnergyBenefitProducingItem a owl:Class ;
+    rdfs:label "Non Energy Benefit Producing Item" .
+
+bigg:SavingProducingItem a owl:Class ;
+    rdfs:label "Saving Producing Item" .
+
+bigg:NonEnergyBenefit a owl:Class ;
+    rdfs:label "Non Energy Benefit" .
+
+bigg:EnergySaving a owl:Class ;
+    rdfs:label "Energy Saving" .
+
+bigg:Project a owl:Class ;
+    rdfs:label "Project" ;
+    rdfs:subClassOf bigg:NonEnergyBenefitProducingItem, foaf:Project,
+        bigg:SavingProducingItem .
+

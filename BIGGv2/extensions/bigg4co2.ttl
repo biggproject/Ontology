@@ -19,6 +19,7 @@
                                        dcterms:creator "Edgar Martínez-Sarmiento" ;
                                        dcterms:description "This is the bigg ontology extension for co2 emissions."@en ;
                                        dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+
                                        dcterms:modified "2023-10-11" ;
                                        dcterms:title "The BIGG (Building information aggregation harmonization and analytics platform) for co2 emissions ontology extension."@en ;
                                        owl:versionInfo "v1.1.0" .
@@ -192,7 +193,6 @@ xsd:gDay rdf:type rdfs:Datatype .
                                         rdfs:comment "A time-based tariff is a tariff that is based on time."@en ;
                                         rdfs:label "Time-based CO2 equivalent emissions factor"@en .
 
-
 ###  http://www.w3.org/2006/time#DayOfWeek
 <http://www.w3.org/2006/time#DayOfWeek> rdf:type owl:Class ;
                                         rdfs:comment "The day of week."@en ;
@@ -212,7 +212,6 @@ xsd:gDay rdf:type rdfs:Datatype .
                                    rdfs:subClassOf <https://saref.etsi.org/core/Commodity> ;
                                    rdfs:comment "A type of commodity"@en ;
                                    rdfs:label "Coal"@en .
-
 
 ###  https://saref.etsi.org/core/Commodity
 <https://saref.etsi.org/core/Commodity> rdf:type owl:Class ;

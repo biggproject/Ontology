@@ -4,6 +4,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <skos: http://www.w3.org/2004/02/skos/core#> .
+@prefix s4bldg: <https://saref.etsi.org/saref4bldg/> .
 
 
 bigg: a owl:Ontology ;
@@ -30,7 +32,7 @@ bigg:RenovationProject a owl:Class ;
 bigg:affectsBuilding a owl:ObjectProperty ;
     rdfs:label "affects building" ;
     rdfs:domain bigg:Project ;
-    rdfs:range bigg:Building .
+    rdfs:range s4bldg:Building .
 
 bigg:energySavingEndDate a owl:DatatypeProperty ;
     rdfs:label "energy saving end date" ;
@@ -60,7 +62,7 @@ bigg:geometrySRID a owl:DatatypeProperty ;
 bigg:hasEnergySavingType a owl:ObjectProperty ;
     rdfs:label "has energy saving type" ;
     rdfs:domain bigg:EnergySaving ;
-    rdfs:range bigg:EnergySavingType .
+    rdfs:range skos:Concept .
 
 bigg:hasEnergySavingVerificationSource a owl:ObjectProperty ;
     rdfs:label "has energy saving verification source" ;
@@ -80,11 +82,11 @@ bigg:hasNonEnergyBenefitImpactValueUnit a owl:ObjectProperty ;
 bigg:hasNonEnergyBenefitType a owl:ObjectProperty ;
     rdfs:label "has non energy benefit type" ;
     rdfs:domain bigg:NonEnergyBenefit ;
-    rdfs:range bigg:NonEnergyBenefitType .
+    rdfs:range skos:Concept .
 
 bigg:hasProject a owl:ObjectProperty ;
     rdfs:label "has project" ;
-    rdfs:domain bigg:Building ;
+    rdfs:domain s4bldg:Building ;
     rdfs:range bigg:Project .
 
 bigg:hasProjectInvestmentCurrency a owl:ObjectProperty ;
@@ -246,9 +248,6 @@ bigg:EnergyEfficiencyMeasure a owl:Class ;
     rdfs:subClassOf bigg:NonEnergyBenefitProducingItem,
         bigg:SavingProducingItem .
 
-bigg:EnergySavingType a owl:Class ;
-    rdfs:label "Energy Saving Type" .
-
 bigg:EnergySavingVerificationSource a owl:Class ;
     rdfs:label "Energy Saving Verification Source" .
 
@@ -258,8 +257,6 @@ bigg:NonEnergyBenefitImpactEvaluation a owl:Class ;
 bigg:NonEnergyBenefitImpactValueUnit a owl:Class ;
     rdfs:label "Non Energy Benefit Impact Value Unit" .
 
-bigg:NonEnergyBenefitType a owl:Class ;
-    rdfs:label "Non Energy Benefit Type" .
 
 bigg:ProjectInvestmentCurrency a owl:Class ;
     rdfs:label "Project Investment Currency" .
@@ -267,8 +264,6 @@ bigg:ProjectInvestmentCurrency a owl:Class ;
 bigg:ProjectMotivation a owl:Class ;
     rdfs:label "Project Motivation" .
 
-bigg:Building a owl:Class ;
-    rdfs:label "Building" .
 
 bigg:EnergyPerformanceContractObjective a owl:Class ;
     rdfs:label "Energy Performance Contract Objective" .

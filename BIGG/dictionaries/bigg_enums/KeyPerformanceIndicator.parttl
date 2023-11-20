@@ -76,3 +76,81 @@ bigg:KPI-NetPresentValueQuotient a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerf
 bigg:KPI-InternalRateOfReturn a bigg:EEMKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;;
   rdfs:label "Internal Rate of Return"@en;
   bigg:shortName "IRR"@en .
+
+bigg:KPI-AmountOfMaterials a bigg:BuildingKeyPerformanceIndicator,bigg:KeyPerformanceIndicator;
+  rdfs:label "Amount of material"@en;
+  bigg:shortName "AM"@en.
+  
+bigg:KPI-AmountOfMaterialsIntensity a bigg:BuildingKeyPerformanceIndicator,bigg:KeyPerformanceIndicator;
+  rdfs:label "Amount of material Intensity"@en;
+  bigg:shortName "AMI"@en.
+
+bigg:KPI-AmountOfMaterialsInert a bigg:BuildingKeyPerformanceIndicator,bigg:KeyPerformanceIndicator;
+  rdfs:label "Amount of material"@en;
+  bigg:shortName "AMIN"@en.
+  
+bigg:KPI-AmountOfMaterialsInertIntensity a bigg:BuildingKeyPerformanceIndicator,bigg:KeyPerformanceIndicator;
+  rdfs:label "Amount of material Intensity"@en;
+  bigg:shortName "AMINI"@en.
+  
+bigg:KPI-AmountOfMaterialsNonHazad a bigg:BuildingKeyPerformanceIndicator,bigg:KeyPerformanceIndicator;
+  rdfs:label "Amount of material"@en;
+  bigg:shortName "AMNH"@en.
+  
+bigg:KPI-AmountOfMaterialsNonHazardIntensity a bigg:BuildingKeyPerformanceIndicator,bigg:KeyPerformanceIndicator;
+  rdfs:label "Amount of material Intensity"@en;
+  bigg:shortName "AMNHI"@en.
+  
+bigg:KPI-AmountOfMaterialsHazardous a bigg:BuildingKeyPerformanceIndicator,bigg:KeyPerformanceIndicator;
+  rdfs:label "Amount of material"@en;
+  bigg:shortName "AMH"@en.
+  
+bigg:KPI-AmountOfMaterialsHazardousIntensity a bigg:BuildingKeyPerformanceIndicator,bigg:KeyPerformanceIndicator;
+  rdfs:label "Amount of material Intensity"@en;
+  bigg:shortName "AMHI"@en.
+  
+bigg:KPI-CircularityScoreMass a bigg:BuildingKeyPerformanceIndicator,bigg:KeyPerformanceIndicator;
+  rdfs:label "Circularity score (by mass)"@en;
+  bigg:shortName "CSM"@en.
+  
+bigg:KPI-WaterConsumption a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Water Consumtion"@en;
+  bigg:shortName "WC@en.
+
+bigg:KPI-WaterConsumptionIntensity a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Water Consumtion Intensity"@en;
+  bigg:shortName "WCI@en.
+  
+bigg:KPI-CO2IndoorAir a bigg a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "CO2 Indoor Air"@en;
+  bigg:shortName "CO2IA@en.
+  
+bigg:KPI-HRIndoorAir a bigg a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "HR Indoor Air"@en;
+  bigg:shortName "HRIA@en.
+
+bigg:KPI-OutOfThermalRange a bigg a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Percentage out of thermal range"@en;
+  bigg:shortName "OTR@en.
+
+bigg:KPI-LightingConfort a bigg a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Lighting Confort"@en;
+  bigg:shortName "LC@en.
+  
+bigg:KPI-AcousticConfort a bigg a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Acoustinc Confort"@en;
+  bigg:shortName "ACC@en.
+  
+bigg:KPI-OutOfThermalRange2030 a bigg a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Percentage out of thermal range"@en;
+  bigg:shortName "OTR30@en.
+
+bigg:KPI-OutOfThermalRange2050 a bigg a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Percentage out of thermal range"@en;
+  bigg:shortName "OTR50@en.
+
+bigg:KPI-LifeCycleCosts a bigg a bigg:BuildingKeyPerformanceIndicator, bigg:KeyPerformanceIndicator;
+  rdfs:label "Life Cycle Costs"@en;
+  bigg:shortName "LCC@en.
+
+  

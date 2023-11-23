@@ -24,7 +24,10 @@ BIGG
 This repository is structured as follows 
 ```
 BIGG
-├── conceptualization               # The drawio charts of the ontology to edit
+├── conceptualization               # The drawio charts of the ontology
 │   └── ...
+├── extensions                      # The ontology extensions code
+│   └── ...
+├── alignments.ttl                  # The aligments with other existing ontologies triples
 └── ontology.ttl                    # The main ontology File
 ```

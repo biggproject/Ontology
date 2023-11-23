@@ -119,7 +119,7 @@ bigg4proj:influencesObjective a owl:ObjectProperty ;
 
 bigg4proj:nonEnergyBenefitImpactValue a owl:DatatypeProperty ;
     rdfs:label "non energy benefit impact value" ;
-    rdfs:domain bigg4proj:NonEnergyBenefit
+    rdfs:domain bigg4proj:NonEnergyBenefit ;
     rdfs:range xsd:float.
 
 bigg4proj:nonEnergyBenefitImpactValueDescription a owl:DatatypeProperty ;

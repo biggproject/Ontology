@@ -1,0 +1,107 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix bigg: <http://bigg-project.eu/ld/ontology#> .
+
+#################################################################
+#
+#    Concept Schemes
+#
+#################################################################
+
+bigg:MU a skos:ConceptScheme ;
+    dct:issued "2023-05-03"^^xsd:date ;
+    dct:modified "2023-05-03"^^xsd:date ;
+    cc:license <https://creativecommons.org/licenses/by/4.0/> ;
+    rdfs:comment "Controlled SKOS-based vocabulary defined by the Sede Electrónica de Catastro (SEC) for cadastral information to describe concepts related to the main use of a space."@en ;
+    rdfs:label "Main Use"@en ;
+    dct:title "Concept scheme grouping main uses of spaces according to SEC"@en .
+
+#################################################################
+#
+#    Concept instances
+#
+#################################################################
+
+bigg:MU.STPK a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Storage-Parking" ;
+  skos:altLabel "Almacen-Estacionamiento"@es .
+
+bigg:MU.COM a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Commercial" ;
+  skos:altLabel "Comercial"@es .
+
+bigg:MU.CLT a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Cultural" ;
+  skos:altLabel "Cultural"@es .
+
+bigg:MU.SPT a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Sports" ;
+  skos:altLabel "Deportivo"@es .
+
+bigg:MU.SGLR a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Singular" ;
+  skos:altLabel "Edificio Singular"@es .
+
+bigg:MU.ENT a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Entertainment" ;
+  skos:altLabel "Espectaculos"@es .
+
+bigg:MU.IND a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Industrial" ;
+  skos:altLabel "Industrial"@es .
+
+bigg:MU.URBW a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Urbanization works" ;
+  skos:altLabel "Obras de urbanización y jardineria, suelos sin edificar "@es .
+
+bigg:MU.LEHOS a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Leisure and hospitality" ;
+  skos:altLabel "Ocio y Hosteleria"@es .
+
+bigg:MU.OFFI a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Office" ;
+  skos:altLabel "Oficinas"@es .
+
+bigg:MU.REL a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Religious" ;
+  skos:altLabel "Religioso"@es .
+
+bigg:MU.RES a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Residential" ;
+  skos:altLabel "Residencial"@es .
+
+bigg:MU.HLTCH a skos:Concept;
+  skos:inScheme bigg:MU;
+  skos:note "Value retrieved from the SEC database";
+  skos:prefLabel "Health and Charity" ;
+  skos:altLabel "Sanidad y Beneficencia"@es .
+

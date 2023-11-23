@@ -1,0 +1,252 @@
+@prefix bigg4co2: <http://bigg-project.eu/ld/bigg4co2#> .
+@prefix bigg: <http://bigg-project.eu/ld/ontology#> .
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://bigg-project.eu/ld/bigg4co2#> .
+@base <http://bigg-project.eu/ld/bigg4co2#> .
+
+<http://bigg-project.eu/ld/bigg4co2#> rdf:type owl:Ontology ;
+                                       owl:versionIRI <http://bigg-project.eu/ld/bigg4co2/v1.0.0#> ;
+                                       owl:imports <http://bigg-project.eu/ld/ontology#> ;
+                                       dcterms:contributor "Edgar Martínez-Sarmiento" ,
+                                                           "Eloi Gabaldon" ,
+                                                           "Guillaume Picinbono" ,
+                                                           "Jordi Carbonell" ,
+                                                           "Nicolas Bus" ,
+                                                           "Stoyan Danov" ;
+                                       dcterms:creator "Edgar Martínez-Sarmiento" ;
+                                       dcterms:description "This is the BIGG ontology extension for co2 emissions."@en ;
+                                       dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                       dcterms:modified "2023-10-18" ;
+                                       dcterms:title "The BIGG for CO2 emissions ontology extension."@en ;
+                                       owl:versionInfo "v1.0.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/contributor
+dcterms:contributor rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+dcterms:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+dcterms:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+dcterms:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+dcterms:modified rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dcterms:title rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#gDay
+xsd:gDay rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://bigg-project.eu/ld/bigg4co2#appliesTo
+:appliesTo rdf:type owl:ObjectProperty ;
+           rdfs:domain :Co2EquivalentEmissionsFactor ;
+           rdfs:range <https://saref.etsi.org/core/Commodity> ;
+           rdfs:comment "The commodity to which a CO2 equivalent emission factor applies to."@en ;
+           rdfs:label "applies to"@en .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#forAbsoluteTimeAtDay
+:forAbsoluteTimeAtDay rdf:type owl:ObjectProperty ;
+                      rdfs:domain :TimeBasedCo2EquilvalentEmissionsFactor ;
+                      rdfs:range <http://www.w3.org/2006/time#Interval> ;
+                      rdfs:comment "The time interval in each day for which a CO2 equivalent emissions factor is applied (e.g., 8:00 to 10:00)."@en ;
+                      rdfs:label "for absolute time at day"@en .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#forWeekDay
+:forWeekDay rdf:type owl:ObjectProperty ;
+            rdfs:domain :TimeBasedCo2EquilvalentEmissionsFactor ;
+            rdfs:range <http://www.w3.org/2006/time#DayOfWeek> ;
+            rdfs:comment "The day of the week for which a CO2 equivalent emissions factor is applied (e.g., each Saturday and Sunday)."@en ;
+            rdfs:label "for week day"@en .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#hasDuration
+:hasDuration rdf:type owl:ObjectProperty ;
+             rdfs:domain :Co2EquivalentEmissionsFactor ;
+             rdfs:range <http://www.w3.org/2006/time#TemporalDuration> ;
+             rdfs:comment "The duration of a CO2 equivalent emissions factor."@en ;
+             rdfs:label "has duration"@en .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#hasPeriod
+:hasPeriod rdf:type owl:ObjectProperty ;
+           rdfs:domain :Co2EquivalentEmissionsFactor ;
+           rdfs:range <http://www.w3.org/2006/time#TemporalDuration> ;
+           rdfs:comment "The period of a CO2 equivalent emissions factor."@en ;
+           rdfs:label "has period"@en .
+
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://bigg-project.eu/ld/bigg4co2#forDayInMonth
+:forDayInMonth rdf:type owl:DatatypeProperty ;
+               rdfs:domain :TimeBasedCo2EquilvalentEmissionsFactor ;
+               rdfs:range xsd:gDay ;
+               rdfs:comment "The day of the month for which a CO2 equivalent emissions factor is applied (e.g., each 15)."@en ;
+               rdfs:label "for day in month"@en .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#forVolumeConsumption
+:forVolumeConsumption rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :ConsumptionBasedCo2EquivalentEmissionsFactor ;
+                      rdfs:comment "The volume consumption related to a CO2 equivalent emissions factor (e.g., after consumption of 1 ton)."@en ;
+                      rdfs:label "for volume consumption"@en .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#forVolumeFlow
+:forVolumeFlow rdf:type owl:DatatypeProperty ;
+               rdfs:domain :ThresholdBasedCo2EquivalentEmissionsFactor ;
+               rdfs:comment "The volume flow related to a CO2 equivalent emissions factor."@en ;
+               rdfs:label "for volume flow"@en .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#hasStartTimestamp
+:hasStartTimestamp rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Co2EquivalentEmissionsFactor ;
+                   rdfs:range xsd:dateTime ;
+                   rdfs:comment "The start date and time of a CO2 equivalent emissions factor."@en ;
+                   rdfs:label "has start timestamp"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://bigg-project.eu/ld/bigg4co2#Co2EquivalentEmissions
+:Co2EquivalentEmissions rdf:type owl:Class ;
+                        rdfs:subClassOf <https://saref.etsi.org/core/Property> ;
+                        rdfs:label "CO2 equivalent emissions" .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#Co2EquivalentEmissionsFactor
+:Co2EquivalentEmissionsFactor rdf:type owl:Class ;
+                              rdfs:comment "The CO2 equivalent emissions factors are rates that quantifies a public utility environemental impact. It can be based on time, thresholds or consumption; however, combined CO2 equivalent emissions may also exist that mix more than one of these types."@en ;
+                              rdfs:label "CO2 equivalent emissions factor"@en .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#ConsumptionBasedCo2EquivalentEmissionsFactor
+:ConsumptionBasedCo2EquivalentEmissionsFactor rdf:type owl:Class ;
+                                              rdfs:subClassOf :Co2EquivalentEmissionsFactor ;
+                                              rdfs:comment "A consumption-based CO2 equivalent emissions factor is a factor that is based on consumption."@en ;
+                                              rdfs:label "Consumption-based CO2 equivalent emissions factor"@en .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#GridDeliveredElectricity
+:GridDeliveredElectricity rdf:type owl:Class ;
+                          rdfs:subClassOf <https://saref.etsi.org/core/Electricity> .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#LPG
+:LPG rdf:type owl:Class ;
+     rdfs:subClassOf <https://saref.etsi.org/core/Gas> .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#NaturalGas
+:NaturalGas rdf:type owl:Class ;
+            rdfs:subClassOf <https://saref.etsi.org/core/Gas> .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#Propane
+:Propane rdf:type owl:Class ;
+         rdfs:subClassOf <https://saref.etsi.org/core/Gas> .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#ThresholdBasedCo2EquivalentEmissionsFactor
+:ThresholdBasedCo2EquivalentEmissionsFactor rdf:type owl:Class ;
+                                            rdfs:subClassOf :Co2EquivalentEmissionsFactor ;
+                                            rdfs:comment "A threshold-based CO2 equivalent emissions factor is a factor that is based on a threshold."@en ;
+                                            rdfs:label "Threshold-based CO2 equivalent emissions factor"@en .
+
+
+###  http://bigg-project.eu/ld/bigg4co2#TimeBasedCo2EquilvalentEmissionsFactor
+:TimeBasedCo2EquilvalentEmissionsFactor rdf:type owl:Class ;
+                                        rdfs:subClassOf :Co2EquivalentEmissionsFactor ;
+                                        rdfs:comment "A time-based tariff is a tariff that is based on time."@en ;
+                                        rdfs:label "Time-based CO2 equivalent emissions factor"@en .
+
+
+###  http://www.w3.org/2006/time#DayOfWeek
+<http://www.w3.org/2006/time#DayOfWeek> rdf:type owl:Class ;
+                                        rdfs:comment "The day of week."@en ;
+                                        rdfs:isDefinedBy <http://www.w3.org/2006/time#> ;
+                                        rdfs:label "Day of week"@en .
+
+
+###  http://www.w3.org/2006/time#Interval
+<http://www.w3.org/2006/time#Interval> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2006/time#TemporalDuration
+<http://www.w3.org/2006/time#TemporalDuration> rdf:type owl:Class .
+
+
+###  https://saref.etsi.org/core/Coal
+<https://saref.etsi.org/core/Coal> rdf:type owl:Class ;
+                                   rdfs:subClassOf <https://saref.etsi.org/core/Commodity> ;
+                                   rdfs:comment "A type of commodity"@en ;
+                                   rdfs:label "Coal"@en .
+
+
+###  https://saref.etsi.org/core/Commodity
+<https://saref.etsi.org/core/Commodity> rdf:type owl:Class ;
+                                        rdfs:comment "A marketable item for which there is demand, but which is supplied without qualitative differentiation across a market. SAREF refers to energy commodities such as electricity, gas, coal and oil. "@en ;
+                                        rdfs:label "Commodity"@en .
+
+
+###  https://saref.etsi.org/core/Electricity
+<https://saref.etsi.org/core/Electricity> rdf:type owl:Class ;
+                                          rdfs:subClassOf <https://saref.etsi.org/core/Commodity> ;
+                                          rdfs:comment "A type of commodity"@en ;
+                                          rdfs:label "Electricity"@en .
+
+
+###  https://saref.etsi.org/core/Energy
+<https://saref.etsi.org/core/Energy> rdf:type owl:Class ;
+                                     rdfs:subClassOf <https://saref.etsi.org/core/Property> ;
+                                     rdfs:comment "A saref:Property related to some measurements that are characterized by a certain value measured in an energy unit (such as Kilowatt_Hour or Watt_hour). Furter specializations of the saref:Energy class can be found in the SAREF4ENER extension, where classes such as EnergyMax, EnergyMin and EnergyExpected are defined. "@en ;
+                                     rdfs:label "Energy"@en .
+
+
+###  https://saref.etsi.org/core/Gas
+<https://saref.etsi.org/core/Gas> rdf:type owl:Class ;
+                                  rdfs:subClassOf <https://saref.etsi.org/core/Commodity> ;
+                                  rdfs:comment "A type of commodity"@en ;
+                                  rdfs:label "Gas"@en .
+
+
+###  https://saref.etsi.org/core/Property
+<https://saref.etsi.org/core/Property> rdf:type owl:Class .
+
